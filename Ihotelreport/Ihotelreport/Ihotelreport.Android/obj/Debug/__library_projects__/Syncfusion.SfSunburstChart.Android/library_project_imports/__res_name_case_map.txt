@@ -1,0 +1,3 @@
+values/Strings.xml;values/strings.xml
+Layout/SunburstChart_Legend_Item.xml;layout/sunburstchart_legend_item.xml
+Layout/SunburstChart_Legend.xml;layout/sunburstchart_legend.xml

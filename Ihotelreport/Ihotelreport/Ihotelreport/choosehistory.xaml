@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Room History And Forecast" BackgroundColor="WhiteSmoke"
+             x:Class="Ihotelreport.choosehistory">
+    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+
+        <Grid BackgroundColor="#DCDCDC">
+            <Grid.RowDefinitions>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+
+
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition Width="65"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="48"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="80"/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+
+            <Picker x:Name="pickm" Title="Month" SelectedIndexChanged="pickm_SelectedIndexChanged" Grid.Column="0" Grid.Row="0" >
+                <Picker.Items>
+                    <x:String >January</x:String>
+                    <x:String >February</x:String>
+                    <x:String>March</x:String>
+                    <x:String>April</x:String>
+                    <x:String>May</x:String>
+                    <x:String>June</x:String>
+                    <x:String>July</x:String>
+                    <x:String>August</x:String>
+                    <x:String>September</x:String>
+                    <x:String>October</x:String>
+                    <x:String>November</x:String>
+                    <x:String>December</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Picker x:Name="picky" Title="Year" SelectedIndexChanged="picky_SelectedIndexChanged" Grid.Column="1" Grid.Row="0" >
+                <Picker.Items>
+                    <x:String>2015</x:String>
+                    <x:String>2016</x:String>
+                    <x:String>2017</x:String>
+                    <x:String>2018</x:String>
+                    <x:String>2019</x:String>
+
+                </Picker.Items>
+            </Picker>
+            <Label Text="VAT" VerticalTextAlignment="End" Margin="0,0,0,9" Grid.Column="2" Grid.Row="0" FontSize="15" ></Label>
+            <Switch Toggled="Switch_Toggled" Margin="5,0,0,0" Grid.Column="3" Grid.Row="0"></Switch>
+            <Label Grid.Column="4" Grid.Row="0"></Label>
+
+            <Button  x:Name="Find" Clicked="Find_Clicked"  Text="Search" Margin="2,2,2,2" Grid.Column="5" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13" HeightRequest="37"></Button>
+        </Grid>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ihotelreport.Staticreport"
+             Title="Room Statistics And Revenue" BackgroundColor="WhiteSmoke">
+    <StackLayout>
+
+        <StackLayout BackgroundColor="#DCDCDC">
+            <Grid ColumnSpacing="1">
+                <Grid.RowDefinitions>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="55"/>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="80"/>
+                </Grid.ColumnDefinitions>
+
+
+                <Label Text="Date :" FontSize="Medium" Margin="5,0,0,5" Grid.Column="0" Grid.Row="0" VerticalTextAlignment="End" ></Label>
+                <DatePicker x:Name="Datepick" DateSelected="Datepick_DateSelected"  WidthRequest="150"  HorizontalOptions="Center"  Grid.Column="1" Grid.Row="0" Format="yyyy-MM-dd" >
+                </DatePicker>
+                <Label Grid.Column="2" Grid.Row="0"></Label>
+                <Button  x:Name="Find" Text="Search" Margin="2,2,2,2" Grid.Column="3" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13" HeightRequest="37" Clicked="static_click"></Button>
+                <Label Grid.Column="2" Grid.Row="0"></Label>
+                <Button  x:Name="FindChart" Text="Chart" Margin="2,2,2,2" Grid.Column="2" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13" HeightRequest="37" Clicked="staticchart_click"></Button>
+            </Grid>
+        </StackLayout>
+        <Grid>
+            <Button Text="RSAR" Margin="0,0,0,0" FontSize="14" BackgroundColor="#FF9900" x:Name="Cdata" Grid.Column="0" Grid.Row="0" Clicked="Cdata_Clicked" TextColor="White" HeightRequest="37"></Button>
+            <Button Text="CRS" Margin="0,0,0,0" FontSize="14" BackgroundColor="#FF9900" x:Name="Ccrs" Grid.Column="1" Grid.Row="0" Clicked="Ccrs_Clicked" TextColor="White" HeightRequest="37"></Button>
+            <Button Text="BSS" Margin="0,0,0,0" FontSize="14" BackgroundColor="#FF9900" x:Name="Cbss" Grid.Column="2" Grid.Row="0" Clicked="Cbss_Clicked" TextColor="White" HeightRequest="37"></Button>
+            <Button Text="PS" Margin="0,0,0,0" FontSize="14" BackgroundColor="#FF9900" x:Name="Cps" Grid.Column="3" Grid.Row="0" Clicked="Cps_Clicked" TextColor="White" HeightRequest="37"></Button>
+        </Grid>
+
+        <StackLayout Margin="5,0,5,0" x:Name="data" BackgroundColor="WhiteSmoke">
+
+            <Label Text="Room Statistics" FontSize="15" Margin="0,0,0,0"></Label>
+            <Grid BackgroundColor="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" Text="Item"  TextColor="#000000" BackgroundColor="#FF9900" Grid.ColumnSpan="4" FontSize="Small" ></Label>
+                <Label Grid.Column="1" Grid.Row="0" Text="Room Qty."  TextColor="#000000" BackgroundColor="#FF9900" FontSize="Small" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="2" Grid.Row="0" Text="Guest Qty."  TextColor="#000000" BackgroundColor="#FF9900" FontSize="Small" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="3" Grid.Row="0" Text="Occ%"  TextColor="#000000" BackgroundColor="#FF9900" FontSize="Small" HorizontalTextAlignment="End"></Label>
+
+                <Label Grid.Column="0" Grid.Row="1"  Text="Arrival"   Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" ></Label>
+                <Label Grid.Column="0" Grid.Row="2"  Text="Reservation"  Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" ></Label>
+                <Label Grid.Column="0" Grid.Row="3"  Text="Departure"  Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" ></Label>
+
+                <Label Grid.Column="1" Grid.Row="1"   x:Name="rm_Arrival" Text=""   Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="1" Grid.Row="2"   x:Name="rm_Reservation" Text=""  Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End" ></Label>
+                <Label Grid.Column="1" Grid.Row="3"   x:Name="rm_Departure" Text=""  Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+
+                <Label Grid.Column="2" Grid.Row="1"   x:Name="g_Arrival" Text=""   Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="2" Grid.Row="2"   x:Name="g_Reservation" Text=""  Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="2" Grid.Row="3"   x:Name="g_Departure" Text=""  Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+
+                <Label Grid.Column="3" Grid.Row="1"  Text="-"  Margin="0,0,10,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="3" Grid.Row="2"  Text="-"  Margin="0,0,10,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="3" Grid.Row="3"  Text="-"  Margin="0,0,10,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+
+            </Grid>
+
+
+
+
+
+
+            <Label Text="InHouse Summary" FontSize="15" Margin="0,0,0,0" VerticalOptions="FillAndExpand"></Label>
+            <Grid BackgroundColor="White" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" Text="Item"  Margin="0,0,0,0" TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" Grid.ColumnSpan="4"></Label>
+                <Label Grid.Column="1" Grid.Row="0" Text="Room Qty."   Margin="0,0,0,0" TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="2" Grid.Row="0" Text="Guest Qty."   Margin="0,0,0,0" TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="3" Grid.Row="0" Text="Occ%"  Margin="0,0,0,0" TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" HorizontalTextAlignment="End"></Label>
+
+                <Label Grid.Column="0" Grid.Row="1" Text="FIT."   TextColor="#000000" FontSize="Micro" ></Label>
+                <Label Grid.Column="0" Grid.Row="2" Text="Group"  TextColor="#000000" FontSize="Micro" ></Label>
+
+                <Label Grid.Column="1" Grid.Row="1" x:Name="R_Fit" Text="" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="1" Grid.Row="2" x:Name="R_Group" Text=""  TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+
+                <Label Grid.Column="2" Grid.Row="1" x:Name="G_Fit" Text="" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="2" Grid.Row="2" x:Name="G_Group" Text=""  TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+
+                <Label Grid.Column="3" Grid.Row="1" x:Name="O_Fit" Text=""  FontSize="Micro" TextColor="#000000" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="3" Grid.Row="2" x:Name="O_Group" Text=""  FontSize="Micro" TextColor="#000000" HorizontalTextAlignment="End"></Label>
+
+            </Grid>
+
+
+            <Label Text="Room Status Summary" FontSize="15" Margin="0,0,0,0"></Label>
+            <Grid BackgroundColor="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" Text="Item"  TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" Grid.ColumnSpan="4"></Label>
+                <Label Grid.Column="1" Grid.Row="0" Text="Room Qty." TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="2" Grid.Row="0" Text="Guest Qty."  TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="3" Grid.Row="0" Text="Occ%"  TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" HorizontalTextAlignment="End"></Label>
+
+                <Label Grid.Column="0" Grid.Row="1" Text="Occupied" TextColor="#000000" FontSize="Micro"></Label>
+                <Label Grid.Column="0" Grid.Row="2" Text="Vacant" TextColor="#000000" FontSize="Micro" ></Label>
+
+                <Label Grid.Column="1" Grid.Row="1" x:Name="R_Occupied" Text=""   Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="1" Grid.Row="2" x:Name="R_Vacant" Text="" Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+
+                <Label Grid.Column="2" Grid.Row="1"  Text="-"  Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="2" Grid.Row="2"  Text="-"  Margin="0,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+
+                <Label Grid.Column="3" Grid.Row="1" x:Name="O_Occupied" Text="" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="3" Grid.Row="2" x:Name="O_Vacant" Text=""  TextColor="#000000" FontSize="Micro"  HorizontalTextAlignment="End"></Label>
+
+            </Grid>
+
+            <Label Text="Revenue Summary" FontSize="15" Margin="0,0,0,0" VerticalOptions="FillAndExpand"></Label>
+            <Grid BackgroundColor="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" Text="Item" TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" Grid.ColumnSpan="4"></Label>
+                <Label Grid.Column="1" Grid.Row="0" Text="" TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" ></Label>
+                <Label Grid.Column="2" Grid.Row="0" Text="Avg Rate" TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="3" Grid.Row="0" Text="Revenue"  TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" HorizontalTextAlignment="End"></Label>
+
+
+                <Label Grid.Column="0" Grid.Row="1" Text="Room Charge"  TextColor="#000000" FontSize="Micro" ></Label>
+                <Label Grid.Column="0" Grid.Row="2" Text="ABF"  TextColor="#000000" FontSize="Micro" ></Label>
+
+                <Label Grid.Column="1" Grid.Row="1"  Text="" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="1" Grid.Row="2"  Text=""  TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+
+                <Label Grid.Column="2" Grid.Row="1" x:Name="A_Room" Text="" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="2" Grid.Row="2"  x:Name="A_Revenue" Text=""  TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+
+                <Label Grid.Column="3" Grid.Row="1"  x:Name="R_Room" Text="" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="3" Grid.Row="2"  x:Name="R_Revenue" Text=""  TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+
+            </Grid>
+        </StackLayout>
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" x:Name="currentvisible" IsVisible="False" Margin="5,0,5,0">
+            <Label Text="Current Room Statistics" FontSize="15" Margin="0,0,0,0"></Label>
+            <Grid BackgroundColor="White" Margin="0,5,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+
+
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" Text="Item" Grid.ColumnSpan="4" BackgroundColor="#FF9900" TextColor="#000000" FontSize="Small"></Label>
+                <Label Grid.Column="1" Grid.Row="0" Text="Room Qty."  BackgroundColor="#FF9900" TextColor="#000000" FontSize="Small" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="2" Grid.Row="0" Text="Guest Qty."  BackgroundColor="#FF9900" TextColor="#000000" FontSize="Small" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="3" Grid.Row="0" Text="Occ%" BackgroundColor="#FF9900"  TextColor="#000000" FontSize="Small" HorizontalTextAlignment="End"></Label>
+            </Grid>
+
+
+
+            <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+
+
+                        </Grid.RowDefinitions>
+
+                        <ListView x:Name="listviewcurrent" >
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid BackgroundColor="White" RowSpacing="0" >
+
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Label Text="{Binding Item}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start"/>
+                                            <Label Text="{Binding Roomqty}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding Guest}"  Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding Occ}"  Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End"/>
+
+
+
+                                        </Grid>
+                                    </ViewCell>
+
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+
+
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" x:Name="businessvisible" IsVisible="False" Margin="5,0,5,0">
+            <Label Text="Business Source Summary" FontSize="15" Margin="0,0,0,0"></Label>
+            <Grid BackgroundColor="White" Margin="0,5,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+
+
+
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" Text="Item"  TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" Grid.ColumnSpan="4"></Label>
+                <Label Grid.Column="1" Grid.Row="0" Text="Room Qty." TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="2" Grid.Row="0" Text="Guest Qty."  TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" HorizontalTextAlignment="End"></Label>
+                <Label Grid.Column="3" Grid.Row="0" Text="Occ%"  TextColor="#000000" FontSize="Small" BackgroundColor="#FF9900" HorizontalTextAlignment="End"></Label>
+
+            </Grid>
+            <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+
+
+                        </Grid.RowDefinitions>
+
+                        <ListView x:Name="listviewbusiness">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid BackgroundColor="White" >
+
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+
+                                            </Grid.ColumnDefinitions>
+
+                                            <Label Text="{Binding Guestchanel}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start"/>
+                                            <Label Text="{Binding Roomqty}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding Guest}"  Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding Occ}"  Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End"/>
+                                        </Grid>
+                                    </ViewCell>
+
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" x:Name="payvisible" IsVisible="False" Margin="5,0,5,0">
+            <Label Text="Payment Summary" FontSize="15" Margin="0,0,0,0"></Label>
+
+            <Grid BackgroundColor="White" Margin="0,5,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+
+
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" Text="Item" Grid.ColumnSpan="2" BackgroundColor="#FF9900" TextColor="#000000" FontSize="Small"></Label>
+                <Label Grid.Column="1" Grid.Row="0" Text="Revenue"  BackgroundColor="#FF9900" TextColor="#000000" FontSize="Small" HorizontalTextAlignment="End"></Label>
+
+            </Grid>
+            <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+                    <ListView x:Name="listviewpayment" RowHeight="25" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid BackgroundColor="White"  HorizontalOptions="FillAndExpand" >
+
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+
+                                        </Grid.RowDefinitions>
+                                        <Label Text="{Binding Item}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start"/>
+                                        <Label Text="{Binding payment}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End"/>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

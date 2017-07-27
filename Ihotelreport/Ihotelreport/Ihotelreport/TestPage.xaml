@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage Title="Room Available Forecast" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ihotelreport.TestPage">
+    <StackLayout x:Name="ForecastWeekly" VerticalOptions="FillAndExpand" Orientation="Vertical">
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="140"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="140"/>
+            <ColumnDefinition Width="95"/>
+        </Grid.ColumnDefinitions>
+        <DatePicker WidthRequest="100" x:Name="startDate" Grid.Column="0" DateSelected="startDate_selected" Grid.Row="0" Margin="5,0,0,0"></DatePicker>
+        <Label Text="To" FontSize="17" Grid.Column="1" Grid.Row="0" Margin="0,15,0,0"></Label>
+        <DatePicker WidthRequest="100" x:Name="endDate" Grid.Row="0" Grid.Column="2" DateSelected="endDate_selected" ></DatePicker> 
+        <Button BackgroundColor="#FF9900" FontSize="13" Text="Search" x:Name='findForecast' Grid.Column = "3" Grid.Row = "0" Margin="0,0,5,0" Clicked="room_clicked"></Button>
+<!--        DateSelected="startDate_selected"-->
+        </Grid>
+        <Grid BackgroundColor="#DCDCDC">
+            <Grid.RowDefinitions>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Label Text="Date" x:Name="Date" Grid.Row="0" Grid.Column="0" FontSize="Medium" Margin="5,4,0,0"></Label>
+        </Grid>
+        <Grid BackgroundColor="#FF9900">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="120"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height = "20"/>
+            </Grid.RowDefinitions>
+            <Label Text="Date" Grid.Row="0" Grid.Column="0" Margin="5,0,0,0" FontSize="12" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+            <Label Text="Avail." Grid.Row="0" Grid.Column="1" FontSize="12" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+            <Label Text="Arrival" Grid.Row="0" Grid.Column="2" FontSize="12" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+            <Label Text="Departure" Grid.Row="0" Grid.Column="3" FontSize="12" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+            <Label Text="Room Used" Grid.Row="0" Grid.Column="4" FontSize="12" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+            <Label Text="Occ%" Grid.Row="0" Grid.Column="5" FontSize="12" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+            <Label Text="ABF" Grid.Row="0" Grid.Column="6" FontSize="12" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+            <Label Text="Total Revenue" Grid.Row="0" Grid.Column="7" FontSize="12" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+        </Grid>
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="55"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="{Binding RoomDate}" Grid.Row="0" Grid.Column="0" FontSize="14" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+                    <Label Text="{Binding Avaiable}" Grid.Row="0" Grid.Column="1" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+                    <Label Text="{Binding Arrival}" Grid.Row="0" Grid.Column="2" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+                    <Label Text="{Binding Departure}" Grid.Row="0" Grid.Column="3" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+                    <Label Text="{Binding RoomUsed}" Grid.Row="0" Grid.Column="4" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+                    <Label Text="{Binding Occ}" Grid.Row="0" Grid.Column="5" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+                    <Label Text="{Binding Abf}" Grid.Row="0" Grid.Column="6" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+                    <Label Text="{Binding tRevenue}" Grid.Row="0" Grid.Column="7" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </StackLayout>    
+</ContentPage>
+

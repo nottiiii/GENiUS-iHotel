@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<local:SampleView2  xmlns="http://xamarin.com/schemas/2014/forms"  
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="Ihotelreport.ColumnChart2"
+		xmlns:local="clr-namespace:Ihotelreport;assembly=Ihotelreport"
+		xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+    Title="Revenue By Folio" BackgroundColor="NavajoWhite">
+
+    <local:SampleView2.BindingContext>
+        <local:ColumnSeriesViewModel2 />
+    </local:SampleView2.BindingContext>
+
+    <local:SampleView2.Content>
+        <chart:SfChart HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+            <chart:SfChart.Title>
+                <chart:ChartTitle Text="YTD Revenue" Font="15"/>
+            </chart:SfChart.Title>
+
+            <chart:SfChart.BindingContext>
+                <local:ColumnSeriesViewModel2 />
+            </chart:SfChart.BindingContext>
+
+            <chart:SfChart.PrimaryAxis>
+                <chart:CategoryAxis LabelPlacement="BetweenTicks">
+                    <chart:CategoryAxis.Title>
+                        <chart:ChartAxisTitle Text="Folio Item"/>
+                    </chart:CategoryAxis.Title>
+                </chart:CategoryAxis>
+            </chart:SfChart.PrimaryAxis>
+
+            <chart:SfChart.SecondaryAxis>
+                <chart:NumericalAxis Maximum="30000" Minimum="0" Interval="2000">
+                    <chart:NumericalAxis.Title>
+                        <chart:ChartAxisTitle Text="Summary"/>
+                    </chart:NumericalAxis.Title>
+                </chart:NumericalAxis>
+            </chart:SfChart.SecondaryAxis>
+
+            <chart:SfChart.Legend>
+                <chart:ChartLegend ToggleSeriesVisibility="True"/>
+            </chart:SfChart.Legend>
+
+            <chart:SfChart.Series>
+                <chart:ColumnSeries x:Name ="columnSeries1" ItemsSource="{Binding ColumnData1}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Revenue" EnableTooltip="True" EnableAnimation="True">
+                </chart:ColumnSeries>
+
+                <chart:ColumnSeries x:Name ="columnSeries2" ItemsSource="{Binding ColumnData2}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Vat" EnableTooltip="True" EnableAnimation="True">
+                </chart:ColumnSeries>
+
+                <chart:ColumnSeries x:Name ="columnSeries3" ItemsSource="{Binding ColumnData3}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Service" EnableTooltip="True" EnableAnimation="True">
+                </chart:ColumnSeries>
+
+            </chart:SfChart.Series>
+
+
+        </chart:SfChart>
+    </local:SampleView2.Content>
+    <local:SampleView2.PropertyView>
+        <StackLayout>
+
+            <StackLayout.Padding>
+                <OnPlatform x:TypeArguments="Thickness"  WinPhone="20,20,20,20" />
+            </StackLayout.Padding>
+
+            <StackLayout.WidthRequest>
+                <OnPlatform x:TypeArguments="x:Double"  WinPhone="200" />
+            </StackLayout.WidthRequest>
+
+            <StackLayout.HorizontalOptions>
+                <OnPlatform x:TypeArguments="LayoutOptions" iOS="FillAndExpand" Android="FillAndExpand" WinPhone="Center" />
+            </StackLayout.HorizontalOptions>
+
+            <StackLayout.VerticalOptions>
+                <OnPlatform x:TypeArguments="LayoutOptions" iOS="FillAndExpand" Android="FillAndExpand" WinPhone="Center" />
+            </StackLayout.VerticalOptions>
+
+            <Label  x:Name="ColumnWidthValue" VerticalOptions="Center" Text="Width : 0.8" />
+            <Slider x:Name="ColumnWidth" VerticalOptions="Center" Value="0.8" ValueChanged="ColumnWidth_ValueChanged" />
+            <Label  x:Name="SpacingValue" VerticalOptions="Center" Text="Spacing : 0.0" />
+            <Slider x:Name="Spacing" VerticalOptions="Center" Value="0.0" ValueChanged="Spacing_ValueChanged" />
+        </StackLayout>
+    </local:SampleView2.PropertyView>
+</local:SampleView2>

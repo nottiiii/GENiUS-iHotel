@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ihotelreport.AreaCell">
+    <ViewCell.View>
+        <Grid ColumnSpacing="0"  >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="1"/>
+            </Grid.RowDefinitions>
+
+            <Frame Grid.Column="0" Padding="5" HasShadow="false" 
+				OutlineColor="Transparent" BackgroundColor="Transparent" Margin="10,0,0,0">
+
+                <Frame.Content>
+                    <BoxView Color="{Binding Color}" />
+                </Frame.Content>
+            </Frame>
+
+            <Label Grid.Column="1" Text="{Binding Country} "
+				HorizontalTextAlignment="Start" />
+            
+            <Label Grid.Column="2" Text="{Binding Country2} "
+				HorizontalTextAlignment="End" />
+
+            <Label Grid.Column="3" Text="{Binding Value,StringFormat='{0}'}"
+				HorizontalTextAlignment="End" Margin="0,0,10,0" />
+
+        </Grid>
+    </ViewCell.View>
+</ViewCell>

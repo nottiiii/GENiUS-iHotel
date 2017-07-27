@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ihotelreport.Forcast">
+    <StackLayout x:Name="LoginEntriesStack" VerticalOptions="FillAndExpand" Orientation="Vertical">
+
+        <Grid BackgroundColor="#DCDCDC">
+            <Grid.RowDefinitions>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Label Text="" x:Name="date" Grid.Column="0" Grid.Row="0" FontSize="Medium" Margin="5,0,0,5" VerticalTextAlignment="End"></Label>
+        </Grid>
+
+
+
+
+        <Grid Margin="0,0,0,0" BackgroundColor="#FF9900" x:Name="gmenu">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="30"/>
+
+
+
+            </Grid.ColumnDefinitions>
+
+
+
+            <Label Grid.Column="0" Grid.Row="0" Text="Date" TextColor="#000000" FontSize="14" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" Margin="5,0,0,0"></Label>
+            <Label Grid.Column="1" Grid.Row="0" Text="Occ" TextColor="#000000" FontSize="14" HorizontalTextAlignment="End" VerticalTextAlignment="Start"></Label>
+            <Label Grid.Column="2" Grid.Row="0" Text="Occ%" TextColor="#000000" FontSize="14" HorizontalTextAlignment="End" VerticalTextAlignment="Start"></Label>
+            <Label Grid.Column="3" Grid.Row="0" Text="R.Chg" TextColor="#000000" FontSize="14" HorizontalTextAlignment="End" VerticalTextAlignment="Start"></Label>
+            <Label Grid.Column="4" Grid.Row="0" Text="Avg" TextColor="#000000" FontSize="14" HorizontalTextAlignment="End" VerticalTextAlignment="Start"></Label>
+            <Label Grid.Column="5" Grid.Row="0" Text="ABF" TextColor="#000000" FontSize="14" HorizontalTextAlignment="End" VerticalTextAlignment="Start"></Label>
+            <Label Grid.Column="6" Grid.Row="0" Text="Pax" TextColor="#000000" FontSize="14" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,5,0"></Label>
+        </Grid>
+
+
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+
+            <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand" Margin="0,0,0,0" >
+
+
+
+                <ListView x:Name="listviewagency" RowHeight="30">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid BackgroundColor="White">
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="30"/>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="30"/>
+
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Text="{Binding Date}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="#000000" HorizontalTextAlignment="Start" Margin="5,0,0,0" />
+                                    <Label Text="{Binding Totalocc}" Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="#000000" HorizontalTextAlignment="End" />
+                                    <Label Text="{Binding PerOcc}" Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="#000000"   HorizontalTextAlignment="End"/>
+                                    <Label Text="{Binding Roomchg}" Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="#000000" HorizontalTextAlignment="End"/>
+                                    <Label Text="{Binding Avg}" Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="#000000" HorizontalTextAlignment="End"/>
+                                    <Label Text="{Binding ABF}" Grid.Row="0" Grid.Column="5" FontSize="Micro" TextColor="#000000" HorizontalTextAlignment="End"/>
+                                    <Label Text="{Binding Pax}" Grid.Row="0" Grid.Column="6" FontSize="Micro" TextColor="#000000"  HorizontalTextAlignment="End" Margin="0,0,5,0"/>
+
+
+
+
+                                </Grid>
+                            </ViewCell>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+
+            </StackLayout>
+        </ScrollView>
+
+        <Grid  x:Name="sum" Margin="0,0,0,0" BackgroundColor="#FF9900" VerticalOptions="EndAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="30"/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0" Grid.Row="0" Text="Total"  Margin="5,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="1" Grid.Row="0" x:Name="T_Occ" Text=""  TextColor="#000000" FontSize="Micro"  HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="2" Grid.Row="0" x:Name="T_Pocc" Text=""  TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="3" Grid.Row="0" x:Name="T_Roomchg" Text=""   TextColor="#000000" FontSize="Micro"  HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="4" Grid.Row="0" x:Name="T_Avg"  Text=""  TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="5" Grid.Row="0" Text=""  x:Name="T_ABF" TextColor="#000000" FontSize="Micro"  HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="6" Grid.Row="0" Text="" x:Name="T_Pax"  TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+
+
+
+
+
+
+        </Grid>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,1 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android"><item android:drawable="@drawable/undo_select" android:state_pressed="true" /><item android:drawable="@drawable/undo_inactive" android:state_enabled="false" /><item android:drawable="@drawable/imgeditor_undo" android:state_enabled="true" /></selector>

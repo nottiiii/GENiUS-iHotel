@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="My Dash Board" BackgroundColor="WhiteSmoke"
+             x:Class="Ihotelreport.Dashboard">
+
+    <ContentPage.Content>
+        <StackLayout Margin="5,20,5,5">
+            <!--<local:Page1></local:Page1>-->
+
+            <Grid>
+                <Grid.RowDefinitions>
+
+                </Grid.RowDefinitions>
+
+                <Label x:Name="date11" TextColor="Black" FontSize="Large" HorizontalOptions="Center"></Label>
+
+
+
+            </Grid>
+
+            <Grid Margin="0,20,0,0">
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="110"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text=" Available" FontSize="Medium" BackgroundColor="#ffffff" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" HeightRequest="50"></Label>
+                <Label x:Name="L_Available" Text="" FontSize="Large" BackgroundColor="#ffffff" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0"  Grid.Column="1" Grid.Row="0" HeightRequest="50"></Label>
+                <Label Text="Room  " FontSize="Medium" BackgroundColor="#ffffff" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="2" Grid.Row="0" HeightRequest="50"></Label>
+
+                <Label Text=" Arrival" FontSize="Medium" BackgroundColor="#FFC0CB" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="50"></Label>
+                <Label x:Name="L_arrival" Text="" FontSize="Large" BackgroundColor="#FFC0CB" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="1" Grid.Row="1" HeightRequest="50"></Label>
+                <Label Text="Room  " FontSize="Medium" BackgroundColor="#FFC0CB" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="2" Grid.Row="1" HeightRequest="50"></Label>
+
+                <Label Text=" Departure" FontSize="Medium" BackgroundColor="#FFA500" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" HeightRequest="50"></Label>
+                <Label x:Name="L_departure" Text="" FontSize="Large" BackgroundColor="#FFA500" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="1" Grid.Row="2" HeightRequest="50"></Label>
+                <Label Text="Room  " FontSize="Medium" BackgroundColor="#FFA500" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="2" Grid.Row="2" HeightRequest="50"></Label>
+
+                <Label Text=" Out Of Order" FontSize="Medium" BackgroundColor="#000000" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3" HeightRequest="50"></Label>
+                <Label x:Name="L_Ooo" Text="" FontSize="Large" BackgroundColor="#000000" TextColor="White" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="1" Grid.Row="3" HeightRequest="50"></Label>
+                <Label Text="Room  " FontSize="Medium" BackgroundColor="#000000" TextColor="White" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="2" Grid.Row="3"  HeightRequest="50"></Label>
+
+                <Label Text=" In House" FontSize="Medium" BackgroundColor="#87CEEB" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="3" HeightRequest="50"></Label>
+                <Label x:Name="L_inhouse" Text="" FontSize="Large" BackgroundColor="#87CEEB" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="1" Grid.Row="4" HeightRequest="50"></Label>
+                <Label Text="Room  " FontSize="Medium" BackgroundColor="#87CEEB" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="2" Grid.Row="4" HeightRequest="50"></Label>
+
+                <Label Text=" ABF" FontSize="Medium" BackgroundColor="#00CC33" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="3" HeightRequest="50"></Label>
+                <Label x:Name="L_ABF" Text="" FontSize="Large" BackgroundColor="#00CC33" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="1" Grid.Row="5" HeightRequest="50"></Label>
+                <Label Text="Person " FontSize="Medium" BackgroundColor="#00CC33" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="2" Grid.Row="5" HeightRequest="50"></Label>
+
+
+            </Grid>
+            <ActivityIndicator x:Name="act" Color="Gray" IsRunning="False" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
