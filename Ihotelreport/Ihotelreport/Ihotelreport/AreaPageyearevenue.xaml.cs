@@ -113,6 +113,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#96d677");
@@ -122,6 +124,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#f3e6ba");
@@ -131,6 +135,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#84cdce");
@@ -140,6 +146,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#907665");
@@ -150,6 +158,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#eac248");
@@ -159,6 +169,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#c2a687");
@@ -168,6 +180,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#a7d8a0");
@@ -177,6 +191,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#afcadc");
@@ -186,6 +202,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#bb9a9a");
@@ -195,6 +213,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#f0a6be");
@@ -204,6 +224,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#92d19e");
@@ -213,6 +235,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+					XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#8dacec");

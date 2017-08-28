@@ -24,7 +24,7 @@ namespace Ihotelreport
 
             GetJSON();
         }
-       
+
         public async void GetJSON()
         {
             gmenu.IsVisible = true;
@@ -67,5 +67,6 @@ namespace Ihotelreport
             listviewagency.ItemsSource = show;
 
         }
+
     }
 }

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ihotelreport.Business" Title="Business Source Report" BackgroundColor="WhiteSmoke">
+    <StackLayout>
+        <Grid BackgroundColor="#DCDCDC">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Label Text="Year :" FontSize="Medium" Margin="5,0,0,10" Grid.Column="0" Grid.Row="0" VerticalTextAlignment="End"></Label>
+            <Picker x:Name="picky" Title="Year" Grid.Column="1" Grid.Row="0" Margin="0,0,20,0" SelectedIndexChanged="picky_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>2015</x:String>
+                    <x:String>2016</x:String>
+                    <x:String>2017</x:String>
+                    <x:String>2018</x:String>
+                    <x:String>2019</x:String>
+                </Picker.Items>
+            </Picker>
+            <Button  x:Name="RoomNightButton" Text="Room Night" Margin="2,0,2,0" Grid.Column="2" Grid.Row="0" BackgroundColor="#FF9900" HeightRequest = "37" TextColor="White" FontSize="13" Clicked="roomnight_click"></Button>
+            <Button  x:Name="RoomChargeButton" Text="Room Charge" Margin="2,0,2,0" Grid.Column="3" Grid.Row="0" BackgroundColor="#FF9900" HeightRequest="37" TextColor="White" FontSize="13" Clicked="roomcharge_click"></Button>
+        </Grid>
+        
+        <Label Text="" x:Name="modeT" FontSize="15" Margin="5,0,0,0"></Label>
+        
+        <ScrollView Orientation="Horizontal" VerticalOptions="FillAndExpand">
+            <StackLayout x:Name="RoomNight" VerticalOptions="FillAndExpand" Orientation="Vertical">
+                <Grid BackgroundColor="#FF9900">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Grid.Row="0" Text="Business Source"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="0" Text="Jan."  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="0" Text="Feb."  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="0" Text="Mar."  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="0" Text="Apr."  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="0" Text="May"  TextColor="Black"    FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="0" Text="Jun."  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="0" Text="Jul."  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="0" Text="Aug."  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="0" Text="Sep."  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="0" Text="Oct."  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="0" Text="Nov."  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="0" Text="Dec."  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,3,0"></Label>
+                </Grid>
+
+                <Grid BackgroundColor="White" x:Name="MyGrid" Margin="0,-5,0,0">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Label Grid.Column="0" Grid.Row="0" x:Name="source0" TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="1" x:Name="source1"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="2" x:Name="source2"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="3" x:Name="source3"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="4" x:Name="source4"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="5" x:Name="source5"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="6" x:Name="source6"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="7" x:Name="source7"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="8" x:Name="source8"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="9" x:Name="source9"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="10" x:Name="source10"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="11" x:Name="source11"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="12" x:Name="source12"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="13" x:Name="source13"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <Label Grid.Column="0" Grid.Row="14" x:Name="source14"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="Start" Margin="3,0,0,0"></Label>
+                    <!--JAN -->
+                    <Label Grid.Column="1" Grid.Row="0" Text="0" x:Name="jan0" TextColor="Black" IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="1" Text="0" x:Name="jan1"  TextColor="Black"   IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="2" Text="0" x:Name="jan2"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="3" Text="0" x:Name="jan3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="4" Text="0" x:Name="jan4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="5" Text="0" x:Name="jan5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="6" Text="0" x:Name="jan6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="7" Text="0"  x:Name="jan7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="8" Text="0" x:Name="jan8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="9" Text="0" x:Name="jan9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="10" Text="0" x:Name="jan10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="11" Text="0" x:Name="jan11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="12" Text="0" x:Name="jan12"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="13" Text="0" x:Name="jan13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="14" Text="0" x:Name="jan14"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <!-- FEB -->
+                    <Label Grid.Column="2" Grid.Row="0" Text="0" x:Name="feb0" TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="1" Text="0" x:Name="feb1"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="2" Text="0" x:Name="feb2"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="3" Text="0" x:Name="feb3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="4" Text="0" x:Name="feb4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="5" Text="0" x:Name="feb5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="6" Text="0" x:Name="feb6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="7" Text="0" x:Name="feb7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="8" Text="0" x:Name="feb8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="9" Text="0" x:Name="feb9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="10" Text="0" x:Name="feb10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="11" Text="0" x:Name="feb11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="12" Text="0" x:Name="feb12"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="13" Text="0" x:Name="feb13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="2" Grid.Row="14" Text="0" x:Name="feb14"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                     <!-- MAR -->
+                    <Label Grid.Column="3" Grid.Row="0" Text="0" x:Name="mar0" TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="1" Text="0" x:Name="mar1"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="2" Text="0" x:Name="mar2"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="3" Text="0" x:Name="mar3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="4" Text="0" x:Name="mar4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="5" Text="0" x:Name="mar5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="6" Text="0" x:Name="mar6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="7" Text="0" x:Name="mar7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="8" Text="0" x:Name="mar8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="9" Text="0" x:Name="mar9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="10" Text="0" x:Name="mar10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="11" Text="0" x:Name="mar11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="12" Text="0" x:Name="mar12"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="13" Text="0" x:Name="mar13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="3" Grid.Row="14" Text="0" x:Name="mar14"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <!--APR-->
+                    <Label Grid.Column="4" Grid.Row="0" Text="0" x:Name="apr0" TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="1" Text="0" x:Name="apr1"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="2" Text="0" x:Name="apr2"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="3" Text="0" x:Name="apr3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="4" Text="0" x:Name="apr4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="5" Text="0" x:Name="apr5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="6" Text="0" x:Name="apr6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="7" Text="0" x:Name="apr7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="8" Text="0" x:Name="apr8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="9" Text="0" x:Name="apr9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="10" Text="0" x:Name="apr10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="11" Text="0" x:Name="apr11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="12" Text="0" x:Name="apr12"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="13" Text="0" x:Name="apr13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="4" Grid.Row="14" Text="0" x:Name="apr14"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <!--MAY-->
+                    <Label Grid.Column="5" Grid.Row="0" Text="0" x:Name="may0" TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="1" Text="0" x:Name="may1"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="2" Text="0" x:Name="may2"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="3" Text="0" x:Name="may3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="4" Text="0" x:Name="may4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="5" Text="0" x:Name="may5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="6" Text="0" x:Name="may6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="7" Text="0" x:Name="may7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="8" Text="0" x:Name="may8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="9" Text="0" x:Name="may9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="10" Text="0" x:Name="may10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="11" Text="0" x:Name="may11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="12" Text="0" x:Name="may12"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="13" Text="0" x:Name="may13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="5" Grid.Row="14" Text="0" x:Name="may14"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <!--JUN-->
+                    <Label Grid.Column="6" Grid.Row="0" Text="0" x:Name="jun0" TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="1" Text="0" x:Name="jun1"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="2" Text="0" x:Name="jun2"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="3" Text="0" x:Name="jun3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="4" Text="0" x:Name="jun4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="5" Text="0" x:Name="jun5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="6" Text="0" x:Name="jun6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="7" Text="0" x:Name="jun7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="8" Text="0" x:Name="jun8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="9" Text="0" x:Name="jun9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="10" Text="0" x:Name="jun10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="11" Text="0" x:Name="jun11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="12" Text="0" x:Name="jun12"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="13" Text="0" x:Name="jun13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="6" Grid.Row="14" Text="0" x:Name="jun14"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <!--JUL-->
+                    <Label Grid.Column="7" Grid.Row="0" Text="0" x:Name="jul0" TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="1" Text="0" x:Name="jul1"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="2" Text="0" x:Name="jul2"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="3" Text="0" x:Name="jul3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="4" Text="0" x:Name="jul4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="5" Text="0" x:Name="jul5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="6" Text="0" x:Name="jul6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="7" Text="0" x:Name="jul7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="8" Text="0" x:Name="jul8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="9" Text="0" x:Name="jul9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="10" Text="0" x:Name="jul10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="11" Text="0" x:Name="jul11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="12" Text="0" x:Name="jul12"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="13" Text="0" x:Name="jul13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="7" Grid.Row="14" Text="0" x:Name="jul14"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <!--AUG-->
+                    <Label Grid.Column="8" Grid.Row="0" Text="0" x:Name="aug0" TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="1" Text="0" x:Name="aug1"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="2" Text="0" x:Name="aug2"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="3" Text="0" x:Name="aug3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="4" Text="0" x:Name="aug4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="5" Text="0" x:Name="aug5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="6" Text="0" x:Name="aug6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="7" Text="0" x:Name="aug7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="8" Text="0" x:Name="aug8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="9" Text="0" x:Name="aug9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="10" Text="0" x:Name="aug10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="11" Text="0" x:Name="aug11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="12" Text="0" x:Name="aug12"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="13" Text="0" x:Name="aug13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="8" Grid.Row="14" Text="0" x:Name="aug14"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <!--SEP-->
+                    <Label Grid.Column="9" Grid.Row="0" Text="0" x:Name="sep0" TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="1" Text="0" x:Name="sep1"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="2" Text="0" x:Name="sep2"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="3" Text="0" x:Name="sep3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="4" Text="0" x:Name="sep4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="5" Text="0" x:Name="sep5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="6" Text="0" x:Name="sep6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="7" Text="0" x:Name="sep7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="8" Text="0" x:Name="sep8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="9" Text="0" x:Name="sep9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="10" Text="0" x:Name="sep10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="11" Text="0" x:Name="sep11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="12" Text="0" x:Name="sep12"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="13" Text="0" x:Name="sep13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="9" Grid.Row="14" Text="0" x:Name="sep14"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <!--OCT-->
+                    <Label Grid.Column="10" Grid.Row="0" Text="0" x:Name="oct0" TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="1" Text="0" x:Name="oct1"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="2" Text="0" x:Name="oct2"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="3" Text="0" x:Name="oct3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="4" Text="0" x:Name="oct4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="5" Text="0" x:Name="oct5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="6" Text="0" x:Name="oct6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="7" Text="0" x:Name="oct7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="8" Text="0" x:Name="oct8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="9" Text="0" x:Name="oct9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="10" Text="0" x:Name="oct10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="11" Text="0" x:Name="oct11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="12" Text="0" x:Name="oct12"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="13" Text="0" x:Name="oct13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="10" Grid.Row="14" Text="0" x:Name="oct14"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <!--NOV-->
+                    <Label Grid.Column="11" Grid.Row="0" Text="0" x:Name="nov0" TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="1" Text="0" x:Name="nov1"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="2" Text="0" x:Name="nov2"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="3" Text="0" x:Name="nov3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="4" Text="0" x:Name="nov4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="5" Text="0" x:Name="nov5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="6" Text="0" x:Name="nov6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="7" Text="0" x:Name="nov7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="8" Text="0" x:Name="nov8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="9" Text="0" x:Name="nov9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="10" Text="0" x:Name="nov10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="11" Text="0" x:Name="nov11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="12" Text="0" x:Name="nov12"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="13" Text="0" x:Name="nov13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <Label Grid.Column="11" Grid.Row="14" Text="0" x:Name="nov14"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                    <!--DEC-->
+                    <Label Grid.Column="12" Grid.Row="0" Text="0" x:Name="dec0" TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="1" Text="0" x:Name="dec1"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="2" Text="0" x:Name="dec2"  TextColor="Black" IsVisible="false"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="3" Text="0" x:Name="dec3"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="4" Text="0" x:Name="dec4"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="5" Text="0" x:Name="dec5"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="6" Text="0" x:Name="dec6"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="7" Text="0" x:Name="dec7"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="8" Text="0" x:Name="dec8"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="9" Text="0" x:Name="dec9"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="10" Text="0" x:Name="dec10"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="11" Text="0" x:Name="dec11"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="12" Text="0" x:Name="dec12"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="13" Text="0" x:Name="dec13"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                    <Label Grid.Column="12" Grid.Row="14" Text="0" x:Name="dec14"  TextColor="Black"  IsVisible="false" FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,3,0"></Label>
+                </Grid>
+                
+                <Grid BackgroundColor="#FF9900" Margin="0,0,0,0" x:Name="stotal" IsVisible="true">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Grid.Row="0" Text="Total"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" Margin="5,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="1" Grid.Row="0" x:Name="tt0"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="2" Grid.Row="0" x:Name="tt1"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="3" Grid.Row="0" x:Name="tt2"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="4" Grid.Row="0" x:Name="tt3"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="5" Grid.Row="0" x:Name="tt4"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="6" Grid.Row="0" x:Name="tt5"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="7" Grid.Row="0" x:Name="tt6"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="8" Grid.Row="0" x:Name="tt7"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="9" Grid.Row="0" x:Name="tt8"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="10" Grid.Row="0" x:Name="tt9"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="11" Grid.Row="0" x:Name="tt10"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="12" Grid.Row="0" x:Name="tt11"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Margin="0,0,5,0" VerticalTextAlignment="Center"></Label>
+
+                </Grid>         
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

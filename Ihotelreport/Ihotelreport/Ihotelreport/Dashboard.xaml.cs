@@ -6,7 +6,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Diagnostics;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -20,6 +20,7 @@ namespace Ihotelreport
         public Dashboard()
         {
             InitializeComponent();
+            Debug.WriteLine("Initializing component");
            // string database = Application.Current.Properties["Database"].ToString();
             //string date = Application.Current.Properties["datenow"].ToString();
             date11.Text = date;
@@ -58,6 +59,7 @@ namespace Ihotelreport
             var abfs = abf.dataResult.Select(p => p.abf).ToList();
             L_ABF.Text = abfs[0].ToString();
             act.IsRunning = false;
+            client.Dispose();
         }
     }
 }

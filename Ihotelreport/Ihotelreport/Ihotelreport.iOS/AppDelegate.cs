@@ -5,6 +5,11 @@ using System.Security.Cryptography;
 using Foundation;
 using UIKit;
 using System.Text;
+using Syncfusion.SfChart.iOS;
+using Syncfusion.SfChart.XForms.iOS.Renderers;
+using Syncfusion.SfChart.XForms;
+using Cross.Pie.Forms.Sample;
+using NControl.iOS;
 
 namespace Ihotelreport.iOS
 {
@@ -23,7 +28,9 @@ namespace Ihotelreport.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            new Syncfusion.SfChart.XForms.iOS.Renderers.SfChartRenderer();
             global::Xamarin.Forms.Forms.Init();
+            NControlViewRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ihotelreport.Y_AgencyRoom"
+                        Title="Agency Report" BackgroundColor="WhiteSmoke">
+
+    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" Spacing="0">
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" x:Name="OverralPage" IsVisible="true">
+            <Grid BackgroundColor="#DCDCDC">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="65"/>
+                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="92"/>
+                    <ColumnDefinition Width="92"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+
+                <Label Text="Year :" Grid.Column="0" Grid.Row="0" FontSize="Medium" Margin="5,0,0,0" VerticalTextAlignment="Center"></Label>
+                <Picker x:Name="picky" Title="Select" Margin="0,0,0,0" Grid.Column="1" Grid.Row="0" SelectedIndexChanged="picky_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>2015</x:String>
+                    <x:String >2016</x:String>
+                    <x:String>2017</x:String>
+                    <x:String>2018</x:String>
+                    <x:String>2019</x:String>
+
+                    </Picker.Items>
+                </Picker>
+                <Button  Text="Room Night" Margin="2,0,0,0" Grid.Column="3" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13"  HeightRequest="37" WidthRequest="80" Clicked="RoomNight"></Button>
+                <Button  Text="Room Charge" Margin="0,0,2,0" Grid.Column="4" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13"  HeightRequest="37" WidthRequest="80" Clicked="RoomCharge"></Button>
+
+            </Grid>
+
+                <Label x:Name="monthOverral" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0"></Label>
+                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" Margin="0,0,0,0">
+                    <Grid BackgroundColor="#FF9900" Margin="0,0,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="60"/>
+                        
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20"/>
+                        </Grid.RowDefinitions>
+                        <Label Text="" Grid.Column="2" Grid.Row="0"></Label>
+                        <Label Text="Agency Name" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Margin="5,0,0,0" Grid.Column="0" Grid.Row="0" FontSize="Small" ></Label>
+                        <Label Text="Yearly Total" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Margin="0,0,30,0" Grid.Column="1" Grid.Row="0" FontSize="Small" ></Label>
+                    </Grid>
+                    
+                <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+                    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+                        <ListView x:Name="listviewcurrent" HasUnevenRows="true">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+                                            <Grid BackgroundColor="White" Margin="0,0,0,0">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="150"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="60"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="20"/>
+                                                </Grid.RowDefinitions>
+                                                <Label Grid.Column="0" Text="{Binding name}"   Margin="5,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="Start"></Label>  
+                                                <Label Grid.Column="1" Text="{Binding total}"   Margin="0,0,30,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                                                <Label Grid.Column="2" Text="Detail >>"   Margin="0,0,5,0" TextColor="#007AFF" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+
+                                            </Grid>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </StackLayout>
+                    </ScrollView>
+                    <Grid BackgroundColor="#FF9900" Margin="0,0,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="60"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Text="Overall Total" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Margin="5,0,0,0" Grid.Column="0" Grid.Row="0" FontSize="Small" ></Label>
+                        <Label x:Name="overralTotal" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Margin="0,0,30,0" Grid.Column="1" Grid.Row="0" FontSize="Small" ></Label>
+                        <Label Text="" Grid.Row="0" Grid.Column="2"></Label>
+                    </Grid>
+                </StackLayout> 
+            </StackLayout>
+
+<!--Tab-->
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" x:Name="currentvisible" IsVisible="False" Margin="0,0,0,0">
+            <Grid BackgroundColor="#DCDCDC">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="80"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+
+                <Button Text="Back" Grid.Row="0" Grid.Column="0" BackgroundColor="#FF9900" TextColor="White" Clicked="Back" Margin="2,0,0,0"></Button>
+                <Label x:Name="detailAgency" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                
+            </Grid>
+            <Label x:Name="monthDetail" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0"></Label>
+            <Grid BackgroundColor="#FF9900" Margin="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+                
+                <Label Grid.Column="1" Grid.Row="0" Text="Month" TextColor="#000000" FontSize="Small" Margin="0,0,0,0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
+                <Label Grid.Column="2" Grid.Row="0" x:Name="mode_column_header"   TextColor="#000000" FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+               
+            </Grid>
+
+             <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+                    <Grid>
+                        <ListView x:Name="listviewdetail" HasUnevenRows="true">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid BackgroundColor="White" RowSpacing="0" >
+
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="60"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="60"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="20"/>
+                                            </Grid.RowDefinitions>
+                                            <Label Text="{Binding date}"   Grid.Row="0" Grid.Column="1" FontSize="Small" TextColor="Black" HorizontalTextAlignment="Start" Margin="0,0,0,0"/>
+                                            <Label Text="{Binding total}"  Grid.Row="0" Grid.Column="2" FontSize="Small" TextColor="Black" HorizontalTextAlignment="End" Margin="0,0,0,0"/>
+
+                                        </Grid>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+
+            <Grid BackgroundColor="#FF9900" Margin="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+
+                <Label Text="Overall Total" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Margin="0,0,0,0" Grid.Column="1" Grid.Row="0" FontSize="Small" ></Label>
+                <Label x:Name="detailTotal" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Margin="0,0,0,0" Grid.Column="2" Grid.Row="0" FontSize="Small" ></Label>
+
+            </Grid>
+        </StackLayout>
+    </StackLayout>   
+</ContentPage>

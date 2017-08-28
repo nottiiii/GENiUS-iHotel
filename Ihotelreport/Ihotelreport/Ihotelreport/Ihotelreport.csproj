@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
@@ -14,8 +13,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
+    <NuGetPackageImportStamp></NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -109,9 +107,6 @@
     <Compile Include="History.xaml.cs">
       <DependentUpon>History.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LoginPage.xaml.cs">
-      <DependentUpon>LoginPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Login_LC.xaml.cs">
       <DependentUpon>Login_LC.xaml</DependentUpon>
     </Compile>
@@ -148,12 +143,45 @@
     <Compile Include="tabagency.cs" />
     <Compile Include="tabbar.cs" />
     <Compile Include="tabhistory.cs" />
-    <Compile Include="tabpieagency.cs" />
     <Compile Include="Yagency.xaml.cs">
       <DependentUpon>Yagency.xaml</DependentUpon>
     </Compile>
     <Compile Include="YTD_Revenue.xaml.cs">
       <DependentUpon>YTD_Revenue.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestPage.xaml.cs">
+      <DependentUpon>TestPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="model\LoginPage.xaml.cs" />
+    <Compile Include="NationalityReport.xaml.cs">
+      <DependentUpon>NationalityReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessS.xaml.cs">
+      <DependentUpon>BusinessS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="M_nationality.xaml.cs">
+      <DependentUpon>M_nationality.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Y_nationality.xaml.cs">
+      <DependentUpon>Y_nationality.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="tabNation.cs" />
+    <Compile Include="AgencyRoom.xaml.cs">
+      <DependentUpon>AgencyRoom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Y_AgencyRoom.xaml.cs">
+      <DependentUpon>Y_AgencyRoom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabAgent.cs" />
+    <Compile Include="RoomForecast.xaml.cs">
+      <DependentUpon>RoomForecast.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Compare.xaml.cs">
+      <DependentUpon>Compare.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabCompare.cs" />
+    <Compile Include="Y_Compare.xaml.cs">
+      <DependentUpon>Y_Compare.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -161,13 +189,40 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="TestPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NationalityReport.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusinessS.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_nationality.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Y_nationality.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgencyRoom.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Y_AgencyRoom.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomForecast.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compare.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Y_Compare.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Cross.Pie.Forms">
       <HintPath>..\..\Cross.Pie.Forms.dll</HintPath>
-    </Reference>
-    <Reference Include="Cross.Pie.Forms.Sample">
-      <HintPath>..\..\..\..\..\..\Ihotelreportp11-new\Ihotelreportp11\Ihotelreportp11\Ihotelreport\Ihotelreport\Ihotelreport\bin\Debug\Cross.Pie.Forms.Sample.dll</HintPath>
     </Reference>
     <Reference Include="NControl, Version=0.2.6251.21805, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\NControl.0.9.1.0\lib\portable-net45+wp8+wp80+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\NControl.dll</HintPath>
@@ -178,125 +233,11 @@
     <Reference Include="NGraphics, Version=0.2.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\NGraphics.0.4.0\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\NGraphics.dll</HintPath>
     </Reference>
-    <Reference Include="Plugin.Connectivity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xam.Plugin.Connectivity.3.0.1\lib\netstandard1.0\Plugin.Connectivity.dll</HintPath>
-    </Reference>
-    <Reference Include="Plugin.Connectivity.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xam.Plugin.Connectivity.3.0.1\lib\netstandard1.0\Plugin.Connectivity.Abstractions.dll</HintPath>
-    </Reference>
     <Reference Include="Plugin.Settings, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xam.Plugins.Settings.3.0.1\lib\netstandard1.0\Plugin.Settings.dll</HintPath>
     </Reference>
     <Reference Include="Plugin.Settings.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xam.Plugins.Settings.3.0.1\lib\netstandard1.0\Plugin.Settings.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Calculate.Portable">
-      <HintPath>bin\Debug\Syncfusion.Calculate.Portable.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Compression.Portable">
-      <HintPath>bin\Debug\Syncfusion.Compression.Portable.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Core.XForms">
-      <HintPath>bin\Debug\Syncfusion.Core.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Data.Portable">
-      <HintPath>bin\Debug\Syncfusion.Data.Portable.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.DataSource.Portable">
-      <HintPath>bin\Debug\Syncfusion.DataSource.Portable.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.DocIO.Portable">
-      <HintPath>bin\Debug\Syncfusion.DocIO.Portable.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.GridCommon.Portable">
-      <HintPath>bin\Debug\Syncfusion.GridCommon.Portable.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.OfficeChart.Portable">
-      <HintPath>bin\Debug\Syncfusion.OfficeChart.Portable.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Pdf.Portable">
-      <HintPath>bin\Debug\Syncfusion.Pdf.Portable.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Presentation.Portable">
-      <HintPath>bin\Debug\Syncfusion.Presentation.Portable.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfAutoComplete.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfAutoComplete.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfBarcode.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfBarcode.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfBusyIndicator.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfBusyIndicator.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfCalendar.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfCalendar.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfCarousel.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfCarousel.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfChart.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfDataGrid.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfDataGrid.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfGauge.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfGauge.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfGridConverter.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfGridConverter.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfImageEditor.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfImageEditor.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfKanban.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfKanban.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfListView.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfListView.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfMaps.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfMaps.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNavigationDrawer.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfNavigationDrawer.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNumericTextBox.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfNumericTextBox.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNumericUpDown.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfNumericUpDown.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfPdfViewer.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfPdfViewer.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfPullToRefresh.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfPullToRefresh.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRangeSlider.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfRangeSlider.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRating.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfRating.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRotator.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfRotator.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSchedule.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfSchedule.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSparkline.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfSparkline.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSunburstChart.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfSunburstChart.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfTreeMap.XForms">
-      <HintPath>bin\Debug\Syncfusion.SfTreeMap.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.XlsIO.Portable">
-      <HintPath>bin\Debug\Syncfusion.XlsIO.Portable.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.dll</HintPath>
@@ -316,10 +257,170 @@
     <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.Calculate.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.Calculate.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Linq.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.Linq.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfAutoComplete.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfAutoComplete.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfBarcode.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfBarcode.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfBusyIndicator.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfBusyIndicator.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCalendar.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfCalendar.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCalendar.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfCalendar.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfCarousel.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfCarousel.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SFChart.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SFChart.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfChart.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfDataGrid.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfDataGrid.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDiagram.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfDiagram.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGauge.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfGauge.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGridConverter.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfGridConverter.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfImageEditor.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfImageEditor.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfImageEditor.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfImageEditor.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfKanban.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfKanban.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfKanban.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfKanban.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SFMaps.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SFMaps.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfNavigationDrawer.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfMaps.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfMaps.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfNavigationDrawer.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericTextBox.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfNumericTextBox.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericTextBox.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfNumericTextBox.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfNumericUpDown.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfNumericUpDown.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPdfViewer.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfPdfViewer.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPdfViewer.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfPdfViewer.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPullToRefresh.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfPullToRefresh.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPullToRefresh.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfPullToRefresh.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRadialMenu.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfRadialMenu.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRangeSlider.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfRangeSlider.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRangeSlider.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfRangeSlider.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfRating.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfRating.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRotator.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfRotator.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRotator.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfRotator.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSchedule.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfSchedule.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSchedule.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfSchedule.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSparkline.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfSparkline.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSparkline.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfSparkline.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSunburstChart.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfSunburstChart.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSunburstChart.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfSunburstChart.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeMap.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfTreeMap.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeMap.XForms.iOS">
+      <HintPath>..\..\..\ios-unified\Syncfusion.SfTreeMap.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Cross.Pie.Forms.Sample">
+      <HintPath>..\Ihotelreport.Android\bin\Debug\Cross.Pie.Forms.Sample.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.XForms">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.SfChart.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Connectivity.Abstractions">
+      <HintPath>..\..\packages\Xam.Plugin.Connectivity.3.0.2\lib\netstandard1.0\Plugin.Connectivity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Connectivity">
+      <HintPath>..\..\packages\Xam.Plugin.Connectivity.3.0.2\lib\netstandard1.0\Plugin.Connectivity.dll</HintPath>
+    </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Staticreport.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -429,6 +530,7 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="History.xaml">
@@ -453,6 +555,7 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Compile Include="tabpieagency.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AreaPageyearnight.xaml">
@@ -509,4 +612,5 @@
     <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
     <Error Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
   </Target>
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
 </Project>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ihotelreport.AreaHeaderView">
@@ -7,18 +7,17 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width= "1*"/>
                 <ColumnDefinition Width= "3*"/>
-                
                 <ColumnDefinition Width= "3*"/>
                 <ColumnDefinition Width= "3*"/>
             </Grid.ColumnDefinitions>
-            <Label Grid.Column="0"  Grid.ColumnSpan="1"/>
-            <Label Grid.Column="1" Text="Agency" TextColor="Black"
-				HorizontalTextAlignment="Start" Margin="0,0,0,0"/>
+             <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+            </Grid.RowDefinitions>
             
-            <Label Grid.Column="2" Text="Night" TextColor="Black"
-				HorizontalTextAlignment="End"/>
-            <Label Grid.Column="3" Text="RoomNight%" TextColor="Black"
-				HorizontalTextAlignment="End" Margin="0,0,10,0" />
+            <Label Grid.Column="0"  Grid.ColumnSpan="1"/>
+            <Label Grid.Column="1" Text="Agency" TextColor="Black" FontSize="Medium" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Margin="0,2,0,0"/>    
+            <Label Grid.Column="2" Text="Night" TextColor="Black" FontSize="Medium" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Margin="0,2,0,0"/>
+            <Label Grid.Column="3" Text="RoomNight%" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,2,2,0" />
         </Grid>
 
     </ContentView.Content>

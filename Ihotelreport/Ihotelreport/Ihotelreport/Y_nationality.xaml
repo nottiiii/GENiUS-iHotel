@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ihotelreport.Y_nationality"
+                        Title="Revenue by Nationality" BackgroundColor="WhiteSmoke">
+
+    <StackLayout>
+       
+         <Grid BackgroundColor="#DCDCDC" ColumnSpacing="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            
+            <Label Text="Year :" Grid.Column="0" Grid.Row="0" FontSize="Medium" Margin="5,0,0,0" VerticalTextAlignment="Center"></Label>
+            <Picker x:Name="picky" Title="Select" Margin="5,0,0,0" Grid.Column="1" Grid.Row="0" SelectedIndexChanged="picky_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>2015</x:String>
+                    <x:String >2016</x:String>
+                    <x:String>2017</x:String>
+                    <x:String>2018</x:String>
+                    <x:String>2019</x:String>
+
+                </Picker.Items>
+            </Picker>
+            <Label Text="" Grid.Row="0" Grid.Column="2"></Label>
+            <Button  x:Name="Findagen" Text="Search" Margin="0,0,2,0" Grid.Column="3" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13" HeightRequest="37" WidthRequest="80" Clicked="clicked"></Button>
+        </Grid>
+
+        <Label x:Name="selected_Mode" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0"></Label>
+        
+        <ScrollView Orientation="Horizontal" VerticalOptions="FillAndExpand">
+            <StackLayout x:Name="RevNationality" VerticalOptions="FillAndExpand" Orientation="Vertical">
+
+                <Grid BackgroundColor="#FF9900">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Column="0" Grid.Row="0" Text="Nationality"  TextColor="Black"   HorizontalTextAlignment="Start"   VerticalTextAlignment="Center" FontSize="Small" Margin="5,0,0,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="0" Text="R. ngt"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Column="2" Grid.Row="0" Text="R. RVE "  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Column="3" Grid.Row="0" Text="ABF RVE"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Column="4" Grid.Row="0" Text="Other RVE"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Column="5" Grid.Row="0" Text="Total RVE"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,5,0"></Label>
+               </Grid> 
+
+               <ListView x:Name="listviewConacts" Grid.Row="1" HorizontalOptions="FillAndExpand" HasUnevenRows="True" >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                               <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="20"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Text="{Binding name}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" Margin="5,0,0,0" />
+                                    <Label Text="{Binding night}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                    <Label Grid.Column="2" Grid.Row="0" Text="{Binding roomRv} "  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Start" />
+                                    <Label Grid.Column="3" Grid.Row="0" Text="{Binding abfRv}"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Start" />
+                                    <Label Grid.Column="4" Grid.Row="0" Text="{Binding otherRv}"  TextColor="Black"   FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Start" />
+                                    <Label Text="{Binding totalRv}"  Grid.Row="0" Grid.Column="5" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,5,0" />
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+        
+            <Grid BackgroundColor="#FF9900" Margin="0,0,0,0" x:Name="Ntotal">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Column="0" Grid.Row="0" Text="Summary"   TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="Start" Margin="5,0,0,0" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Column="1" Grid.Row="0" x:Name="sumNight"   TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="2" Grid.Row="0" x:Name="sumRoom"   TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="3" Grid.Row="0" x:Name="sumAbf"    TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="4" Grid.Row="0" x:Name="sumOther"  TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+                    <Label Grid.Column="5" Grid.Row="0"  x:Name="sumTotalRv"   TextColor="#000000"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,5,0" VerticalTextAlignment="Center"></Label>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

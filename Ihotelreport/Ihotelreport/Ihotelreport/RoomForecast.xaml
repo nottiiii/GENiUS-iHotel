@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ihotelreport.RoomForecast"
+                        Title="Room Available Forecast" BackgroundColor="WhiteSmoke">
+
+   <StackLayout x:Name="ForecastWeekly" VerticalOptions="FillAndExpand" Orientation="Vertical">
+        <Grid BackgroundColor = "#DCDCDC">
+            
+        <Grid.ColumnDefinitions>
+             <ColumnDefinition Width="60"/>    
+            <ColumnDefinition Width="170"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="80"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>  
+
+        <Label Text="Date :" FontSize="Medium" Margin="5,0,0,10" Grid.Column="0" Grid.Row="0" VerticalTextAlignment="End"></Label>   
+        <Label  x:Name="startDate" Grid.Column="1"  Grid.Row="0" Margin="0,10,0,0"></Label>
+<!--        <Label Text="" Grid.Row="0" Grid.Column="2"></Label>-->
+        <ActivityIndicator x:Name="Busy" Color="Gray" IsRunning="False" Grid.Row="0" Grid.Column="2"/>
+        <Button BackgroundColor="#FF9900" FontSize="13" TextColor="White" Text="Search" x:Name='findForecast' Grid.Column = "3" Grid.Row = "0" Margin="0,0,2,0" ></Button>
+        </Grid>
+
+    <ScrollView Orientation="Horizontal" VerticalOptions="FillAndExpand">
+        <StackLayout x:Name="ForecastRoom" VerticalOptions="FillAndExpand" Orientation="Vertical">
+            <Grid BackgroundColor="#FF9900">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="170"/>
+                        <ColumnDefinition Width="37"/>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="70"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Column="0" Grid.Row="0" Text="Room Type"  TextColor="Black"   HorizontalTextAlignment="Start" Grid.ColumnSpan="4" FontSize="Small" Margin="5,0,0,0" VerticalTextAlignment = "Center"></Label>
+                    <Label Grid.Column="1" Grid.Row="0" Text="Total"  TextColor="Black"    FontSize="Small" HorizontalTextAlignment="End"  VerticalTextAlignment = "Center"></Label>
+                    <Label Grid.Column="2" Grid.Row="0" x:Name="day1"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End"  VerticalTextAlignment = "Center"></Label>
+                    <Label Grid.Column="3" Grid.Row="0" x:Name="day2"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End"  VerticalTextAlignment = "Center"></Label>
+                    <Label Grid.Column="4" Grid.Row="0" x:Name="day3"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End"  VerticalTextAlignment = "Center"></Label>
+                    <Label Grid.Column="5" Grid.Row="0" x:Name="day4"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End"  VerticalTextAlignment = "Center"></Label>
+                    <Label Grid.Column="6" Grid.Row="0" x:Name="day5"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End"  VerticalTextAlignment = "Center"></Label>
+                    <Label Grid.Column="7" Grid.Row="0" x:Name="day6"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End"  VerticalTextAlignment = "Center"></Label>
+                    <Label Grid.Column="8" Grid.Row="0" x:Name="day7"  TextColor="Black"   FontSize="Small" HorizontalTextAlignment="End" Margin="0,0,5,0" VerticalTextAlignment = "Center"></Label>            
+           </Grid>
+
+                <ListView x:Name="listviewConacts"  HorizontalOptions="FillAndExpand" HasUnevenRows="true" VerticalOptions="FillAndExpand">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                   <ViewCell>
+                                       <Grid BackgroundColor="White">
+                                            <Grid.ColumnDefinitions>
+                                               <ColumnDefinition Width="170"/>
+                                                <ColumnDefinition Width="37"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="20"/>
+                                            </Grid.RowDefinitions>
+
+                                            <Label Text="{Binding RoomType}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Start" Margin="5,0,0,0" />
+                                            <Label Text="{Binding TotalRoom}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End"  VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day1}"   Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day2}"   Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day3}"   Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day4}"   Grid.Row="0" Grid.Column="5" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day5}"   Grid.Row="0" Grid.Column="6" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day6}"   Grid.Row="0" Grid.Column="7" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day7}"   Grid.Row="0" Grid.Column="8" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,5,0" />
+                                            
+                                        </Grid>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                <Grid BackgroundColor="#FF9900">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Column="0" Grid.Row="0" Text="Overall Total"  TextColor="Black"   HorizontalTextAlignment="Start" Grid.ColumnSpan="4" FontSize="Small" Margin="5,0,0,0" VerticalTextAlignment = "Center"></Label>
+                </Grid>
+                
+                
+                <ListView x:Name="listviewConacts2"  HorizontalOptions="FillAndExpand" HasUnevenRows="true" >
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                   <ViewCell>
+                                       <Grid BackgroundColor="White">
+                                            <Grid.ColumnDefinitions>
+                                               <ColumnDefinition Width="170"/>
+                                                <ColumnDefinition Width="37"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="70"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="20"/>
+                                            </Grid.RowDefinitions>
+                                            <Label Text="{Binding RoomType}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" Margin="5,0,0,0" />
+                                            <Label Text="{Binding TotalRoom}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day1}"   Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day2}"   Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day3}"   Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day4}"   Grid.Row="0" Grid.Column="5" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day5}"   Grid.Row="0" Grid.Column="6" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day6}"   Grid.Row="0" Grid.Column="7" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day7}"   Grid.Row="0" Grid.Column="8" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,5,0" />
+                                            
+                                        </Grid>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+</ContentPage>

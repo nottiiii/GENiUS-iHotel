@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ihotelreport.Revenueagency">
@@ -19,12 +19,12 @@
                 <RowDefinition Height="40"/>
 
             </Grid.RowDefinitions>
-            <Label Text="Date :" Grid.Column="0" Grid.Row="0" FontSize="Medium" Margin="5,0,0,5" VerticalTextAlignment="End"></Label>
+            <Label Text="Date :" Grid.Column="0" Grid.Row="0" FontSize="Medium" Margin="5,0,0,10" VerticalTextAlignment="End"></Label>
             <DatePicker WidthRequest="150" x:Name="Datepick"  Grid.Row="0" Grid.Column="1" Margin="5,0,0,0" DateSelected="datepick_DateSelected" Format="yyyy-MM-dd" >
             </DatePicker>
             <Label Grid.Column="2" Grid.Row="0"></Label>
-            <Button  x:Name="Findagen" Text="Search" Margin="2,2,2,2" Grid.Column="3" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13" HeightRequest="37" Clicked="agency_click"></Button>
-            <Button x:Name="Findpie" Margin="2,2,2,2" Text="Graph" Grid.Column="4" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13" HeightRequest="37" Clicked="agencytoday_click"></Button>
+            <Button  x:Name="Findagen" Text="Search" Margin="2,0,2,0" Grid.Column="3" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13" HeightRequest="37" Clicked="agency_click"></Button>
+            <Button x:Name="Findpie" Margin="2,0,2,0" Text="Graph" Grid.Column="4" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13" HeightRequest="37" Clicked="agencytoday_click"></Button>
         </Grid>
 
 
@@ -36,31 +36,23 @@
                 <ColumnDefinition Width="50"/>
                 <ColumnDefinition Width="40"/>
                 <ColumnDefinition Width="45"/>
-
-
             </Grid.ColumnDefinitions>
 
+            <Grid.RowDefinitions>
+                <RowDefinition Height = "20"/>
+            </Grid.RowDefinitions>
 
-            <Label Grid.Column="0" Grid.Row="0" Text="Agency" TextColor="#000000" FontSize="14" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" Margin="5,0,0,0"></Label>
-            <Label Grid.Column="1" Grid.Row="0" Text="ngt" TextColor="#000000" FontSize="14" VerticalTextAlignment="Start" HorizontalTextAlignment="End"></Label>
-            <Label Grid.Column="2" Grid.Row="0" Text="RVE" TextColor="#000000" FontSize="14" VerticalTextAlignment="Start" HorizontalTextAlignment="End"></Label>
-            <Label Grid.Column="3" Grid.Row="0" Text="Avg" TextColor="#000000" FontSize="14" VerticalTextAlignment="Start" HorizontalTextAlignment="End"></Label>
-            <Label Grid.Column="4" Grid.Row="0" Text="ngt%" TextColor="#000000" FontSize="14" VerticalTextAlignment="Start" HorizontalTextAlignment="End"></Label>
-            <Label Grid.Column="5" Grid.Row="0" Text="RVE%" TextColor="#000000"  FontSize="14" VerticalTextAlignment="Start" HorizontalTextAlignment="End"  Margin="0,0,5,0"></Label>
+            <Label Grid.Column="0" Grid.Row="0" Text="Agency" TextColor="#000000" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Margin="5,0,0,0"></Label>
+            <Label Grid.Column="1" Grid.Row="0" Text="ngt" TextColor="#000000" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="End"></Label>
+            <Label Grid.Column="2" Grid.Row="0" Text="RVE" TextColor="#000000" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="End"></Label>
+            <Label Grid.Column="3" Grid.Row="0" Text="Avg" TextColor="#000000" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="End"></Label>
+            <Label Grid.Column="4" Grid.Row="0" Text="ngt%" TextColor="#000000" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="End"></Label>
+            <Label Grid.Column="5" Grid.Row="0" Text="RVE%" TextColor="#000000"  FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="End"  Margin="0,0,5,0"></Label>
 
         </Grid>
 
         <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
             <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand" >
-
-
-
-
-                <!--<Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>-->
-
                 <ListView x:Name="listviewagency" Grid.Row="0" Grid.Column="0">
                     <ListView.ItemTemplate>
                         <DataTemplate>
@@ -71,10 +63,14 @@
                                         <ColumnDefinition Width="80"/>
                                         <ColumnDefinition Width="30"/>
                                         <ColumnDefinition Width="*"/>
-                                        <ColumnDefinition Width="50"/>
+                                        <ColumnDefinition Width="55"/>
                                         <ColumnDefinition Width="40"/>
                                         <ColumnDefinition Width="45"/>
                                     </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height = "20"/>
+                                    </Grid.RowDefinitions>
 
                                     <Label Text="{Binding AgencyName}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" Margin="5,0,0,0"/>
                                     <Label Text="{Binding Roomnight}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" VerticalTextAlignment="Start" HorizontalTextAlignment="End"/>
@@ -86,15 +82,9 @@
                                     <!--<BoxView HeightRequest="2" Margin="0,10,10,0" BackgroundColor="Gray" Grid.Row="3" HorizontalOptions="FillAndExpand" />-->
                                 </Grid>
                             </ViewCell>
-
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-
-
-
-
-
             </StackLayout>
         </ScrollView>
 
@@ -108,16 +98,16 @@
                 <ColumnDefinition Width="45"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="20"/>
             </Grid.RowDefinitions>
 
 
-            <Label Grid.Column="0" Grid.Row="0" Text="Summary"  Margin="5,0,0,0" TextColor="#000000" FontSize="Micro"  HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start"></Label>
-            <Label Grid.Column="1" Grid.Row="0" x:Name="Sumroomnight" Text="0"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End"></Label>
-            <Label Grid.Column="2" Grid.Row="0" x:Name="Sumroomrev" Text="0"  TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End"></Label>
-            <Label Grid.Column="3" Grid.Row="0" x:Name="Sumroomavg" Text="0"    TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End"></Label>
-            <Label Grid.Column="4" Grid.Row="0" Text="100.00"    TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End"></Label>
-            <Label Grid.Column="5" Grid.Row="0" Text="100.00"  Margin="0,0,5,0" TextColor="#000000"  FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End"></Label>
+            <Label Grid.Column="0" Grid.Row="0" Text="Summary"  Margin="5,0,0,0" TextColor="#000000" FontSize="Micro"  HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="1" Grid.Row="0" x:Name="Sumroomnight" Text="0"   TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="2" Grid.Row="0" x:Name="Sumroomrev" Text="0"  TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="3" Grid.Row="0" x:Name="Sumroomavg" Text="0"    TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="4" Grid.Row="0" Text="100.00"    TextColor="#000000" FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="5" Grid.Row="0" Text="100.00"  Margin="0,0,5,0" TextColor="#000000"  FontSize="Micro" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
         </Grid>
     </StackLayout>
 </ContentPage>

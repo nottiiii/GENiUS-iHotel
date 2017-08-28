@@ -53,7 +53,33 @@ namespace Ihotelreport.Pages
                 TargetType = typeof(Summaryreport)
             });
 
-            this.Add(new MenuItem()
+			this.Add(new MenuItem()
+			{
+				Titulo = "Room Available Forecast",
+                TargetType = typeof(RoomForecast)
+			});
+			this.Add(new MenuItem()
+			{
+				Titulo = "Business Source Report",
+                TargetType = typeof(BusinessS)
+			});
+
+			this.Add(new MenuItem()
+			{
+				Titulo = "Revenue By Nationality Report",
+                TargetType = typeof(tabNation)
+			});
+			this.Add(new MenuItem()
+			{
+				Titulo = "Agency Report",
+                TargetType = typeof(TabAgent)
+			});
+			this.Add(new MenuItem()
+			{
+				Titulo = "Compare Report",
+                TargetType = typeof(TabCompare)
+			});
+			this.Add(new MenuItem()
             {
                 Titulo = "Help",
                 TargetType = typeof(Help)
@@ -64,8 +90,7 @@ namespace Ihotelreport.Pages
                 Titulo = "Logout",
                 TargetType = typeof(Logout)
             });
-
+			
         }
-
     }
 }

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ihotelreport.Compare"
+                        Title="Compare Report" BackgroundColor="WhiteSmoke">
+
+    <StackLayout>
+       <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" x:Name="OverralPage" IsVisible="true">
+       
+         <Grid BackgroundColor="#DCDCDC">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="65"/>
+                <ColumnDefinition Width="110"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+
+            <Label Text="Month :" FontSize="Medium" Margin="5,0,0,0" Grid.Column="0" Grid.Row="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"></Label>
+            <Picker Title="Month" Grid.Column="1" Grid.Row="0" Margin="2,0,0,0" x:Name="pickmonth">
+                    <Picker.Items>
+                        <x:String >January</x:String>
+                        <x:String >February</x:String>
+                        <x:String>March</x:String>
+                        <x:String>April</x:String>
+                        <x:String>May</x:String>
+                        <x:String>June</x:String>
+                        <x:String>July</x:String>
+                        <x:String>August</x:String>
+                        <x:String>September</x:String>
+                        <x:String>October</x:String>
+                        <x:String>November</x:String>
+                        <x:String>December</x:String>
+                    </Picker.Items>
+            </Picker>
+         </Grid>
+
+         <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+                
+            <Button Text="RVE Folio" Margin="0,0,0,0" FontSize="14" BackgroundColor="#FF9900" x:Name="Cdata" Grid.Column="0" Grid.Row="0"  TextColor="White" HeightRequest="37"></Button>
+            <Button Text="RVE Agency" Margin="0,0,0,0" FontSize="14" BackgroundColor="#FF9900" x:Name="Ccrs" Grid.Column="1" Grid.Row="0"  TextColor="White" HeightRequest="37"></Button>
+            <Button Text="RVE BS" Margin="0,0,0,0" FontSize="14" BackgroundColor="#FF9900" x:Name="Cbss" Grid.Column="2" Grid.Row="0"  TextColor="White" HeightRequest="37"></Button>
+
+        </Grid>
+
+        <Label Text="Revenue Folio" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0"></Label>
+
+            <ScrollView Orientation="Horizontal" VerticalOptions="FillAndExpand">  
+                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+                    <Grid BackgroundColor="#FF9900">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Column="0" Grid.Row="0" Text="Item"  TextColor="#000000"  Grid.ColumnSpan="4" FontSize="Small" Margin="5,0,0,0"></Label>
+                        <Label Grid.Column="1" Grid.Row="0" x:Name="olddate"  TextColor="#000000"  FontSize="Small" HorizontalTextAlignment="End"></Label>
+                        <Label Grid.Column="2" Grid.Row="0" x:Name="newdate"  TextColor="#000000"  FontSize="Small" HorizontalTextAlignment="End"></Label>
+                        <Label Grid.Column="3" Grid.Row="0" Text="Difference"  TextColor="#000000"  FontSize="Small" HorizontalTextAlignment="End" Margin="0,0,0,0"></Label>
+                        <Label Grid.Column="4" Grid.Row="0" Text="%"  TextColor="#000000"  FontSize="Small" HorizontalTextAlignment="End" Margin="0,0,5,0"></Label>
+                    </Grid>
+
+                          <ListView x:Name="listviewConacts"  HorizontalOptions="FillAndExpand" HasUnevenRows="true">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid BackgroundColor="White">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="20"/>
+                                            </Grid.RowDefinitions>
+                                        
+                                            <Label Text="{Binding Item}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" Margin="5,0,0,0" HorizontalTextAlignment="Start"/>
+                                            <Label Text="{Binding olddate}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" Margin="0,0,0,0" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding newdate}"  Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" Margin="0,0,0,0" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding Difference}"  Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" Margin="0,0,0,0" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding %}"  Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="Black" Margin="0,0,5,0" HorizontalTextAlignment="End"/>
+
+                                        </Grid>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+            </ScrollView>
+
+
+
+     <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" x:Name="AgencyVisible" IsVisible="False" Margin="0,0,0,0">
+         <Label Text="Revenue Agency" FontSize="15" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0"></Label>
+
+         <ScrollView Orientation="Horizontal" VerticalOptions="FillAndExpand">  
+                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+                        <Grid BackgroundColor="#FF9900">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20"/>
+                            </Grid.RowDefinitions>
+                            
+                            <Label Grid.Column="0" Grid.Row="0" Text="Agency"  TextColor="#000000" FontSize="Small"  Grid.ColumnSpan="4" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0"></Label>
+                            <Label Grid.Column="1" Grid.Row="0" x:Name="olddate2" TextColor="#000000" FontSize="Small"  HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+                            <Label Grid.Column="2" Grid.Row="0" x:Name="newdate2"  TextColor="#000000" FontSize="Small"  HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+                            <Label Grid.Column="3" Grid.Row="0" Text="Differernce"  TextColor="#000000" FontSize="Small"  HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                            <Label Grid.Column="4" Grid.Row="0" Text="%"  TextColor="#000000" FontSize="Small"  HorizontalTextAlignment="End" Margin="0,0,5,0" VerticalTextAlignment="Center"></Label>
+                        </Grid>
+                        
+                          <ListView x:Name="listviewConacts2"  HorizontalOptions="FillAndExpand" HasUnevenRows="true">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid BackgroundColor="White" Margin="0,0,0,0">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="20"/>
+                                            </Grid.RowDefinitions>
+                                            
+                                            <Label Text="{Binding Agency}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" Margin="5,0,0,0" HorizontalTextAlignment="Start"/>
+                                            <Label Text="{Binding olddate}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" Margin="0,0,0,0" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding newdate}"  Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" Margin="0,0,0,0" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding Difference}"  Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" Margin="0,0,0,0" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding %}"  Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="Black" Margin="0,0,5,0" HorizontalTextAlignment="End"/>
+                                        </Grid>                                 
+                                      </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </StackLayout>
+                    </ScrollView>
+         </StackLayout>
+
+
+    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" x:Name="BusinessVisible" IsVisible="False" Margin="0,0,0,0">
+         <Label Text="Revenue Business Source" FontSize="15" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0"></Label>
+
+         <ScrollView Orientation="Horizontal" VerticalOptions="FillAndExpand">  
+                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+                        <Grid BackgroundColor="#FF9900">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20"/>
+                            </Grid.RowDefinitions>
+                            
+                            <Label Grid.Column="0" Grid.Row="0" Text="Business Source"  TextColor="#000000" FontSize="Small"  Grid.ColumnSpan="4" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0"></Label>
+                            <Label Grid.Column="1" Grid.Row="0" x:Name="olddate3" TextColor="#000000" FontSize="Small"  HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+                            <Label Grid.Column="2" Grid.Row="0" x:Name="newdate3"  TextColor="#000000" FontSize="Small"  HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+                            <Label Grid.Column="3" Grid.Row="0" Text="Differernce"  TextColor="#000000" FontSize="Small"  HorizontalTextAlignment="End" Margin="0,0,0,0" VerticalTextAlignment="Center"></Label>
+                            <Label Grid.Column="4" Grid.Row="0" Text="%"  TextColor="#000000" FontSize="Small"  HorizontalTextAlignment="End" Margin="0,0,5,0" VerticalTextAlignment="Center"></Label>
+                        </Grid>
+                        
+                          <ListView x:Name="listviewConacts3"  HorizontalOptions="FillAndExpand" HasUnevenRows="true">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid BackgroundColor="White" Margin="0,0,0,0">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="20"/>
+                                            </Grid.RowDefinitions>
+                                            
+                                            <Label Text="{Binding Agency}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" Margin="5,0,0,0" HorizontalTextAlignment="Start"/>
+                                            <Label Text="{Binding olddate}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" Margin="0,0,0,0" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding newdate}"  Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" Margin="0,0,0,0" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding Difference}"  Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" Margin="0,0,0,0" HorizontalTextAlignment="End"/>
+                                            <Label Text="{Binding %}"  Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="Black" Margin="0,0,5,0" HorizontalTextAlignment="End"/>
+                                        </Grid>                                 
+                                      </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </StackLayout>
+                    </ScrollView>
+         </StackLayout>
+        
+
+
+
+
+
+
+
+
+
+
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

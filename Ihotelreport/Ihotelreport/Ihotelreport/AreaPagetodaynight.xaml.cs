@@ -61,6 +61,7 @@ namespace Ihotelreport
             if (model?.Pie != null)
             {
                 XPie.ClearAllPull();
+
                 model.Pie.IsPull = true;
                 XPie.Update();
             }
@@ -111,6 +112,8 @@ namespace Ihotelreport
                 {
                     var show = new AreaModel();
                     show.Value = Convert.ToDouble(arr1[j]);
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
                     show.Color = Color.FromHex("#fc6b51");
@@ -119,6 +122,8 @@ namespace Ihotelreport
                 else if (j == 1)
                 {
                     var show = new AreaModel();
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Value = Convert.ToDouble(arr1[j]);
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
@@ -128,6 +133,8 @@ namespace Ihotelreport
                 else if (j == 2)
                 {
                     var show = new AreaModel();
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Value = Convert.ToDouble(arr1[j]);
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
@@ -137,6 +144,8 @@ namespace Ihotelreport
                 else if (j == 3)
                 {
                     var show = new AreaModel();
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Value = Convert.ToDouble(arr1[j]);
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
@@ -147,6 +156,8 @@ namespace Ihotelreport
                 else if (j == 4)
                 {
                     var show = new AreaModel();
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Value = Convert.ToDouble(arr1[j]);
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
@@ -156,6 +167,8 @@ namespace Ihotelreport
                 else if (j == 5)
                 {
                     var show = new AreaModel();
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Value = Convert.ToDouble(arr1[j]);
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
@@ -165,6 +178,8 @@ namespace Ihotelreport
                 else if (j == 6)
                 {
                     var show = new AreaModel();
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Value = Convert.ToDouble(arr1[j]);
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
@@ -174,6 +189,8 @@ namespace Ihotelreport
                 else if (j == 7)
                 {
                     var show = new AreaModel();
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Value = Convert.ToDouble(arr1[j]);
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
@@ -183,6 +200,8 @@ namespace Ihotelreport
                 else if (j == 8)
                 {
                     var show = new AreaModel();
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Value = Convert.ToDouble(arr1[j]);
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
@@ -192,6 +211,8 @@ namespace Ihotelreport
                 else if (j == 9)
                 {
                     var show = new AreaModel();
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Value = Convert.ToDouble(arr1[j]);
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
@@ -201,6 +222,8 @@ namespace Ihotelreport
                 else if (j == 10)
                 {
                     var show = new AreaModel();
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Value = Convert.ToDouble(arr1[j]);
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
@@ -210,6 +233,8 @@ namespace Ihotelreport
                 else
                 {
                     var show = new AreaModel();
+					XPie.IsValueVisible = false;
+                    XPie.IsPercentVisible = false;
                     show.Value = Convert.ToDouble(arr1[j]);
                     show.Country = arrname[j];
                     show.Country2 = arrnight[j];
@@ -224,7 +249,7 @@ namespace Ihotelreport
             var listPieItem = from x in listModel
                               select x.ToPieItem();
             XPie.AddRange(listPieItem);
-            XPie.Font.Size = 50;
+           
             XPie.Update();
         }
     }

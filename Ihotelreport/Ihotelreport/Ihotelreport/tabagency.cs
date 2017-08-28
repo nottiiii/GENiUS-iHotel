@@ -19,18 +19,17 @@ namespace Ihotelreport
                 Title = "TODAY",
                 BackgroundColor = Color.WhiteSmoke,
 
-
             });
 
             Children.Add(new Magency
             {
-                Title = "Month",
+                Title = "MONTH",
                 BackgroundColor = Color.WhiteSmoke,
             });
 
             Children.Add(new Yagency
             {
-                Title = "Year",
+                Title = "YEAR",
                 BackgroundColor = Color.WhiteSmoke,
             });
 
