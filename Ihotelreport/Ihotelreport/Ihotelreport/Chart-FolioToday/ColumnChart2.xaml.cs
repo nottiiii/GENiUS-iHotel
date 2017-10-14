@@ -26,7 +26,8 @@ namespace Ihotelreport
         public ColumnChart2()
         {
             InitializeComponent();
-            Spacing.ValueChanged += Spacing_ValueChanged;
+			NavigationPage.SetBackButtonTitle(this, "Home");
+			Spacing.ValueChanged += Spacing_ValueChanged;
             ColumnWidth.ValueChanged += ColumnWidth_ValueChanged;
         }
 

@@ -27,20 +27,35 @@ namespace Ihotelreport
         string history = "0";
         string forcast = "0";
         string date = Application.Current.Properties["datenow"].ToString();
-
         public choosehistory()
         {
             InitializeComponent();
-            string montha = "January";
-            string yeara = "2017";
+            string montha = "";
+			DateTime datenow = Convert.ToDateTime(date);
+            DateTime yearyear = datenow.AddYears(1);
+            switch (datenow.Month){
+                case 1: montha = "January"; month1 = 1; month2 = 2;year1 = datenow.Year; year2 = yearyear.Year;break;
+                case 2: montha = "February"; month1 = 2; month2 = 3; year1 = datenow.Year; year2 = yearyear.Year; break;
+                case 3: montha = "March";month1 = 3; month2 = 4; year1 = datenow.Year; year2 = yearyear.Year; break;
+                case 4: montha = "April";month1 = 4; month2 = 5; year1 = datenow.Year; year2 = yearyear.Year; break;
+                case 5: montha = "May";month1 = 5; month2 = 6; year1 = datenow.Year; year2 = yearyear.Year; break;
+                case 6: montha = "June";month1 = 6; month2 = 7; year1 = datenow.Year; year2 = yearyear.Year; break;
+                case 7: montha = "July";month1 = 7; month2 = 8; year1 = datenow.Year; year2 = yearyear.Year; break;
+                case 8: montha = "August";month1 = 8; month2 = 9; year1 = datenow.Year; year2 = yearyear.Year; break;
+                case 9: montha = "September";month1 = 9; month2 = 10; year1 = datenow.Year; year2 = yearyear.Year; break;
+                case 10: montha = "October";month1 = 10; month2 = 11; year1 = datenow.Year; year2 = yearyear.Year; break;
+                case 11: montha = "November";month1 = 11; month2 = 12; year1 = datenow.Year; year2 = yearyear.Year; break;
+                case 12: montha = "December";month1 = 12; month2 = 1; year1 = datenow.Year; year2 = yearyear.Year; break;
+            }
+            string yeara = datenow.Year.ToString();
             pickm.Title = montha;
             picky.Title = yeara;
             showmonth = montha;
             showyear = yeara;
-            month1 = 1;
-            month2 = 2;
-            year1 = 2017;
-            year2 = 2018;
+            //month1 = 1;
+            //month2 = 2;
+            //year1 = 2017;
+            //year2 = 2018;
         }
         private void pickm_SelectedIndexChanged(object sender, EventArgs e)
         {

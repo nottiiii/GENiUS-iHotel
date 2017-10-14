@@ -18,7 +18,16 @@ namespace Ihotelreport {
         private global::Xamarin.Forms.StackLayout LoginEntriesStack;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label adate;
+        private global::Xamarin.Forms.DatePicker Datepick;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button Findtable;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button Findbar;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label showdate;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Grid gmenu;
@@ -45,7 +54,10 @@ namespace Ihotelreport {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MTD_Revenue));
             LoginEntriesStack = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.StackLayout>(this, "LoginEntriesStack");
-            adate = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.Label>(this, "adate");
+            Datepick = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.DatePicker>(this, "Datepick");
+            Findtable = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.Button>(this, "Findtable");
+            Findbar = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.Button>(this, "Findbar");
+            showdate = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.Label>(this, "showdate");
             gmenu = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.Grid>(this, "gmenu");
             listviewagency = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.ListView>(this, "listviewagency");
             sum = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.Grid>(this, "sum");

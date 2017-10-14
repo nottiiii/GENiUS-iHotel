@@ -16,23 +16,24 @@ namespace Ihotelreport
 
             Children.Add(new NationalityReport
 			{
-				Title = "TODAY",
+				Title = "",
                 BackgroundColor = Color.WhiteSmoke,
+                Icon = "todaywithicon1.png",
 			});
 
             Children.Add(new M_nationality
 			{
-				Title = "MONTH",
+				Title = "",
 				BackgroundColor = Color.WhiteSmoke,
+                Icon = "monthwithicon.png",
 			});
 
             Children.Add(new Y_nationality
 			{
-				Title = "YEAR",
+				Title = "",
 				BackgroundColor = Color.WhiteSmoke,
+                Icon = "yearwithicon.png",
 			});
-
-
 
 			this.SelectedItem = Children[0];
 		}

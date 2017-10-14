@@ -4,41 +4,45 @@
 
     <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" Spacing="0">
         <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" x:Name="OverralPage" IsVisible="true">
-            <Grid BackgroundColor="#DCDCDC">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="60"/>
-                    <ColumnDefinition Width="65"/>
-                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="92"/>
-                    <ColumnDefinition Width="92"/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="40"/>
-                </Grid.RowDefinitions>
+            <ScrollView Orientation="Horizontal" VerticalOptions="FillAndExpand">
+                <StackLayout  VerticalOptions="FillAndExpand" Orientation="Vertical">
+                    <Grid BackgroundColor="#DCDCDC">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60"/>
+                            <ColumnDefinition Width="65"/>
+                             <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="90"/>
+                            <ColumnDefinition Width="90"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40"/>
+                        </Grid.RowDefinitions>
 
-                <Label Text="Year :" Grid.Column="0" Grid.Row="0" FontSize="Medium" Margin="5,0,0,0" VerticalTextAlignment="Center"></Label>
-                <Picker x:Name="picky" Title="Select" Margin="0,0,0,0" Grid.Column="1" Grid.Row="0" SelectedIndexChanged="picky_SelectedIndexChanged">
-                <Picker.Items>
-                    <x:String>2015</x:String>
-                    <x:String >2016</x:String>
-                    <x:String>2017</x:String>
-                    <x:String>2018</x:String>
-                    <x:String>2019</x:String>
+                        <Label Text="Year :" Grid.Column="0" Grid.Row="0" FontSize="Medium" Margin="5,0,0,0" VerticalTextAlignment="Center"></Label>
+                        <Picker x:Name="picky" Title="Select" Margin="0,0,0,0" Grid.Column="1" Grid.Row="0" SelectedIndexChanged="picky_SelectedIndexChanged">
+                        <Picker.Items>
+                            <x:String>2015</x:String>
+                            <x:String >2016</x:String>
+                            <x:String>2017</x:String>
+                            <x:String>2018</x:String>
+                            <x:String>2019</x:String>
 
-                    </Picker.Items>
-                </Picker>
-                <Button  Text="Room Night" Margin="2,0,0,0" Grid.Column="3" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13"  HeightRequest="37" WidthRequest="80" Clicked="RoomNight"></Button>
-                <Button  Text="Room Charge" Margin="0,0,2,0" Grid.Column="4" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13"  HeightRequest="37" WidthRequest="80" Clicked="RoomCharge"></Button>
+                            </Picker.Items>
+                        </Picker>
+                        <Button  Text="Room Night" Margin="2,0,0,0" Grid.Column="3" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13"  HeightRequest="37" WidthRequest="80" Clicked="RoomNight"></Button>
+                        <Button  Text="Room Charge" Margin="0,0,2,0" Grid.Column="4" Grid.Row="0" BackgroundColor="#FF9900" TextColor="White" FontSize="13"  HeightRequest="37" WidthRequest="80" Clicked="RoomCharge"></Button>
 
-            </Grid>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
 
                 <Label x:Name="monthOverral" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0"></Label>
                 <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" Margin="0,0,0,0">
                     <Grid BackgroundColor="#FF9900" Margin="0,0,0,0">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="150"/>
                             <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="60"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="30"/>
                         
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
@@ -57,16 +61,16 @@
                                         <ViewCell>
                                             <Grid BackgroundColor="White" Margin="0,0,0,0">
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="150"/>
                                                     <ColumnDefinition Width="*"/>
-                                                    <ColumnDefinition Width="60"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="30"/>
                                                 </Grid.ColumnDefinitions>
                                                 <Grid.RowDefinitions>
-                                                    <RowDefinition Height="20"/>
+                                                    <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
-                                                <Label Grid.Column="0" Text="{Binding name}"   Margin="5,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="Start"></Label>  
-                                                <Label Grid.Column="1" Text="{Binding total}"   Margin="0,0,30,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End"></Label>
-                                                <Label Grid.Column="2" Text="Detail >>"   Margin="0,0,5,0" TextColor="#007AFF" FontSize="Micro" HorizontalTextAlignment="End"></Label>
+                                                <Label Grid.Column="0" Text="{Binding name}"   Margin="5,0,0,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>  
+                                                <Label Grid.Column="1" Text="{Binding total}"   Margin="0,0,30,0" TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+                                                <Label Grid.Column="2" Text="ⓘ"   Margin="0,0,5,0" TextColor="#007AFF" FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
 
                                             </Grid>
                                         </ViewCell>
@@ -77,17 +81,18 @@
                     </ScrollView>
                     <Grid BackgroundColor="#FF9900" Margin="0,0,0,0">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="150"/>
                             <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="60"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="30"/>
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="20"/>
                         </Grid.RowDefinitions>
 
-                        <Label Text="Overall Total" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Margin="5,0,0,0" Grid.Column="0" Grid.Row="0" FontSize="Small" ></Label>
-                        <Label x:Name="overralTotal" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Margin="0,0,30,0" Grid.Column="1" Grid.Row="0" FontSize="Small" ></Label>
+                        <Label Text="Overall Total" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Margin="5,0,0,0" Grid.Column="0" Grid.Row="0" Font="Bold,14" ></Label>
+                        <Label x:Name="overralTotal" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Margin="0,0,30,0" Grid.Column="1" Grid.Row="0" Font="Bold,14" ></Label>
                         <Label Text="" Grid.Row="0" Grid.Column="2"></Label>
+
                     </Grid>
                 </StackLayout> 
             </StackLayout>
@@ -98,23 +103,22 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="80"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="80"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="40"/>
                 </Grid.RowDefinitions>
 
                 <Button Text="Back" Grid.Row="0" Grid.Column="0" BackgroundColor="#FF9900" TextColor="White" Clicked="Back" Margin="2,0,0,0"></Button>
-                <Label x:Name="detailAgency" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Label x:Name="detailAgency" Grid.Row="0" Grid.Column="1" FontSize="Small" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
                 
             </Grid>
             <Label x:Name="monthDetail" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0"></Label>
             <Grid BackgroundColor="#FF9900" Margin="0,0,0,0">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="40"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="40"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="20"/>
@@ -135,16 +139,16 @@
                                         <Grid BackgroundColor="White" RowSpacing="0" >
 
                                             <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="60"/>
+                                                <ColumnDefinition Width="40"/>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="*"/>
-                                                <ColumnDefinition Width="60"/>
+                                                <ColumnDefinition Width="40"/>
                                             </Grid.ColumnDefinitions>
                                             <Grid.RowDefinitions>
-                                                <RowDefinition Height="20"/>
+                                                <RowDefinition Height="30"/>
                                             </Grid.RowDefinitions>
-                                            <Label Text="{Binding date}"   Grid.Row="0" Grid.Column="1" FontSize="Small" TextColor="Black" HorizontalTextAlignment="Start" Margin="0,0,0,0"/>
-                                            <Label Text="{Binding total}"  Grid.Row="0" Grid.Column="2" FontSize="Small" TextColor="Black" HorizontalTextAlignment="End" Margin="0,0,0,0"/>
+                                            <Label Text="{Binding date}"   Grid.Row="0" Grid.Column="1" FontSize="Small" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="0,0,0,0"/>
+                                            <Label Text="{Binding total}"  Grid.Row="0" Grid.Column="2" FontSize="Small" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0"/>
 
                                         </Grid>
                                     </ViewCell>
@@ -157,17 +161,17 @@
 
             <Grid BackgroundColor="#FF9900" Margin="0,0,0,0">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="40"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="40"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="20"/>
                 </Grid.RowDefinitions>
 
-                <Label Text="Overall Total" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Margin="0,0,0,0" Grid.Column="1" Grid.Row="0" FontSize="Small" ></Label>
-                <Label x:Name="detailTotal" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Margin="0,0,0,0" Grid.Column="2" Grid.Row="0" FontSize="Small" ></Label>
+                <Label Text="Overall Total" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Margin="0,0,0,0" Grid.Column="1" Grid.Row="0" Font="Bold,14" ></Label>
+                <Label x:Name="detailTotal" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Margin="0,0,0,0" Grid.Column="2" Grid.Row="0" Font="Bold,14" ></Label>
 
             </Grid>
         </StackLayout>

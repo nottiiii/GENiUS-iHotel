@@ -16,14 +16,17 @@ namespace Ihotelreport
 
 			Children.Add(new Compare
 			{
-				Title = "MONTHLY",
+				Title = "",
 				BackgroundColor = Color.WhiteSmoke,
+                Icon = "monthlywithicon.png"
+
 			});
 
 			Children.Add(new Y_Compare
 			{
-				Title = "YEARLY",
+				Title = "",
 				BackgroundColor = Color.WhiteSmoke,
+                Icon = "yearlywithicon.png"
 			});
 			this.SelectedItem = Children[0];
 		}

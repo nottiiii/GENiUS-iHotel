@@ -10,18 +10,11 @@ namespace Ihotelreport.Pages
     public class MenuPage : ContentPage
     {
         public ListView Menu { get; set; }
-        
-
         public MenuPage()
         {
-            Title = "Menu";
+            Title = "☰";
             BackgroundColor = Color.FromHex("FF9933");
-            
-
             Menu = new MenuListView();
-            
-
-
             var menuLabel = new ContentView
             {
                 Padding = new Thickness(10, 17, 0, 5),

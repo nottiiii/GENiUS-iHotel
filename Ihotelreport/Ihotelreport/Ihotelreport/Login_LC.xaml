@@ -2,43 +2,45 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ihotelreport.Login_LC"
-             Title="LoginLicense">
+             Title="Hotel License Login" NavigationPage.BackButtonTitle="">
     <StackLayout x:Name="MasterLayout">
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">  
+            <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+                <StackLayout x:Name="LoginEntriesStack" VerticalOptions="StartAndExpand">
+                    <StackLayout>
+                        <StackLayout.Padding>
+                            <OnIdiom x:TypeArguments="Thickness">
+                                <OnIdiom.Phone>40,0,40,0</OnIdiom.Phone>
+                                <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
+                            </OnIdiom>
+                        </StackLayout.Padding>
 
-        <!--<StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
-            <Image x:Name="LoginIcon1" Source="LoginIcon1.png" Margin="20,60,20,0" WidthRequest = "30" HeightRequest = "30" MinimumHeightRequest = "30" MinimumWidthRequest = "30" />
-        </StackLayout>-->
+                        <Image x:Name="LoginIcon1" Source="LoginIcon.png" Margin="20,60,20,0" WidthRequest = "30" HeightRequest = "30" MinimumHeightRequest = "30" MinimumWidthRequest = "30" />
+                        <Label x:Name="Lbl_Username" Text="Hotel License Name" FontSize = "18"/>
+                        <Entry x:Name="Entry_Username" Text=""  Placeholder="Enter your Hotel License Name" />
+                        <Label x:Name="Lbl_Password" Text="Hotel Password" FontSize = "18" Margin="0,10,0,0"/>
+                        <Entry x:Name="Entry_Password" Text="" Placeholder="Enter your Hotel Password" IsPassword="true"/>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height = "30"/>
+                                <RowDefinition Height = "30"/>
+                            </Grid.RowDefinitions>
+                            <Switch Grid.Column="0" Grid.Row="0" Toggled="Switch_Toggled" Margin="0,5,0,0" ></Switch>
+                            <Label Grid.Column="1" Grid.Row="0" Text="Show Your Password" FontSize = "15" Margin="0,10,0,0" TextColor="#ffffff"/>
+                            <Switch Grid.Column="0" Grid.Row="1" Toggled="Switch_Toggled2" Margin="0,5,0,0" x:Name="saved"></Switch>
+                            <Label Grid.Column="1" Grid.Row="1" Text="Remember me" FontSize = "15" Margin="0,10,0,0" TextColor="#ffffff"/>
+                        </Grid>
+                        <Button x:Name="Btn_Signin" Text=" Sign in" Clicked="SignInPrecedure"  BackgroundColor="White" TextColor="Black" Margin="0,20,0,0"/>
 
-        <StackLayout x:Name="LoginEntriesStack" VerticalOptions="StartAndExpand">
-            <StackLayout>
-                <StackLayout.Padding>
-                    <OnIdiom x:TypeArguments="Thickness">
-                        <OnIdiom.Phone>40,0,40,0</OnIdiom.Phone>
-                        <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
-                    </OnIdiom>
-                </StackLayout.Padding>
-
-                <Image x:Name="LoginIcon1" Source="LoginIcon.png" Margin="20,60,20,0" WidthRequest = "30" HeightRequest = "30" MinimumHeightRequest = "30" MinimumWidthRequest = "30" />
-                <Label x:Name="Lbl_Username" Text="Hotel License Name" FontSize = "18"/>
-                <Entry x:Name="Entry_Username" Text=""  Placeholder="Enter your Hotel License Name" />
-                <Label x:Name="Lbl_Password" Text="Hotel Password" FontSize = "18" Margin="0,10,0,0"/>
-                <Entry x:Name="Entry_Password" Text="" Placeholder="Enter your Hotel Password" IsPassword="true"/>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="60"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height = "30"/>
-                    </Grid.RowDefinitions>  
-                    <Switch Grid.Column="0" Grid.Row="0" Toggled="Switch_Toggled" Margin="0,5,0,0" ></Switch>
-                    <Label Grid.Column="1" Grid.Row="0" Text="Show Your Password" FontSize = "15" Margin="0,10,0,0" TextColor="#ffffff"/>
-                </Grid>
-                <Button x:Name="Btn_Signin" Text=" Sign in" Clicked="SignInPrecedure"  BackgroundColor="White" TextColor="Black" Margin="0,20,0,0"/>
-
-                <ActivityIndicator x:Name="act" Color="Gray" IsRunning="False" />
-                <Label x:Name="Lbl_Pa" Text="" FontSize = "18" Margin="0,10,0,0"/>
+                        <ActivityIndicator x:Name="act" Color="Gray" IsRunning="False" />
+<!--                        <Label x:Name="Lbl_Pa" Text="" FontSize = "18" Margin="0,10,0,0"/>-->
+                    </StackLayout>
+                </StackLayout>
             </StackLayout>
-        </StackLayout>
+        </ScrollView>
     </StackLayout>
 </ContentPage>

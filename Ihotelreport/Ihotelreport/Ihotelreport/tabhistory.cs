@@ -16,16 +16,18 @@ namespace Ihotelreport
 
             Children.Add(new History
             {
-                Title = "History",
+                Title = "",
                 BackgroundColor = Color.WhiteSmoke,
+                Icon = "history.png"
 
 
             });
 
             Children.Add(new Forcast
             {
-                Title = "Forecast",
+                Title = "",
                 BackgroundColor = Color.WhiteSmoke,
+                Icon = "forecast.png"
             });
 
 

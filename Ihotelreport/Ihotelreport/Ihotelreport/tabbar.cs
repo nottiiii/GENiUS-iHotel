@@ -16,19 +16,22 @@ namespace Ihotelreport
 
             Children.Add(new Revenuereport
             {
-                Title = "TODAY",
+                Title = "",
                 BackgroundColor = Color.WhiteSmoke,
+                Icon = "todaywithicon1.png"
             });
 
             Children.Add(new MTD_Revenue
             {
-                Title = "MTD",
+                Title = "",
                 BackgroundColor = Color.WhiteSmoke,
+                Icon = "mtdwithicon.png"
             });
             Children.Add(new YTD_Revenue
             {
-                Title = "YTD",
+                Title = "",
                 BackgroundColor = Color.WhiteSmoke,
+                Icon = "ytdwithicon.png"
             });
 
 
@@ -42,23 +45,26 @@ namespace Ihotelreport
         public tabbargtoday()
         {
             this.Title = "Revenue By Folio";
+			NavigationPage.SetBackButtonTitle(this, "Home");
 
-
-            Children.Add(new ColumnChart0
+			Children.Add(new ColumnChart0
             {
-                Title = "TODAY",
+                Title = "",
                 BackgroundColor = Color.WhiteSmoke,
-            });
+                Icon = "todaywithicon1.png"
+    		});
 
             Children.Add(new ColumnChart1
             {
-                Title = "MTD",
+                Title = "",
                 BackgroundColor = Color.WhiteSmoke,
+                Icon = "mtdwithicon.png"
             });
             Children.Add(new ColumnChart2
             {
-                Title = "YTD",
+                Title = "",
                 BackgroundColor = Color.WhiteSmoke,
+                Icon = "ytdwithicon.png"
             });
 
 

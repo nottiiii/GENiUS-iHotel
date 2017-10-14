@@ -4,7 +4,7 @@
 		x:Class="Ihotelreport.ColumnChart0"
 		xmlns:local="clr-namespace:Ihotelreport;assembly=Ihotelreport"
 		xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
-    Title="Revenue By Folio" BackgroundColor="NavajoWhite">	
+    Title="Revenue By Folio" BackgroundColor="NavajoWhite" NavigationPage.BackButtonTitle="">	
 
   <local:SampleView0.BindingContext>
     <local:ColumnSeriesViewModel0 />

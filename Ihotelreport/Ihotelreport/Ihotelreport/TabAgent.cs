@@ -16,13 +16,15 @@ namespace Ihotelreport
 
             Children.Add(new AgencyRoom
 			{
-				Title = "MONTHLY",
+				Title = "",
+                Icon = "monthlywithicon.png",
                 BackgroundColor = Color.WhiteSmoke,
 			});
 
             Children.Add(new Y_AgencyRoom
 			{
-				Title = "YEARLY",
+				Title = "",
+                Icon = "yearlywithicon.png",
                 BackgroundColor = Color.WhiteSmoke,
 			});
 			this.SelectedItem = Children[0];

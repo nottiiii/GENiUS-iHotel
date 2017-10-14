@@ -38,6 +38,7 @@ namespace Ihotelreport
             {
                 string dateends = Application.Current.Properties["Datetodayfoliog"].ToString();
                 string datestart = Application.Current.Properties["Dateyearfoliog"].ToString();
+                string szServer = App.Current.Properties["szServer"].ToString();
 
                 ColumnData1 = new ObservableCollection<ChartDataModel>();
                 ColumnData2 = new ObservableCollection<ChartDataModel>();
@@ -45,7 +46,7 @@ namespace Ihotelreport
                 //ColumnData4 = new ObservableCollection<ChartDataModel>();
 
                 var client = new System.Net.Http.HttpClient();
-                var response = await client.GetStringAsync("http://hotelsoftware.in.th/Webrestful/api/Revenue_folio/Getrevenuefoliomonth?szHotelDB=" + database + "&szDate1=" + datestart + "&szDate2=" + dateends + "&szDeviceCode=1234");
+                var response = await client.GetStringAsync("http://hotelsoftware.in.th/Webrestful/api/Revenue_folio/Getrevenuefoliomonth?szHotelDB=" + database +"&szServer=" + szServer + "&szDate1=" + datestart + "&szDate2=" + dateends + "&szDeviceCode=1234");
 
 
                 var Items = JsonConvert.DeserializeObject<RootObjectrevenue>(response);

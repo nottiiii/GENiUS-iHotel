@@ -38,13 +38,14 @@ namespace Ihotelreport
             Task.Run(async () =>
             {
                 string datepick = Application.Current.Properties["Datetodayfoliog"].ToString();
+                string szServer = App.Current.Properties["szServer"].ToString();
                 ColumnData1 = new ObservableCollection<ChartDataModel>();
                 ColumnData2 = new ObservableCollection<ChartDataModel>();
                 ColumnData3 = new ObservableCollection<ChartDataModel>();
                 //ColumnData4 = new ObservableCollection<ChartDataModel>();
 
                 var client = new System.Net.Http.HttpClient();
-                var response = await client.GetStringAsync("http://hotelsoftware.in.th/Webrestful/api/Revenue_folio/Getrevenuefoliotoday?szHotelDB=" + database + "&szDate1=" + datepick + "&szDeviceCode=1234");
+                var response = await client.GetStringAsync("http://hotelsoftware.in.th/Webrestful/api/Revenue_folio/Getrevenuefoliotoday?szHotelDB=" + database +"&szServer=" + szServer + "&szDate1=" + datepick + "&szDeviceCode=1234");
 
                 var Items = JsonConvert.DeserializeObject<RootObjectrevenue>(response);
 

@@ -14,9 +14,6 @@
                 </Grid.RowDefinitions>
 
                 <Label x:Name="date11" TextColor="Black" FontSize="Large" HorizontalOptions="Center"></Label>
-
-
-
             </Grid>
 
             <Grid Margin="0,20,0,0">
@@ -52,10 +49,8 @@
                 <Label x:Name="L_ABF" Text="" FontSize="Large" BackgroundColor="#00CC33" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,0,0" Grid.Column="1" Grid.Row="5" HeightRequest="50"></Label>
                 <Label Text="Person " FontSize="Medium" BackgroundColor="#00CC33" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"   Margin="0,0,5,0" Grid.Column="2" Grid.Row="5" HeightRequest="50"></Label>
 
-
             </Grid>
             <ActivityIndicator x:Name="act" Color="Gray" IsRunning="False" />
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

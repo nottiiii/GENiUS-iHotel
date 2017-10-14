@@ -17,7 +17,7 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <JavaMaximumHeapSize />
@@ -48,32 +48,14 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Cross.Pie.Forms">
-      <HintPath>..\..\..\..\..\Cross.Pie.Forms-2.0\lib\android\Cross.Pie.Forms.dll</HintPath>
-    </Reference>
-    <Reference Include="Cross.Pie.Forms.Sample">
-      <HintPath>..\..\..\..\..\Cover Dance\Ihotelreport - Copy0 - Copy\Ihotelreport\Ihotelreport.Android\bin\Debug\Cross.Pie.Forms.Sample.dll</HintPath>
-    </Reference>
     <Reference Include="FormsViewGroup, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="NControl">
-      <HintPath>..\..\..\..\..\Cover Dance\Ihotelreport - Copy0 - Copy\Ihotelreport\Ihotelreport.Android\bin\Debug\NControl.dll</HintPath>
-    </Reference>
-    <Reference Include="NControl.Droid">
-      <HintPath>..\..\..\..\..\Cover Dance\Ihotelreport - Copy0 - Copy\Ihotelreport\Ihotelreport.Android\bin\Debug\NControl.Droid.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Newtonsoft.Json.10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="NGraphics">
-      <HintPath>..\..\..\..\..\Cover Dance\Ihotelreport - Copy0 - Copy\Ihotelreport\Ihotelreport.Android\bin\Debug\NGraphics.dll</HintPath>
-    </Reference>
-    <Reference Include="NGraphics.Android">
-      <HintPath>..\..\..\..\..\Cover Dance\Ihotelreport - Copy0 - Copy\Ihotelreport\Ihotelreport.Android\bin\Debug\NGraphics.Android.dll</HintPath>
     </Reference>
     <Reference Include="Plugin.Connectivity, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xam.Plugin.Connectivity.3.0.1\lib\MonoAndroid10\Plugin.Connectivity.dll</HintPath>
@@ -83,237 +65,6 @@
     </Reference>
     <Reference Include="SampleBrowser">
       <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\sample\Forms\SampleBrowser\SampleBrowser\bin\Debug\SampleBrowser.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Calculate.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.Calculate.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Core.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.Core.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Linq.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.Linq.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfAutoComplete.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfAutoComplete.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfAutoComplete.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfAutoComplete.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfAutoComplete.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfAutoComplete.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfBarcode.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfBarcode.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfBarcode.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfBarcode.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfBarcode.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfBarcode.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfBusyIndicator.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfBusyIndicator.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfBusyIndicator.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfBusyIndicator.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfBusyIndicator.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfBusyIndicator.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfCalendar.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfCalendar.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfCalendar.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfCalendar.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfCalendar.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfCalendar.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfCarousel.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfCarousel.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfCarousel.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfCarousel.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfCarousel.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfCarousel.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfChart.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfChart.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfChart.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfDataGrid.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfDataGrid.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfDataGrid.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfDataGrid.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfDataGrid.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfDataGrid.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfGauge.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfGauge.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfGauge.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfGauge.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfGauge.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfGauge.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfGridConverter.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfGridConverter.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfGridConverter.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfGridConverter.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfImageEditor.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfImageEditor.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfImageEditor.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfImageEditor.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfImageEditor.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfImageEditor.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfKanban.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfKanban.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfKanban.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfKanban.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfKanban.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfKanban.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfListView.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfListView.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfListView.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfListView.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfMaps.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfMaps.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfMaps.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfMaps.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfMaps.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfMaps.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNavigationDrawer.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfNavigationDrawer.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNavigationDrawer.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfNavigationDrawer.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNavigationDrawer.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfNavigationDrawer.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNumericTextBox.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfNumericTextBox.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNumericTextBox.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfNumericTextBox.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNumericTextBox.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfNumericTextBox.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNumericUpDown.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfNumericUpDown.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNumericUpDown.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfNumericUpDown.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfNumericUpDown.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfNumericUpDown.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfPdfViewer.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfPdfViewer.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfPdfViewer.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfPdfViewer.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfPdfViewer.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfPdfViewer.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfPullToRefresh.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfPullToRefresh.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfPullToRefresh.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfPullToRefresh.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfPullToRefresh.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfPullToRefresh.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRadialMenu.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfRadialMenu.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRangeSlider.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfRangeSlider.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRangeSlider.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfRangeSlider.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRangeSlider.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfRangeSlider.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRating.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfRating.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRating.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfRating.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRating.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfRating.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRotator.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfRotator.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRotator.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfRotator.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfRotator.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfRotator.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSchedule.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfSchedule.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSchedule.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfSchedule.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSchedule.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfSchedule.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSparkline.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfSparkline.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSparkline.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfSparkline.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSparkline.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfSparkline.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSunburstChart.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfSunburstChart.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSunburstChart.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfSunburstChart.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfSunburstChart.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfSunburstChart.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfTreeMap.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfTreeMap.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfTreeMap.XForms">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfTreeMap.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfTreeMap.XForms.Android">
-      <HintPath>..\..\..\..\..\Syncfusion\15.2.0.40\Xamarin\lib\android\Syncfusion.SfTreeMap.XForms.Android.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -366,6 +117,289 @@
     <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="Cross.Pie.Forms">
+      <HintPath>..\..\Cross.Pie.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Cross.Pie.Forms.Sample">
+      <HintPath>bin\Debug\Cross.Pie.Forms.Sample.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfListView.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfListView.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGauge.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfGauge.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGauge.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfGauge.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfDataGrid.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfDataGrid.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfBusyIndicator.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfBusyIndicator.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNavigationDrawer.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfNavigationDrawer.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRating.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCalendar.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfCalendar.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfBusyIndicator.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCalendar.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfCalendar.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCalendar.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfCalendar.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfImageEditor.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfImageEditor.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfImageEditor.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfImageEditor.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfImageEditor.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfImageEditor.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPullToRefresh.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfPullToRefresh.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPullToRefresh.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfPullToRefresh.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericUpDown.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericUpDown.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericTextBox.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericTextBox.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericTextBox.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericTextBox.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericTextBox.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericTextBox.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSunburstChart.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSunburstChart.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSunburstChart.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfSunburstChart.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSunburstChart.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSunburstChart.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfDataGrid.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSchedule.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSchedule.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSchedule.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfSchedule.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSchedule.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSchedule.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfKanban.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfKanban.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfKanban.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfKanban.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSparkline.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSparkline.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSparkline.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfSparkline.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeMap.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfTreeMap.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeMap.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfTreeMap.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfChart.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfChart.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Core.XForms">
+      <HintPath>..\..\..\android\Syncfusion.Core.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfMaps.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfMaps.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfMaps.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfMaps.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfMaps.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfMaps.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeMap.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfTreeMap.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGauge.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfGauge.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPdfViewer.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfPdfViewer.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPdfViewer.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfPdfViewer.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPdfViewer.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfPdfViewer.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRating.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfRating.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGridConverter.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfGridConverter.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGridConverter.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfGridConverter.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRotator.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRotator.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRotator.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfRotator.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfCarousel.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfCarousel.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfAutoComplete.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfAutoComplete.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRangeSlider.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRangeSlider.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRangeSlider.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfRangeSlider.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfBarcode.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfBarcode.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSparkline.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSparkline.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRadialMenu.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRadialMenu.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfKanban.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfKanban.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Calculate.Android">
+      <HintPath>..\..\..\android\Syncfusion.Calculate.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPullToRefresh.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfPullToRefresh.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRotator.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRotator.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericUpDown.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfCarousel.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNavigationDrawer.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfAutoComplete.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Linq.Android">
+      <HintPath>..\..\..\android\Syncfusion.Linq.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRangeSlider.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRangeSlider.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfBarcode.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfChart.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="NGraphics.Android">
+      <HintPath>..\..\packages\NGraphics.0.4.0\lib\MonoAndroid10\NGraphics.Android.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NGraphics">
+      <HintPath>..\..\packages\NGraphics.0.4.0\lib\MonoAndroid10\NGraphics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NControl">
+      <HintPath>..\..\packages\NControl.0.9.1.0\lib\MonoAndroid10\NControl.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NControl.Droid">
+      <HintPath>..\..\packages\NControl.0.9.1.0\lib\MonoAndroid10\NControl.Droid.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Calculate.Portable">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.Calculate.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DataSource.Portable">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.DataSource.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Data.Portable">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.Data.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.GridCommon.Portable">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.GridCommon.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.XlsIO.Portable">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.XlsIO.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Portable">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.Pdf.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DocIO.Portable">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.DocIO.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Presentation.Portable">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.Presentation.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.OfficeChart.Portable">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.OfficeChart.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Compression.Portable">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.Compression.Portable.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -394,7 +428,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ihotelreport\Ihotelreport.csproj">
-      <Project>{f3ca867d-3cd7-45bd-917d-217f422027ad}</Project>
+      <Project>{F40B669B-8A5C-4633-9D0F-94EBA8DB162C}</Project>
       <Name>Ihotelreport</Name>
     </ProjectReference>
   </ItemGroup>

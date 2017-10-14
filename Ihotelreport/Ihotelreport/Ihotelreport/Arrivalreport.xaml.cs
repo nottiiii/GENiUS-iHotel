@@ -17,6 +17,7 @@ namespace Ihotelreport
     public partial class Arrivalreport : ContentPage
     {
         string datepick = "";
+        string szServer = Application.Current.Properties["szServer"].ToString();
         string database = Application.Current.Properties["Database"].ToString();
         string date = Application.Current.Properties["datenow"].ToString();
         public Arrivalreport()
@@ -64,41 +65,48 @@ namespace Ihotelreport
            
 
             var client = new System.Net.Http.HttpClient();
-            var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Arrival_Departure/Arrival?szHotelDB=" + database + "&szDate=" + datepick + "&szDeviceCode=1234");
-            string contactsJson = response.Content.ReadAsStringAsync().Result;
-
-            var Items = JsonConvert.DeserializeObject<RootObjectArrde>(contactsJson);
-
-            int count = Items.dataResult.Count;
-            decimal sumrate = 0;
-            decimal sumabf = 0;
-
-            int[] arrpax = new int[Items.dataResult.Count];
-            int[] arrpax2 = new int[Items.dataResult.Count];
-
-            int i = 0;
-            foreach (var aaa in Items.dataResult)
+            try
             {
-                sumrate += Convert.ToDecimal(aaa.R_Rate);
-                sumabf += Convert.ToDecimal(aaa.ABF);
+                var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Arrival_Departure/Arrival?szHotelDB=" + database + "&szServer=" + szServer + "&szDate=" + datepick + "&szDeviceCode=1234");
+                string contactsJson = response.Content.ReadAsStringAsync().Result;
 
-                string[] words = aaa.Pax.Split('/');
-                for (int j = 0; j < words.Length; j++)
+                var Items = JsonConvert.DeserializeObject<RootObjectArrde>(contactsJson);
+
+                int count = Items.dataResult.Count;
+                decimal sumrate = 0;
+                decimal sumabf = 0;
+
+                int[] arrpax = new int[Items.dataResult.Count];
+                int[] arrpax2 = new int[Items.dataResult.Count];
+
+                int i = 0;
+                foreach (var aaa in Items.dataResult)
                 {
-                    arrpax[i] = Convert.ToInt16(words[0]);
-                    arrpax2[i] = Convert.ToInt16(words[1]);
+                    sumrate += Convert.ToDecimal(aaa.R_Rate);
+                    sumabf += Convert.ToDecimal(aaa.ABF);
+
+                    string[] words = aaa.Pax.Split('/');
+                    for (int j = 0; j < words.Length; j++)
+                    {
+                        arrpax[i] = Convert.ToInt16(words[0]);
+                        arrpax2[i] = Convert.ToInt16(words[1]);
+                    }
+                    i++;
                 }
-                i++;
-            }
 
-            string sumpax = arrpax.Sum() + "/" + arrpax2.Sum();
-            countItem.Text = count.ToString();
-            sumratela.Text = sumrate.ToString("N");
-            sumabfla.Text = sumabf.ToString("N");
-            sumpaxla.Text = sumpax.ToString();
+                string sumpax = arrpax.Sum() + "/" + arrpax2.Sum();
+                countItem.Text = count.ToString();
+                sumratela.Text = sumrate.ToString("N");
+                sumabfla.Text = sumabf.ToString("N");
+                sumpaxla.Text = sumpax.ToString();
 
-            listviewConactarr.ItemsSource = Items.dataResult;
-
+                listviewConactarr.ItemsSource = Items.dataResult;
+			}
+			catch (Exception e)
+			{
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
+			}
             //act.IsRunning = false;
         }
         public async void GetJSONde()
@@ -109,42 +117,49 @@ namespace Ihotelreport
             gsum.IsVisible = true;
 
             var client = new System.Net.Http.HttpClient();
-            var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Arrival_Departure/Departure?szHotelDB=" + database + "&szDate=" + datepick + "&szDeviceCode=1234");
-            string contactsJson = response.Content.ReadAsStringAsync().Result;
-
-            var Items = JsonConvert.DeserializeObject<RootObjectArrde>(contactsJson);
-
-            int count = Items.dataResult.Count;
-            decimal sumrate = 0;
-            decimal sumabf = 0;
-
-            int[] arrpax = new int[Items.dataResult.Count];
-            int[] arrpax2 = new int[Items.dataResult.Count];
-            int i = 0;
-            foreach (var aaa in Items.dataResult)
+            try
             {
-                sumrate += Convert.ToDecimal(aaa.R_Rate);
-                sumabf += Convert.ToDecimal(aaa.ABF);
+                var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Arrival_Departure/Departure?szHotelDB=" + database + "&szServer=" + szServer + "&szDate=" + datepick + "&szDeviceCode=1234");
+                string contactsJson = response.Content.ReadAsStringAsync().Result;
 
-                string[] words = aaa.Pax.Split('/');
-                for (int j = 0; j < words.Length; j++)
+                var Items = JsonConvert.DeserializeObject<RootObjectArrde>(contactsJson);
+
+                int count = Items.dataResult.Count;
+                decimal sumrate = 0;
+                decimal sumabf = 0;
+
+                int[] arrpax = new int[Items.dataResult.Count];
+                int[] arrpax2 = new int[Items.dataResult.Count];
+                int i = 0;
+                foreach (var aaa in Items.dataResult)
                 {
-                    arrpax[i] = Convert.ToInt16(words[0]);
-                    arrpax2[i] = Convert.ToInt16(words[1]);
+                    sumrate += Convert.ToDecimal(aaa.R_Rate);
+                    sumabf += Convert.ToDecimal(aaa.ABF);
+
+                    string[] words = aaa.Pax.Split('/');
+                    for (int j = 0; j < words.Length; j++)
+                    {
+                        arrpax[i] = Convert.ToInt16(words[0]);
+                        arrpax2[i] = Convert.ToInt16(words[1]);
+                    }
+
+                    i++;
                 }
 
-                i++;
-            }
 
+                string sumpax = arrpax.Sum() + "/" + arrpax2.Sum();
+                countItem.Text = count.ToString();
+                sumratela.Text = sumrate.ToString("N");
+                sumabfla.Text = sumabf.ToString("N");
+                sumpaxla.Text = sumpax;
 
-            string sumpax = arrpax.Sum() + "/" + arrpax2.Sum();
-            countItem.Text = count.ToString();
-            sumratela.Text = sumrate.ToString("N");
-            sumabfla.Text = sumabf.ToString("N");
-            sumpaxla.Text = sumpax;
-
-            listviewConactarr.ItemsSource = Items.dataResult;
-
+                listviewConactarr.ItemsSource = Items.dataResult;
+			}
+			catch (Exception e)
+			{
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
+			}
            // act.IsRunning = false;
         }
     }

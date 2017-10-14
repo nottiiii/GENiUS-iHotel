@@ -8,8 +8,8 @@
         <Grid.ColumnDefinitions>
              <ColumnDefinition Width="60"/>    
             <ColumnDefinition Width="170"/>
-            <ColumnDefinition Width="50"/>
-            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="*"/>
+
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
@@ -19,7 +19,7 @@
         <Label  x:Name="startDate" Grid.Column="1"  Grid.Row="0" Margin="0,10,0,0"></Label>
 <!--        <Label Text="" Grid.Row="0" Grid.Column="2"></Label>-->
         <ActivityIndicator x:Name="Busy" Color="Gray" IsRunning="False" Grid.Row="0" Grid.Column="2"/>
-        <Button BackgroundColor="#FF9900" FontSize="13" TextColor="White" Text="Search" x:Name='findForecast' Grid.Column = "3" Grid.Row = "0" Margin="0,0,2,0" ></Button>
+
         </Grid>
 
     <ScrollView Orientation="Horizontal" VerticalOptions="FillAndExpand">
@@ -71,15 +71,15 @@
                                                 <RowDefinition Height="20"/>
                                             </Grid.RowDefinitions>
 
-                                            <Label Text="{Binding RoomType}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Start" Margin="5,0,0,0" />
-                                            <Label Text="{Binding TotalRoom}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End"  VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day1}"   Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day2}"   Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day3}"   Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day4}"   Grid.Row="0" Grid.Column="5" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day5}"   Grid.Row="0" Grid.Column="6" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day6}"   Grid.Row="0" Grid.Column="7" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day7}"   Grid.Row="0" Grid.Column="8" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,5,0" />
+                                            <Label Text="{Binding RoomType}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center" Margin="5,0,0,0" />
+                                            <Label Text="{Binding TotalRoom}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End"  VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day1}"   Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day2}"   Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day3}"   Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day4}"   Grid.Row="0" Grid.Column="5" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day5}"   Grid.Row="0" Grid.Column="6" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day6}"   Grid.Row="0" Grid.Column="7" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day7}"   Grid.Row="0" Grid.Column="8" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,5,0" />
                                             
                                         </Grid>
                                     </ViewCell>
@@ -117,15 +117,15 @@
                                             <Grid.RowDefinitions>
                                                 <RowDefinition Height="20"/>
                                             </Grid.RowDefinitions>
-                                            <Label Text="{Binding RoomType}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" Margin="5,0,0,0" />
-                                            <Label Text="{Binding TotalRoom}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day1}"   Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day2}"   Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day3}"   Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day4}"   Grid.Row="0" Grid.Column="5" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day5}"   Grid.Row="0" Grid.Column="6" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day6}"   Grid.Row="0" Grid.Column="7" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,0,0" />
-                                            <Label Text="{Binding day7}"   Grid.Row="0" Grid.Column="8" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,5,0" />
+                                            <Label Text="{Binding RoomType}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0" />
+                                            <Label Text="{Binding TotalRoom}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day1}"   Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day2}"   Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day3}"   Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day4}"   Grid.Row="0" Grid.Column="5" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day5}"   Grid.Row="0" Grid.Column="6" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day6}"   Grid.Row="0" Grid.Column="7" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,0,0" />
+                                            <Label Text="{Binding day7}"   Grid.Row="0" Grid.Column="8" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,5,0" />
                                             
                                         </Grid>
                                     </ViewCell>

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Arrival / Departure List" BackgroundColor="WhiteSmoke"
              x:Class="Ihotelreport.Arrivalreport">
-    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
 
         <Grid BackgroundColor="#DCDCDC" ColumnSpacing="1">
             <Grid.RowDefinitions>
@@ -13,8 +13,8 @@
                 <ColumnDefinition Width="55"/>
                 <ColumnDefinition Width="125"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="80"/>
-                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
             <Label Text="Date :" Grid.Column="0" Grid.Row="0" FontSize="Medium" Margin="5,0,0,10" VerticalTextAlignment="End"></Label>
@@ -27,11 +27,11 @@
         <Label Text=""  x:Name="lala"   FontSize="15" Margin="5,0,0,0"/>
 
  <ScrollView Orientation="Horizontal" VerticalOptions="FillAndExpand">
-    <StackLayout VerticalOptions="FillAndExpand" Orientation="Vertical">
+    <StackLayout VerticalOptions="FillAndExpand" Orientation="Vertical" WidthRequest="600">
 
         <Grid BackgroundColor="#FF9900" Margin="0,0,0,0" x:Name="gmenu">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -54,12 +54,12 @@
         <!--<ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
             <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" Margin="0,0,0,0">-->
                 <ListView x:Name="listviewConactarr">
-                    <ListView.ItemTemplate>
+                    <ListView.ItemTemplate >
                         <DataTemplate>
                             <ViewCell>
-                                <Grid BackgroundColor="White" RowSpacing="3" >
+                                <Grid BackgroundColor="White" RowSpacing="3">
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="*"/>
@@ -67,12 +67,12 @@
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
 
-                                    <Label Text="{Binding AgencyName}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" Margin="5,0,0,0"/>
-                                    <Label Text="{Binding Roomno}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
-                                    <Label Text="{Binding Roomtype}"  Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
-                                    <Label Text="{Binding R_Rate}"  Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start"/>
-                                    <Label Text="{Binding ABF}"  Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start"/>
-                                    <Label Text="{Binding Pax}"  Grid.Row="0" Grid.Column="5" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Start" Margin="0,0,5,0"/>
+                                    <Label Text="{Binding AgencyName}"  Grid.Row="0" Grid.Column="0" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="5,0,0,0"/>
+                                    <Label Text="{Binding Roomno}"  Grid.Row="0" Grid.Column="1" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding Roomtype}"  Grid.Row="0" Grid.Column="2" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding R_Rate}"  Grid.Row="0" Grid.Column="3" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding ABF}"  Grid.Row="0" Grid.Column="4" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding Pax}"  Grid.Row="0" Grid.Column="5" FontSize="Micro" TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,0,5,0"/>
 
                                     <!--<BoxView HeightRequest="2" Margin="0,10,10,0" BackgroundColor="Gray" Grid.Row="3" HorizontalOptions="FillAndExpand" />-->
                                 </Grid>
@@ -85,7 +85,7 @@
             
         <Grid BackgroundColor="#FF9900" Margin="0,0,0,0" x:Name="gsum">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -97,12 +97,12 @@
                 <RowDefinition Height="20"/>
             </Grid.RowDefinitions>
 
-            <Label Grid.Column="0" Grid.Row="0" Text="Total"   TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="Start" Margin="5,0,0,0" VerticalTextAlignment="Center"></Label>
-            <Label Grid.Column="1" Grid.Row="0" Text=""  x:Name="countItem"   TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
-            <Label Grid.Column="2" Grid.Row="0" Text="Items"    TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
-            <Label Grid.Column="3" Grid.Row="0" Text="" x:Name="sumratela"    TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
-            <Label Grid.Column="4" Grid.Row="0" Text="" x:Name="sumabfla"    TextColor="#000000" FontSize="Micro" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
-            <Label Grid.Column="5" Grid.Row="0" Text="" x:Name="sumpaxla"   TextColor="#000000"  FontSize="Micro" HorizontalTextAlignment="End" Margin="0,0,5,0" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="0" Grid.Row="0" Text="Total" TextColor="#000000"  Font="Bold,14" HorizontalTextAlignment="Start" Margin="5,0,0,0" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="1" Grid.Row="0" Text=""  x:Name="countItem" TextColor="#000000"  Font="Bold,14" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="2" Grid.Row="0" Text="Items" TextColor="#000000"  Font="Bold,14" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="3" Grid.Row="0" Text="" x:Name="sumratela"  TextColor="#000000"  Font="Bold,14" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="4" Grid.Row="0" Text="" x:Name="sumabfla"   TextColor="#000000"  Font="Bold,14" HorizontalTextAlignment="End" VerticalTextAlignment="Center"></Label>
+            <Label Grid.Column="5" Grid.Row="0" Text="" x:Name="sumpaxla"   TextColor="#000000"  Font="Bold,14" HorizontalTextAlignment="End" Margin="0,0,5,0" VerticalTextAlignment="Center"></Label>
         </Grid>
             </StackLayout>
         </ScrollView>

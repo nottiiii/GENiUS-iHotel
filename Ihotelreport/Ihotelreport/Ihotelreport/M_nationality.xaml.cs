@@ -34,6 +34,7 @@ namespace Ihotelreport
         CultureInfo UsaCulture = new CultureInfo("en-US");
         string database = Application.Current.Properties["Database"].ToString();
         string datenows = Application.Current.Properties["datenow"].ToString();
+        string szServer = App.Current.Properties["szServer"].ToString();
         DateTime databaseDate = new DateTime();
         public M_nationality()
         {
@@ -180,122 +181,169 @@ namespace Ihotelreport
 		public async void GetJSON()
 		{
 			var client = new System.Net.Http.HttpClient();
-			var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Revenue_Nationality/GetNationality?szHotelDB=" + database + "&szDate=" + datepick + "&szDate2=" + dateends + "&szDeviceCode=1234");
-			string rcvJson = response.Content.ReadAsStringAsync().Result;
-			var items = JsonConvert.DeserializeObject<RootNation>(rcvJson);
-			var show = new List<Nation>();
-			int i = 0;
-		    sum = 0;
-            count = items.dataResult.Count;
-			foreach (var aaa in items.dataResult)
-			{
-				//var display = new Nation();
-				//display.name = aaa.name;
-				//display.roomNight = aaa.roomNight;
-				rowID[i] = int.Parse(aaa.id);
-				sum += int.Parse(aaa.roomNight);
-                NationalityList[i] = aaa.name;
-                RoomNightList[i] = aaa.roomNight;
-				//show.Add(display);
-				i++;
+            try
+            {
+                var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Revenue_Nationality/GetNationality?szHotelDB=" + database + "&szServer=" + szServer + "&szDate=" + datepick + "&szDate2=" + dateends + "&szDeviceCode=1234");
+                string rcvJson = response.Content.ReadAsStringAsync().Result;
+                var items = JsonConvert.DeserializeObject<RootNation>(rcvJson);
+                var show = new List<Nation>();
+                int i = 0;
+                sum = 0;
+                count = items.dataResult.Count;
+                foreach (var aaa in items.dataResult)
+                {
+                    //var display = new Nation();
+                    //display.name = aaa.name;
+                    //display.roomNight = aaa.roomNight;
+                    rowID[i] = int.Parse(aaa.id);
+                    sum += int.Parse(aaa.roomNight);
+                    NationalityList[i] = aaa.name;
+                    RoomNightList[i] = aaa.roomNight;
+                    //show.Add(display);
+                    i++;
+                }
+                GetRR();
 			}
-            GetRR();
+			catch (Exception e)
+			{
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
+			}
 		}
 		public async void GetRR()
 		{
 			//Get Room Revenue  
 			var client = new System.Net.Http.HttpClient();
-			var response = await client.GetAsync("http://hotelsoftware.in.th/webrestful/api/Revenue_Nationality/GetRR?szHotelDB=" + database + "&szDate=" + datepick + "&szDate2=" + dateends + "&szDeviceCode=1234");
-			string rcvJson = response.Content.ReadAsStringAsync().Result;
-			Debug.WriteLine("Successfully connect client2");
-			var items = JsonConvert.DeserializeObject<RootNationObject>(rcvJson);
-			Debug.WriteLine("Successfully convert Json");
-			for (int k = 0; k < count; k++)
-			{
-				RoomRvList[k] = "0.00";
+            try
+            {
+                var response = await client.GetAsync("http://hotelsoftware.in.th/webrestful/api/Revenue_Nationality/GetRR?szHotelDB=" + database + "&szServer=" + szServer + "&szDate=" + datepick + "&szDate2=" + dateends + "&szDeviceCode=1234");
+                string rcvJson = response.Content.ReadAsStringAsync().Result;
+                Debug.WriteLine("Successfully connect client2");
+                if (rcvJson.Contains("Object reference not set to an instance of an object"))
+                { }
+                else
+                {
+                    var items = JsonConvert.DeserializeObject<RootNationObject>(rcvJson);
+                    Debug.WriteLine("Successfully convert Json");
+                    for (int k = 0; k < count; k++)
+                    {
+                        RoomRvList[k] = "0.00";
+                    }
+                    int j = 0;
+                    foreach (var aaa in items.dataResult)
+                    {
+                        if (aaa.sum != "0.0000")
+                        {
+                            for (int k = 0; k < count; k++)
+                            {
+                                if (rowID[k] == (int.Parse(aaa.id)))
+                                {
+                                    j = k;
+                                }
+                            }
+                            //RoomRvList[j] = int.Parse(aaa.id);
+                            RoomRvList[j] = aaa.sum;
+                            Debug.WriteLine("Count = " + count);
+                            Debug.WriteLine("aaa = " + aaa.sum + "RoomRVLIST[" + j + "]: " + RoomRvList[j]);
+                        }
+                    }
+                }
+                GetABF();
 			}
-			int j = 0;
-			foreach (var aaa in items.dataResult)
+			catch (Exception e)
 			{
-				if (aaa.sum != "0.0000")
-				{
-					for (int k = 0; k < count; k++)
-					{
-						if (rowID[k] == (int.Parse(aaa.id)))
-						{
-							j = k;
-						}
-					}
-					//RoomRvList[j] = int.Parse(aaa.id);
-					RoomRvList[j] = aaa.sum;
-					Debug.WriteLine("Count = " + count);
-					Debug.WriteLine("aaa = " + aaa.sum + "RoomRVLIST[" + j + "]: " + RoomRvList[j]);
-				}
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
 			}
-			GetABF();
 		}
 		public async void GetABF()
 		{
 			//Get Room Revenue  
 			var client = new System.Net.Http.HttpClient();
-			var response = await client.GetAsync("http://hotelsoftware.in.th/webrestful/api/Revenue_Nationality/GetABF?szHotelDB=" + database + "&szDate=" + datepick + "&szDate2=" + dateends + "&szDeviceCode=1234");
-			string rcvJson = response.Content.ReadAsStringAsync().Result;
-			Debug.WriteLine("Successfully connect client2");
-			var items = JsonConvert.DeserializeObject<RootNationObject>(rcvJson);
-			Debug.WriteLine("Successfully convert Json");
-			for (int k = 0; k < count; k++)
-			{
-				ABFList[k] = "0.00";
+            try
+            {
+                var response = await client.GetAsync("http://hotelsoftware.in.th/webrestful/api/Revenue_Nationality/GetABF?szHotelDB=" + database + "&szServer=" + szServer + "&szDate=" + datepick + "&szDate2=" + dateends + "&szDeviceCode=1234");
+                string rcvJson = response.Content.ReadAsStringAsync().Result;
+                Debug.WriteLine("Successfully connect client2");
+                if (rcvJson.Contains("Object reference not set to an instance of an object"))
+                { }
+                else
+                {
+                    var items = JsonConvert.DeserializeObject<RootNationObject>(rcvJson);
+                    Debug.WriteLine("Successfully convert Json");
+                    for (int k = 0; k < count; k++)
+                    {
+                        ABFList[k] = "0.00";
+                    }
+                    int j = 0;
+                    foreach (var aaa in items.dataResult)
+                    {
+                        if (aaa.sum != "0.0000")
+                        {
+                            for (int k = 0; k < count; k++)
+                            {
+                                if (rowID[k] == (int.Parse(aaa.id)))
+                                {
+                                    j = k;
+                                }
+                            }
+                            ABFList[j] = aaa.sum;
+                        }
+                    }
+                }
+                GetOther();
 			}
-			int j = 0;
-			foreach (var aaa in items.dataResult)
+			catch (Exception e)
 			{
-				if (aaa.sum != "0.0000")
-				{
-					for (int k = 0; k < count; k++)
-					{
-						if (rowID[k] == (int.Parse(aaa.id)))
-						{
-							j = k;
-						}
-					}
-					ABFList[j] = aaa.sum;
-				}
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
 			}
-			GetOther();
 		}
 		public async void GetOther()
 		{
 			//Get Room Revenue  
 			var client = new System.Net.Http.HttpClient();
-			var response = await client.GetAsync("http://hotelsoftware.in.th/webrestful/api/Revenue_Nationality/GetOther?szHotelDB=" + database + "&szDate=" + datepick + "&szDate2=" + dateends + "&szDeviceCode=1234");
-			string rcvJson = response.Content.ReadAsStringAsync().Result;
-			Debug.WriteLine("Successfully connect client2");
-			var items = JsonConvert.DeserializeObject<RootNationObject>(rcvJson);
-			Debug.WriteLine("Successfully convert Json");
-			for (int k = 0; k < count; k++)
-			{
-				OtherList[k] = "0.00";
+            try
+            {
+                var response = await client.GetAsync("http://hotelsoftware.in.th/webrestful/api/Revenue_Nationality/GetOther?szHotelDB=" + database + "&szServer=" + szServer + "&szDate=" + datepick + "&szDate2=" + dateends + "&szDeviceCode=1234");
+                string rcvJson = response.Content.ReadAsStringAsync().Result;
+                Debug.WriteLine("Successfully connect client2");
+                if (rcvJson.Contains("Object reference not set to an instance of an object"))
+                { }
+                else
+                {
+                    var items = JsonConvert.DeserializeObject<RootNationObject>(rcvJson);
+                    Debug.WriteLine("Successfully convert Json");
+                    for (int k = 0; k < count; k++)
+                    {
+                        OtherList[k] = "0.00";
+                    }
+                    int j = 0;
+                    foreach (var aaa in items.dataResult)
+                    {
+                        if (aaa.sum != "0.0000")
+                        {
+                            for (int k = 0; k < count; k++)
+                            {
+                                if (rowID[k] == (int.Parse(aaa.id)))
+                                {
+                                    j = k;
+                                }
+                            }
+                            //RoomRvList[j] = int.Parse(aaa.id);
+                            OtherList[j] = aaa.sum;
+                            Debug.WriteLine("Count = " + count);
+                            Debug.WriteLine("aaa = " + aaa.sum + "RoomRVLIST[" + j + "]: " + OtherList[j]);
+                        }
+                    }
+                }
+                PushList();
 			}
-			int j = 0;
-			foreach (var aaa in items.dataResult)
+			catch (Exception e)
 			{
-				if (aaa.sum != "0.0000")
-				{
-					for (int k = 0; k < count; k++)
-					{
-						if (rowID[k] == (int.Parse(aaa.id)))
-						{
-							j = k;
-						}
-					}
-					//RoomRvList[j] = int.Parse(aaa.id);
-					OtherList[j] = aaa.sum;
-					Debug.WriteLine("Count = " + count);
-					Debug.WriteLine("aaa = " + aaa.sum + "RoomRVLIST[" + j + "]: " + OtherList[j]);
-				}
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
 			}
-			PushList();
 		}
 		private void PushList()
 		{
@@ -318,7 +366,7 @@ namespace Ihotelreport
 				Debug.WriteLine("In listview add loop");
 				var display = new NationList();
 				display.name = NationalityList[z];
-				display.night = RoomNightList[z];
+				display.night = int.Parse(RoomNightList[z]).ToString("N0");
 				temp = float.Parse(RoomRvList[z]);
 				temp1 = float.Parse(ABFList[z]);
 				temp2 = float.Parse(OtherList[z]);
@@ -333,7 +381,7 @@ namespace Ihotelreport
 				show.Add(display);
 			}
 			listviewConacts.ItemsSource = show;
-			sumNight.Text = sum.ToString();
+			sumNight.Text = sum.ToString("N");
 			sumRoom.Text = sumR.ToString("N2");
 			sumAbf.Text = sumA.ToString("N2");
 			sumOther.Text = sumO.ToString("N2");

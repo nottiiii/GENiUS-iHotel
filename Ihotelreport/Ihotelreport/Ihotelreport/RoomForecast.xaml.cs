@@ -13,6 +13,7 @@ namespace Ihotelreport
 	{
 		string database = Application.Current.Properties["Database"].ToString();
 		string datenows = Application.Current.Properties["datenow"].ToString();
+        string szServer = App.Current.Properties["szServer"].ToString();
 		int sumTotalRoom, count = 0;
 		float[] occ = new float[7];
 		float[] avg = new float[7];
@@ -64,6 +65,7 @@ namespace Ihotelreport
 				case 7: day_num = "07"; break;
 				case 8: day_num = "08"; break;
 				case 9: day_num = "09"; break;
+                default: day_num = now.Day.ToString();break;
 
 			}
 			day = now.Day.ToString();
@@ -86,25 +88,39 @@ namespace Ihotelreport
 			{
 				di = id[i];
 				increment3 = Convert.ToDateTime(dateUsed);
-				for (int j = 0; j < 7; j++)
+                try
+                {
+                    for (int j = 0; j < 7; j++)
+                    {
+                        date = increment3.ToString(Format, UsaCulture);
+                        Debug.WriteLine("ID = " + di);
+                        Debug.WriteLine("DATE = " + date);
+                        var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/RoomAvailableForecast/GetEach/" + di + "?szHotelDB=" + database + "&szIPServer=" + szServer + "&date=" + date + "&szDeviceCode=1234");
+                        string contactsJson = response.Content.ReadAsStringAsync().Result;
+                        var Items = JsonConvert.DeserializeObject<RootAvailableRoomList>(contactsJson);
+                        increment3 = increment3.AddDays(1);
+                        //roomUsed[index][] = 0;
+                        foreach (var aaa in Items.dataResult)
+                        {
+                            //Debug.WriteLine("ID = "+ di + " Date =" + date);
+                            roomUsed[i, j] = (totalroom[i] - int.Parse(aaa.TotalRoom)).ToString();
+                            roomUsedRaw[i, j] = aaa.TotalRoom.ToString();
+                            if (aaa.TotalPrice != "")
+                            {
+                                totalRv[j] += float.Parse(aaa.TotalPrice);
+                            }else {
+                                totalRv[j] += 0;
+                            }
+                            //roomUsed[i, j] = aaa.TotalRoom.ToString();
+                            Debug.WriteLine("[" + i + "]" + "[" + j + "] " + roomUsed[i, j]);
+                        }
+                    }
+				}
+				catch (Exception e)
 				{
-					date = increment3.ToString(Format, UsaCulture);
-					Debug.WriteLine("ID = " + di);
-					Debug.WriteLine("DATE = " + date);
-					var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/RoomAvailableForecast/GetEach/" + di + "?szHotelDB=" + database + "&szIPServer=1234&date=" + date + "&szDeviceCode=1234");
-					string contactsJson = response.Content.ReadAsStringAsync().Result;
-					var Items = JsonConvert.DeserializeObject<RootAvailableRoomList>(contactsJson);
-					increment3 = increment3.AddDays(1);
-					//roomUsed[index][] = 0;
-					foreach (var aaa in Items.dataResult)
-					{
-						//Debug.WriteLine("ID = "+ di + " Date =" + date);
-						roomUsed[i, j] = (totalroom[i] - int.Parse(aaa.TotalRoom)).ToString();
-						roomUsedRaw[i, j] = aaa.TotalRoom.ToString();
-						totalRv[j] += float.Parse(aaa.TotalPrice);
-						//roomUsed[i, j] = aaa.TotalRoom.ToString();
-						Debug.WriteLine("[" + i + "]" + "[" + j + "] " + roomUsed[i, j]);
-					}
+                    Debug.WriteLine(e.ToString());
+					await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+					return;
 				}
 			}
 			PushList();
@@ -114,52 +130,68 @@ namespace Ihotelreport
 		{
 
 			var client = new System.Net.Http.HttpClient();
-			var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/RoomAvailableForecast/GetForecast?szHotelDB=" + database + "&szIPServer=1234&szDeviceCode=1234");
-			string contactsJson = response.Content.ReadAsStringAsync().Result;
-			var Items = JsonConvert.DeserializeObject<RootRoomTypeList>(contactsJson);
-			int i = 0;
+            try
+            {
+                var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/RoomAvailableForecast/GetForecast?szHotelDB=" + database + "&szIPServer=" + szServer + "&szDeviceCode=1234");
+                string contactsJson = response.Content.ReadAsStringAsync().Result;
+                var Items = JsonConvert.DeserializeObject<RootRoomTypeList>(contactsJson);
+                int i = 0;
 
-			count = Items.dataResult.Count;
-			Debug.WriteLine("Count = " + count);
-			Debug.WriteLine("Enter foreach loop");
-            Busy.IsRunning = true;
-			foreach (var aaa in Items.dataResult)
-			{
+                count = Items.dataResult.Count;
+                Debug.WriteLine("Count = " + count);
+                Debug.WriteLine("Enter foreach loop");
+                Busy.IsRunning = true;
+                foreach (var aaa in Items.dataResult)
+                {
 
-				name[i] = aaa.RoomType;
-				id[i] = aaa.RoomTypeID;
-				totalroom[i] = int.Parse(aaa.TotalRoom);
-				sumTotalRoom += int.Parse(aaa.TotalRoom);
-				Debug.WriteLine("Name[" + i + "] = " + name[i] + "ID[" + i + "] = " + id[i] + "totalroom[" + i + "] = " + totalroom[i]);
-				i++;
+                    name[i] = aaa.RoomType;
+                    id[i] = aaa.RoomTypeID;
+                    totalroom[i] = int.Parse(aaa.TotalRoom);
+                    sumTotalRoom += int.Parse(aaa.TotalRoom);
+                    Debug.WriteLine("Name[" + i + "] = " + name[i] + "ID[" + i + "] = " + id[i] + "totalroom[" + i + "] = " + totalroom[i]);
+                    i++;
+                }
+                GetStat();
 			}
-			GetStat();
+			catch (Exception e)
+			{
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+                GetRoomTypeList();
+			}
 		}
 
 		public async void GetStat()
 		{
 			DateTime increment3 = Convert.ToDateTime(dateUsed);
 			var client = new System.Net.Http.HttpClient();
-			for (int i = 0; i < 7; i++)
-			{
-				string date = increment3.ToString(Format, UsaCulture);
-				var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/RoomAvailableForecast/GetStat?szHotelDB=" + database + "&szIPServer=1234&date=" + date + "&szDeviceCode=1234");
-				string contactsJson = response.Content.ReadAsStringAsync().Result;
-				var Items = JsonConvert.DeserializeObject<RootStatList>(contactsJson);
-				foreach (var aaa in Items.dataResult)
-				{
-					arrival[i] = aaa.Arrival.ToString();
-					departure[i] = aaa.Departure.ToString();
-					ooo[i] = aaa.ooo.ToString();
+            try
+            {
+                for (int i = 0; i < 7; i++)
+                {
+                    string date = increment3.ToString(Format, UsaCulture);
+                    var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/RoomAvailableForecast/GetStat?szHotelDB=" + database + "&szIPServer=" + szServer + "&date=" + date + "&szDeviceCode=1234");
+                    string contactsJson = response.Content.ReadAsStringAsync().Result;
+                    var Items = JsonConvert.DeserializeObject<RootStatList>(contactsJson);
+                    foreach (var aaa in Items.dataResult)
+                    {
+                        arrival[i] = aaa.Arrival.ToString();
+                        departure[i] = aaa.Departure.ToString();
+                        ooo[i] = aaa.ooo.ToString();
 
-				}
-				increment3 = increment3.AddDays(1);
+                    }
+                    increment3 = increment3.AddDays(1);
+                }
+                for (int j = 0; j < 7; j++)
+                {
+                    Debug.WriteLine("Arrival" + arrival[j] + "Departure" + departure[j] + "ooo" + ooo[j]);
+                }
+                GetAvailableRoomList();
 			}
-			for (int j = 0; j < 7; j++)
+			catch (Exception e)
 			{
-				Debug.WriteLine("Arrival" + arrival[j] + "Departure" + departure[j] + "ooo" + ooo[j]);
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
 			}
-			GetAvailableRoomList();
 		}
 		private void Calculation()
 		{

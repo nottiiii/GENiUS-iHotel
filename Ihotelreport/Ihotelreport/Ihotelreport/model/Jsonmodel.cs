@@ -29,6 +29,7 @@ namespace Ihotelreport.model
 	        public string Roomchg { get; set; }
 	        public string Avg { get; set; }
 	        public string Pax { get; set; }
+            public string RawOcc { get; set; }
 	    }
 
 	    public class RootHistoryforcast
@@ -84,6 +85,11 @@ namespace Ihotelreport.model
 	    public class RootHotelLicense{
 	        public int status { get; set; }
 	        public HotelLicense dataResult { get; set; }
+	        public object dataExtra { get; set; }
+	    }
+	    public class HotelLicenseCheck {
+            public int status { get; set; }
+	        public string dataResult { get; set; }
 	        public object dataExtra { get; set; }
 	    }
 	    public class RevenueSum
@@ -404,4 +410,52 @@ namespace Ihotelreport.model
 			public List<StatList> dataResult { get; set; }
 			public object dataExtra { get; set; }
 		}
+		public class RevFolio
+		{
+			public string id { get; set; }
+			public string name { get; set; }
+			public string previousSum { get; set; }
+            public string presentSum { get; set; }
+		}
+		public class RootRevFolioList
+		{
+			public int status { get; set; }
+			public List<RevFolio> dataResult { get; set; }
+			public object dataExtra { get; set; }
+		}
+		public class RevFolioList
+		{
+			public string item { get; set; }
+			public string total { get; set; }
+			public string total2 { get; set; }
+			public string Difference { get; set; }
+			public string percentage { get; set; }
+		}
+		public class CompareAgency
+		{
+			public string name { get; set; }
+			public string previousSum { get; set; }
+            public string presentSum { get; set; }
+			public string id { get; set; }
+		}
+	    public class RolePerm{
+	        public string PermissionFunctionID { get; set; }
+	    }
+	    public class RootRolePerm{
+			public int status { get; set; }
+	        public List<RolePerm> dataResult { get; set; }
+			public object dataExtra { get; set; }
+	    }
+		public class RootCompareAgency
+		{
+			public int status { get; set; }
+			public List<CompareAgency> dataResult { get; set; }
+			public object dataExtra { get; set; }
+		}
+		public class RootBusinessSourceNameList
+		{
+			public int status { get; set; }
+			public List<BusinessSourceNameList> dataResult { get; set; }
+			public object dataExtra { get; set; }
+		} 
 }

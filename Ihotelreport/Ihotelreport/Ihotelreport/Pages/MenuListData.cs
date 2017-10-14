@@ -32,13 +32,13 @@ namespace Ihotelreport.Pages
             this.Add(new MenuItem()
             {
                 Titulo = "Room History And Forecast",
-                TargetType = typeof(choosehistory)
+                TargetType = typeof(tabhistory)
             });
 
             this.Add(new MenuItem()
             {
                 Titulo = "Revenue By Folio",
-                TargetType = typeof(Choosedayfolio)
+                TargetType = typeof(tabbar)
             });
 
             this.Add(new MenuItem()
@@ -88,9 +88,8 @@ namespace Ihotelreport.Pages
             this.Add(new MenuItem()
             {
                 Titulo = "Logout",
-                TargetType = typeof(Logout)
+                TargetType = typeof(signout),
             });
-			
         }
     }
 }

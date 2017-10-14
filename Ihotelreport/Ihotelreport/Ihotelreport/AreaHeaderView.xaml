@@ -11,13 +11,13 @@
                 <ColumnDefinition Width= "3*"/>
             </Grid.ColumnDefinitions>
              <Grid.RowDefinitions>
-                <RowDefinition Height="20"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             
             <Label Grid.Column="0"  Grid.ColumnSpan="1"/>
-            <Label Grid.Column="1" Text="Agency" TextColor="Black" FontSize="Medium" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Margin="0,2,0,0"/>    
-            <Label Grid.Column="2" Text="Night" TextColor="Black" FontSize="Medium" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Margin="0,2,0,0"/>
-            <Label Grid.Column="3" Text="RoomNight%" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,2,2,0" />
+            <Label Grid.Column="1" Text="Agency" TextColor="Black" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Margin="0,2,0,0"/>    
+            <Label Grid.Column="2" Text="Night" TextColor="Black" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Margin="0,2,0,0"/>
+            <Label Grid.Column="3" Text="RoomNight%" TextColor="Black" FontSize="Small" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="0,2,2,0" />
         </Grid>
 
     </ContentView.Content>

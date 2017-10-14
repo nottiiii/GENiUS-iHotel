@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                xmlns:cross="clr-namespace:Cross.Pie.Forms;assembly=Cross.Pie.Forms"
@@ -12,12 +12,12 @@
                 <RowDefinition Height="7*"/>
             </Grid.RowDefinitions>
 
-            <cross:CrossPie Grid.Row="0" x:Name="XPie" Title="" TitleColor="Navy" IsTitleOnTop="false">
+            <cross:CrossPie Grid.Row="0" x:Name="XPie" Title="" TitleColor="Black" IsTitleOnTop="false">
             </cross:CrossPie>
 
             <local:AreaHeaderView Grid.Row="1" />
 
-            <ListView Grid.Row="2" x:Name="List" RowHeight="26" BackgroundColor="White">
+            <ListView Grid.Row="2" x:Name="List" RowHeight="26" BackgroundColor="White" HasUnevenRows="false">
             </ListView>
         </Grid>
     </ContentPage.Content>

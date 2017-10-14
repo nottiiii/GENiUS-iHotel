@@ -183,6 +183,12 @@
     <Compile Include="Y_Compare.xaml.cs">
       <DependentUpon>Y_Compare.xaml</DependentUpon>
     </Compile>
+    <Compile Include="signout.xaml.cs">
+      <DependentUpon>signout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomTabbed.xaml.cs">
+      <DependentUpon>CustomTabbed.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -219,6 +225,13 @@
     <EmbeddedResource Include="Y_Compare.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="signout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomTabbed.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inthewordlogo2.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Cross.Pie.Forms">
@@ -419,6 +432,246 @@
     <Reference Include="Plugin.Connectivity">
       <HintPath>..\..\packages\Xam.Plugin.Connectivity.3.0.2\lib\netstandard1.0\Plugin.Connectivity.dll</HintPath>
     </Reference>
+    <Reference Include="Validation">
+      <HintPath>..\..\packages\Validation.2.2.8\lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLCrypto">
+      <HintPath>..\..\packages\PCLCrypto.2.0.147\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\PCLCrypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Auth">
+      <HintPath>..\..\packages\Xamarin.Auth.1.5.0.3\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10\Xamarin.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DataSource.Portable">
+      <HintPath>..\..\..\Syncfusion\Syncfusion.DataSource.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfListView.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfListView.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGauge.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfGauge.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGauge.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfGauge.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfDataGrid.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfDataGrid.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfBusyIndicator.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfBusyIndicator.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNavigationDrawer.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfNavigationDrawer.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRating.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCalendar.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfCalendar.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfBusyIndicator.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCalendar.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfCalendar.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCalendar.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfCalendar.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfImageEditor.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfImageEditor.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfImageEditor.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfImageEditor.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfImageEditor.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfImageEditor.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPullToRefresh.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfPullToRefresh.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPullToRefresh.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfPullToRefresh.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericUpDown.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericUpDown.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericTextBox.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericTextBox.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericTextBox.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericTextBox.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericTextBox.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericTextBox.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSunburstChart.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSunburstChart.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSunburstChart.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfSunburstChart.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSunburstChart.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSunburstChart.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfDataGrid.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSchedule.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSchedule.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSchedule.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfSchedule.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSchedule.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSchedule.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfKanban.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfKanban.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfKanban.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfKanban.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSparkline.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSparkline.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSparkline.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfSparkline.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeMap.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfTreeMap.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeMap.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfTreeMap.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfChart.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Core.XForms">
+      <HintPath>..\..\..\android\Syncfusion.Core.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfMaps.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfMaps.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfMaps.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfMaps.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfMaps.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfMaps.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeMap.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfTreeMap.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGauge.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfGauge.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPdfViewer.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfPdfViewer.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPdfViewer.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfPdfViewer.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPdfViewer.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfPdfViewer.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRating.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfRating.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGridConverter.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfGridConverter.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGridConverter.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfGridConverter.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRotator.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRotator.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRotator.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfRotator.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfCarousel.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfCarousel.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfAutoComplete.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfAutoComplete.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRangeSlider.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRangeSlider.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRangeSlider.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfRangeSlider.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfBarcode.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms">
+      <HintPath>..\..\..\android\Syncfusion.SfBarcode.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSparkline.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfSparkline.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRadialMenu.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRadialMenu.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfKanban.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfKanban.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Calculate.Android">
+      <HintPath>..\..\..\android\Syncfusion.Calculate.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPullToRefresh.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfPullToRefresh.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRotator.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRotator.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNumericUpDown.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfCarousel.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfNavigationDrawer.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfAutoComplete.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Linq.Android">
+      <HintPath>..\..\..\android\Syncfusion.Linq.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRangeSlider.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfRangeSlider.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfBarcode.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.Android">
+      <HintPath>..\..\..\android\Syncfusion.SfChart.Android.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -531,6 +784,226 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Scripts\jquery-1.9.0.min.map" />
+    <None Include="Scripts\jquery-1.9.0.min.js" />
+    <None Include="Scripts\jquery-1.9.0.js" />
+    <None Include="Scripts\jquery-1.9.0-vsdoc.js" />
+    <None Include="scripts\uikit.min.js" />
+    <None Include="scripts\uikit.js" />
+    <None Include="scripts\core\utility.min.js" />
+    <None Include="scripts\core\utility.js" />
+    <None Include="scripts\core\touch.min.js" />
+    <None Include="scripts\core\touch.js" />
+    <None Include="scripts\core\toggle.min.js" />
+    <None Include="scripts\core\toggle.js" />
+    <None Include="scripts\core\tab.min.js" />
+    <None Include="scripts\core\tab.js" />
+    <None Include="scripts\core\switcher.min.js" />
+    <None Include="scripts\core\switcher.js" />
+    <None Include="scripts\core\smooth-scroll.min.js" />
+    <None Include="scripts\core\smooth-scroll.js" />
+    <None Include="scripts\core\scrollspy.min.js" />
+    <None Include="scripts\core\scrollspy.js" />
+    <None Include="scripts\core\offcanvas.min.js" />
+    <None Include="scripts\core\offcanvas.js" />
+    <None Include="scripts\core\nav.min.js" />
+    <None Include="scripts\core\nav.js" />
+    <None Include="scripts\core\modal.min.js" />
+    <None Include="scripts\core\modal.js" />
+    <None Include="scripts\core\grid.min.js" />
+    <None Include="scripts\core\grid.js" />
+    <None Include="scripts\core\dropdown.min.js" />
+    <None Include="scripts\core\dropdown.js" />
+    <None Include="scripts\core\cover.min.js" />
+    <None Include="scripts\core\cover.js" />
+    <None Include="scripts\core\core.min.js" />
+    <None Include="scripts\core\core.js" />
+    <None Include="scripts\core\button.min.js" />
+    <None Include="scripts\core\button.js" />
+    <None Include="scripts\core\alert.min.js" />
+    <None Include="scripts\core\alert.js" />
+    <None Include="scripts\components\upload.min.js" />
+    <None Include="scripts\components\upload.js" />
+    <None Include="scripts\components\tooltip.min.js" />
+    <None Include="scripts\components\tooltip.js" />
+    <None Include="scripts\components\timepicker.min.js" />
+    <None Include="scripts\components\timepicker.js" />
+    <None Include="scripts\components\sticky.min.js" />
+    <None Include="scripts\components\sticky.js" />
+    <None Include="scripts\components\sortable.min.js" />
+    <None Include="scripts\components\sortable.js" />
+    <None Include="scripts\components\slideshow.min.js" />
+    <None Include="scripts\components\slideshow.js" />
+    <None Include="scripts\components\slideshow-fx.min.js" />
+    <None Include="scripts\components\slideshow-fx.js" />
+    <None Include="scripts\components\slideset.min.js" />
+    <None Include="scripts\components\slideset.js" />
+    <None Include="scripts\components\slider.min.js" />
+    <None Include="scripts\components\slider.js" />
+    <None Include="scripts\components\search.min.js" />
+    <None Include="scripts\components\search.js" />
+    <None Include="scripts\components\parallax.min.js" />
+    <None Include="scripts\components\parallax.js" />
+    <None Include="scripts\components\pagination.min.js" />
+    <None Include="scripts\components\pagination.js" />
+    <None Include="scripts\components\notify.min.js" />
+    <None Include="scripts\components\notify.js" />
+    <None Include="scripts\components\nestable.min.js" />
+    <None Include="scripts\components\nestable.js" />
+    <None Include="scripts\components\lightbox.min.js" />
+    <None Include="scripts\components\lightbox.js" />
+    <None Include="scripts\components\htmleditor.min.js" />
+    <None Include="scripts\components\htmleditor.js" />
+    <None Include="scripts\components\grid.min.js" />
+    <None Include="scripts\components\grid.js" />
+    <None Include="scripts\components\grid-parallax.min.js" />
+    <None Include="scripts\components\grid-parallax.js" />
+    <None Include="scripts\components\form-select.min.js" />
+    <None Include="scripts\components\form-select.js" />
+    <None Include="scripts\components\form-password.min.js" />
+    <None Include="scripts\components\form-password.js" />
+    <None Include="scripts\components\datepicker.min.js" />
+    <None Include="scripts\components\datepicker.js" />
+    <None Include="scripts\components\autocomplete.min.js" />
+    <None Include="scripts\components\autocomplete.js" />
+    <None Include="scripts\components\accordion.min.js" />
+    <None Include="scripts\components\accordion.js" />
+    <None Include="fonts\FontAwesome.otf" />
+    <None Include="fonts\fontawesome-webfont.woff2" />
+    <None Include="fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="Content\uikit.min.css" />
+    <None Include="Content\uikit.gradient.min.css" />
+    <None Include="Content\uikit.gradient.css" />
+    <None Include="Content\uikit.css" />
+    <None Include="Content\uikit.almost-flat.min.css" />
+    <None Include="Content\uikit.almost-flat.css" />
+    <None Include="Content\components\upload.min.css" />
+    <None Include="Content\components\upload.gradient.min.css" />
+    <None Include="Content\components\upload.gradient.css" />
+    <None Include="Content\components\upload.css" />
+    <None Include="Content\components\upload.almost-flat.min.css" />
+    <None Include="Content\components\upload.almost-flat.css" />
+    <None Include="Content\components\tooltip.min.css" />
+    <None Include="Content\components\tooltip.gradient.min.css" />
+    <None Include="Content\components\tooltip.gradient.css" />
+    <None Include="Content\components\tooltip.css" />
+    <None Include="Content\components\tooltip.almost-flat.min.css" />
+    <None Include="Content\components\tooltip.almost-flat.css" />
+    <None Include="Content\components\sticky.min.css" />
+    <None Include="Content\components\sticky.gradient.min.css" />
+    <None Include="Content\components\sticky.gradient.css" />
+    <None Include="Content\components\sticky.css" />
+    <None Include="Content\components\sticky.almost-flat.min.css" />
+    <None Include="Content\components\sticky.almost-flat.css" />
+    <None Include="Content\components\sortable.min.css" />
+    <None Include="Content\components\sortable.gradient.min.css" />
+    <None Include="Content\components\sortable.gradient.css" />
+    <None Include="Content\components\sortable.css" />
+    <None Include="Content\components\sortable.almost-flat.min.css" />
+    <None Include="Content\components\sortable.almost-flat.css" />
+    <None Include="Content\components\slideshow.min.css" />
+    <None Include="Content\components\slideshow.gradient.min.css" />
+    <None Include="Content\components\slideshow.gradient.css" />
+    <None Include="Content\components\slideshow.css" />
+    <None Include="Content\components\slideshow.almost-flat.min.css" />
+    <None Include="Content\components\slideshow.almost-flat.css" />
+    <None Include="Content\components\slider.min.css" />
+    <None Include="Content\components\slider.gradient.min.css" />
+    <None Include="Content\components\slider.gradient.css" />
+    <None Include="Content\components\slider.css" />
+    <None Include="Content\components\slider.almost-flat.min.css" />
+    <None Include="Content\components\slider.almost-flat.css" />
+    <None Include="Content\components\slidenav.min.css" />
+    <None Include="Content\components\slidenav.gradient.min.css" />
+    <None Include="Content\components\slidenav.gradient.css" />
+    <None Include="Content\components\slidenav.css" />
+    <None Include="Content\components\slidenav.almost-flat.min.css" />
+    <None Include="Content\components\slidenav.almost-flat.css" />
+    <None Include="Content\components\search.min.css" />
+    <None Include="Content\components\search.gradient.min.css" />
+    <None Include="Content\components\search.gradient.css" />
+    <None Include="Content\components\search.css" />
+    <None Include="Content\components\search.almost-flat.min.css" />
+    <None Include="Content\components\search.almost-flat.css" />
+    <None Include="Content\components\progress.min.css" />
+    <None Include="Content\components\progress.gradient.min.css" />
+    <None Include="Content\components\progress.gradient.css" />
+    <None Include="Content\components\progress.css" />
+    <None Include="Content\components\progress.almost-flat.min.css" />
+    <None Include="Content\components\progress.almost-flat.css" />
+    <None Include="Content\components\placeholder.min.css" />
+    <None Include="Content\components\placeholder.gradient.min.css" />
+    <None Include="Content\components\placeholder.gradient.css" />
+    <None Include="Content\components\placeholder.css" />
+    <None Include="Content\components\placeholder.almost-flat.min.css" />
+    <None Include="Content\components\placeholder.almost-flat.css" />
+    <None Include="Content\components\notify.min.css" />
+    <None Include="Content\components\notify.gradient.min.css" />
+    <None Include="Content\components\notify.gradient.css" />
+    <None Include="Content\components\notify.css" />
+    <None Include="Content\components\notify.almost-flat.min.css" />
+    <None Include="Content\components\notify.almost-flat.css" />
+    <None Include="Content\components\nestable.min.css" />
+    <None Include="Content\components\nestable.gradient.min.css" />
+    <None Include="Content\components\nestable.gradient.css" />
+    <None Include="Content\components\nestable.css" />
+    <None Include="Content\components\nestable.almost-flat.min.css" />
+    <None Include="Content\components\nestable.almost-flat.css" />
+    <None Include="Content\components\htmleditor.min.css" />
+    <None Include="Content\components\htmleditor.gradient.min.css" />
+    <None Include="Content\components\htmleditor.gradient.css" />
+    <None Include="Content\components\htmleditor.css" />
+    <None Include="Content\components\htmleditor.almost-flat.min.css" />
+    <None Include="Content\components\htmleditor.almost-flat.css" />
+    <None Include="Content\components\form-select.min.css" />
+    <None Include="Content\components\form-select.gradient.min.css" />
+    <None Include="Content\components\form-select.gradient.css" />
+    <None Include="Content\components\form-select.css" />
+    <None Include="Content\components\form-select.almost-flat.min.css" />
+    <None Include="Content\components\form-select.almost-flat.css" />
+    <None Include="Content\components\form-password.min.css" />
+    <None Include="Content\components\form-password.gradient.min.css" />
+    <None Include="Content\components\form-password.gradient.css" />
+    <None Include="Content\components\form-password.css" />
+    <None Include="Content\components\form-password.almost-flat.min.css" />
+    <None Include="Content\components\form-password.almost-flat.css" />
+    <None Include="Content\components\form-file.min.css" />
+    <None Include="Content\components\form-file.gradient.min.css" />
+    <None Include="Content\components\form-file.gradient.css" />
+    <None Include="Content\components\form-file.css" />
+    <None Include="Content\components\form-file.almost-flat.min.css" />
+    <None Include="Content\components\form-file.almost-flat.css" />
+    <None Include="Content\components\form-advanced.min.css" />
+    <None Include="Content\components\form-advanced.gradient.min.css" />
+    <None Include="Content\components\form-advanced.gradient.css" />
+    <None Include="Content\components\form-advanced.css" />
+    <None Include="Content\components\form-advanced.almost-flat.min.css" />
+    <None Include="Content\components\form-advanced.almost-flat.css" />
+    <None Include="Content\components\dotnav.min.css" />
+    <None Include="Content\components\dotnav.gradient.min.css" />
+    <None Include="Content\components\dotnav.gradient.css" />
+    <None Include="Content\components\dotnav.css" />
+    <None Include="Content\components\dotnav.almost-flat.min.css" />
+    <None Include="Content\components\dotnav.almost-flat.css" />
+    <None Include="Content\components\datepicker.min.css" />
+    <None Include="Content\components\datepicker.gradient.min.css" />
+    <None Include="Content\components\datepicker.gradient.css" />
+    <None Include="Content\components\datepicker.css" />
+    <None Include="Content\components\datepicker.almost-flat.min.css" />
+    <None Include="Content\components\datepicker.almost-flat.css" />
+    <None Include="Content\components\autocomplete.min.css" />
+    <None Include="Content\components\autocomplete.gradient.min.css" />
+    <None Include="Content\components\autocomplete.gradient.css" />
+    <None Include="Content\components\autocomplete.css" />
+    <None Include="Content\components\autocomplete.almost-flat.min.css" />
+    <None Include="Content\components\autocomplete.almost-flat.css" />
+    <None Include="Content\components\accordion.min.css" />
+    <None Include="Content\components\accordion.gradient.min.css" />
+    <None Include="Content\components\accordion.gradient.css" />
+    <None Include="Content\components\accordion.css" />
+    <None Include="Content\components\accordion.almost-flat.min.css" />
+    <None Include="Content\components\accordion.almost-flat.css" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="History.xaml">

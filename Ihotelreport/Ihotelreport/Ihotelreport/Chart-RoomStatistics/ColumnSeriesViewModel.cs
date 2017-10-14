@@ -78,6 +78,7 @@ namespace Ihotelreport
              {
                  string database = Application.Current.Properties["Database"].ToString();
                  string datepick = Application.Current.Properties["Datetodaystatic"].ToString();
+                 string szServer = App.Current.Properties["szServer"].ToString();
                  ColumnData1 = new ObservableCollection<ChartDataModel>();
                  /*ColumnData2 = new ObservableCollection<ChartDataModel>();
                  ColumnData3 = new ObservableCollection<ChartDataModel>();
@@ -86,7 +87,7 @@ namespace Ihotelreport
                  ColumnData6 = new ObservableCollection<ChartDataModel>();*/
 
                  var client2 = new System.Net.Http.HttpClient();
-                 var response2 = await client2.GetStringAsync("http://hotelsoftware.in.th/Webrestful/api/Staticroom/Getcurrentrooms?szHotelDB=" + database + "&szDate1=" + datepick + "&szDeviceCode=1234");
+                 var response2 = await client2.GetStringAsync("http://hotelsoftware.in.th/Webrestful/api/Staticroom/Getcurrentrooms?szHotelDB=" + database +"&szServer="+szServer+"&szDate1=" + datepick + "&szDeviceCode=1234");
                  var Items2 = JsonConvert.DeserializeObject<Rootcurrentroom>(response2);
 
                  string[] arrItem = new string[(Items2.dataResult.Count)];

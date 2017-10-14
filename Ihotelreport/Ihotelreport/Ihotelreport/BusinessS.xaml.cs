@@ -13,10 +13,11 @@ namespace Ihotelreport
 		string year = "";
 		string database = Application.Current.Properties["Database"].ToString();
 		string datenows = Application.Current.Properties["datenow"].ToString();
+        string szServer = App.Current.Properties["szServer"].ToString();
 		string[] source = new string[100];
 		string[] id = new string[100];
 		int[] total = new int[100];
-		float[] totalC = new float[100];
+		Double[] totalC = new Double[100];
 		string month_num = "";
 		string next_month_num = "";
 		string nextYear = "";
@@ -132,22 +133,30 @@ namespace Ihotelreport
 		{
 			//GetTotal
 			var client = new System.Net.Http.HttpClient();
-			var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Business_source/GetEachCharge/" + id + "?szHotelDB=" + database + "&szDate=" + year + "&szDeviceCode=1234");
-			string contactsJson = response.Content.ReadAsStringAsync().Result;
-			var Items = JsonConvert.DeserializeObject<RootBusinessEach>(contactsJson);
-			totalC[index] = 0;
-			foreach (var aaa in Items.dataResult)
-			{
-				if (aaa.sum == null)
-				{
-					totalC[index] = 0;
-				}
-				else
-				{
-					totalC[index] += float.Parse(aaa.sum);
-				}
+            try
+            {
+                var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Business_source/GetEachCharge/" + id + "?szHotelDB=" + database + "&szServer=" + szServer + "&szDate=" + year + "&szDeviceCode=1234");
+                string contactsJson = response.Content.ReadAsStringAsync().Result;
+                var Items = JsonConvert.DeserializeObject<RootBusinessEach>(contactsJson);
+                totalC[index] = 0;
+                foreach (var aaa in Items.dataResult)
+                {
+                    if (aaa.sum == null)
+                    {
+                        totalC[index] = 0;
+                    }
+                    else
+                    {
+                        totalC[index] += Double.Parse(aaa.sum);
+                    }
+                }
+                PushList();
 			}
-			PushList();
+			catch (Exception e)
+			{
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
+			}
 
 		}
 
@@ -155,85 +164,116 @@ namespace Ihotelreport
 		public async void GetDetailCharge(string id)
 		{
 			//GetTotal
-			float sum = 0;
+			Double sum = 0;
 			var client = new System.Net.Http.HttpClient();
-			var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Business_source/GetEachCharge/" + id + "?szHotelDB=" + database + "&szDate=" + year + "&szDeviceCode=1234");
-			string contactsJson = response.Content.ReadAsStringAsync().Result;
-			var Items = JsonConvert.DeserializeObject<RootBusinessEach>(contactsJson);
-			var show = new List<BusinessEach>();
-			foreach (var aaa in Items.dataResult)
-			{
-				if (aaa.month == null)
-				{
-					//
-				}
-				else
-				{
-					var display = new BusinessEach();
-					display.month = aaa.month;
-					display.sum = float.Parse(aaa.sum).ToString("N0");
-					sum += float.Parse(aaa.sum);
-					show.Add(display);
-				}
+            try
+            {
+                var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Business_source/GetEachCharge/" + id + "?szHotelDB=" + database + "&szServer=" + szServer + "&szDate=" + year + "&szDeviceCode=1234");
+                string contactsJson = response.Content.ReadAsStringAsync().Result;
+                var Items = JsonConvert.DeserializeObject<RootBusinessEach>(contactsJson);
+                var show = new List<BusinessEach>();
+                string temp;
+                Double temp2;
+                foreach (var aaa in Items.dataResult)
+                {
+                    if (aaa.month == null)
+                    {
+                        //
+                    }
+                    else
+                    {
+                        var display = new BusinessEach();
+                        display.month = aaa.month;
+                        //display.sum = float.Parse(aaa.sum).ToString("N2");
+                        temp = aaa.sum.ToString();
+                        Debug.WriteLine("Temp = " + temp);
+                        temp2 = Double.Parse(temp);
+                        Debug.WriteLine("Temp2 = " +temp2);
+                        display.sum = temp.ToString();
+                        sum += temp2;
+                        //sum += float.Parse(aaa.sum);
+                        show.Add(display);
+                    }
+                }
+                listviewdetail.ItemsSource = show;
+                detailTotal.Text = sum.ToString("N2");
+                monthDetail.Text = year + " (Room Charge)";
 			}
-			listviewdetail.ItemsSource = show;
-			detailTotal.Text = sum.ToString("N0");
-			monthDetail.Text = year + " (Room Charge)";
+			catch (Exception e)
+			{
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
+			}
 		}
 		public async void GetSource()
 		{
 
 			var client = new System.Net.Http.HttpClient();
-			var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Business_source/GetSource?szHotelDB=" + database + "&szDeviceCode=1234");
-			string contactsJson = response.Content.ReadAsStringAsync().Result;
+            try
+            {
+                var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Business_source/GetSource?szHotelDB=" + database + "&szServer=" + szServer + "&szDeviceCode=1234");
+                string contactsJson = response.Content.ReadAsStringAsync().Result;
 
-			var Items = JsonConvert.DeserializeObject<RootBusinessSource>(contactsJson);
-			int i = 0;
-			count = Items.dataResult.Count;
-			foreach (var aaa in Items.dataResult)
-			{
-				source[i] = aaa.BusinessSource;
-				id[i] = aaa.SourceID;
-				i++;
+                var Items = JsonConvert.DeserializeObject<RootBusinessSource>(contactsJson);
+                int i = 0;
+                count = Items.dataResult.Count;
+                foreach (var aaa in Items.dataResult)
+                {
+                    source[i] = aaa.BusinessSource;
+                    id[i] = aaa.SourceID;
+                    i++;
 
+                }
+                if (NightCharge == true)
+                {
+                    for (int k = 0; k < count; k++)
+                    {
+                        GetJSON2(id[k], k);
+                    }
+                }
+                if (NightCharge == false)
+                {
+                    for (int k = 0; k < count; k++)
+                    {
+                        GetCharge(id[k], k);
+                    }
+                }
 			}
-			if (NightCharge == true)
+			catch (Exception e)
 			{
-				for (int k = 0; k < count; k++)
-				{
-					GetJSON2(id[k], k);
-				}
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
 			}
-			if (NightCharge == false)
-			{
-				for (int k = 0; k < count; k++)
-				{
-					GetCharge(id[k], k);
-				}
-			}
-
 		}
 
 		public async void GetJSON2(string id, int index)
 		{
 			//GetTotal
 			var client = new System.Net.Http.HttpClient();
-			var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Business_source/GetEachSource/" + id + "?szHotelDB=" + database + "&szDate=" + year + "&szDeviceCode=1234");
-			string contactsJson = response.Content.ReadAsStringAsync().Result;
-			var Items = JsonConvert.DeserializeObject<RootBusinessEach>(contactsJson);
-			total[index] = 0;
-			foreach (var aaa in Items.dataResult)
-			{
-				if (aaa.sum == null)
-				{
-					total[index] = 0;
-				}
-				else
-				{
-					total[index] += int.Parse(aaa.sum);
-				}
+            try
+            {
+                var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Business_source/GetEachSource/" + id + "?szHotelDB=" + database + "&szServer=" + szServer + "&szDate=" + year + "&szDeviceCode=1234");
+                string contactsJson = response.Content.ReadAsStringAsync().Result;
+                var Items = JsonConvert.DeserializeObject<RootBusinessEach>(contactsJson);
+                total[index] = 0;
+                foreach (var aaa in Items.dataResult)
+                {
+                    if (aaa.sum == null)
+                    {
+                        total[index] = 0;
+                    }
+                    else
+                    {
+                        total[index] += int.Parse(aaa.sum);
+                    }
+                }
+                PushList();
 			}
-			PushList();
+			catch (Exception e)
+			{
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
+			}
 		}
 
 		public async void Getdetail(string id)
@@ -241,34 +281,42 @@ namespace Ihotelreport
 			//GetTotal
 			int sum = 0;
 			var client = new System.Net.Http.HttpClient();
-			var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Business_source/GetEachSource/" + id + "?szHotelDB=" + database + "&szDate=" + year + "&szDeviceCode=1234");
-			string contactsJson = response.Content.ReadAsStringAsync().Result;
-			var Items = JsonConvert.DeserializeObject<RootBusinessEach>(contactsJson);
-			var show = new List<BusinessEach>();
-			foreach (var aaa in Items.dataResult)
-			{
-				if (aaa.month == null)
-				{
-					//
-				}
-				else
-				{
-					var display = new BusinessEach();
-					display.month = aaa.month;
-					display.sum = aaa.sum;
-					sum += int.Parse(aaa.sum);
-					show.Add(display);
-				}
+            try
+            {
+                var response = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Business_source/GetEachSource/" + id + "?szHotelDB=" + database + "&szServer=" + szServer + "&szDate=" + year + "&szDeviceCode=1234");
+                string contactsJson = response.Content.ReadAsStringAsync().Result;
+                var Items = JsonConvert.DeserializeObject<RootBusinessEach>(contactsJson);
+                var show = new List<BusinessEach>();
+                foreach (var aaa in Items.dataResult)
+                {
+                    if (aaa.month == null)
+                    {
+                        //
+                    }
+                    else
+                    {
+                        var display = new BusinessEach();
+                        display.month = aaa.month;
+                        display.sum = int.Parse(aaa.sum).ToString("N0");
+                        sum += int.Parse(aaa.sum);
+                        show.Add(display);
+                    }
+                }
+                listviewdetail.ItemsSource = show;
+                detailTotal.Text = sum.ToString("N0");
+                monthDetail.Text = year + " (Room Night)";
 			}
-			listviewdetail.ItemsSource = show;
-			detailTotal.Text = sum.ToString("N0");
-			monthDetail.Text = year + " (Room Night)";
+			catch (Exception e)
+			{
+				await DisplayAlert("No Internet", "Please check your connection! ", "Okay");
+				return;
+			}
 		}
 
 		private void PushList()
 		{
 			int overral = 0;
-			float overallC = 0;
+			Double overallC = 0;
 			var show = new List<BusinessSourceNameList>();
 			for (int j = 0; j < count; j++)
 			{
@@ -281,7 +329,7 @@ namespace Ihotelreport
 				}
 				if (NightCharge == false)
 				{
-					display.sum = totalC[j].ToString("N0");
+					display.sum = totalC[j].ToString("N2");
 					overallC += totalC[j];
 
 				}
@@ -292,7 +340,7 @@ namespace Ihotelreport
 			if (NightCharge == true)
 				overralTotal.Text = overral.ToString("N0");
 			if (NightCharge == false)
-				overralTotal.Text = overallC.ToString("N0");
+				overralTotal.Text = overallC.ToString("N2");
 		}
 	}
 }
