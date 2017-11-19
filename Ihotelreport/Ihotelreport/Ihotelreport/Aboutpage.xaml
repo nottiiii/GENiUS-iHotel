@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ihotelreport.Aboutpage"
+                    Title="About GENiUS iHotel on Mobile" BackgroundColor="WhiteSmoke">
+    <StackLayout>
+        
+        <Grid BackgroundColor="White" Margin="0,30,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0" Grid.Row="0" Text="Current version" FontSize="Medium" Margin="10,0,0,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"></Label>
+            <Label Grid.Column="1" Grid.Row="0" Text="1.7" FontSize="Medium" Margin="0,0,10,0" VerticalTextAlignment="Center" HorizontalTextAlignment="End"></Label>
+        </Grid>
+
+        <Grid BackgroundColor="White" Margin="0,30,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Button Grid.Column="0" Grid.Row="0" Text="Terms and Conditions of Use" FontSize="Medium" Margin="10,0,0,0" TextColor="Black" BackgroundColor="White" HorizontalOptions="StartAndExpand" Clicked="termsClicked"></Button>
+            <Button Grid.Column="0" Grid.Row="1" Text="Privacy Policy" FontSize="Medium" Margin="10,0,0,0" TextColor="Black" BackgroundColor="White" HorizontalOptions="StartAndExpand" Clicked="privacyClicked"></Button>
+            <Button Grid.Column="0" Grid.Row="2" Text="Description about software" FontSize="Medium" Margin="10,0,0,0" TextColor="Black" BackgroundColor="White" HorizontalOptions="StartAndExpand" Clicked="helpClicked"></Button>
+            
+        </Grid>
+
+
+
+
+
+
+    </StackLayout>	
+</ContentPage>

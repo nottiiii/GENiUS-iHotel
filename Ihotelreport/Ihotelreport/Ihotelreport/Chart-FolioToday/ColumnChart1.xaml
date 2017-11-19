@@ -4,7 +4,7 @@
 		x:Class="Ihotelreport.ColumnChart1"
 		xmlns:local="clr-namespace:Ihotelreport;assembly=Ihotelreport"
 		xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
-    Title="Revenue By Folio" BackgroundColor="NavajoWhite" NavigationPage.BackButtonTitle="">
+    Title="Revenue By Folio" BackgroundColor="WhiteSmoke" NavigationPage.BackButtonTitle="">
         
         
         <local:SampleView1.BindingContext>
@@ -23,33 +23,74 @@
             </chart:SfChart.BindingContext>
 
             <chart:SfChart.PrimaryAxis>
-                <chart:CategoryAxis LabelPlacement="BetweenTicks">
+                <chart:CategoryAxis ZoomFactor="0.3" ZoomPosition="0" MaximumLabels="20" LabelsIntersectAction="MultipleRows">
                     <chart:CategoryAxis.Title>
-                        <chart:ChartAxisTitle Text="Folio Item"/>
+                        <chart:ChartAxisTitle Text="Folio Item" Font="13"/>
                     </chart:CategoryAxis.Title>
                 </chart:CategoryAxis>
             </chart:SfChart.PrimaryAxis>
 
+             <chart:SfChart.ChartBehaviors>
+                  <chart:ChartZoomPanBehavior EnablePanning="true" EnableDoubleTap="false" />
+            </chart:SfChart.ChartBehaviors>
+            
             <chart:SfChart.SecondaryAxis>
-                <chart:NumericalAxis Maximum="30000" Minimum="0" Interval="2000">
+                <chart:NumericalAxis Maximum="1000000" Minimum="0" Interval="20000">
                     <chart:NumericalAxis.Title>
-                        <chart:ChartAxisTitle Text="Summary"/>
+                        <chart:ChartAxisTitle Text="Summary" Font="13"/>
                     </chart:NumericalAxis.Title>
                 </chart:NumericalAxis>
             </chart:SfChart.SecondaryAxis>
 
-            <chart:SfChart.Legend>
-                <chart:ChartLegend ToggleSeriesVisibility="True"/>
-            </chart:SfChart.Legend>
+             <chart:SfChart.Legend>
+
+    <chart:ChartLegend ToggleSeriesVisibility="True">
+
+        <chart:ChartLegend.LabelStyle>
+
+            <chart:ChartLegendLabelStyle Font="18"/>
+
+        </chart:ChartLegend.LabelStyle>
+
+    </chart:ChartLegend>
+
+</chart:SfChart.Legend>
 
             <chart:SfChart.Series>
                 <chart:ColumnSeries x:Name ="columnSeries1" ItemsSource="{Binding ColumnData1}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Revenue" EnableTooltip="True" EnableAnimation="True">
+                <chart:ColumnSeries.TooltipTemplate>
+                      <DataTemplate>
+                          <StackLayout Orientation="Horizontal">
+                                  <Label Text="{Binding Name}" />
+                                  <Label Text=":" />
+                                  <Label Text="{Binding Value}"/>
+                          </StackLayout>
+                      </DataTemplate>
+                  </chart:ColumnSeries.TooltipTemplate>
                 </chart:ColumnSeries>
 
                 <chart:ColumnSeries x:Name ="columnSeries2" ItemsSource="{Binding ColumnData2}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Vat" EnableTooltip="True" EnableAnimation="True">
+                    <chart:ColumnSeries.TooltipTemplate>
+                          <DataTemplate>
+                              <StackLayout Orientation="Horizontal">
+                                      <Label Text="{Binding Name}" TextColor="White"/>
+                                      <Label Text=":" TextColor="White"/>
+                                      <Label Text="{Binding Value}" TextColor="White"/>
+                              </StackLayout>
+                          </DataTemplate>
+                      </chart:ColumnSeries.TooltipTemplate>
                 </chart:ColumnSeries>
 
                 <chart:ColumnSeries x:Name ="columnSeries3" ItemsSource="{Binding ColumnData3}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Service" EnableTooltip="True" EnableAnimation="True">
+                    <chart:ColumnSeries.TooltipTemplate>
+                          <DataTemplate>
+                              <StackLayout Orientation="Horizontal">
+                                      <Label Text="{Binding Name}" />
+                                      <Label Text=":" />
+                                      <Label Text="{Binding Value}"/>
+                              </StackLayout>
+                          </DataTemplate>
+                      </chart:ColumnSeries.TooltipTemplate>
                 </chart:ColumnSeries>
 
             </chart:SfChart.Series>
@@ -61,11 +102,11 @@
         <StackLayout>
 
             <StackLayout.Padding>
-                <OnPlatform x:TypeArguments="Thickness"  WinPhone="20,20,20,20" />
+                <OnPlatform x:TypeArguments="Thickness"  WinPhone="20,20,20,20"/>
             </StackLayout.Padding>
 
             <StackLayout.WidthRequest>
-                <OnPlatform x:TypeArguments="x:Double"  WinPhone="200" />
+                <OnPlatform x:TypeArguments="x:Double"  WinPhone="200"/>
             </StackLayout.WidthRequest>
 
             <StackLayout.HorizontalOptions>
@@ -73,13 +114,13 @@
             </StackLayout.HorizontalOptions>
 
             <StackLayout.VerticalOptions>
-                <OnPlatform x:TypeArguments="LayoutOptions" iOS="FillAndExpand" Android="FillAndExpand" WinPhone="Center" />
+                <OnPlatform x:TypeArguments="LayoutOptions" iOS="FillAndExpand" Android="FillAndExpand" WinPhone="Center"/>
             </StackLayout.VerticalOptions>
 
             <Label  x:Name="ColumnWidthValue" VerticalOptions="Center" Text="Width : 0.8" />
             <Slider x:Name="ColumnWidth" VerticalOptions="Center" Value="0.8" ValueChanged="ColumnWidth_ValueChanged" />
-            <Label  x:Name="SpacingValue" VerticalOptions="Center" Text="Spacing : 0.0" />
-            <Slider x:Name="Spacing" VerticalOptions="Center" Value="0.0" ValueChanged="Spacing_ValueChanged" />
+            <Label  x:Name="SpacingValue" VerticalOptions="Center" Text="Spacing : 0.0"/>
+            <Slider x:Name="Spacing" VerticalOptions="Center" Value="0.0" ValueChanged="Spacing_ValueChanged"  />
         </StackLayout>
     </local:SampleView1.PropertyView>
     </local:SampleView1>

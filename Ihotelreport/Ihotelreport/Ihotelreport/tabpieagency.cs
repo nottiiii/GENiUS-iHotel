@@ -16,13 +16,16 @@ namespace Ihotelreport
 
             Children.Add(new AreaPagetodaynight
             {
-                Title = "Room Night",
-                BackgroundColor = Color.NavajoWhite,
+                Title = "",
+                BackgroundColor = Color.WhiteSmoke,
+                Icon = "night.png"
+
             });
             Children.Add(new AreaPagetodayrevenue
             {
-                Title = "Room Revenue",
-                BackgroundColor = Color.NavajoWhite,
+                Title = "",
+                BackgroundColor = Color.WhiteSmoke,
+                Icon = "revenue.png"
             });
 
             //Children.Add(new NormalPage
@@ -41,13 +44,16 @@ namespace Ihotelreport
 
             Children.Add(new AreaPagemonthnight
             {
-                Title = "Room Night",
-                BackgroundColor = Color.NavajoWhite,
+                Title = "",
+                BackgroundColor = Color.WhiteSmoke,
+                Icon ="night.png"
+
             });
             Children.Add(new AreaPagemonthrevenue
             {
-                Title = "Room Revenue",
-                BackgroundColor = Color.NavajoWhite,
+                Title = "",
+                BackgroundColor = Color.WhiteSmoke,
+                Icon = "revenue.png"
             });
 
             //Children.Add(new NormalPage
@@ -66,13 +72,15 @@ namespace Ihotelreport
 
             Children.Add(new AreaPageyearnight
             {
-                Title = "Room Night",
-                BackgroundColor = Color.NavajoWhite,
+                Title = "",
+                BackgroundColor = Color.WhiteSmoke,
+                Icon ="night.png"
             });
             Children.Add(new AreaPageyearevenue
             {
-                Title = "Room Revenue",
-                BackgroundColor = Color.NavajoWhite,
+                Title = "",
+                BackgroundColor = Color.WhiteSmoke,
+                Icon ="revenue.png"
             });
 
             //Children.Add(new NormalPage

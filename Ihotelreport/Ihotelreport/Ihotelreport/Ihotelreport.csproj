@@ -189,6 +189,9 @@
     <Compile Include="CustomTabbed.xaml.cs">
       <DependentUpon>CustomTabbed.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Aboutpage.xaml.cs">
+      <DependentUpon>Aboutpage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -232,6 +235,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="inthewordlogo2.jpg" />
+    <EmbeddedResource Include="Aboutpage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Cross.Pie.Forms">

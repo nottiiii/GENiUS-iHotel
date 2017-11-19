@@ -71,7 +71,7 @@ namespace Ihotelreport.Pages
 			});
 			this.Add(new MenuItem()
 			{
-				Titulo = "Agency Report",
+				Titulo = "Agency Statistic Report",
                 TargetType = typeof(TabAgent)
 			});
 			this.Add(new MenuItem()
@@ -84,7 +84,11 @@ namespace Ihotelreport.Pages
                 Titulo = "Help",
                 TargetType = typeof(Help)
             });
-
+			this.Add(new MenuItem()
+			{
+				Titulo = "About GENiUS iHotel on Mobile",
+                TargetType = typeof(Aboutpage)
+			});
             this.Add(new MenuItem()
             {
                 Titulo = "Logout",

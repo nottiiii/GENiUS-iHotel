@@ -33,11 +33,11 @@ namespace Ihotelreport
             string d2 = todays.ToString("yyy/MM/dd");
             if (d1 == d2)
             {
-                XPie.Title = datestart;
+                datemode.Text = datestart;
             }
             else
             {
-                XPie.Title = datestart + " To " + dateends;
+                datemode.Text = datestart+ " To " +dateends;
             }
 
 
@@ -116,7 +116,7 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
                         show.Color = Color.FromHex("#fc6b51");
                         listModel.Add(show);
                     }
@@ -127,7 +127,7 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
                         show.Color = Color.FromHex("#907665");
                         listModel.Add(show);
                     }
@@ -138,7 +138,7 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
                         show.Color = Color.FromHex("#f3e6ba");
                         listModel.Add(show);
                     }
@@ -149,7 +149,7 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
                         show.Color = Color.FromHex("#96d677");
                         listModel.Add(show);
 
@@ -161,7 +161,7 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
                         show.Color = Color.FromHex("#fd9191");
                         listModel.Add(show);
                     }
@@ -172,7 +172,7 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
                         show.Color = Color.FromHex("#4ddeb3");
                         listModel.Add(show);
                     }
@@ -183,8 +183,8 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
-                        show.Color = Color.FromHex("#fc6b51");
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
+                        show.Color = Color.FromHex("#fccb50");
                         listModel.Add(show);
                     }
                     else if (j == 7)
@@ -194,7 +194,7 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
                         show.Color = Color.FromHex("#f46262");
                         listModel.Add(show);
                     }
@@ -205,7 +205,7 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
                         show.Color = Color.FromHex("#afcadc");
                         listModel.Add(show);
                     }
@@ -216,7 +216,7 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
                         show.Color = Color.FromHex("#fac9bb");
                         listModel.Add(show);
                     }
@@ -227,10 +227,76 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
                         show.Color = Color.FromHex("#fef9a8");
                         listModel.Add(show);
                     }
+					else if (j == 11)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = int.Parse(arrnight[j]).ToString("N0");
+						show.Color = Color.FromHex("#c8e1ef");
+						listModel.Add(show);
+					}
+					else if (j == 12)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = int.Parse(arrnight[j]).ToString("N0");
+						show.Color = Color.FromHex("#cec2d3");
+						listModel.Add(show);
+					}
+					else if (j == 13)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = int.Parse(arrnight[j]).ToString("N0");
+						show.Color = Color.FromHex("#eaddc3");
+						listModel.Add(show);
+					}
+					else if (j == 14)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = int.Parse(arrnight[j]).ToString("N0");
+						show.Color = Color.FromHex("#e5abc3");
+						listModel.Add(show);
+					}
+					else if (j == 15)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = int.Parse(arrnight[j]).ToString("N0");
+						show.Color = Color.FromHex("#aef0ca");
+						listModel.Add(show);
+					}
+					else if (j == 16)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = int.Parse(arrnight[j]).ToString("N0");
+						show.Color = Color.FromHex("#e081c3");
+						listModel.Add(show);
+					}
                     else
                     {
                         var show = new AreaModel();
@@ -238,7 +304,7 @@ namespace Ihotelreport
                         XPie.IsValueVisible = false;
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
-                        show.Country2 = arrnight[j];
+                        show.Country2 = int.Parse(arrnight[j]).ToString("N0");
                         show.Color = Color.FromHex("#27b692");
                         listModel.Add(show);
                     }

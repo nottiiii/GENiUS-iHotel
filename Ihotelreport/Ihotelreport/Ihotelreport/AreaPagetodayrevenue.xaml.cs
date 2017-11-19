@@ -34,11 +34,11 @@ namespace Ihotelreport
             string d2 = todays.ToString("yyy/MM/dd");
             if (d1 == d2)
             {
-                XPie.Title = datestart;
+                datemode.Text = datestart;
             }
             else
             {
-                XPie.Title = datestart + " To " + dateends;
+                datemode.Text = datestart+ " To " +dateends;
             }
 
 
@@ -184,7 +184,7 @@ namespace Ihotelreport
                         XPie.IsPercentVisible = false;
                         show.Country = arrname[j];
                         show.Country2 = arrnight[j];
-                        show.Color = Color.FromHex("#a7d8a0");
+                        show.Color = Color.FromHex("#fccb50");
                         listModel.Add(show);
                     }
                     else if (j == 7)
@@ -231,6 +231,72 @@ namespace Ihotelreport
                         show.Color = Color.FromHex("#92d19e");
                         listModel.Add(show);
                     }
+					else if (j == 11)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = arrnight[j];
+						show.Color = Color.FromHex("#c8e1ef");
+						listModel.Add(show);
+					}
+					else if (j == 12)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = arrnight[j];
+						show.Color = Color.FromHex("#cec2d3");
+						listModel.Add(show);
+					}
+					else if (j == 13)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = arrnight[j];
+						show.Color = Color.FromHex("#eaddc3");
+						listModel.Add(show);
+					}
+					else if (j == 14)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = arrnight[j];
+						show.Color = Color.FromHex("#e5abc3");
+						listModel.Add(show);
+					}
+					else if (j == 15)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = arrnight[j];
+						show.Color = Color.FromHex("#aef0ca");
+						listModel.Add(show);
+					}
+					else if (j == 16)
+					{
+						var show = new AreaModel();
+						XPie.IsValueVisible = false;
+						XPie.IsPercentVisible = false;
+						show.Value = Convert.ToDouble(arr1[j]);
+						show.Country = arrname[j];
+						show.Country2 = arrnight[j];
+						show.Color = Color.FromHex("#e081c3");
+						listModel.Add(show);
+					}
                     else
                     {
                         var show = new AreaModel();

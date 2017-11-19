@@ -51,7 +51,7 @@ namespace Ihotelreport.Pages
 					check = true;
 				if (displayPage.ToString() == "Ihotelreport.BusinessS" && App.Current.Properties["Analytical"].ToString() == "1")
 					check = true;
-				if (displayPage.ToString() == "Ihotelreport.tabNation" && App.Current.Properties["Analytical"].ToString() == "1")
+				if (displayPage.ToString() == "Ihotelreport.tabNation" && App.Current.Properties["Audit"].ToString() == "1")
 					check = true;
 				if (displayPage.ToString() == "Ihotelreport.RoomForecast" && App.Current.Properties["Analytical"].ToString() == "1")
 					check = true;
@@ -60,6 +60,8 @@ namespace Ihotelreport.Pages
 				if (displayPage.ToString() == "Ihotelreport.TabCompare" && App.Current.Properties["Analytical"].ToString() == "1")
 					check = true;
 				if (displayPage.ToString() == "Ihotelreport.Help")
+					check = true;
+				if (displayPage.ToString() == "Ihotelreport.Aboutpage")
 					check = true;
                 if (displayPage.ToString() == "Ihotelreport.signout")
                     check = true;

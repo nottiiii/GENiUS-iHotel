@@ -17,6 +17,8 @@ namespace Ihotelreport
     {
 		string datepick = "";
 		string dateends = "";
+        string years = "";
+        string months = "";
 		string database = Application.Current.Properties["Database"].ToString();
 		string datenows = Application.Current.Properties["datenow"].ToString();
 		string szServer = App.Current.Properties["szServer"].ToString();
@@ -34,8 +36,18 @@ namespace Ihotelreport
 			DateTime time = e.NewDate;
             datepick = time.Date.ToString("yyyy") + "-01-01";
 			dateends = time.Date.ToString("yyyy-MM-dd");
+			years = time.Year.ToString() + "-01-01";
 		}
-		
+		private void Findbar_Clicked(object sender, EventArgs e)
+		{
+            App.Current.Properties["Datetodayfoliog"] = dateends;
+			App.Current.Properties["Dateyearfoliog"] = years;
+			Redirect();
+		}
+		async void Redirect()
+		{
+            await Navigation.PushAsync(new ColumnChart2(), true);
+		}
 		public void clicked(object sender, EventArgs e)
 		{
 			GetJSON();

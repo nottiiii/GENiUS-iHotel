@@ -22,13 +22,17 @@
       </chart:SfChart.BindingContext>
 
       <chart:SfChart.PrimaryAxis>
-        <chart:CategoryAxis LabelPlacement="BetweenTicks">
+        <chart:CategoryAxis ZoomFactor="0.5" ZoomPosition="0" MaximumLabels="20" LabelsIntersectAction="MultipleRows">
           <chart:CategoryAxis.Title>
             <chart:ChartAxisTitle Text="Occupied Room"/>
           </chart:CategoryAxis.Title>
         </chart:CategoryAxis>
       </chart:SfChart.PrimaryAxis>
 
+      <chart:SfChart.ChartBehaviors>
+          <chart:ChartZoomPanBehavior EnablePanning="true" EnableDoubleTap="false" />
+        </chart:SfChart.ChartBehaviors>
+            
       <chart:SfChart.SecondaryAxis>
         <chart:NumericalAxis Maximum="20" Minimum="0" Interval="2">
           <chart:NumericalAxis.Title>
@@ -43,6 +47,15 @@
 
       <chart:SfChart.Series>
         <chart:ColumnSeries x:Name ="columnSeries1" ItemsSource="{Binding ColumnData1}" XBindingPath="Name" YBindingPath="Value" EnableTooltip="True" EnableAnimation="True">
+            <chart:ColumnSeries.TooltipTemplate>
+                  <DataTemplate>
+                      <StackLayout Orientation="Horizontal">
+                              <Label Text="{Binding Name}" />
+                              <Label Text=":" />
+                              <Label Text="{Binding Value}"/>
+                      </StackLayout>
+                  </DataTemplate>
+              </chart:ColumnSeries.TooltipTemplate>
         </chart:ColumnSeries>
 
       </chart:SfChart.Series>

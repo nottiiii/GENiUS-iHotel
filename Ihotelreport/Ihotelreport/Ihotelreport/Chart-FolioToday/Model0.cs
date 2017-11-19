@@ -15,7 +15,7 @@ namespace Ihotelreport
 
         public DateTime date { get; set; }
 
-        public double Value { get; set; }
+        public string Value { get; set; }
 
  		public double Value1 { get; set; }
 
@@ -25,27 +25,27 @@ namespace Ihotelreport
 
         public double Low { get; set; }
           
-		public ChartDataModel0(string name, double value)
+        public ChartDataModel0(string name, string value)
         {
             Name = name;
             Value = value;
         }
 
-        public ChartDataModel0(string name, double value, double size)
+        public ChartDataModel0(string name, string value, double size)
         {
             Name = name;
             Value = value;
             Size = size;
         }
 	
-		public ChartDataModel0(double value, double value1, double size)
+        public ChartDataModel0(double value, string value1, double size)
         {
             Value1 = value;
             Value = value1;
             Size = size;
         }
 
-        public ChartDataModel0(string name, double high, double low, double open, double close)
+        public ChartDataModel0(string name, double high, double low, string open, double close)
         {
             Name = name;
             High = high;
@@ -53,7 +53,7 @@ namespace Ihotelreport
             Value = open;
             Size = close;
         }
-		public ChartDataModel0(DateTime Date, double high, double low, double open, double close)
+        public ChartDataModel0(DateTime Date, double high, double low, string open, double close)
         {
             date = Date;
             High = high;
@@ -61,13 +61,13 @@ namespace Ihotelreport
             Value = open;
             Size = close;
         }
-        public ChartDataModel0(double value, double size)
+        public ChartDataModel0(string value, double size)
         {
             Value = value;
             Size = size;
         }
 
-        public ChartDataModel0(DateTime dateTime, double value)
+        public ChartDataModel0(DateTime dateTime, string value)
         {
             date = dateTime;
             Value = value;

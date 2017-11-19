@@ -2,23 +2,29 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:cross="clr-namespace:Cross.Pie.Forms;assembly=Cross.Pie.Forms"
-				xmlns:local="clr-namespace:Ihotelreport;assembly=Ihotelreport"
-             x:Class="Ihotelreport.AreaPagemonthnight">
+                xmlns:local="clr-namespace:Ihotelreport;assembly=Ihotelreport"
+                    x:Class="Ihotelreport.AreaPagemonthnight" NavigationPage.BackButtonTitle="">
     <ContentPage.Content>
+
+
         <Grid BackgroundColor="WhiteSmoke" RowSpacing="0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="23*"/>
+                <RowDefinition Height="22*"/>
+                <RowDefinition Height="2*"/>
                 <RowDefinition Height="1.5*"/>
-                <RowDefinition Height="7*"/>
+                <RowDefinition Height="9.5*"/>
             </Grid.RowDefinitions>
+
 
             <cross:CrossPie Grid.Row="0" x:Name="XPie" Title="" TitleColor="Black" IsTitleOnTop="false">
             </cross:CrossPie>
+            <Label x:Name="datemode" Grid.Row="1" HorizontalTextAlignment="Center" Margin="0,0,0,10"/>
 
-            <local:AreaHeaderView Grid.Row="1" />
+                    <local:AreaHeaderView Grid.Row="2" />
 
-            <ListView Grid.Row="2" x:Name="List" RowHeight="26" BackgroundColor="White" HasUnevenRows="false">
-            </ListView>
+                    <ListView Grid.Row="3" x:Name="List" BackgroundColor="White" HasUnevenRows="true"></ListView>
+               
         </Grid>
+
     </ContentPage.Content>
 </ContentPage>

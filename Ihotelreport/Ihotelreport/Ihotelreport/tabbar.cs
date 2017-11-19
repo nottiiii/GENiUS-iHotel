@@ -12,7 +12,7 @@ namespace Ihotelreport
         public tabbar()
         {
             this.Title = "Revenue By Folio";
-
+            NavigationPage.SetBackButtonTitle(this, "");
 
             Children.Add(new Revenuereport
             {
@@ -45,7 +45,6 @@ namespace Ihotelreport
         public tabbargtoday()
         {
             this.Title = "Revenue By Folio";
-			NavigationPage.SetBackButtonTitle(this, "Home");
 
 			Children.Add(new ColumnChart0
             {

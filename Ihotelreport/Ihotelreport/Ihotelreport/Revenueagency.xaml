@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Ihotelreport.Revenueagency">
-    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+             x:Class="Ihotelreport.Revenueagency"
+             Title="Revenue by Agency" NavigationPage.BackButtonTitle="">
+    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" NavigationPage.BackButtonTitle="">
 
         <Grid BackgroundColor="#DCDCDC" ColumnSpacing="1">
             <Grid.RowDefinitions>
@@ -10,10 +11,10 @@
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="55"/>
-                <ColumnDefinition Width="125"/>
+                <ColumnDefinition Width="115"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="40"/>

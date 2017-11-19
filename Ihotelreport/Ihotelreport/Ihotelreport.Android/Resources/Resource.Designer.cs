@@ -1812,1604 +1812,6 @@ namespace Ihotelreport.Droid
 			global::NControl.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Ihotelreport.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::NControl.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::Ihotelreport.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::NGraphics.Android.Resource.String.library_name = global::Ihotelreport.Droid.Resource.String.library_name;
-			global::Syncfusion.Data.Resource.String.library_name = global::Ihotelreport.Droid.Resource.String.library_name;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_fade_in = global::Ihotelreport.Droid.Resource.Animation.abc_fade_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_fade_out = global::Ihotelreport.Droid.Resource.Animation.abc_fade_out;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::Ihotelreport.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_popup_enter = global::Ihotelreport.Droid.Resource.Animation.abc_popup_enter;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_popup_exit = global::Ihotelreport.Droid.Resource.Animation.abc_popup_exit;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Ihotelreport.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_in_bottom = global::Ihotelreport.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_in_top = global::Ihotelreport.Droid.Resource.Animation.abc_slide_in_top;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_out_bottom = global::Ihotelreport.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_out_top = global::Ihotelreport.Droid.Resource.Animation.abc_slide_out_top;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::Ihotelreport.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::Ihotelreport.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_fab_in = global::Ihotelreport.Droid.Resource.Animation.design_fab_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_fab_out = global::Ihotelreport.Droid.Resource.Animation.design_fab_out;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_snackbar_in = global::Ihotelreport.Droid.Resource.Animation.design_snackbar_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_snackbar_out = global::Ihotelreport.Droid.Resource.Animation.design_snackbar_out;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarDivider = global::Ihotelreport.Droid.Resource.Attribute.actionBarDivider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarItemBackground = global::Ihotelreport.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarPopupTheme = global::Ihotelreport.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarSize = global::Ihotelreport.Droid.Resource.Attribute.actionBarSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarSplitStyle = global::Ihotelreport.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarStyle = global::Ihotelreport.Droid.Resource.Attribute.actionBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTabBarStyle = global::Ihotelreport.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTabStyle = global::Ihotelreport.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTabTextStyle = global::Ihotelreport.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTheme = global::Ihotelreport.Droid.Resource.Attribute.actionBarTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarWidgetTheme = global::Ihotelreport.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionButtonStyle = global::Ihotelreport.Droid.Resource.Attribute.actionButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionDropDownStyle = global::Ihotelreport.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionLayout = global::Ihotelreport.Droid.Resource.Attribute.actionLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionMenuTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionMenuTextColor = global::Ihotelreport.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeBackground = global::Ihotelreport.Droid.Resource.Attribute.actionModeBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::Ihotelreport.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCloseDrawable = global::Ihotelreport.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCopyDrawable = global::Ihotelreport.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCutDrawable = global::Ihotelreport.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeFindDrawable = global::Ihotelreport.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModePasteDrawable = global::Ihotelreport.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::Ihotelreport.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::Ihotelreport.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeShareDrawable = global::Ihotelreport.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeSplitBackground = global::Ihotelreport.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeStyle = global::Ihotelreport.Droid.Resource.Attribute.actionModeStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::Ihotelreport.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::Ihotelreport.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::Ihotelreport.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionProviderClass = global::Ihotelreport.Droid.Resource.Attribute.actionProviderClass;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionViewClass = global::Ihotelreport.Droid.Resource.Attribute.actionViewClass;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.activityChooserViewStyle = global::Ihotelreport.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::Ihotelreport.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogCenterButtons = global::Ihotelreport.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogStyle = global::Ihotelreport.Droid.Resource.Attribute.alertDialogStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogTheme = global::Ihotelreport.Droid.Resource.Attribute.alertDialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.allowStacking = global::Ihotelreport.Droid.Resource.Attribute.allowStacking;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.arrowHeadLength = global::Ihotelreport.Droid.Resource.Attribute.arrowHeadLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.arrowShaftLength = global::Ihotelreport.Droid.Resource.Attribute.arrowShaftLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::Ihotelreport.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.background = global::Ihotelreport.Droid.Resource.Attribute.background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundSplit = global::Ihotelreport.Droid.Resource.Attribute.backgroundSplit;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundStacked = global::Ihotelreport.Droid.Resource.Attribute.backgroundStacked;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundTint = global::Ihotelreport.Droid.Resource.Attribute.backgroundTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundTintMode = global::Ihotelreport.Droid.Resource.Attribute.backgroundTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.barLength = global::Ihotelreport.Droid.Resource.Attribute.barLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_hideable = global::Ihotelreport.Droid.Resource.Attribute.behavior_hideable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_overlapTop = global::Ihotelreport.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_peekHeight = global::Ihotelreport.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.borderWidth = global::Ihotelreport.Droid.Resource.Attribute.borderWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.borderlessButtonStyle = global::Ihotelreport.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::Ihotelreport.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.bottomSheetStyle = global::Ihotelreport.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarButtonStyle = global::Ihotelreport.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::Ihotelreport.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::Ihotelreport.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::Ihotelreport.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarStyle = global::Ihotelreport.Droid.Resource.Attribute.buttonBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonPanelSideLayout = global::Ihotelreport.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonStyle = global::Ihotelreport.Droid.Resource.Attribute.buttonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonStyleSmall = global::Ihotelreport.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonTint = global::Ihotelreport.Droid.Resource.Attribute.buttonTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonTintMode = global::Ihotelreport.Droid.Resource.Attribute.buttonTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardBackgroundColor = global::Ihotelreport.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardCornerRadius = global::Ihotelreport.Droid.Resource.Attribute.cardCornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardElevation = global::Ihotelreport.Droid.Resource.Attribute.cardElevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardMaxElevation = global::Ihotelreport.Droid.Resource.Attribute.cardMaxElevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::Ihotelreport.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardUseCompatPadding = global::Ihotelreport.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkboxStyle = global::Ihotelreport.Droid.Resource.Attribute.checkboxStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkedTextViewStyle = global::Ihotelreport.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIcon = global::Ihotelreport.Droid.Resource.Attribute.closeIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeItemLayout = global::Ihotelreport.Droid.Resource.Attribute.closeItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapseContentDescription = global::Ihotelreport.Droid.Resource.Attribute.collapseContentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapseIcon = global::Ihotelreport.Droid.Resource.Attribute.collapseIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapsedTitleGravity = global::Ihotelreport.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.color = global::Ihotelreport.Droid.Resource.Attribute.color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorAccent = global::Ihotelreport.Droid.Resource.Attribute.colorAccent;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorButtonNormal = global::Ihotelreport.Droid.Resource.Attribute.colorButtonNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorControlActivated = global::Ihotelreport.Droid.Resource.Attribute.colorControlActivated;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorControlHighlight = global::Ihotelreport.Droid.Resource.Attribute.colorControlHighlight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorControlNormal = global::Ihotelreport.Droid.Resource.Attribute.colorControlNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorPrimary = global::Ihotelreport.Droid.Resource.Attribute.colorPrimary;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorPrimaryDark = global::Ihotelreport.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::Ihotelreport.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.commitIcon = global::Ihotelreport.Droid.Resource.Attribute.commitIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetEnd = global::Ihotelreport.Droid.Resource.Attribute.contentInsetEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetLeft = global::Ihotelreport.Droid.Resource.Attribute.contentInsetLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetRight = global::Ihotelreport.Droid.Resource.Attribute.contentInsetRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetStart = global::Ihotelreport.Droid.Resource.Attribute.contentInsetStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPadding = global::Ihotelreport.Droid.Resource.Attribute.contentPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingBottom = global::Ihotelreport.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingLeft = global::Ihotelreport.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingRight = global::Ihotelreport.Droid.Resource.Attribute.contentPaddingRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingTop = global::Ihotelreport.Droid.Resource.Attribute.contentPaddingTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentScrim = global::Ihotelreport.Droid.Resource.Attribute.contentScrim;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.controlBackground = global::Ihotelreport.Droid.Resource.Attribute.controlBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterEnabled = global::Ihotelreport.Droid.Resource.Attribute.counterEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterMaxLength = global::Ihotelreport.Droid.Resource.Attribute.counterMaxLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.counterTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.customNavigationLayout = global::Ihotelreport.Droid.Resource.Attribute.customNavigationLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.defaultQueryHint = global::Ihotelreport.Droid.Resource.Attribute.defaultQueryHint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dialogPreferredPadding = global::Ihotelreport.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dialogTheme = global::Ihotelreport.Droid.Resource.Attribute.dialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.displayOptions = global::Ihotelreport.Droid.Resource.Attribute.displayOptions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.divider = global::Ihotelreport.Droid.Resource.Attribute.divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dividerHorizontal = global::Ihotelreport.Droid.Resource.Attribute.dividerHorizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dividerPadding = global::Ihotelreport.Droid.Resource.Attribute.dividerPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dividerVertical = global::Ihotelreport.Droid.Resource.Attribute.dividerVertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.drawableSize = global::Ihotelreport.Droid.Resource.Attribute.drawableSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.drawerArrowStyle = global::Ihotelreport.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dropDownListViewStyle = global::Ihotelreport.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::Ihotelreport.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.editTextBackground = global::Ihotelreport.Droid.Resource.Attribute.editTextBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.editTextColor = global::Ihotelreport.Droid.Resource.Attribute.editTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.editTextStyle = global::Ihotelreport.Droid.Resource.Attribute.editTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.elevation = global::Ihotelreport.Droid.Resource.Attribute.elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.errorEnabled = global::Ihotelreport.Droid.Resource.Attribute.errorEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.errorTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.errorTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Ihotelreport.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expanded = global::Ihotelreport.Droid.Resource.Attribute.expanded;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleGravity = global::Ihotelreport.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMargin = global::Ihotelreport.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::Ihotelreport.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::Ihotelreport.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginStart = global::Ihotelreport.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginTop = global::Ihotelreport.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabSize = global::Ihotelreport.Droid.Resource.Attribute.fabSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.foregroundInsidePadding = global::Ihotelreport.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.gapBetweenBars = global::Ihotelreport.Droid.Resource.Attribute.gapBetweenBars;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.goIcon = global::Ihotelreport.Droid.Resource.Attribute.goIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.headerLayout = global::Ihotelreport.Droid.Resource.Attribute.headerLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.height = global::Ihotelreport.Droid.Resource.Attribute.height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hideOnContentScroll = global::Ihotelreport.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hintAnimationEnabled = global::Ihotelreport.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hintEnabled = global::Ihotelreport.Droid.Resource.Attribute.hintEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hintTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.hintTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.homeAsUpIndicator = global::Ihotelreport.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.homeLayout = global::Ihotelreport.Droid.Resource.Attribute.homeLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.icon = global::Ihotelreport.Droid.Resource.Attribute.icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconifiedByDefault = global::Ihotelreport.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.imageButtonStyle = global::Ihotelreport.Droid.Resource.Attribute.imageButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.indeterminateProgressStyle = global::Ihotelreport.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.initialActivityCount = global::Ihotelreport.Droid.Resource.Attribute.initialActivityCount;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.insetForeground = global::Ihotelreport.Droid.Resource.Attribute.insetForeground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.isLightTheme = global::Ihotelreport.Droid.Resource.Attribute.isLightTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemBackground = global::Ihotelreport.Droid.Resource.Attribute.itemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemIconTint = global::Ihotelreport.Droid.Resource.Attribute.itemIconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemPadding = global::Ihotelreport.Droid.Resource.Attribute.itemPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.itemTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemTextColor = global::Ihotelreport.Droid.Resource.Attribute.itemTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.keylines = global::Ihotelreport.Droid.Resource.Attribute.keylines;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout = global::Ihotelreport.Droid.Resource.Attribute.layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layoutManager = global::Ihotelreport.Droid.Resource.Attribute.layoutManager;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_anchor = global::Ihotelreport.Droid.Resource.Attribute.layout_anchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_anchorGravity = global::Ihotelreport.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_behavior = global::Ihotelreport.Droid.Resource.Attribute.layout_behavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_collapseMode = global::Ihotelreport.Droid.Resource.Attribute.layout_collapseMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::Ihotelreport.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_keyline = global::Ihotelreport.Droid.Resource.Attribute.layout_keyline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_scrollFlags = global::Ihotelreport.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_scrollInterpolator = global::Ihotelreport.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::Ihotelreport.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listDividerAlertDialog = global::Ihotelreport.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listItemLayout = global::Ihotelreport.Droid.Resource.Attribute.listItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listLayout = global::Ihotelreport.Droid.Resource.Attribute.listLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPopupWindowStyle = global::Ihotelreport.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemHeight = global::Ihotelreport.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::Ihotelreport.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::Ihotelreport.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::Ihotelreport.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::Ihotelreport.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.logo = global::Ihotelreport.Droid.Resource.Attribute.logo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.logoDescription = global::Ihotelreport.Droid.Resource.Attribute.logoDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.maxActionInlineWidth = global::Ihotelreport.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.maxButtonHeight = global::Ihotelreport.Droid.Resource.Attribute.maxButtonHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.measureWithLargestChild = global::Ihotelreport.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.menu = global::Ihotelreport.Droid.Resource.Attribute.menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.multiChoiceItemLayout = global::Ihotelreport.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.navigationContentDescription = global::Ihotelreport.Droid.Resource.Attribute.navigationContentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.navigationIcon = global::Ihotelreport.Droid.Resource.Attribute.navigationIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.navigationMode = global::Ihotelreport.Droid.Resource.Attribute.navigationMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.overlapAnchor = global::Ihotelreport.Droid.Resource.Attribute.overlapAnchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.paddingEnd = global::Ihotelreport.Droid.Resource.Attribute.paddingEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.paddingStart = global::Ihotelreport.Droid.Resource.Attribute.paddingStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.panelBackground = global::Ihotelreport.Droid.Resource.Attribute.panelBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.panelMenuListTheme = global::Ihotelreport.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.panelMenuListWidth = global::Ihotelreport.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.popupMenuStyle = global::Ihotelreport.Droid.Resource.Attribute.popupMenuStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.popupTheme = global::Ihotelreport.Droid.Resource.Attribute.popupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.popupWindowStyle = global::Ihotelreport.Droid.Resource.Attribute.popupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.preserveIconSpacing = global::Ihotelreport.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.pressedTranslationZ = global::Ihotelreport.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.progressBarPadding = global::Ihotelreport.Droid.Resource.Attribute.progressBarPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.progressBarStyle = global::Ihotelreport.Droid.Resource.Attribute.progressBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.queryBackground = global::Ihotelreport.Droid.Resource.Attribute.queryBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.queryHint = global::Ihotelreport.Droid.Resource.Attribute.queryHint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.radioButtonStyle = global::Ihotelreport.Droid.Resource.Attribute.radioButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.ratingBarStyle = global::Ihotelreport.Droid.Resource.Attribute.ratingBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::Ihotelreport.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.ratingBarStyleSmall = global::Ihotelreport.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.reverseLayout = global::Ihotelreport.Droid.Resource.Attribute.reverseLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rippleColor = global::Ihotelreport.Droid.Resource.Attribute.rippleColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.searchHintIcon = global::Ihotelreport.Droid.Resource.Attribute.searchHintIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.searchIcon = global::Ihotelreport.Droid.Resource.Attribute.searchIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.searchViewStyle = global::Ihotelreport.Droid.Resource.Attribute.searchViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.seekBarStyle = global::Ihotelreport.Droid.Resource.Attribute.seekBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.selectableItemBackground = global::Ihotelreport.Droid.Resource.Attribute.selectableItemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::Ihotelreport.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showAsAction = global::Ihotelreport.Droid.Resource.Attribute.showAsAction;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showDividers = global::Ihotelreport.Droid.Resource.Attribute.showDividers;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showText = global::Ihotelreport.Droid.Resource.Attribute.showText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.singleChoiceItemLayout = global::Ihotelreport.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spanCount = global::Ihotelreport.Droid.Resource.Attribute.spanCount;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spinBars = global::Ihotelreport.Droid.Resource.Attribute.spinBars;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::Ihotelreport.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spinnerStyle = global::Ihotelreport.Droid.Resource.Attribute.spinnerStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.splitTrack = global::Ihotelreport.Droid.Resource.Attribute.splitTrack;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.srcCompat = global::Ihotelreport.Droid.Resource.Attribute.srcCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.stackFromEnd = global::Ihotelreport.Droid.Resource.Attribute.stackFromEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.state_above_anchor = global::Ihotelreport.Droid.Resource.Attribute.state_above_anchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.statusBarBackground = global::Ihotelreport.Droid.Resource.Attribute.statusBarBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.statusBarScrim = global::Ihotelreport.Droid.Resource.Attribute.statusBarScrim;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.submitBackground = global::Ihotelreport.Droid.Resource.Attribute.submitBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitle = global::Ihotelreport.Droid.Resource.Attribute.subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitleTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitleTextColor = global::Ihotelreport.Droid.Resource.Attribute.subtitleTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitleTextStyle = global::Ihotelreport.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.suggestionRowLayout = global::Ihotelreport.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchMinWidth = global::Ihotelreport.Droid.Resource.Attribute.switchMinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchPadding = global::Ihotelreport.Droid.Resource.Attribute.switchPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchStyle = global::Ihotelreport.Droid.Resource.Attribute.switchStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.switchTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabBackground = global::Ihotelreport.Droid.Resource.Attribute.tabBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabContentStart = global::Ihotelreport.Droid.Resource.Attribute.tabContentStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabGravity = global::Ihotelreport.Droid.Resource.Attribute.tabGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorColor = global::Ihotelreport.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorHeight = global::Ihotelreport.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabMaxWidth = global::Ihotelreport.Droid.Resource.Attribute.tabMaxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabMinWidth = global::Ihotelreport.Droid.Resource.Attribute.tabMinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabMode = global::Ihotelreport.Droid.Resource.Attribute.tabMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPadding = global::Ihotelreport.Droid.Resource.Attribute.tabPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingBottom = global::Ihotelreport.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingEnd = global::Ihotelreport.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingStart = global::Ihotelreport.Droid.Resource.Attribute.tabPaddingStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingTop = global::Ihotelreport.Droid.Resource.Attribute.tabPaddingTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabSelectedTextColor = global::Ihotelreport.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.tabTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabTextColor = global::Ihotelreport.Droid.Resource.Attribute.tabTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAllCaps = global::Ihotelreport.Droid.Resource.Attribute.textAllCaps;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::Ihotelreport.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceListItem = global::Ihotelreport.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::Ihotelreport.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Ihotelreport.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::Ihotelreport.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::Ihotelreport.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::Ihotelreport.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textColorError = global::Ihotelreport.Droid.Resource.Attribute.textColorError;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textColorSearchUrl = global::Ihotelreport.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.theme = global::Ihotelreport.Droid.Resource.Attribute.theme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.thickness = global::Ihotelreport.Droid.Resource.Attribute.thickness;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.thumbTextPadding = global::Ihotelreport.Droid.Resource.Attribute.thumbTextPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.title = global::Ihotelreport.Droid.Resource.Attribute.title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleEnabled = global::Ihotelreport.Droid.Resource.Attribute.titleEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginBottom = global::Ihotelreport.Droid.Resource.Attribute.titleMarginBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginEnd = global::Ihotelreport.Droid.Resource.Attribute.titleMarginEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginStart = global::Ihotelreport.Droid.Resource.Attribute.titleMarginStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginTop = global::Ihotelreport.Droid.Resource.Attribute.titleMarginTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMargins = global::Ihotelreport.Droid.Resource.Attribute.titleMargins;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleTextAppearance = global::Ihotelreport.Droid.Resource.Attribute.titleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleTextColor = global::Ihotelreport.Droid.Resource.Attribute.titleTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleTextStyle = global::Ihotelreport.Droid.Resource.Attribute.titleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.toolbarId = global::Ihotelreport.Droid.Resource.Attribute.toolbarId;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::Ihotelreport.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.toolbarStyle = global::Ihotelreport.Droid.Resource.Attribute.toolbarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.track = global::Ihotelreport.Droid.Resource.Attribute.track;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.useCompatPadding = global::Ihotelreport.Droid.Resource.Attribute.useCompatPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.voiceIcon = global::Ihotelreport.Droid.Resource.Attribute.voiceIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowActionBar = global::Ihotelreport.Droid.Resource.Attribute.windowActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowActionBarOverlay = global::Ihotelreport.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowActionModeOverlay = global::Ihotelreport.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedHeightMajor = global::Ihotelreport.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedHeightMinor = global::Ihotelreport.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedWidthMajor = global::Ihotelreport.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedWidthMinor = global::Ihotelreport.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowMinWidthMajor = global::Ihotelreport.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowMinWidthMinor = global::Ihotelreport.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowNoTitle = global::Ihotelreport.Droid.Resource.Attribute.windowNoTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::Ihotelreport.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::Ihotelreport.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::Ihotelreport.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::Ihotelreport.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Ihotelreport.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::Ihotelreport.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Ihotelreport.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Ihotelreport.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Ihotelreport.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::Ihotelreport.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_color_highlight_material = global::Ihotelreport.Droid.Resource.Color.abc_color_highlight_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_input_method_navigation_guard = global::Ihotelreport.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::Ihotelreport.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::Ihotelreport.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_material_dark = global::Ihotelreport.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_material_light = global::Ihotelreport.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text = global::Ihotelreport.Droid.Resource.Color.abc_search_url_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text_normal = global::Ihotelreport.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text_pressed = global::Ihotelreport.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text_selected = global::Ihotelreport.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_secondary_text_material_dark = global::Ihotelreport.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_secondary_text_material_light = global::Ihotelreport.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.accent_material_dark = global::Ihotelreport.Droid.Resource.Color.accent_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.accent_material_light = global::Ihotelreport.Droid.Resource.Color.accent_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_floating_material_dark = global::Ihotelreport.Droid.Resource.Color.background_floating_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_floating_material_light = global::Ihotelreport.Droid.Resource.Color.background_floating_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_material_dark = global::Ihotelreport.Droid.Resource.Color.background_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_material_light = global::Ihotelreport.Droid.Resource.Color.background_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::Ihotelreport.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::Ihotelreport.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::Ihotelreport.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::Ihotelreport.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_material_dark = global::Ihotelreport.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_material_light = global::Ihotelreport.Droid.Resource.Color.bright_foreground_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.button_material_dark = global::Ihotelreport.Droid.Resource.Color.button_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.button_material_light = global::Ihotelreport.Droid.Resource.Color.button_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_dark_background = global::Ihotelreport.Droid.Resource.Color.cardview_dark_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_light_background = global::Ihotelreport.Droid.Resource.Color.cardview_light_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_shadow_end_color = global::Ihotelreport.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_shadow_start_color = global::Ihotelreport.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_shadow_end_color = global::Ihotelreport.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_shadow_mid_color = global::Ihotelreport.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_shadow_start_color = global::Ihotelreport.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::Ihotelreport.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::Ihotelreport.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::Ihotelreport.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::Ihotelreport.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_snackbar_background_color = global::Ihotelreport.Droid.Resource.Color.design_snackbar_background_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_textinput_error_color_dark = global::Ihotelreport.Droid.Resource.Color.design_textinput_error_color_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_textinput_error_color_light = global::Ihotelreport.Droid.Resource.Color.design_textinput_error_color_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::Ihotelreport.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::Ihotelreport.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_material_dark = global::Ihotelreport.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_material_light = global::Ihotelreport.Droid.Resource.Color.dim_foreground_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.foreground_material_dark = global::Ihotelreport.Droid.Resource.Color.foreground_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.foreground_material_light = global::Ihotelreport.Droid.Resource.Color.foreground_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.highlighted_text_material_dark = global::Ihotelreport.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.highlighted_text_material_light = global::Ihotelreport.Droid.Resource.Color.highlighted_text_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.hint_foreground_material_dark = global::Ihotelreport.Droid.Resource.Color.hint_foreground_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.hint_foreground_material_light = global::Ihotelreport.Droid.Resource.Color.hint_foreground_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_blue_grey_800 = global::Ihotelreport.Droid.Resource.Color.material_blue_grey_800;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_blue_grey_900 = global::Ihotelreport.Droid.Resource.Color.material_blue_grey_900;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_blue_grey_950 = global::Ihotelreport.Droid.Resource.Color.material_blue_grey_950;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_deep_teal_200 = global::Ihotelreport.Droid.Resource.Color.material_deep_teal_200;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_deep_teal_500 = global::Ihotelreport.Droid.Resource.Color.material_deep_teal_500;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_100 = global::Ihotelreport.Droid.Resource.Color.material_grey_100;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_300 = global::Ihotelreport.Droid.Resource.Color.material_grey_300;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_50 = global::Ihotelreport.Droid.Resource.Color.material_grey_50;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_600 = global::Ihotelreport.Droid.Resource.Color.material_grey_600;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_800 = global::Ihotelreport.Droid.Resource.Color.material_grey_800;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_850 = global::Ihotelreport.Droid.Resource.Color.material_grey_850;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_900 = global::Ihotelreport.Droid.Resource.Color.material_grey_900;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_dark_material_dark = global::Ihotelreport.Droid.Resource.Color.primary_dark_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_dark_material_light = global::Ihotelreport.Droid.Resource.Color.primary_dark_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_material_dark = global::Ihotelreport.Droid.Resource.Color.primary_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_material_light = global::Ihotelreport.Droid.Resource.Color.primary_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_default_material_dark = global::Ihotelreport.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_default_material_light = global::Ihotelreport.Droid.Resource.Color.primary_text_default_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_disabled_material_dark = global::Ihotelreport.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_disabled_material_light = global::Ihotelreport.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.ripple_material_dark = global::Ihotelreport.Droid.Resource.Color.ripple_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.ripple_material_light = global::Ihotelreport.Droid.Resource.Color.ripple_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_default_material_dark = global::Ihotelreport.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_default_material_light = global::Ihotelreport.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::Ihotelreport.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_disabled_material_light = global::Ihotelreport.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::Ihotelreport.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::Ihotelreport.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_material_dark = global::Ihotelreport.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_material_light = global::Ihotelreport.Droid.Resource.Color.switch_thumb_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::Ihotelreport.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_normal_material_light = global::Ihotelreport.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Ihotelreport.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Ihotelreport.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::Ihotelreport.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::Ihotelreport.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::Ihotelreport.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::Ihotelreport.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::Ihotelreport.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_control_corner_material = global::Ihotelreport.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_control_inset_material = global::Ihotelreport.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_control_padding_material = global::Ihotelreport.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::Ihotelreport.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::Ihotelreport.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::Ihotelreport.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::Ihotelreport.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::Ihotelreport.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::Ihotelreport.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::Ihotelreport.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_padding_material = global::Ihotelreport.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::Ihotelreport.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::Ihotelreport.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::Ihotelreport.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::Ihotelreport.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Ihotelreport.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Ihotelreport.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Ihotelreport.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Ihotelreport.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::Ihotelreport.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_floating_window_z = global::Ihotelreport.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Ihotelreport.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::Ihotelreport.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::Ihotelreport.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_search_view_text_min_width = global::Ihotelreport.Droid.Resource.Dimension.abc_search_view_text_min_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::Ihotelreport.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Ihotelreport.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::Ihotelreport.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_switch_padding = global::Ihotelreport.Droid.Resource.Dimension.abc_switch_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_button_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_caption_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_headline_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_large_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_medium_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_menu_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_small_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_title_material = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::Ihotelreport.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::Ihotelreport.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.cardview_default_elevation = global::Ihotelreport.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.cardview_default_radius = global::Ihotelreport.Droid.Resource.Dimension.cardview_default_radius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_appbar_elevation = global::Ihotelreport.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Ihotelreport.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::Ihotelreport.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_border_width = global::Ihotelreport.Droid.Resource.Dimension.design_fab_border_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_elevation = global::Ihotelreport.Droid.Resource.Dimension.design_fab_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_image_size = global::Ihotelreport.Droid.Resource.Dimension.design_fab_image_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_size_mini = global::Ihotelreport.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_size_normal = global::Ihotelreport.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::Ihotelreport.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_elevation = global::Ihotelreport.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_icon_padding = global::Ihotelreport.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_icon_size = global::Ihotelreport.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_max_width = global::Ihotelreport.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::Ihotelreport.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::Ihotelreport.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::Ihotelreport.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::Ihotelreport.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_elevation = global::Ihotelreport.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Ihotelreport.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_max_width = global::Ihotelreport.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_min_width = global::Ihotelreport.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::Ihotelreport.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::Ihotelreport.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Ihotelreport.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_text_size = global::Ihotelreport.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_max_width = global::Ihotelreport.Droid.Resource.Dimension.design_tab_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::Ihotelreport.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_text_size = global::Ihotelreport.Droid.Resource.Dimension.design_tab_text_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_text_size_2line = global::Ihotelreport.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::Ihotelreport.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.disabled_alpha_material_light = global::Ihotelreport.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::Ihotelreport.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::Ihotelreport.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.highlight_alpha_material_light = global::Ihotelreport.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Ihotelreport.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Ihotelreport.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Ihotelreport.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_large_icon_height = global::Ihotelreport.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_large_icon_width = global::Ihotelreport.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_subtext_size = global::Ihotelreport.Droid.Resource.Dimension.notification_subtext_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::Ihotelreport.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_borderless_material = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_check_material = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_colored_material = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_radio_material = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Ihotelreport.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::Ihotelreport.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_cab_background_top_material = global::Ihotelreport.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_control_background_material = global::Ihotelreport.Droid.Resource.Drawable.abc_control_background_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_dialog_material_background_dark = global::Ihotelreport.Droid.Resource.Drawable.abc_dialog_material_background_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_dialog_material_background_light = global::Ihotelreport.Droid.Resource.Drawable.abc_dialog_material_background_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_edit_text_material = global::Ihotelreport.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::Ihotelreport.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_item_background_holo_light = global::Ihotelreport.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_focused_holo = global::Ihotelreport.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::Ihotelreport.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::Ihotelreport.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::Ihotelreport.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Ihotelreport.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Ihotelreport.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Ihotelreport.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Ihotelreport.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::Ihotelreport.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::Ihotelreport.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Ihotelreport.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::Ihotelreport.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ratingbar_full_material = global::Ihotelreport.Droid.Resource.Drawable.abc_ratingbar_full_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::Ihotelreport.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::Ihotelreport.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Ihotelreport.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Ihotelreport.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::Ihotelreport.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_seekbar_track_material = global::Ihotelreport.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::Ihotelreport.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_switch_thumb_material = global::Ihotelreport.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_tab_indicator_material = global::Ihotelreport.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_cursor_material = global::Ihotelreport.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Ihotelreport.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_search_material = global::Ihotelreport.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_fab_background = global::Ihotelreport.Droid.Resource.Drawable.design_fab_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_snackbar_background = global::Ihotelreport.Droid.Resource.Drawable.design_snackbar_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_template_icon_bg = global::Ihotelreport.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action0 = global::Ihotelreport.Droid.Resource.Id.action0;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar = global::Ihotelreport.Droid.Resource.Id.action_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_activity_content = global::Ihotelreport.Droid.Resource.Id.action_bar_activity_content;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_container = global::Ihotelreport.Droid.Resource.Id.action_bar_container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_root = global::Ihotelreport.Droid.Resource.Id.action_bar_root;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_spinner = global::Ihotelreport.Droid.Resource.Id.action_bar_spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_subtitle = global::Ihotelreport.Droid.Resource.Id.action_bar_subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_title = global::Ihotelreport.Droid.Resource.Id.action_bar_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_context_bar = global::Ihotelreport.Droid.Resource.Id.action_context_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_divider = global::Ihotelreport.Droid.Resource.Id.action_divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_menu_divider = global::Ihotelreport.Droid.Resource.Id.action_menu_divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_menu_presenter = global::Ihotelreport.Droid.Resource.Id.action_menu_presenter;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_mode_bar = global::Ihotelreport.Droid.Resource.Id.action_mode_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_mode_bar_stub = global::Ihotelreport.Droid.Resource.Id.action_mode_bar_stub;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_mode_close_button = global::Ihotelreport.Droid.Resource.Id.action_mode_close_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.activity_chooser_view_content = global::Ihotelreport.Droid.Resource.Id.activity_chooser_view_content;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.alertTitle = global::Ihotelreport.Droid.Resource.Id.alertTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.always = global::Ihotelreport.Droid.Resource.Id.always;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.beginning = global::Ihotelreport.Droid.Resource.Id.beginning;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottom = global::Ihotelreport.Droid.Resource.Id.bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.buttonPanel = global::Ihotelreport.Droid.Resource.Id.buttonPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.cancel_action = global::Ihotelreport.Droid.Resource.Id.cancel_action;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.center = global::Ihotelreport.Droid.Resource.Id.center;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.center_horizontal = global::Ihotelreport.Droid.Resource.Id.center_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.center_vertical = global::Ihotelreport.Droid.Resource.Id.center_vertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.checkbox = global::Ihotelreport.Droid.Resource.Id.checkbox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.chronometer = global::Ihotelreport.Droid.Resource.Id.chronometer;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.clip_horizontal = global::Ihotelreport.Droid.Resource.Id.clip_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.clip_vertical = global::Ihotelreport.Droid.Resource.Id.clip_vertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.collapseActionView = global::Ihotelreport.Droid.Resource.Id.collapseActionView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.contentPanel = global::Ihotelreport.Droid.Resource.Id.contentPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.custom = global::Ihotelreport.Droid.Resource.Id.custom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.customPanel = global::Ihotelreport.Droid.Resource.Id.customPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.decor_content_parent = global::Ihotelreport.Droid.Resource.Id.decor_content_parent;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.default_activity_button = global::Ihotelreport.Droid.Resource.Id.default_activity_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_bottom_sheet = global::Ihotelreport.Droid.Resource.Id.design_bottom_sheet;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_menu_item_action_area = global::Ihotelreport.Droid.Resource.Id.design_menu_item_action_area;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_menu_item_action_area_stub = global::Ihotelreport.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_menu_item_text = global::Ihotelreport.Droid.Resource.Id.design_menu_item_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_navigation_view = global::Ihotelreport.Droid.Resource.Id.design_navigation_view;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.disableHome = global::Ihotelreport.Droid.Resource.Id.disableHome;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.edit_query = global::Ihotelreport.Droid.Resource.Id.edit_query;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.end = global::Ihotelreport.Droid.Resource.Id.end;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.end_padder = global::Ihotelreport.Droid.Resource.Id.end_padder;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.enterAlways = global::Ihotelreport.Droid.Resource.Id.enterAlways;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.enterAlwaysCollapsed = global::Ihotelreport.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.exitUntilCollapsed = global::Ihotelreport.Droid.Resource.Id.exitUntilCollapsed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.expand_activities_button = global::Ihotelreport.Droid.Resource.Id.expand_activities_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.expanded_menu = global::Ihotelreport.Droid.Resource.Id.expanded_menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.fill = global::Ihotelreport.Droid.Resource.Id.fill;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.fill_horizontal = global::Ihotelreport.Droid.Resource.Id.fill_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.fill_vertical = global::Ihotelreport.Droid.Resource.Id.fill_vertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.@fixed = global::Ihotelreport.Droid.Resource.Id.@fixed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.home = global::Ihotelreport.Droid.Resource.Id.home;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.homeAsUp = global::Ihotelreport.Droid.Resource.Id.homeAsUp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.icon = global::Ihotelreport.Droid.Resource.Id.icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ifRoom = global::Ihotelreport.Droid.Resource.Id.ifRoom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.image = global::Ihotelreport.Droid.Resource.Id.image;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.info = global::Ihotelreport.Droid.Resource.Id.info;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::Ihotelreport.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.left = global::Ihotelreport.Droid.Resource.Id.left;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.line1 = global::Ihotelreport.Droid.Resource.Id.line1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.line3 = global::Ihotelreport.Droid.Resource.Id.line3;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.listMode = global::Ihotelreport.Droid.Resource.Id.listMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.list_item = global::Ihotelreport.Droid.Resource.Id.list_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.media_actions = global::Ihotelreport.Droid.Resource.Id.media_actions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.middle = global::Ihotelreport.Droid.Resource.Id.middle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mini = global::Ihotelreport.Droid.Resource.Id.mini;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.multiply = global::Ihotelreport.Droid.Resource.Id.multiply;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.navigation_header_container = global::Ihotelreport.Droid.Resource.Id.navigation_header_container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.never = global::Ihotelreport.Droid.Resource.Id.never;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.none = global::Ihotelreport.Droid.Resource.Id.none;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.normal = global::Ihotelreport.Droid.Resource.Id.normal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.parallax = global::Ihotelreport.Droid.Resource.Id.parallax;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.parentPanel = global::Ihotelreport.Droid.Resource.Id.parentPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.pin = global::Ihotelreport.Droid.Resource.Id.pin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.progress_circular = global::Ihotelreport.Droid.Resource.Id.progress_circular;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.progress_horizontal = global::Ihotelreport.Droid.Resource.Id.progress_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.radio = global::Ihotelreport.Droid.Resource.Id.radio;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.right = global::Ihotelreport.Droid.Resource.Id.right;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.screen = global::Ihotelreport.Droid.Resource.Id.screen;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scroll = global::Ihotelreport.Droid.Resource.Id.scroll;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollIndicatorDown = global::Ihotelreport.Droid.Resource.Id.scrollIndicatorDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollIndicatorUp = global::Ihotelreport.Droid.Resource.Id.scrollIndicatorUp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollView = global::Ihotelreport.Droid.Resource.Id.scrollView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollable = global::Ihotelreport.Droid.Resource.Id.scrollable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_badge = global::Ihotelreport.Droid.Resource.Id.search_badge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_bar = global::Ihotelreport.Droid.Resource.Id.search_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_button = global::Ihotelreport.Droid.Resource.Id.search_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_close_btn = global::Ihotelreport.Droid.Resource.Id.search_close_btn;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_edit_frame = global::Ihotelreport.Droid.Resource.Id.search_edit_frame;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_go_btn = global::Ihotelreport.Droid.Resource.Id.search_go_btn;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_mag_icon = global::Ihotelreport.Droid.Resource.Id.search_mag_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_plate = global::Ihotelreport.Droid.Resource.Id.search_plate;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_src_text = global::Ihotelreport.Droid.Resource.Id.search_src_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_voice_btn = global::Ihotelreport.Droid.Resource.Id.search_voice_btn;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.select_dialog_listview = global::Ihotelreport.Droid.Resource.Id.select_dialog_listview;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.shortcut = global::Ihotelreport.Droid.Resource.Id.shortcut;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.showCustom = global::Ihotelreport.Droid.Resource.Id.showCustom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.showHome = global::Ihotelreport.Droid.Resource.Id.showHome;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.showTitle = global::Ihotelreport.Droid.Resource.Id.showTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.snackbar_action = global::Ihotelreport.Droid.Resource.Id.snackbar_action;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.snackbar_text = global::Ihotelreport.Droid.Resource.Id.snackbar_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.snap = global::Ihotelreport.Droid.Resource.Id.snap;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.spacer = global::Ihotelreport.Droid.Resource.Id.spacer;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.split_action_bar = global::Ihotelreport.Droid.Resource.Id.split_action_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.src_atop = global::Ihotelreport.Droid.Resource.Id.src_atop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.src_in = global::Ihotelreport.Droid.Resource.Id.src_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.src_over = global::Ihotelreport.Droid.Resource.Id.src_over;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.start = global::Ihotelreport.Droid.Resource.Id.start;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.status_bar_latest_event_content = global::Ihotelreport.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.submit_area = global::Ihotelreport.Droid.Resource.Id.submit_area;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.tabMode = global::Ihotelreport.Droid.Resource.Id.tabMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.text = global::Ihotelreport.Droid.Resource.Id.text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.text2 = global::Ihotelreport.Droid.Resource.Id.text2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textSpacerNoButtons = global::Ihotelreport.Droid.Resource.Id.textSpacerNoButtons;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.time = global::Ihotelreport.Droid.Resource.Id.time;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.title = global::Ihotelreport.Droid.Resource.Id.title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.title_template = global::Ihotelreport.Droid.Resource.Id.title_template;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.top = global::Ihotelreport.Droid.Resource.Id.top;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.topPanel = global::Ihotelreport.Droid.Resource.Id.topPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.touch_outside = global::Ihotelreport.Droid.Resource.Id.touch_outside;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.up = global::Ihotelreport.Droid.Resource.Id.up;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.useLogo = global::Ihotelreport.Droid.Resource.Id.useLogo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.view_offset_helper = global::Ihotelreport.Droid.Resource.Id.view_offset_helper;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.withText = global::Ihotelreport.Droid.Resource.Id.withText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.wrap_content = global::Ihotelreport.Droid.Resource.Id.wrap_content;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::Ihotelreport.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.abc_config_activityShortDur = global::Ihotelreport.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.abc_max_action_buttons = global::Ihotelreport.Droid.Resource.Integer.abc_max_action_buttons;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::Ihotelreport.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.cancel_button_image_alpha = global::Ihotelreport.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::Ihotelreport.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::Ihotelreport.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_bar_title_item = global::Ihotelreport.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_bar_up_container = global::Ihotelreport.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::Ihotelreport.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_menu_item_layout = global::Ihotelreport.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_menu_layout = global::Ihotelreport.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_mode_bar = global::Ihotelreport.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::Ihotelreport.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_activity_chooser_view = global::Ihotelreport.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::Ihotelreport.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::Ihotelreport.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_alert_dialog_material = global::Ihotelreport.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_dialog_title_material = global::Ihotelreport.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_expanded_menu_layout = global::Ihotelreport.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::Ihotelreport.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_icon = global::Ihotelreport.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_layout = global::Ihotelreport.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_radio = global::Ihotelreport.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::Ihotelreport.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_content_include = global::Ihotelreport.Droid.Resource.Layout.abc_screen_content_include;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_simple = global::Ihotelreport.Droid.Resource.Layout.abc_screen_simple;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Ihotelreport.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_toolbar = global::Ihotelreport.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Ihotelreport.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_search_view = global::Ihotelreport.Droid.Resource.Layout.abc_search_view;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_select_dialog_material = global::Ihotelreport.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::Ihotelreport.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_snackbar = global::Ihotelreport.Droid.Resource.Layout.design_layout_snackbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_snackbar_include = global::Ihotelreport.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_tab_icon = global::Ihotelreport.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_tab_text = global::Ihotelreport.Droid.Resource.Layout.design_layout_tab_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_menu_item_action_area = global::Ihotelreport.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item = global::Ihotelreport.Droid.Resource.Layout.design_navigation_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item_header = global::Ihotelreport.Droid.Resource.Layout.design_navigation_item_header;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item_separator = global::Ihotelreport.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item_subheader = global::Ihotelreport.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_menu = global::Ihotelreport.Droid.Resource.Layout.design_navigation_menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_menu_item = global::Ihotelreport.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_media_action = global::Ihotelreport.Droid.Resource.Layout.notification_media_action;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_media_cancel_action = global::Ihotelreport.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_big_media = global::Ihotelreport.Droid.Resource.Layout.notification_template_big_media;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_big_media_narrow = global::Ihotelreport.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_lines = global::Ihotelreport.Droid.Resource.Layout.notification_template_lines;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_media = global::Ihotelreport.Droid.Resource.Layout.notification_template_media;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_part_chronometer = global::Ihotelreport.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_part_time = global::Ihotelreport.Droid.Resource.Layout.notification_template_part_time;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.select_dialog_item_material = global::Ihotelreport.Droid.Resource.Layout.select_dialog_item_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.select_dialog_multichoice_material = global::Ihotelreport.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::Ihotelreport.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::Ihotelreport.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.ApplicationName = global::Ihotelreport.Droid.Resource.String.ApplicationName;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.Hello = global::Ihotelreport.Droid.Resource.String.Hello;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_bar_home_description = global::Ihotelreport.Droid.Resource.String.abc_action_bar_home_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_bar_home_description_format = global::Ihotelreport.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::Ihotelreport.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_bar_up_description = global::Ihotelreport.Droid.Resource.String.abc_action_bar_up_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_menu_overflow_description = global::Ihotelreport.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_mode_done = global::Ihotelreport.Droid.Resource.String.abc_action_mode_done;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::Ihotelreport.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_activitychooserview_choose_application = global::Ihotelreport.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_capital_off = global::Ihotelreport.Droid.Resource.String.abc_capital_off;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_capital_on = global::Ihotelreport.Droid.Resource.String.abc_capital_on;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_search_hint = global::Ihotelreport.Droid.Resource.String.abc_search_hint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_clear = global::Ihotelreport.Droid.Resource.String.abc_searchview_description_clear;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_query = global::Ihotelreport.Droid.Resource.String.abc_searchview_description_query;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_search = global::Ihotelreport.Droid.Resource.String.abc_searchview_description_search;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_submit = global::Ihotelreport.Droid.Resource.String.abc_searchview_description_submit;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_voice = global::Ihotelreport.Droid.Resource.String.abc_searchview_description_voice;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_shareactionprovider_share_with = global::Ihotelreport.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::Ihotelreport.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_toolbar_collapse_description = global::Ihotelreport.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.appbar_scrolling_view_behavior = global::Ihotelreport.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.bottom_sheet_behavior = global::Ihotelreport.Droid.Resource.String.bottom_sheet_behavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.character_counter_pattern = global::Ihotelreport.Droid.Resource.String.character_counter_pattern;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.status_bar_notification_info_overflow = global::Ihotelreport.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.AlertDialog_AppCompat = global::Ihotelreport.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::Ihotelreport.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::Ihotelreport.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::Ihotelreport.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::Ihotelreport.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::Ihotelreport.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Ihotelreport.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_CardView = global::Ihotelreport.Droid.Resource.Style.Base_CardView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Ihotelreport.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Ihotelreport.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Ihotelreport.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Ihotelreport.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::Ihotelreport.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Ihotelreport.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Ihotelreport.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Ihotelreport.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Ihotelreport.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Ihotelreport.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Ihotelreport.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Ihotelreport.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::Ihotelreport.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Ihotelreport.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Ihotelreport.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::Ihotelreport.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::Ihotelreport.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::Ihotelreport.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Ihotelreport.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Ihotelreport.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Ihotelreport.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Ihotelreport.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Ihotelreport.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::Ihotelreport.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.CardView = global::Ihotelreport.Droid.Resource.Style.CardView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.CardView_Dark = global::Ihotelreport.Droid.Resource.Style.CardView_Dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.CardView_Light = global::Ihotelreport.Droid.Resource.Style.CardView_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_AppCompat = global::Ihotelreport.Droid.Resource.Style.Platform_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Ihotelreport.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Ihotelreport.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V11_AppCompat = global::Ihotelreport.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V14_AppCompat = global::Ihotelreport.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Ihotelreport.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Ihotelreport.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Ihotelreport.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Ihotelreport.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Ihotelreport.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Ihotelreport.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Counter = global::Ihotelreport.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Ihotelreport.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Error = global::Ihotelreport.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Hint = global::Ihotelreport.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Ihotelreport.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Tab = global::Ihotelreport.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent = global::Ihotelreport.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::Ihotelreport.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::Ihotelreport.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::Ihotelreport.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::Ihotelreport.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Ihotelreport.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Ihotelreport.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Ihotelreport.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::Ihotelreport.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design = global::Ihotelreport.Droid.Resource.Style.Theme_Design;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::Ihotelreport.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_Light = global::Ihotelreport.Droid.Resource.Style.Theme_Design_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Ihotelreport.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::Ihotelreport.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_NoActionBar = global::Ihotelreport.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::Ihotelreport.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Ihotelreport.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Ihotelreport.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Ihotelreport.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::Ihotelreport.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_EditText = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListView = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Ihotelreport.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::Ihotelreport.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::Ihotelreport.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::Ihotelreport.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::Ihotelreport.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::Ihotelreport.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_NavigationView = global::Ihotelreport.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Ihotelreport.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_Snackbar = global::Ihotelreport.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_TabLayout = global::Ihotelreport.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::Ihotelreport.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar = global::Ihotelreport.Droid.Resource.Styleable.ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_background = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_displayOptions = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_divider = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_elevation = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_height = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_homeLayout = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_icon = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_itemPadding = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_logo = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_logo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_navigationMode = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_popupTheme = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_subtitle = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_title = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::Ihotelreport.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBarLayout = global::Ihotelreport.Droid.Resource.Styleable.ActionBarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Ihotelreport.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMenuItemView = global::Ihotelreport.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Ihotelreport.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMenuView = global::Ihotelreport.Droid.Resource.Styleable.ActionMenuView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode = global::Ihotelreport.Droid.Resource.Styleable.ActionMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_background = global::Ihotelreport.Droid.Resource.Styleable.ActionMode_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::Ihotelreport.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::Ihotelreport.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_height = global::Ihotelreport.Droid.Resource.Styleable.ActionMode_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::Ihotelreport.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::Ihotelreport.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActivityChooserView = global::Ihotelreport.Droid.Resource.Styleable.ActivityChooserView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Ihotelreport.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Ihotelreport.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog = global::Ihotelreport.Droid.Resource.Styleable.AlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_android_layout = global::Ihotelreport.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Ihotelreport.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::Ihotelreport.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_listLayout = global::Ihotelreport.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Ihotelreport.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Ihotelreport.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout = global::Ihotelreport.Droid.Resource.Styleable.AppBarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_android_background = global::Ihotelreport.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_elevation = global::Ihotelreport.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_expanded = global::Ihotelreport.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_LayoutParams = global::Ihotelreport.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::Ihotelreport.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::Ihotelreport.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView = global::Ihotelreport.Droid.Resource.Styleable.AppCompatImageView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::Ihotelreport.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::Ihotelreport.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTextView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Ihotelreport.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Params = global::Ihotelreport.Droid.Resource.Styleable.BottomSheetBehavior_Params;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::Ihotelreport.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::Ihotelreport.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ButtonBarLayout = global::Ihotelreport.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::Ihotelreport.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView = global::Ihotelreport.Droid.Resource.Styleable.CardView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_android_minHeight = global::Ihotelreport.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_android_minWidth = global::Ihotelreport.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::Ihotelreport.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::Ihotelreport.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardElevation = global::Ihotelreport.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::Ihotelreport.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Ihotelreport.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::Ihotelreport.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPadding = global::Ihotelreport.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::Ihotelreport.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::Ihotelreport.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::Ihotelreport.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::Ihotelreport.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::Ihotelreport.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::Ihotelreport.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::Ihotelreport.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Ihotelreport.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton = global::Ihotelreport.Droid.Resource.Styleable.CompoundButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton_android_button = global::Ihotelreport.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::Ihotelreport.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::Ihotelreport.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout = global::Ihotelreport.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::Ihotelreport.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Ihotelreport.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams = global::Ihotelreport.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::Ihotelreport.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::Ihotelreport.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::Ihotelreport.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::Ihotelreport.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::Ihotelreport.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DesignTheme = global::Ihotelreport.Droid.Resource.Styleable.DesignTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Ihotelreport.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Ihotelreport.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DesignTheme_textColorError = global::Ihotelreport.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle = global::Ihotelreport.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Ihotelreport.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Ihotelreport.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::Ihotelreport.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::Ihotelreport.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Ihotelreport.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Ihotelreport.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::Ihotelreport.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::Ihotelreport.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton = global::Ihotelreport.Droid.Resource.Styleable.FloatingActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::Ihotelreport.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Ihotelreport.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::Ihotelreport.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::Ihotelreport.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::Ihotelreport.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Ihotelreport.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::Ihotelreport.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Ihotelreport.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout = global::Ihotelreport.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Ihotelreport.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Ihotelreport.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Ihotelreport.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Ihotelreport.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ListPopupWindow = global::Ihotelreport.Droid.Resource.Styleable.ListPopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Ihotelreport.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Ihotelreport.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup = global::Ihotelreport.Droid.Resource.Styleable.MenuGroup;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Ihotelreport.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::Ihotelreport.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_id = global::Ihotelreport.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::Ihotelreport.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::Ihotelreport.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_visible = global::Ihotelreport.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem = global::Ihotelreport.Droid.Resource.Styleable.MenuItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_actionLayout = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_checkable = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_checked = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_enabled = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_icon = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_id = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_onClick = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_title = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_visible = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_showAsAction = global::Ihotelreport.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView = global::Ihotelreport.Droid.Resource.Styleable.MenuView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::Ihotelreport.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::Ihotelreport.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::Ihotelreport.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Ihotelreport.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::Ihotelreport.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Ihotelreport.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::Ihotelreport.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView = global::Ihotelreport.Droid.Resource.Styleable.NavigationView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_android_background = global::Ihotelreport.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Ihotelreport.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::Ihotelreport.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_elevation = global::Ihotelreport.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_headerLayout = global::Ihotelreport.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemBackground = global::Ihotelreport.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::Ihotelreport.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::Ihotelreport.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_menu = global::Ihotelreport.Droid.Resource.Styleable.NavigationView_menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindow = global::Ihotelreport.Droid.Resource.Styleable.PopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::Ihotelreport.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::Ihotelreport.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::Ihotelreport.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Ihotelreport.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView = global::Ihotelreport.Droid.Resource.Styleable.RecyclerView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::Ihotelreport.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::Ihotelreport.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::Ihotelreport.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_spanCount = global::Ihotelreport.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::Ihotelreport.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::Ihotelreport.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Ihotelreport.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Params = global::Ihotelreport.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::Ihotelreport.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView = global::Ihotelreport.Droid.Resource.Styleable.SearchView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_focusable = global::Ihotelreport.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::Ihotelreport.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_inputType = global::Ihotelreport.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::Ihotelreport.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_closeIcon = global::Ihotelreport.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_commitIcon = global::Ihotelreport.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::Ihotelreport.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_goIcon = global::Ihotelreport.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::Ihotelreport.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_layout = global::Ihotelreport.Droid.Resource.Styleable.SearchView_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_queryBackground = global::Ihotelreport.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_queryHint = global::Ihotelreport.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::Ihotelreport.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_searchIcon = global::Ihotelreport.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_submitBackground = global::Ihotelreport.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::Ihotelreport.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_voiceIcon = global::Ihotelreport.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout = global::Ihotelreport.Droid.Resource.Styleable.SnackbarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Ihotelreport.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::Ihotelreport.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Ihotelreport.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner = global::Ihotelreport.Droid.Resource.Styleable.Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::Ihotelreport.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_entries = global::Ihotelreport.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Ihotelreport.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_prompt = global::Ihotelreport.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_popupTheme = global::Ihotelreport.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat = global::Ihotelreport.Droid.Resource.Styleable.SwitchCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Ihotelreport.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Ihotelreport.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::Ihotelreport.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_showText = global::Ihotelreport.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::Ihotelreport.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::Ihotelreport.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::Ihotelreport.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Ihotelreport.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_track = global::Ihotelreport.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem = global::Ihotelreport.Droid.Resource.Styleable.TabItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem_android_icon = global::Ihotelreport.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem_android_layout = global::Ihotelreport.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem_android_text = global::Ihotelreport.Droid.Resource.Styleable.TabItem_android_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout = global::Ihotelreport.Droid.Resource.Styleable.TabLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabBackground = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabGravity = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabMode = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPadding = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::Ihotelreport.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance = global::Ihotelreport.Droid.Resource.Styleable.TextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::Ihotelreport.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::Ihotelreport.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::Ihotelreport.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::Ihotelreport.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::Ihotelreport.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::Ihotelreport.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::Ihotelreport.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::Ihotelreport.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::Ihotelreport.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar = global::Ihotelreport.Droid.Resource.Styleable.Toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_android_gravity = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_logo = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_logo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_logoDescription = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_popupTheme = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_subtitle = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_title = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMargins = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::Ihotelreport.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View = global::Ihotelreport.Droid.Resource.Styleable.View;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_android_focusable = global::Ihotelreport.Droid.Resource.Styleable.View_android_focusable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_android_theme = global::Ihotelreport.Droid.Resource.Styleable.View_android_theme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_paddingEnd = global::Ihotelreport.Droid.Resource.Styleable.View_paddingEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_paddingStart = global::Ihotelreport.Droid.Resource.Styleable.View_paddingStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_theme = global::Ihotelreport.Droid.Resource.Styleable.View_theme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper = global::Ihotelreport.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::Ihotelreport.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Ihotelreport.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Ihotelreport.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat = global::Ihotelreport.Droid.Resource.Styleable.ViewStubCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::Ihotelreport.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Ihotelreport.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::Ihotelreport.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Syncfusion.SfRadialMenu.Android.Resource.String.library_name = global::Ihotelreport.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Ihotelreport.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -3463,18 +1865,6 @@ namespace Ihotelreport.Droid
 			
 			// aapt resource value: 0x7f04000f
 			public const int design_snackbar_out = 2130968591;
-			
-			// aapt resource value: 0x7f040010
-			public const int fadein = 2130968592;
-			
-			// aapt resource value: 0x7f040011
-			public const int fadeout = 2130968593;
-			
-			// aapt resource value: 0x7f040012
-			public const int scale_in = 2130968594;
-			
-			// aapt resource value: 0x7f040013
-			public const int scale_out = 2130968595;
 			
 			static Animation()
 			{
@@ -4953,15 +3343,6 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f060010
 			public const int abc_text_size_title_material_toolbar = 2131099664;
 			
-			// aapt resource value: 0x7f06007c
-			public const int activity_horizontal_margin = 2131099772;
-			
-			// aapt resource value: 0x7f06007d
-			public const int activity_vertical_margin = 2131099773;
-			
-			// aapt resource value: 0x7f060074
-			public const int btn_Size = 2131099764;
-			
 			// aapt resource value: 0x7f060009
 			public const int cardview_compat_inset_shadow = 2131099657;
 			
@@ -4970,15 +3351,6 @@ namespace Ihotelreport.Droid
 			
 			// aapt resource value: 0x7f06000b
 			public const int cardview_default_radius = 2131099659;
-			
-			// aapt resource value: 0x7f060075
-			public const int conc_circle = 2131099765;
-			
-			// aapt resource value: 0x7f06007e
-			public const int date_text_size = 2131099774;
-			
-			// aapt resource value: 0x7f06007f
-			public const int date_text_tab_size = 2131099775;
 			
 			// aapt resource value: 0x7f06005f
 			public const int design_appbar_elevation = 2131099743;
@@ -5073,9 +3445,6 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f060050
 			public const int disabled_alpha_material_light = 2131099728;
 			
-			// aapt resource value: 0x7f060076
-			public const int dot_space = 2131099766;
-			
 			// aapt resource value: 0x7f060051
 			public const int highlight_alpha_material_colored = 2131099729;
 			
@@ -5085,9 +3454,6 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f060053
 			public const int highlight_alpha_material_light = 2131099731;
 			
-			// aapt resource value: 0x7f060077
-			public const int inner_circle = 2131099767;
-			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099648;
 			
@@ -5096,18 +3462,6 @@ namespace Ihotelreport.Droid
 			
 			// aapt resource value: 0x7f060002
 			public const int item_touch_helper_swipe_escape_velocity = 2131099650;
-			
-			// aapt resource value: 0x7f060080
-			public const int month_row_size = 2131099776;
-			
-			// aapt resource value: 0x7f060081
-			public const int month_row_tab_size = 2131099777;
-			
-			// aapt resource value: 0x7f060082
-			public const int month_text_size = 2131099778;
-			
-			// aapt resource value: 0x7f060083
-			public const int month_text_tab_size = 2131099779;
 			
 			// aapt resource value: 0x7f060003
 			public const int mr_controller_volume_group_list_item_height = 2131099651;
@@ -5135,18 +3489,6 @@ namespace Ihotelreport.Droid
 			
 			// aapt resource value: 0x7f060056
 			public const int notification_subtext_size = 2131099734;
-			
-			// aapt resource value: 0x7f060078
-			public const int outerCircle = 2131099768;
-			
-			// aapt resource value: 0x7f06007a
-			public const int pading_bottom = 2131099770;
-			
-			// aapt resource value: 0x7f06007b
-			public const int pading_top = 2131099771;
-			
-			// aapt resource value: 0x7f060079
-			public const int thumb_padding = 2131099769;
 			
 			static Dimension()
 			{
@@ -5390,304 +3732,277 @@ namespace Ihotelreport.Droid
 			public const int bar1 = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int calendarbackward = 2130837580;
+			public const int design_fab_background = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int calendarforward = 2130837581;
+			public const int design_snackbar_background = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int design_fab_background = 2130837582;
+			public const int ic_audiotrack = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int design_snackbar_background = 2130837583;
-			
-			// aapt resource value: 0x7f0200ae
-			public const int focused = 2130837678;
+			public const int ic_audiotrack_light = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int ic_audiotrack = 2130837584;
+			public const int ic_bluetooth_grey = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int ic_audiotrack_light = 2130837585;
+			public const int ic_bluetooth_white = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int ic_bluetooth_grey = 2130837586;
+			public const int ic_cast_dark = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int ic_bluetooth_white = 2130837587;
+			public const int ic_cast_disabled_light = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int ic_cast_dark = 2130837588;
+			public const int ic_cast_grey = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int ic_cast_disabled_light = 2130837589;
+			public const int ic_cast_light = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int ic_cast_grey = 2130837590;
+			public const int ic_cast_off_light = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int ic_cast_light = 2130837591;
+			public const int ic_cast_on_0_light = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int ic_cast_off_light = 2130837592;
+			public const int ic_cast_on_1_light = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int ic_cast_on_0_light = 2130837593;
+			public const int ic_cast_on_2_light = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int ic_cast_on_1_light = 2130837594;
+			public const int ic_cast_on_light = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_cast_on_2_light = 2130837595;
+			public const int ic_cast_white = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_cast_on_light = 2130837596;
+			public const int ic_close_dark = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_cast_white = 2130837597;
+			public const int ic_close_light = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_close_dark = 2130837598;
+			public const int ic_collapse = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_close_light = 2130837599;
+			public const int ic_collapse_00000 = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_collapse = 2130837600;
+			public const int ic_collapse_00001 = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_collapse_00000 = 2130837601;
+			public const int ic_collapse_00002 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_collapse_00001 = 2130837602;
+			public const int ic_collapse_00003 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_collapse_00002 = 2130837603;
+			public const int ic_collapse_00004 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_collapse_00003 = 2130837604;
+			public const int ic_collapse_00005 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_collapse_00004 = 2130837605;
+			public const int ic_collapse_00006 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_collapse_00005 = 2130837606;
+			public const int ic_collapse_00007 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_collapse_00006 = 2130837607;
+			public const int ic_collapse_00008 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_collapse_00007 = 2130837608;
+			public const int ic_collapse_00009 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_collapse_00008 = 2130837609;
+			public const int ic_collapse_00010 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_collapse_00009 = 2130837610;
+			public const int ic_collapse_00011 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_collapse_00010 = 2130837611;
+			public const int ic_collapse_00012 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_collapse_00011 = 2130837612;
+			public const int ic_collapse_00013 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_collapse_00012 = 2130837613;
+			public const int ic_collapse_00014 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_collapse_00013 = 2130837614;
+			public const int ic_collapse_00015 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_collapse_00014 = 2130837615;
+			public const int ic_expand = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_collapse_00015 = 2130837616;
+			public const int ic_expand_00000 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_expand = 2130837617;
+			public const int ic_expand_00001 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_expand_00000 = 2130837618;
+			public const int ic_expand_00002 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_expand_00001 = 2130837619;
+			public const int ic_expand_00003 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_expand_00002 = 2130837620;
+			public const int ic_expand_00004 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_expand_00003 = 2130837621;
+			public const int ic_expand_00005 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_expand_00004 = 2130837622;
+			public const int ic_expand_00006 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_expand_00005 = 2130837623;
+			public const int ic_expand_00007 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_expand_00006 = 2130837624;
+			public const int ic_expand_00008 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_expand_00007 = 2130837625;
+			public const int ic_expand_00009 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_expand_00008 = 2130837626;
+			public const int ic_expand_00010 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_expand_00009 = 2130837627;
+			public const int ic_expand_00011 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_expand_00010 = 2130837628;
+			public const int ic_expand_00012 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_expand_00011 = 2130837629;
+			public const int ic_expand_00013 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_expand_00012 = 2130837630;
+			public const int ic_expand_00014 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_expand_00013 = 2130837631;
+			public const int ic_expand_00015 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_expand_00014 = 2130837632;
+			public const int ic_media_pause = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_expand_00015 = 2130837633;
+			public const int ic_media_play = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_pause = 2130837634;
+			public const int ic_media_route_disabled_mono_dark = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_play = 2130837635;
+			public const int ic_media_route_off_mono_dark = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_route_disabled_mono_dark = 2130837636;
+			public const int ic_media_route_on_0_mono_dark = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_route_off_mono_dark = 2130837637;
+			public const int ic_media_route_on_1_mono_dark = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_media_route_on_0_mono_dark = 2130837638;
+			public const int ic_media_route_on_2_mono_dark = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_media_route_on_1_mono_dark = 2130837639;
+			public const int ic_media_route_on_mono_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_media_route_on_2_mono_dark = 2130837640;
+			public const int ic_pause_dark = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_media_route_on_mono_dark = 2130837641;
+			public const int ic_pause_light = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_pause_dark = 2130837642;
+			public const int ic_play_dark = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_pause_light = 2130837643;
+			public const int ic_play_light = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_play_dark = 2130837644;
+			public const int ic_speaker_dark = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_play_light = 2130837645;
+			public const int ic_speaker_group_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_speaker_dark = 2130837646;
+			public const int ic_speaker_group_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_speaker_group_dark = 2130837647;
+			public const int ic_speaker_light = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_speaker_group_light = 2130837648;
+			public const int ic_tv_dark = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_speaker_light = 2130837649;
+			public const int ic_tv_light = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_tv_dark = 2130837650;
+			public const int icon = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_tv_light = 2130837651;
+			public const int LoginIcon = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int icon = 2130837652;
+			public const int LoginIcon1 = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int LoginIcon = 2130837653;
+			public const int mr_dialog_material_background_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int LoginIcon1 = 2130837654;
+			public const int mr_dialog_material_background_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int month_current_date_circle = 2130837655;
+			public const int mr_ic_audiotrack_light = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int month_selected_item = 2130837656;
+			public const int mr_ic_cast_dark = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int month_view_item_border = 2130837657;
+			public const int mr_ic_cast_light = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int mr_dialog_material_background_dark = 2130837658;
+			public const int mr_ic_close_dark = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int mr_dialog_material_background_light = 2130837659;
+			public const int mr_ic_close_light = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int mr_ic_audiotrack_light = 2130837660;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int mr_ic_cast_dark = 2130837661;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int mr_ic_cast_light = 2130837662;
+			public const int mr_ic_media_route_mono_dark = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int mr_ic_close_dark = 2130837663;
+			public const int mr_ic_media_route_mono_light = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int mr_ic_close_light = 2130837664;
+			public const int mr_ic_pause_dark = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837665;
+			public const int mr_ic_pause_light = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int mr_ic_media_route_connecting_mono_light = 2130837666;
+			public const int mr_ic_play_dark = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int mr_ic_media_route_mono_dark = 2130837667;
-			
-			// aapt resource value: 0x7f0200a4
-			public const int mr_ic_media_route_mono_light = 2130837668;
-			
-			// aapt resource value: 0x7f0200a5
-			public const int mr_ic_pause_dark = 2130837669;
+			public const int mr_ic_play_light = 2130837667;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int mr_ic_pause_light = 2130837670;
+			public const int notification_template_icon_bg = 2130837670;
 			
-			// aapt resource value: 0x7f0200a7
-			public const int mr_ic_play_dark = 2130837671;
+			// aapt resource value: 0x7f0200a4
+			public const int pie = 2130837668;
 			
-			// aapt resource value: 0x7f0200a8
-			public const int mr_ic_play_light = 2130837672;
-			
-			// aapt resource value: 0x7f0200ad
-			public const int notification_template_icon_bg = 2130837677;
-			
-			// aapt resource value: 0x7f0200a9
-			public const int pie = 2130837673;
-			
-			// aapt resource value: 0x7f0200aa
-			public const int pie2 = 2130837674;
-			
-			// aapt resource value: 0x7f0200af
-			public const int selected = 2130837679;
-			
-			// aapt resource value: 0x7f0200ab
-			public const int sfclosebutton = 2130837675;
-			
-			// aapt resource value: 0x7f0200ac
-			public const int styleinfo = 2130837676;
+			// aapt resource value: 0x7f0200a5
+			public const int pie2 = 2130837669;
 			
 			static Drawable()
 			{
@@ -5702,11 +4017,8 @@ namespace Ihotelreport.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070078
-			public const int Itemname = 2131165304;
-			
-			// aapt resource value: 0x7f0700a3
-			public const int action0 = 2131165347;
+			// aapt resource value: 0x7f07008b
+			public const int action0 = 2131165323;
 			
 			// aapt resource value: 0x7f07005a
 			public const int action_bar = 2131165274;
@@ -5732,8 +4044,8 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f07005b
 			public const int action_context_bar = 2131165275;
 			
-			// aapt resource value: 0x7f0700a7
-			public const int action_divider = 2131165351;
+			// aapt resource value: 0x7f07008f
+			public const int action_divider = 2131165327;
 			
 			// aapt resource value: 0x7f070003
 			public const int action_menu_divider = 2131165187;
@@ -5759,26 +4071,17 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f07001e
 			public const int always = 2131165214;
 			
-			// aapt resource value: 0x7f070071
-			public const int axisLayout = 2131165297;
-			
-			// aapt resource value: 0x7f0700ba
-			public const int background = 2131165370;
-			
 			// aapt resource value: 0x7f07001b
 			public const int beginning = 2131165211;
 			
 			// aapt resource value: 0x7f07002a
 			public const int bottom = 2131165226;
 			
-			// aapt resource value: 0x7f0700b0
-			public const int bottom_labels = 2131165360;
-			
 			// aapt resource value: 0x7f070044
 			public const int buttonPanel = 2131165252;
 			
-			// aapt resource value: 0x7f0700a4
-			public const int cancel_action = 2131165348;
+			// aapt resource value: 0x7f07008c
+			public const int cancel_action = 2131165324;
 			
 			// aapt resource value: 0x7f07002b
 			public const int center = 2131165227;
@@ -5789,17 +4092,11 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f07002d
 			public const int center_vertical = 2131165229;
 			
-			// aapt resource value: 0x7f07006b
-			public const int chartAreaLayout = 2131165291;
-			
-			// aapt resource value: 0x7f07006a
-			public const int chartTitle = 2131165290;
-			
 			// aapt resource value: 0x7f070052
 			public const int checkbox = 2131165266;
 			
-			// aapt resource value: 0x7f0700aa
-			public const int chronometer = 2131165354;
+			// aapt resource value: 0x7f070092
+			public const int chronometer = 2131165330;
 			
 			// aapt resource value: 0x7f070033
 			public const int clip_horizontal = 2131165235;
@@ -5810,9 +4107,6 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f07001f
 			public const int collapseActionView = 2131165215;
 			
-			// aapt resource value: 0x7f0700b1
-			public const int content = 2131165361;
-			
 			// aapt resource value: 0x7f07004a
 			public const int contentPanel = 2131165258;
 			
@@ -5822,29 +4116,26 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f07004f
 			public const int customPanel = 2131165263;
 			
-			// aapt resource value: 0x7f07006f
-			public const int dataMarkerLayout = 2131165295;
-			
 			// aapt resource value: 0x7f070058
 			public const int decor_content_parent = 2131165272;
 			
 			// aapt resource value: 0x7f070040
 			public const int default_activity_button = 2131165248;
 			
-			// aapt resource value: 0x7f07007a
-			public const int design_bottom_sheet = 2131165306;
+			// aapt resource value: 0x7f07006a
+			public const int design_bottom_sheet = 2131165290;
 			
-			// aapt resource value: 0x7f070081
-			public const int design_menu_item_action_area = 2131165313;
+			// aapt resource value: 0x7f070071
+			public const int design_menu_item_action_area = 2131165297;
 			
-			// aapt resource value: 0x7f070080
-			public const int design_menu_item_action_area_stub = 2131165312;
+			// aapt resource value: 0x7f070070
+			public const int design_menu_item_action_area_stub = 2131165296;
 			
-			// aapt resource value: 0x7f07007f
-			public const int design_menu_item_text = 2131165311;
+			// aapt resource value: 0x7f07006f
+			public const int design_menu_item_text = 2131165295;
 			
-			// aapt resource value: 0x7f07007e
-			public const int design_navigation_view = 2131165310;
+			// aapt resource value: 0x7f07006e
+			public const int design_navigation_view = 2131165294;
 			
 			// aapt resource value: 0x7f07000e
 			public const int disableHome = 2131165198;
@@ -5852,14 +4143,11 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f07005c
 			public const int edit_query = 2131165276;
 			
-			// aapt resource value: 0x7f070083
-			public const int eightsegment = 2131165315;
-			
 			// aapt resource value: 0x7f07001c
 			public const int end = 2131165212;
 			
-			// aapt resource value: 0x7f0700ae
-			public const int end_padder = 2131165358;
+			// aapt resource value: 0x7f070097
+			public const int end_padder = 2131165335;
 			
 			// aapt resource value: 0x7f070023
 			public const int enterAlways = 2131165219;
@@ -5888,21 +4176,6 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f070038
 			public const int @fixed = 2131165240;
 			
-			// aapt resource value: 0x7f070084
-			public const int fourteensegment = 2131165316;
-			
-			// aapt resource value: 0x7f07006c
-			public const int gridLineLayout = 2131165292;
-			
-			// aapt resource value: 0x7f0700b2
-			public const int gridLinesLayout = 2131165362;
-			
-			// aapt resource value: 0x7f070089
-			public const int gridview = 2131165321;
-			
-			// aapt resource value: 0x7f0700b4
-			public const int header_layout = 2131165364;
-			
 			// aapt resource value: 0x7f070005
 			public const int home = 2131165189;
 			
@@ -5912,53 +4185,26 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f070042
 			public const int icon = 2131165250;
 			
-			// aapt resource value: 0x7f070076
-			public const int iconView = 2131165302;
-			
 			// aapt resource value: 0x7f070020
 			public const int ifRoom = 2131165216;
 			
 			// aapt resource value: 0x7f07003f
 			public const int image = 2131165247;
 			
-			// aapt resource value: 0x7f0700ad
-			public const int info = 2131165357;
+			// aapt resource value: 0x7f070096
+			public const int info = 2131165334;
 			
 			// aapt resource value: 0x7f070000
 			public const int item_touch_helper_previous_elevation = 2131165184;
 			
-			// aapt resource value: 0x7f070077
-			public const int label = 2131165303;
-			
-			// aapt resource value: 0x7f0700bc
-			public const int labelLayout = 2131165372;
-			
-			// aapt resource value: 0x7f0700bb
-			public const int layout = 2131165371;
-			
 			// aapt resource value: 0x7f07002f
 			public const int left = 2131165231;
 			
-			// aapt resource value: 0x7f070073
-			public const int legendHeader = 2131165299;
+			// aapt resource value: 0x7f070090
+			public const int line1 = 2131165328;
 			
-			// aapt resource value: 0x7f070075
-			public const int legendItemsLayout = 2131165301;
-			
-			// aapt resource value: 0x7f070074
-			public const int legendScrollView = 2131165300;
-			
-			// aapt resource value: 0x7f070072
-			public const int legendViewGroup = 2131165298;
-			
-			// aapt resource value: 0x7f0700a8
-			public const int line1 = 2131165352;
-			
-			// aapt resource value: 0x7f0700ac
-			public const int line3 = 2131165356;
-			
-			// aapt resource value: 0x7f0700b5
-			public const int linearLayout = 2131165365;
+			// aapt resource value: 0x7f070094
+			public const int line3 = 2131165332;
 			
 			// aapt resource value: 0x7f07000b
 			public const int listMode = 2131165195;
@@ -5966,8 +4212,8 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f070041
 			public const int list_item = 2131165249;
 			
-			// aapt resource value: 0x7f0700a6
-			public const int media_actions = 2131165350;
+			// aapt resource value: 0x7f07008e
+			public const int media_actions = 2131165326;
 			
 			// aapt resource value: 0x7f07001d
 			public const int middle = 2131165213;
@@ -5975,89 +4221,83 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f070037
 			public const int mini = 2131165239;
 			
+			// aapt resource value: 0x7f07007d
+			public const int mr_art = 2131165309;
+			
+			// aapt resource value: 0x7f070072
+			public const int mr_chooser_list = 2131165298;
+			
+			// aapt resource value: 0x7f070075
+			public const int mr_chooser_route_desc = 2131165301;
+			
+			// aapt resource value: 0x7f070073
+			public const int mr_chooser_route_icon = 2131165299;
+			
+			// aapt resource value: 0x7f070074
+			public const int mr_chooser_route_name = 2131165300;
+			
+			// aapt resource value: 0x7f07007a
+			public const int mr_close = 2131165306;
+			
+			// aapt resource value: 0x7f070080
+			public const int mr_control_divider = 2131165312;
+			
 			// aapt resource value: 0x7f070086
-			public const int monthLayout = 2131165318;
+			public const int mr_control_play_pause = 2131165318;
+			
+			// aapt resource value: 0x7f070089
+			public const int mr_control_subtitle = 2131165321;
+			
+			// aapt resource value: 0x7f070088
+			public const int mr_control_title = 2131165320;
 			
 			// aapt resource value: 0x7f070087
-			public const int month_cell_border = 2131165319;
+			public const int mr_control_title_container = 2131165319;
 			
-			// aapt resource value: 0x7f070095
-			public const int mr_art = 2131165333;
+			// aapt resource value: 0x7f07007b
+			public const int mr_custom_control = 2131165307;
+			
+			// aapt resource value: 0x7f07007c
+			public const int mr_default_control = 2131165308;
+			
+			// aapt resource value: 0x7f070077
+			public const int mr_dialog_area = 2131165303;
+			
+			// aapt resource value: 0x7f070076
+			public const int mr_expandable_area = 2131165302;
 			
 			// aapt resource value: 0x7f07008a
-			public const int mr_chooser_list = 2131165322;
+			public const int mr_group_expand_collapse = 2131165322;
 			
-			// aapt resource value: 0x7f07008d
-			public const int mr_chooser_route_desc = 2131165325;
+			// aapt resource value: 0x7f07007e
+			public const int mr_media_main_control = 2131165310;
 			
-			// aapt resource value: 0x7f07008b
-			public const int mr_chooser_route_icon = 2131165323;
+			// aapt resource value: 0x7f070079
+			public const int mr_name = 2131165305;
 			
-			// aapt resource value: 0x7f07008c
-			public const int mr_chooser_route_name = 2131165324;
+			// aapt resource value: 0x7f07007f
+			public const int mr_playback_control = 2131165311;
 			
-			// aapt resource value: 0x7f070092
-			public const int mr_close = 2131165330;
+			// aapt resource value: 0x7f070078
+			public const int mr_title_bar = 2131165304;
 			
-			// aapt resource value: 0x7f070098
-			public const int mr_control_divider = 2131165336;
+			// aapt resource value: 0x7f070081
+			public const int mr_volume_control = 2131165313;
 			
-			// aapt resource value: 0x7f07009e
-			public const int mr_control_play_pause = 2131165342;
+			// aapt resource value: 0x7f070082
+			public const int mr_volume_group_list = 2131165314;
 			
-			// aapt resource value: 0x7f0700a1
-			public const int mr_control_subtitle = 2131165345;
+			// aapt resource value: 0x7f070084
+			public const int mr_volume_item_icon = 2131165316;
 			
-			// aapt resource value: 0x7f0700a0
-			public const int mr_control_title = 2131165344;
-			
-			// aapt resource value: 0x7f07009f
-			public const int mr_control_title_container = 2131165343;
-			
-			// aapt resource value: 0x7f070093
-			public const int mr_custom_control = 2131165331;
-			
-			// aapt resource value: 0x7f070094
-			public const int mr_default_control = 2131165332;
-			
-			// aapt resource value: 0x7f07008f
-			public const int mr_dialog_area = 2131165327;
-			
-			// aapt resource value: 0x7f07008e
-			public const int mr_expandable_area = 2131165326;
-			
-			// aapt resource value: 0x7f0700a2
-			public const int mr_group_expand_collapse = 2131165346;
-			
-			// aapt resource value: 0x7f070096
-			public const int mr_media_main_control = 2131165334;
-			
-			// aapt resource value: 0x7f070091
-			public const int mr_name = 2131165329;
-			
-			// aapt resource value: 0x7f070097
-			public const int mr_playback_control = 2131165335;
-			
-			// aapt resource value: 0x7f070090
-			public const int mr_title_bar = 2131165328;
-			
-			// aapt resource value: 0x7f070099
-			public const int mr_volume_control = 2131165337;
-			
-			// aapt resource value: 0x7f07009a
-			public const int mr_volume_group_list = 2131165338;
-			
-			// aapt resource value: 0x7f07009c
-			public const int mr_volume_item_icon = 2131165340;
-			
-			// aapt resource value: 0x7f07009d
-			public const int mr_volume_slider = 2131165341;
+			// aapt resource value: 0x7f070085
+			public const int mr_volume_slider = 2131165317;
 			
 			// aapt resource value: 0x7f070016
 			public const int multiply = 2131165206;
 			
-			// aapt resource value: 0x7f07007d
-			public const int navigation_header_container = 2131165309;
+			// aapt resource value: 0x7f07006d
+			public const int navigation_header_container = 2131165293;
 			
 			// aapt resource value: 0x7f070021
 			public const int never = 2131165217;
@@ -6088,9 +4328,6 @@ namespace Ihotelreport.Droid
 			
 			// aapt resource value: 0x7f070030
 			public const int right = 2131165232;
-			
-			// aapt resource value: 0x7f070069
-			public const int rootLayout = 2131165289;
 			
 			// aapt resource value: 0x7f070017
 			public const int screen = 2131165207;
@@ -6143,15 +4380,6 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f070068
 			public const int select_dialog_listview = 2131165288;
 			
-			// aapt resource value: 0x7f0700b7
-			public const int selectedDate = 2131165367;
-			
-			// aapt resource value: 0x7f07006e
-			public const int seriesLayout = 2131165294;
-			
-			// aapt resource value: 0x7f070082
-			public const int sevensegment = 2131165314;
-			
 			// aapt resource value: 0x7f070053
 			public const int shortcut = 2131165267;
 			
@@ -6164,17 +4392,14 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f070013
 			public const int showTitle = 2131165203;
 			
-			// aapt resource value: 0x7f070085
-			public const int sixteensegment = 2131165317;
+			// aapt resource value: 0x7f070098
+			public const int sliding_tabs = 2131165336;
 			
-			// aapt resource value: 0x7f0700b8
-			public const int sliding_tabs = 2131165368;
+			// aapt resource value: 0x7f07006c
+			public const int snackbar_action = 2131165292;
 			
-			// aapt resource value: 0x7f07007c
-			public const int snackbar_action = 2131165308;
-			
-			// aapt resource value: 0x7f07007b
-			public const int snackbar_text = 2131165307;
+			// aapt resource value: 0x7f07006b
+			public const int snackbar_text = 2131165291;
 			
 			// aapt resource value: 0x7f070027
 			public const int snap = 2131165223;
@@ -6197,11 +4422,8 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f070031
 			public const int start = 2131165233;
 			
-			// aapt resource value: 0x7f0700a5
-			public const int status_bar_latest_event_content = 2131165349;
-			
-			// aapt resource value: 0x7f07006d
-			public const int stripLinesLayout = 2131165293;
+			// aapt resource value: 0x7f07008d
+			public const int status_bar_latest_event_content = 2131165325;
 			
 			// aapt resource value: 0x7f070065
 			public const int submit_area = 2131165285;
@@ -6209,23 +4431,17 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f07000d
 			public const int tabMode = 2131165197;
 			
-			// aapt resource value: 0x7f070070
-			public const int technicalIndicatorLayout = 2131165296;
+			// aapt resource value: 0x7f070095
+			public const int text = 2131165333;
 			
-			// aapt resource value: 0x7f070088
-			public const int text = 2131165320;
-			
-			// aapt resource value: 0x7f0700ab
-			public const int text2 = 2131165355;
+			// aapt resource value: 0x7f070093
+			public const int text2 = 2131165331;
 			
 			// aapt resource value: 0x7f07004d
 			public const int textSpacerNoButtons = 2131165261;
 			
-			// aapt resource value: 0x7f0700b3
-			public const int thumbLayout = 2131165363;
-			
-			// aapt resource value: 0x7f0700a9
-			public const int time = 2131165353;
+			// aapt resource value: 0x7f070091
+			public const int time = 2131165329;
 			
 			// aapt resource value: 0x7f070043
 			public const int title = 2131165251;
@@ -6233,8 +4449,8 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f070048
 			public const int title_template = 2131165256;
 			
-			// aapt resource value: 0x7f0700b9
-			public const int toolbar = 2131165369;
+			// aapt resource value: 0x7f070099
+			public const int toolbar = 2131165337;
 			
 			// aapt resource value: 0x7f070032
 			public const int top = 2131165234;
@@ -6242,11 +4458,8 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f070047
 			public const int topPanel = 2131165255;
 			
-			// aapt resource value: 0x7f0700af
-			public const int top_labels = 2131165359;
-			
-			// aapt resource value: 0x7f070079
-			public const int touch_outside = 2131165305;
+			// aapt resource value: 0x7f070069
+			public const int touch_outside = 2131165289;
 			
 			// aapt resource value: 0x7f070009
 			public const int up = 2131165193;
@@ -6254,14 +4467,11 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f070014
 			public const int useLogo = 2131165204;
 			
-			// aapt resource value: 0x7f0700b6
-			public const int viewPager = 2131165366;
-			
 			// aapt resource value: 0x7f07000a
 			public const int view_offset_helper = 2131165194;
 			
-			// aapt resource value: 0x7f07009b
-			public const int volume_item_container = 2131165339;
+			// aapt resource value: 0x7f070083
+			public const int volume_item_container = 2131165315;
 			
 			// aapt resource value: 0x7f070022
 			public const int withText = 2131165218;
@@ -6420,145 +4630,100 @@ namespace Ihotelreport.Droid
 			public const int abc_select_dialog_material = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int chart_layout = 2130903065;
+			public const int design_bottom_sheet_dialog = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int chart_legend = 2130903066;
+			public const int design_layout_snackbar = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int chart_legend_item = 2130903067;
+			public const int design_layout_snackbar_include = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int circulargauge_layout = 2130903068;
+			public const int design_layout_tab_icon = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int customizedview = 2130903069;
+			public const int design_layout_tab_text = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int customizedview1 = 2130903070;
+			public const int design_menu_item_action_area = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int design_bottom_sheet_dialog = 2130903071;
+			public const int design_navigation_item = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int design_layout_snackbar = 2130903072;
+			public const int design_navigation_item_header = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int design_layout_snackbar_include = 2130903073;
+			public const int design_navigation_item_separator = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int design_layout_tab_icon = 2130903074;
+			public const int design_navigation_item_subheader = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int design_layout_tab_text = 2130903075;
+			public const int design_navigation_menu = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int design_menu_item_action_area = 2130903076;
+			public const int design_navigation_menu_item = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int design_navigation_item = 2130903077;
+			public const int mr_chooser_dialog = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int design_navigation_item_header = 2130903078;
+			public const int mr_chooser_list_item = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int design_navigation_item_separator = 2130903079;
+			public const int mr_controller_material_dialog_b = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int design_navigation_item_subheader = 2130903080;
+			public const int mr_controller_volume_item = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int design_navigation_menu = 2130903081;
+			public const int mr_playback_control = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int design_navigation_menu_item = 2130903082;
+			public const int mr_volume_control = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int digitalgauge_layout = 2130903083;
+			public const int notification_media_action = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int month_tile = 2130903084;
+			public const int notification_media_cancel_action = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int month_view = 2130903085;
+			public const int notification_template_big_media = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int mr_chooser_dialog = 2130903086;
+			public const int notification_template_big_media_narrow = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int mr_chooser_list_item = 2130903087;
+			public const int notification_template_lines = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int mr_controller_material_dialog_b = 2130903088;
+			public const int notification_template_media = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int mr_controller_volume_item = 2130903089;
+			public const int notification_template_part_chronometer = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int mr_playback_control = 2130903090;
+			public const int notification_template_part_time = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int mr_volume_control = 2130903091;
+			public const int select_dialog_item_material = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_media_action = 2130903092;
+			public const int select_dialog_multichoice_material = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_media_cancel_action = 2130903093;
+			public const int select_dialog_singlechoice_material = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_big_media = 2130903094;
+			public const int support_simple_spinner_dropdown_item = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_big_media_narrow = 2130903095;
+			public const int Tabbar = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_lines = 2130903096;
-			
-			// aapt resource value: 0x7f030039
-			public const int notification_template_media = 2130903097;
-			
-			// aapt resource value: 0x7f03003a
-			public const int notification_template_part_chronometer = 2130903098;
-			
-			// aapt resource value: 0x7f03003b
-			public const int notification_template_part_time = 2130903099;
-			
-			// aapt resource value: 0x7f03003c
-			public const int range_navigator_layout = 2130903100;
-			
-			// aapt resource value: 0x7f03003d
-			public const int schedule_header = 2130903101;
-			
-			// aapt resource value: 0x7f03003e
-			public const int schedule_layout = 2130903102;
-			
-			// aapt resource value: 0x7f03003f
-			public const int select_dialog_item_material = 2130903103;
-			
-			// aapt resource value: 0x7f030040
-			public const int select_dialog_multichoice_material = 2130903104;
-			
-			// aapt resource value: 0x7f030041
-			public const int select_dialog_singlechoice_material = 2130903105;
-			
-			// aapt resource value: 0x7f030042
-			public const int selection_popup = 2130903106;
-			
-			// aapt resource value: 0x7f030043
-			public const int sfautocomplete_layout = 2130903107;
-			
-			// aapt resource value: 0x7f030044
-			public const int support_simple_spinner_dropdown_item = 2130903108;
-			
-			// aapt resource value: 0x7f030045
-			public const int Tabbar = 2130903109;
-			
-			// aapt resource value: 0x7f030046
-			public const int Toolbar = 2130903110;
-			
-			// aapt resource value: 0x7f030047
-			public const int treemap_layout = 2130903111;
+			public const int Toolbar = 2130903096;
 			
 			static Layout()
 			{
@@ -6572,12 +4737,6 @@ namespace Ihotelreport.Droid
 		
 		public partial class String
 		{
-			
-			// aapt resource value: 0x7f080029
-			public const int ApplicationName = 2131230761;
-			
-			// aapt resource value: 0x7f080028
-			public const int Hello = 2131230760;
 			
 			// aapt resource value: 0x7f08000f
 			public const int abc_action_bar_home_description = 2131230735;
@@ -6636,9 +4795,6 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f080021
 			public const int abc_toolbar_collapse_description = 2131230753;
 			
-			// aapt resource value: 0x7f080026
-			public const int app_name = 2131230758;
-			
 			// aapt resource value: 0x7f080023
 			public const int appbar_scrolling_view_behavior = 2131230755;
 			
@@ -6648,8 +4804,8 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f080025
 			public const int character_counter_pattern = 2131230757;
 			
-			// aapt resource value: 0x7f080027
-			public const int library_name = 2131230759;
+			// aapt resource value: 0x7f080026
+			public const int library_name = 2131230758;
 			
 			// aapt resource value: 0x7f080000
 			public const int mr_button_content_description = 2131230720;
@@ -6696,35 +4852,8 @@ namespace Ihotelreport.Droid
 			// aapt resource value: 0x7f08000e
 			public const int mr_user_route_category_name = 2131230734;
 			
-			// aapt resource value: 0x7f08002a
-			public const int q = 2131230762;
-			
-			// aapt resource value: 0x7f08002b
-			public const int quarter = 2131230763;
-			
-			// aapt resource value: 0x7f080032
-			public const int sfcalendar_inlineviewnoappointmenttext = 2131230770;
-			
-			// aapt resource value: 0x7f08002c
-			public const int sfchart_close_label = 2131230764;
-			
-			// aapt resource value: 0x7f08002d
-			public const int sfchart_high_label = 2131230765;
-			
-			// aapt resource value: 0x7f08002e
-			public const int sfchart_low_label = 2131230766;
-			
-			// aapt resource value: 0x7f08002f
-			public const int sfchart_open_label = 2131230767;
-			
 			// aapt resource value: 0x7f080022
 			public const int status_bar_notification_info_overflow = 2131230754;
-			
-			// aapt resource value: 0x7f080030
-			public const int w = 2131230768;
-			
-			// aapt resource value: 0x7f080031
-			public const int week = 2131230769;
 			
 			static String()
 			{

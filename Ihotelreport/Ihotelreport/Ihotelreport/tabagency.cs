@@ -12,7 +12,7 @@ namespace Ihotelreport
         public tabagency()
         {
             this.Title = "Revenue by Agency";
-
+            NavigationPage.SetBackButtonTitle(this,"");
 
             Children.Add(new Revenueagency
             {

@@ -27,9 +27,9 @@ namespace Ihotelreport
             InitializeComponent();
             gmenu.IsVisible = false;
             sum.IsVisible = false;
-
-            year = "2017";
-            year2 = "2018";
+            DateTime dateTdy = Convert.ToDateTime(datenows);
+            year = dateTdy.Year.ToString();
+            year2 = dateTdy.AddYears(1).Year.ToString();
 
             picky.Title = year;
             GetJSON();

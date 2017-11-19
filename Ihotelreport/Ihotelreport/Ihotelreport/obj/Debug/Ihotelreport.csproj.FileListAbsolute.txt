@@ -1,6 +1,3 @@
-/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.csproj.App.config
-/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.csprojResolveAssemblyReference.cache
-/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.csproj.CoreCompileInputs.cache
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/bin/Debug/Ihotelreport.dll.config
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/bin/Debug/Ihotelreport.dll
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/bin/Debug/Ihotelreport.pdb
@@ -123,6 +120,9 @@
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/bin/Debug/Validation.xml
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/bin/Debug/PCLCrypto.xml
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/bin/Debug/Xamarin.Auth.pdb
+/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.csproj.App.config
+/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.csprojResolveAssemblyReference.cache
+/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.csproj.CoreCompileInputs.cache
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.App.xaml.g.cs
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.TestPage.xaml.g.cs
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.NationalityReport.xaml.g.cs
@@ -135,6 +135,7 @@
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.Compare.xaml.g.cs
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.Y_Compare.xaml.g.cs
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.signout.xaml.g.cs
+/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.CustomTabbed.xaml.g.cs
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.Staticreport.xaml.g.cs
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.LoginPage.xaml.g.cs
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.Summaryreport.xaml.g.cs
@@ -167,4 +168,4 @@
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.Chart_FolioToday.ColumnChart2.xaml.g.cs
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.dll
 /Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.pdb
-/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.CustomTabbed.xaml.g.cs
+/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport/obj/Debug/Ihotelreport.Aboutpage.xaml.g.cs

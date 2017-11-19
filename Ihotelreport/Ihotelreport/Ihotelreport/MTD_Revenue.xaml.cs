@@ -20,6 +20,8 @@ namespace Ihotelreport
         string date = Application.Current.Properties["datenow"].ToString();
         string datestart = "";
         string dateend = "";
+        string months = "";
+        string years = "";
         public MTD_Revenue()
         {
             InitializeComponent();
@@ -36,6 +38,18 @@ namespace Ihotelreport
 			DateTime time = e.NewDate;
             datestart = time.Date.ToString("yyyy-MM") + "-01";
             dateend = time.Date.ToString("yyyy-MM-dd");
+			years = time.Year.ToString() + "-01-01";
+			months = time.Year.ToString() + "-0" + time.Month.ToString() + "-01";
+		}
+		private void Findbar_Clicked(object sender, EventArgs e)
+		{
+            App.Current.Properties["Datetodayfoliog"] = dateend;
+			App.Current.Properties["Datemonthfoliog"] = months;
+			Redirect();
+		}
+		async void Redirect()
+		{
+            await Navigation.PushAsync(new ColumnChart1(), true);
 		}
 		private void clicked(object sender, EventArgs e)
 		{

@@ -6,7 +6,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Diagnostics;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -54,8 +54,8 @@ namespace Ihotelreport
             Redirect();
         }
         async void Redirect(){
-            await Navigation.PushAsync(new tabbargtoday(), true);
-        }
+            await Navigation.PushAsync(new ColumnChart0(), true);
+		}
         public async void GetJSON()
         {
             showdate.Text = "Date : "+ datepick;

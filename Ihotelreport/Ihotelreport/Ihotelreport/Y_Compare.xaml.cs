@@ -18,8 +18,8 @@ namespace Ihotelreport
 		CultureInfo UsaCulture = new CultureInfo("en-US");
 		string[] items;
 		string[] items2;
-		float[] totalold;
-		float[] totalnew;
+		double[] totalold;
+        double[] totalnew;
 		float[] totalSum;
 		string[] agencyName;
 		Double[] agencyTotal;
@@ -128,8 +128,8 @@ namespace Ihotelreport
 				int i = 0;
 				items = new string[count];
 				id = new string[count];
-				totalnew = new float[count];
-				totalold = new float[count];
+				totalnew = new double[count];
+				totalold = new double[count];
 				foreach (var aaa in Items.dataResult)
 				{
 					Debug.WriteLine("Name: " + aaa.name + " ID = " + aaa.id + " PresentSum = " + aaa.presentSum + " PreviousSum = " + aaa.presentSum);
@@ -142,8 +142,8 @@ namespace Ihotelreport
                     {
                         items[i] = aaa.name;
                         id[i] = aaa.id;
-                        totalnew[i] = float.Parse(aaa.presentSum);
-                        totalold[i] = float.Parse(aaa.previousSum);
+                        totalnew[i] = double.Parse(aaa.presentSum);
+                        totalold[i] = double.Parse(aaa.previousSum);
                         i++;
                     }
 				}

@@ -336,6 +336,8 @@
     <BundleResource Include="Resources\yearlywithicon.png" />
     <BundleResource Include="Resources\history.png" />
     <BundleResource Include="Resources\forecast.png" />
+    <BundleResource Include="Resources\night.png" />
+    <BundleResource Include="Resources\revenue.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Cross.Pie.Forms">

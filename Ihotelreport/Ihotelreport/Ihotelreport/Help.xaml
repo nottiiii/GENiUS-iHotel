@@ -49,20 +49,20 @@
                     <Label Text="7.  Guest Qty." TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="6" Margin="5,0,0,0"/>
                     <Label Text="8.  ngt" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="7" Margin="5,0,0,0"/>
                     <Label Text="9.  Occ" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="8" Margin="5,0,0,0"/>
-                    <Label Text="10.  Occ%" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="9" Margin="5,0,0,0"/>
-                    <Label Text="11. PS." TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="10" Margin="5,0,0,0"/>
-                    <Label Text="12. Room Qty." TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="11" Margin="5,0,0,0"/>
-                    <Label Text="13. RSAR." TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="12" Margin="5,0,0,0"/>
-                    <Label Text="14. RVE." TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="13" Margin="5,0,0,0"/>
-                    <Label Text="15. RVE BS" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="14" Margin="5,0,0,0"/>
-                    <Label Text="16. R.Chg" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="15" Margin="5,0,0,0"/>
-                    <Label Text="17. R.ngt" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="16" Margin="5,0,0,0"/>
-                    <Label Text="18. R.No" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="17" Margin="5,0,0,0"/>
-                    <Label Text="19. R.Rate" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="18" Margin="5,0,0,0"/>
-                    <Label Text="19. R.RVE" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="19" Margin="5,0,0,0"/>
-                    <Label Text="20. R.Type" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="20" Margin="5,0,0,0"/>
-                    <Label Text="21. SVC." TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="21" Margin="5,0,0,0"/>
-                    <Label Text="22. SC.V" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="22" Margin="5,0,0,0"/>
+                    <Label Text="10. PS." TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="9" Margin="5,0,0,0"/>
+                    <Label Text="11. Occ%" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="10" Margin="5,0,0,0"/>
+                    <Label Text="12. RVE." TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="11" Margin="5,0,0,0"/>
+                    <Label Text="13. RVE BS" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="12" Margin="5,0,0,0"/>
+                    <Label Text="14. R.Chg" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="13" Margin="5,0,0,0"/>
+                    <Label Text="15. R.ngt" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="14" Margin="5,0,0,0"/>
+                    <Label Text="16. R.No" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="15" Margin="5,0,0,0"/>
+                    <Label Text="17. Room Qty." TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="16" Margin="5,0,0,0"/>
+                    <Label Text="18. R.Rate" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="17" Margin="5,0,0,0"/>
+                    <Label Text="19. R.RVE" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="18" Margin="5,0,0,0"/>
+                    <Label Text="20. RSAR." TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="19" Margin="5,0,0,0"/>
+                    <Label Text="21. R.Type" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="20" Margin="5,0,0,0"/>
+                    <Label Text="22. SVC." TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="21" Margin="5,0,0,0"/>
+                    <Label Text="23. SC.V" TextColor="Black" FontSize="Micro" Grid.Column="0" Grid.Row="22" Margin="5,0,0,0"/>
                     
                     <Label Text="American Breakfast" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="0" />
                     <Label Text="Arrival" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="1" />
@@ -73,17 +73,17 @@
                     <Label Text="Guest Quantity" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="6"/>
                     <Label Text="Night" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="7"/>
                     <Label Text="Occupancy" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="8"/>
-                    <Label Text="Percent Occupancy" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="9"/>
-                    <Label Text="Payment Summary" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="10"/>
-                    <Label Text="Room Quantity" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="11"/>
-                    <Label Text="Room Statistics And Revenue" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="12"/>
-                    <Label Text="Revenue" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="13"/>
-                    <Label Text="Revenue Business Source" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="14"/>
-                    <Label Text="Room Charge" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="15"/>
-                    <Label Text="Room Number" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="16"/>
-                    <Label Text="Room Night" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="17"/>
-                    <Label Text="Room Rate" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="18"/>
-                    <Label Text="Room Revenue" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="19"/>
+                    <Label Text="Payment Summary" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="9"/>
+                    <Label Text="Percent Occupancy" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="10"/>
+                    <Label Text="Revenue" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="11"/>
+                    <Label Text="Revenue Business Source" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="12"/>
+                    <Label Text="Room Charge" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="13"/>
+                    <Label Text="Room Night" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="14"/>
+                    <Label Text="Room Number" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="15"/>
+                    <Label Text="Room Quantity" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="16"/>
+                    <Label Text="Room Rate" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="17"/>
+                    <Label Text="Room Revenue" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="18"/>
+                    <Label Text="Room Statistics And Revenue" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="19"/>
                     <Label Text="Room Type" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="20"/>
                     <Label Text="Service Charge" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="21"/>
                     <Label Text="Service Charge Value Added Tax" TextColor="Black" FontSize="Micro" Grid.Column="1" Grid.Row="22"/>

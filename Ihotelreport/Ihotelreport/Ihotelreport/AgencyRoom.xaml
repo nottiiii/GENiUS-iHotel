@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ihotelreport.AgencyRoom"
-                    Title="Agency Report" BackgroundColor="WhiteSmoke">
+                    Title="Agency Statistic Report" BackgroundColor="WhiteSmoke">
 
     <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" Spacing="0">
         <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" x:Name="OverralPage" IsVisible="true">

@@ -213,13 +213,16 @@ namespace Ihotelreport
 				var client = new System.Net.Http.HttpClient();
                 try
                 {
-                    //Date//
-                    var ponse = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Date/Getdate?szHotelDB=" + database + "&szServer=" + server);
+                    Debug.WriteLine("Database = " + database + "szServer" + server);
+					//Date//
+                    var ponse = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/HotelAuthen/GetCurrentHotelDate?szHotelDB="+database+"&szServer="+server+"&szDeviceCode=1234");
+					//var ponse = await client.GetAsync("http://hotelsoftware.in.th/Webrestful/api/Date/Getdate?szHotelDB=" + database + "&szServer=" + server);
                     string Json = ponse.Content.ReadAsStringAsync().Result;
                     var Itemsdate = JsonConvert.DeserializeObject<RootDate>(Json);
 
                     string date = Itemsdate.dataResult;
-                    Application.Current.Properties["datenow"] = date;
+					Debug.WriteLine("Date = " + date);
+					Application.Current.Properties["datenow"] = date;
 				}
 				catch (Exception e)
 				{

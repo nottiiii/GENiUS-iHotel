@@ -6,7 +6,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Diagnostics;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -21,7 +21,6 @@ namespace Ihotelreport
         string database = Application.Current.Properties["Database"].ToString();
         string datenows = Application.Current.Properties["datenow"].ToString();
         string szServer = Application.Current.Properties["szServer"].ToString();
-
         string month1 = "";
         string month2 = "";
         string year = "";
@@ -32,15 +31,33 @@ namespace Ihotelreport
             InitializeComponent();
             gmenu.IsVisible = false;
             sum.IsVisible = false;
+            DateTime dateTdy = Convert.ToDateTime(datenows);
+			string montha = "January";
+            string yeara = dateTdy.Year.ToString();
+            year = dateTdy.Year.ToString();
+            year2 = dateTdy.AddYears(1).Year.ToString();
+            Debug.WriteLine("datenow = " + datenows + " DateTdy = " + dateTdy + " DateTdy month = " + dateTdy.Month);
+            switch(dateTdy.Month){
+                case 1: montha = "January"; month1 = "01"; month2 = "02"; break;
+				case 2: montha = "February"; month1 = "02"; month2 = "03"; break;
+				case 3: montha = "March"; month1 = "03"; month2 = "04"; break;
+				case 4: montha = "April"; month1 = "04"; month2 = "05"; break;
+				case 5: montha = "May"; month1 = "05"; month2 = "06"; break;
+				case 6: montha = "June"; month1 = "06"; month2 = "07"; break;
+				case 7: montha = "July"; month1 = "07"; month2 = "08"; break;
+				case 8: montha = "August"; month1 = "08"; month2 = "09"; break;
+				case 9: montha = "September"; month1 = "09"; month2 = "10"; break;
+				case 10: montha = "October"; month1 = "10"; month2 = "11"; break;
+				case 11: montha = "November"; month1 = "11"; month2 = "12"; break;
+				case 12: montha = "December"; month1 = "12"; month2 = "01"; break;
+			}
 
-            string montha = "January";
-            string yeara = "2017";
             pickm.Title = montha;
             picky.Title = yeara;
-            month1 = "01";
-            month2 = "02";
-            year = "2017";
-            year2 = "2018";
+            //month1 = "01";
+            //month2 = "02";
+            //year = "2017";
+            //year2 = "2018";
             GetJSON();
         }
         private void pickm_SelectedIndexChanged(object sender, EventArgs e)

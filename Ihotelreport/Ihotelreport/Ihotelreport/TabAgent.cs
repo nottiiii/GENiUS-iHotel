@@ -11,7 +11,7 @@ namespace Ihotelreport
 	{
         public TabAgent()
 		{
-			this.Title = "Agency Report";
+			this.Title = "Agency Statistic Report";
 
 
             Children.Add(new AgencyRoom

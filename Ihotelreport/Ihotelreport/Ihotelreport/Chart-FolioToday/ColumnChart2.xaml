@@ -4,58 +4,99 @@
 		x:Class="Ihotelreport.ColumnChart2"
 		xmlns:local="clr-namespace:Ihotelreport;assembly=Ihotelreport"
 		xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
-    Title="Revenue By Folio" BackgroundColor="NavajoWhite" NavigationPage.BackButtonTitle="">
+    Title="Revenue By Folio" BackgroundColor="WhiteSmoke" NavigationPage.BackButtonTitle="">
 
     <local:SampleView2.BindingContext>
         <local:ColumnSeriesViewModel2 />
     </local:SampleView2.BindingContext>
+        <local:SampleView2.Content> 
+            <chart:SfChart HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
 
-    <local:SampleView2.Content>
-        <chart:SfChart HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <chart:SfChart.Title>
+                    <chart:ChartTitle Text="YTD Revenue" Font="15"/>
+                </chart:SfChart.Title>
 
-            <chart:SfChart.Title>
-                <chart:ChartTitle Text="YTD Revenue" Font="15"/>
-            </chart:SfChart.Title>
+                
+                <chart:SfChart.BindingContext >
+                    <local:ColumnSeriesViewModel2/>
+                </chart:SfChart.BindingContext>
 
-            <chart:SfChart.BindingContext>
-                <local:ColumnSeriesViewModel2 />
-            </chart:SfChart.BindingContext>
+                <chart:SfChart.PrimaryAxis>
+                    <chart:CategoryAxis ZoomFactor="0.1" ZoomPosition="0" MaximumLabels="20" LabelsIntersectAction="MultipleRows" >
+                        <chart:CategoryAxis.Title>
+                            <chart:ChartAxisTitle Text="Folio Item" Font="13"/>
+                        </chart:CategoryAxis.Title>
+                    </chart:CategoryAxis>
+                </chart:SfChart.PrimaryAxis>
+            
+                <chart:SfChart.ChartBehaviors>
+                  <chart:ChartZoomPanBehavior EnablePanning="true" EnableDoubleTap="false" />
+                </chart:SfChart.ChartBehaviors>
+            
+                <chart:SfChart.SecondaryAxis>
+                    <chart:NumericalAxis Maximum="10000000" Minimum="0" Interval="100000">
+                        <chart:NumericalAxis.Title>
+                            <chart:ChartAxisTitle Text="Summary" Font="13"/>
+                        </chart:NumericalAxis.Title>
+                    </chart:NumericalAxis>
+                </chart:SfChart.SecondaryAxis>
 
-            <chart:SfChart.PrimaryAxis>
-                <chart:CategoryAxis LabelPlacement="BetweenTicks">
-                    <chart:CategoryAxis.Title>
-                        <chart:ChartAxisTitle Text="Folio Item"/>
-                    </chart:CategoryAxis.Title>
-                </chart:CategoryAxis>
-            </chart:SfChart.PrimaryAxis>
+                 <chart:SfChart.Legend>
 
-            <chart:SfChart.SecondaryAxis>
-                <chart:NumericalAxis Maximum="30000" Minimum="0" Interval="2000">
-                    <chart:NumericalAxis.Title>
-                        <chart:ChartAxisTitle Text="Summary"/>
-                    </chart:NumericalAxis.Title>
-                </chart:NumericalAxis>
-            </chart:SfChart.SecondaryAxis>
+    <chart:ChartLegend ToggleSeriesVisibility="True">
 
-            <chart:SfChart.Legend>
-                <chart:ChartLegend ToggleSeriesVisibility="True"/>
-            </chart:SfChart.Legend>
+        <chart:ChartLegend.LabelStyle>
 
-            <chart:SfChart.Series>
-                <chart:ColumnSeries x:Name ="columnSeries1" ItemsSource="{Binding ColumnData1}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Revenue" EnableTooltip="True" EnableAnimation="True">
-                </chart:ColumnSeries>
+            <chart:ChartLegendLabelStyle Font="18"/>
 
-                <chart:ColumnSeries x:Name ="columnSeries2" ItemsSource="{Binding ColumnData2}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Vat" EnableTooltip="True" EnableAnimation="True">
-                </chart:ColumnSeries>
+        </chart:ChartLegend.LabelStyle>
 
-                <chart:ColumnSeries x:Name ="columnSeries3" ItemsSource="{Binding ColumnData3}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Service" EnableTooltip="True" EnableAnimation="True">
-                </chart:ColumnSeries>
+    </chart:ChartLegend>
 
-            </chart:SfChart.Series>
+</chart:SfChart.Legend>
+
+                <chart:SfChart.Series>
+                    <chart:ColumnSeries x:Name ="columnSeries1" ItemsSource="{Binding ColumnData1}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Revenue" EnableTooltip="true" EnableAnimation="True">
+                        <chart:ColumnSeries.TooltipTemplate>
+                          <DataTemplate>
+                              <StackLayout Orientation="Horizontal">
+                                      <Label Text="{Binding Name}" />
+                                      <Label Text=":" />
+                                      <Label Text="{Binding Value}"/>
+                              </StackLayout>
+                          </DataTemplate>
+                      </chart:ColumnSeries.TooltipTemplate>
+                    </chart:ColumnSeries>
+
+                    <chart:ColumnSeries x:Name ="columnSeries2" ItemsSource="{Binding ColumnData2}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Vat" EnableTooltip="True" EnableAnimation="True">
+                        <chart:ColumnSeries.TooltipTemplate>
+                          <DataTemplate>
+                              <StackLayout Orientation="Horizontal">
+                                      <Label Text="{Binding Name}" TextColor="White"/>
+                                      <Label Text=":" TextColor="White"/>
+                                      <Label Text="{Binding Value}" TextColor="White"/>
+                              </StackLayout>
+                          </DataTemplate>
+                      </chart:ColumnSeries.TooltipTemplate>
+                    </chart:ColumnSeries>
+
+                    <chart:ColumnSeries x:Name ="columnSeries3" ItemsSource="{Binding ColumnData3}" XBindingPath="Name" YBindingPath="Value" LegendIcon="Rectangle" Label="Service" EnableTooltip="True" EnableAnimation="True">
+                        <chart:ColumnSeries.TooltipTemplate>
+                          <DataTemplate>
+                              <StackLayout Orientation="Horizontal">
+                                      <Label Text="{Binding Name}" TextColor="White"/>
+                                      <Label Text=":" TextColor="White"/>
+                                      <Label Text="{Binding Value}" TextColor="White"/>
+                              </StackLayout>
+                          </DataTemplate>
+                      </chart:ColumnSeries.TooltipTemplate>
+                    </chart:ColumnSeries>
+
+                </chart:SfChart.Series>
 
 
-        </chart:SfChart>
-    </local:SampleView2.Content>
+            </chart:SfChart>
+        </local:SampleView2.Content>
     <local:SampleView2.PropertyView>
         <StackLayout>
 
@@ -76,7 +117,7 @@
             </StackLayout.VerticalOptions>
 
             <Label  x:Name="ColumnWidthValue" VerticalOptions="Center" Text="Width : 0.8" />
-            <Slider x:Name="ColumnWidth" VerticalOptions="Center" Value="0.8" ValueChanged="ColumnWidth_ValueChanged" />
+            <Slider x:Name="ColumnWidth" VerticalOptions="Center" Value="1" ValueChanged="ColumnWidth_ValueChanged" />
             <Label  x:Name="SpacingValue" VerticalOptions="Center" Text="Spacing : 0.0" />
             <Slider x:Name="Spacing" VerticalOptions="Center" Value="0.0" ValueChanged="Spacing_ValueChanged" />
         </StackLayout>
