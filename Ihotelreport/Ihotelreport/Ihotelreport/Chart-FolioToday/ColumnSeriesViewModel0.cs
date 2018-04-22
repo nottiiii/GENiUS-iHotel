@@ -51,9 +51,9 @@ namespace Ihotelreport
 
                 string[] arrItem = new string[(Items.dataResult.Count)];
                 double[] arrtotal = new double[(Items.dataResult.Count)];
-                string[] arrvat = new string[(Items.dataResult.Count)];
-                string[] arrservice = new string[(Items.dataResult.Count)];
-                string[] arrrevenue = new string[(Items.dataResult.Count)];
+                double[] arrvat = new double[(Items.dataResult.Count)];
+                double[] arrservice = new double[(Items.dataResult.Count)];
+                double[] arrrevenue = new double[(Items.dataResult.Count)];
 
                 int i = 0;
                 foreach (var aaa in Items.dataResult)
@@ -72,7 +72,7 @@ namespace Ihotelreport
                     if (aaa.Item != null && aaa.Revenue != null)
                     {
                         arrItem[k] = aaa.Item;
-                        arrrevenue[k] = Convert.ToDouble(aaa.Revenue).ToString("N2");
+                        arrrevenue[k] = Convert.ToDouble(aaa.Revenue);
                         k++;
                     }
                 }
@@ -83,7 +83,7 @@ namespace Ihotelreport
                     if (aaa.Item != null && aaa.Service != null)
                     {
                         arrItem[m] = aaa.Item;
-                        arrservice[m] = Convert.ToDouble(aaa.Service).ToString("N2");
+                        arrservice[m] = Convert.ToDouble(aaa.Service);
                         m++;
                     }
                 }
@@ -94,7 +94,7 @@ namespace Ihotelreport
                     if (aaa.Item != null && aaa.Vat != null)
                     {
                         arrItem[o] = aaa.Item;
-                        arrvat[o] = Convert.ToDouble(aaa.Vat).ToString("N2");
+                        arrvat[o] = Convert.ToDouble(aaa.Vat);
                         o++;
                     }
                 }

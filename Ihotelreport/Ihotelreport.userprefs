@@ -1,26 +1,18 @@
 ﻿<Properties StartupConfiguration="{92987E48-8295-4E3A-8626-34BAB8625CF1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ihotelreport Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ihotelreport/Ihotelreport/Forcast.xaml.cs">
     <Files>
-      <File FileName="Ihotelreport/Ihotelreport/Chart-FolioToday/ColumnChart0.xaml" Line="125" Column="21" />
-      <File FileName="Ihotelreport/Ihotelreport/Chart-FolioToday/ColumnChart1.xaml" Line="126" Column="25" />
-      <File FileName="Ihotelreport/Ihotelreport/Chart-FolioToday/ColumnChart2.xaml" Line="125" Column="21" />
-      <File FileName="Ihotelreport/Ihotelreport/Chart-FolioToday/ColumnSeriesViewModel1.cs" Line="77" Column="85" />
-      <File FileName="Ihotelreport/Ihotelreport/M_nationality.xaml.cs" Line="13" Column="28" />
-      <File FileName="Ihotelreport/Ihotelreport/Magency.xaml.cs" Line="38" Column="57" />
-      <File FileName="Ihotelreport/Ihotelreport/Dashboard.xaml" Line="56" Column="15" />
-      <File FileName="Ihotelreport/Ihotelreport/Dashboard.xaml.cs" Line="1" Column="1" />
-      <File FileName="Ihotelreport/Ihotelreport/Login_LC.xaml.cs" Line="1" Column="1" />
-      <File FileName="Ihotelreport/Ihotelreport/model/LoginPage.xaml.cs" Line="218" Column="96" />
-      <File FileName="Ihotelreport/Ihotelreport/Yagency.xaml.cs" Line="32" Column="55" />
-      <File FileName="Ihotelreport/Ihotelreport.iOS/Info.plist" />
-      <File FileName="Ihotelreport/Ihotelreport.iOS/Entitlements.plist" />
-      <File FileName="Ihotelreport/Ihotelreport/Aboutpage.xaml" Line="40" Column="1" />
-      <File FileName="Ihotelreport/Ihotelreport/Aboutpage.xaml.cs" Line="14" Column="5" />
-      <File FileName="Ihotelreport Status" />
+      <File FileName="Ihotelreport/Ihotelreport/RoomForecast.xaml" Line="139" Column="1" />
+      <File FileName="Ihotelreport/Ihotelreport/Staticreport.xaml" Line="386" Column="15" />
+      <File FileName="Ihotelreport/Ihotelreport/Revenuereport.xaml" Line="104" Column="15" />
+      <File FileName="Ihotelreport/Ihotelreport/packages.config" Line="1" Column="1" />
+      <File FileName="Ihotelreport/Ihotelreport/Revenueagency.xaml" Line="113" Column="15" />
+      <File FileName="Ihotelreport/Ihotelreport/Forcast.xaml" Line="151" Column="15" />
+      <File FileName="Ihotelreport/Ihotelreport/History.xaml" Line="149" Column="15" />
+      <File FileName="Ihotelreport/Ihotelreport/Forcast.xaml.cs" Line="197" Column="263" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Ihotelreport.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5DD04279-D6DC-49C8-9478-D43C11FD4004" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -13,7 +13,7 @@
             </Grid.RowDefinitions>
 
             <Label Grid.Column="0" Grid.Row="0" Text="Current version" FontSize="Medium" Margin="10,0,0,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"></Label>
-            <Label Grid.Column="1" Grid.Row="0" Text="1.7" FontSize="Medium" Margin="0,0,10,0" VerticalTextAlignment="Center" HorizontalTextAlignment="End"></Label>
+            <Label Grid.Column="1" Grid.Row="0" Text="1.8" FontSize="Medium" Margin="0,0,10,0" VerticalTextAlignment="Center" HorizontalTextAlignment="End"></Label>
         </Grid>
 
         <Grid BackgroundColor="White" Margin="0,30,0,0">

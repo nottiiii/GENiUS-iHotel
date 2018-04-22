@@ -4,6 +4,7 @@
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/NControl.Droid/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/NGraphics.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Plugin.Connectivity/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.Linq.Android/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfAutoComplete.Android/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfCalendar.Android/library_project_imports/res</ResolvedResourceDirectory>
@@ -12,16 +13,27 @@
     <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfPdfViewer.XForms.Android/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfRadialMenu.Android/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfRotator.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfSunburstChart.XForms.Android/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfTreeMap.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/NControl.Droid/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/NGraphics.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Plugin.Connectivity/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Syncfusion.Linq.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Syncfusion.SfPdfViewer.XForms.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Syncfusion.SfRadialMenu.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Syncfusion.SfSunburstChart.XForms.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
     <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/NControl.Droid.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/NGraphics.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Plugin.Connectivity.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.Linq.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfAutoComplete.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfCalendar.Android.stamp</ResolvedResourceDirectoryStamp>
@@ -30,6 +42,9 @@
     <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfPdfViewer.XForms.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfRadialMenu.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfRotator.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfSunburstChart.XForms.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Syncfusion.SfTreeMap.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/nott/Desktop/Ihotelreport/Ihotelreport/Ihotelreport/Ihotelreport.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

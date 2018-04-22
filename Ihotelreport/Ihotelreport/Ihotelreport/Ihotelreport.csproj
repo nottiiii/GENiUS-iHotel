@@ -426,9 +426,6 @@
     <Reference Include="Syncfusion.SfTreeMap.XForms.iOS">
       <HintPath>..\..\..\ios-unified\Syncfusion.SfTreeMap.XForms.iOS.dll</HintPath>
     </Reference>
-    <Reference Include="Cross.Pie.Forms.Sample">
-      <HintPath>..\Ihotelreport.Android\bin\Debug\Cross.Pie.Forms.Sample.dll</HintPath>
-    </Reference>
     <Reference Include="Syncfusion.SfChart.XForms">
       <HintPath>..\..\..\Syncfusion\Syncfusion.SfChart.XForms.dll</HintPath>
     </Reference>
@@ -677,6 +674,9 @@
     </Reference>
     <Reference Include="Syncfusion.SfChart.Android">
       <HintPath>..\..\..\android\Syncfusion.SfChart.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Cross.Pie.Forms.Sample">
+      <HintPath>..\Ihotelreport.Android\bin\Debug\Cross.Pie.Forms.Sample.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup />

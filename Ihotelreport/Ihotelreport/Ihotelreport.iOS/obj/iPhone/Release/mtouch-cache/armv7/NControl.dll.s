@@ -1,0 +1,5404 @@
+.subsections_via_symbols
+.section __DWARF, __debug_line,regular,debug
+Ldebug_line_section_start:
+Ldebug_line_start:
+.section __DWARF, __debug_abbrev,regular,debug
+
+	.byte 1,17,1,37,8,3,8,27,8,19,11,17,1,18,1,16,6,0,0,2,46,1,3,8,135,64,8,58,15,59,15,17
+	.byte 1,18,1,64,10,0,0,3,5,0,3,8,73,19,2,10,0,0,15,5,0,3,8,73,19,2,6,0,0,4,36,0
+	.byte 11,11,62,11,3,8,0,0,5,2,1,3,8,11,15,0,0,17,2,0,3,8,11,15,0,0,6,13,0,3,8,73
+	.byte 19,56,10,0,0,7,22,0,3,8,73,19,0,0,8,4,1,3,8,11,15,73,19,0,0,9,40,0,3,8,28,13
+	.byte 0,0,10,57,1,3,8,0,0,11,52,0,3,8,73,19,2,10,0,0,12,52,0,3,8,73,19,2,6,0,0,13
+	.byte 15,0,73,19,0,0,14,16,0,73,19,0,0,16,28,0,73,19,56,10,0,0,18,46,0,3,8,17,1,18,1,0
+	.byte 0,0
+.section __DWARF, __debug_info,regular,debug
+Ldebug_info_start:
+
+LDIFF_SYM0=Ldebug_info_end - Ldebug_info_begin
+	.long LDIFF_SYM0
+Ldebug_info_begin:
+
+	.short 2
+	.long 0
+	.byte 4,1
+	.asciz "Mono AOT Compiler 5.0.1 (tarball Mon May 22 16:16:43 EDT 2017)"
+	.asciz "NControl.dll"
+	.asciz ""
+
+	.byte 2,0,0,0,0,0,0,0,0
+LDIFF_SYM1=Ldebug_line_start - Ldebug_line_section_start
+	.long LDIFF_SYM1
+LDIE_I1:
+
+	.byte 4,1,5
+	.asciz "sbyte"
+LDIE_U1:
+
+	.byte 4,1,7
+	.asciz "byte"
+LDIE_I2:
+
+	.byte 4,2,5
+	.asciz "short"
+LDIE_U2:
+
+	.byte 4,2,7
+	.asciz "ushort"
+LDIE_I4:
+
+	.byte 4,4,5
+	.asciz "int"
+LDIE_U4:
+
+	.byte 4,4,7
+	.asciz "uint"
+LDIE_I8:
+
+	.byte 4,8,5
+	.asciz "long"
+LDIE_U8:
+
+	.byte 4,8,7
+	.asciz "ulong"
+LDIE_I:
+
+	.byte 4,4,5
+	.asciz "intptr"
+LDIE_U:
+
+	.byte 4,4,7
+	.asciz "uintptr"
+LDIE_R4:
+
+	.byte 4,4,4
+	.asciz "float"
+LDIE_R8:
+
+	.byte 4,8,4
+	.asciz "double"
+LDIE_BOOLEAN:
+
+	.byte 4,1,2
+	.asciz "boolean"
+LDIE_CHAR:
+
+	.byte 4,2,8
+	.asciz "char"
+LDIE_STRING:
+
+	.byte 4,4,1
+	.asciz "string"
+LDIE_OBJECT:
+
+	.byte 4,4,1
+	.asciz "object"
+LDIE_SZARRAY:
+
+	.byte 4,4,1
+	.asciz "object"
+.section __DWARF, __debug_loc,regular,debug
+Ldebug_loc_start:
+.section __DWARF, __debug_frame,regular,debug
+	.align 3
+
+LDIFF_SYM2=Lcie0_end - Lcie0_start
+	.long LDIFF_SYM2
+Lcie0_start:
+
+	.long -1
+	.byte 3
+	.asciz ""
+
+	.byte 1,124,14,12,13,0
+	.align 2
+Lcie0_end:
+.text
+	.align 3
+jit_code_start:
+
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_add_OnInvalidate_System_EventHandler
+NControl_Abstractions_NControlView_add_OnInvalidate_System_EventHandler:
+.file 1 "<unknown>"
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,248,176,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_1
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 92
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,62,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 96
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_0:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_remove_OnInvalidate_System_EventHandler
+NControl_Abstractions_NControlView_remove_OnInvalidate_System_EventHandler:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,248,176,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_4
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 92
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,62,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 96
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_1:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_add_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_add_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,252,176,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_1
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 100
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,63,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 104
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_2:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_remove_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_remove_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,252,176,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_4
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 100
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,63,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 104
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_3:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_add_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_add_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,0,177,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_1
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 100
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,64,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 104
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_4:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_remove_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_remove_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,0,177,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_4
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 100
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,64,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 104
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_5:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_add_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_add_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,4,177,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_1
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 100
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,65,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 104
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_6:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_remove_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_remove_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,4,177,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_4
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 100
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,65,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 104
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_7:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_add_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_add_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,8,177,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_1
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 100
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,66,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 104
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_8:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_remove_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_remove_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,8,177,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_4
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 100
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,66,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 104
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_9:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_add_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate
+NControl_Abstractions_NControlView_add_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,12,177,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_1
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 108
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,67,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 112
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_a:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_remove_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate
+NControl_Abstractions_NControlView_remove_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,12,177,150,229,11,80,160,225
+	.byte 11,0,160,225,4,16,157,229
+bl _p_4
+
+	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 108
+	.byte 1,16,159,231,1,0,80,225,31,0,0,27,10,64,160,225,0,15,86,227,24,0,0,11,67,15,134,226,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 112
+	.byte 1,16,159,231,0,192,141,229,95,240,127,245,159,239,144,225,11,0,94,225,2,0,0,26,154,207,128,225,0,0,92,227
+	.byte 249,255,255,26,95,240,127,245,0,192,157,229,14,16,160,225,8,16,141,229
+bl _p_2
+
+	.byte 8,0,157,229,0,176,160,225,5,0,80,225,213,255,255,26,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_3
+
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 235,0,0,0
+
+Lme_b:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView__ctor
+NControl_Abstractions_NControlView__ctor:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,0,9,45,233,16,223,77,226,13,176,160,225,56,0,139,229,56,0,155,229
+bl _p_5
+
+	.byte 0,0,159,229,0,0,0,234
+	.long mono_aot_NControl_got - . + 116
+	.byte 0,0,159,231,0,16,144,229,24,16,139,229,4,16,144,229,28,16,139,229,8,16,144,229,32,16,139,229,12,16,144,229
+	.byte 36,16,139,229,16,16,144,229,40,16,139,229,20,16,144,229,44,16,139,229,24,16,144,229,48,16,139,229,28,0,144,229
+	.byte 52,0,139,229,56,0,155,229,24,16,155,229,28,32,155,229,32,48,155,229,36,192,155,229,0,192,141,229,40,192,155,229
+	.byte 4,192,141,229,44,192,155,229,8,192,141,229,48,192,155,229,12,192,141,229,52,192,155,229,16,192,141,229
+bl _p_6
+
+	.byte 16,223,139,226,0,9,189,232,128,128,189,232
+
+Lme_c:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView__ctor_System_Action_2_NGraphics_ICanvas_NGraphics_Rect
+NControl_Abstractions_NControlView__ctor_System_Action_2_NGraphics_ICanvas_NGraphics_Rect:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,2,223,77,226,0,96,160,225,0,16,141,229,6,0,160,225
+bl _p_7
+
+	.byte 0,0,157,229,16,1,134,229,68,15,134,226
+bl _p_2
+
+	.byte 0,0,157,229,2,223,141,226,64,1,189,232,128,128,189,232
+
+Lme_d:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_get_DrawingFunction
+NControl_Abstractions_NControlView_get_DrawingFunction:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229,16,1,144,229,3,223,141,226
+	.byte 0,1,189,232,128,128,189,232
+
+Lme_e:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_set_DrawingFunction_System_Action_2_NGraphics_ICanvas_NGraphics_Rect
+NControl_Abstractions_NControlView_set_DrawingFunction_System_Action_2_NGraphics_ICanvas_NGraphics_Rect:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
+	.byte 16,17,128,229,68,15,128,226
+bl _p_2
+
+	.byte 4,0,157,229,3,223,141,226,0,1,189,232,128,128,189,232
+
+Lme_f:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_get_Platform
+NControl_Abstractions_NControlView_get_Platform:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,0,141,229,0,0,157,229,12,1,144,229,0,15,80,227
+	.byte 9,0,0,10,0,0,157,229,12,17,144,229,1,0,160,225,8,16,141,229,15,224,160,225,12,240,145,229,8,16,157,229
+	.byte 5,223,141,226,0,1,189,232,128,128,189,232,0,0,159,229,0,0,0,234
+	.long mono_aot_NControl_got - . -12
+	.byte 0,0,159,231,64,19,160,227
+bl _p_8
+
+	.byte 0,16,160,225,144,0,0,227,0,2,64,227
+bl _mono_create_corlib_exception_1
+bl _p_9
+
+Lme_10:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_Invalidate
+NControl_Abstractions_NControlView_Invalidate:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,2,223,77,226,0,160,160,225,248,0,154,229,0,15,80,227,11,0,0,10
+	.byte 248,48,154,229,0,0,159,229,0,0,0,234
+	.long mono_aot_NControl_got - . + 120
+	.byte 0,0,159,231,0,32,144,229,3,0,160,225,10,16,160,225,0,48,141,229,15,224,160,225,12,240,147,229,0,0,157,229
+	.byte 2,223,141,226,0,5,189,232,128,128,189,232
+
+Lme_11:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_Draw_NGraphics_ICanvas_NGraphics_Rect
+NControl_Abstractions_NControlView_Draw_NGraphics_ICanvas_NGraphics_Rect:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,0,9,45,233,18,223,77,226,13,176,160,225,24,0,139,229,28,16,139,229,32,32,139,229
+	.byte 36,48,139,229,22,15,141,226,10,31,139,226,6,47,160,227,0,48,144,229,0,48,129,229,4,0,128,226,4,16,129,226
+	.byte 4,32,82,226,249,255,255,26,24,0,155,229,16,1,144,229,0,15,80,227,23,0,0,10,24,0,155,229,16,193,144,229
+	.byte 12,0,160,225,68,0,139,229,28,16,155,229,32,32,155,229,36,48,155,229,40,0,155,229,0,0,141,229,44,0,155,229
+	.byte 4,0,141,229,48,0,155,229,8,0,141,229,52,0,155,229,12,0,141,229,56,0,155,229,16,0,141,229,60,0,155,229
+	.byte 20,0,141,229,68,0,155,229,64,192,139,229,15,224,160,225,12,240,156,229,64,0,155,229,18,223,139,226,0,9,189,232
+	.byte 128,128,189,232
+
+Lme_12:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_TouchesBegan_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_TouchesBegan_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,4,223,77,226,0,96,160,225,0,16,141,229,252,0,150,229,0,15,80,227
+	.byte 9,0,0,10,252,48,150,229,3,0,160,225,6,16,160,225,0,32,157,229,8,48,141,229,15,224,160,225,12,240,147,229
+	.byte 8,0,157,229,64,3,160,227,0,0,0,234,0,15,160,227,4,223,141,226,64,1,189,232,128,128,189,232
+
+Lme_13:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_TouchesMoved_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_TouchesMoved_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,4,223,77,226,0,96,160,225,0,16,141,229,0,1,150,229,0,15,80,227
+	.byte 9,0,0,10,0,49,150,229,3,0,160,225,6,16,160,225,0,32,157,229,8,48,141,229,15,224,160,225,12,240,147,229
+	.byte 8,0,157,229,64,3,160,227,0,0,0,234,0,15,160,227,4,223,141,226,64,1,189,232,128,128,189,232
+
+Lme_14:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_TouchesCancelled_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_TouchesCancelled_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,4,223,77,226,0,96,160,225,0,16,141,229,8,1,150,229,0,15,80,227
+	.byte 9,0,0,10,8,49,150,229,3,0,160,225,6,16,160,225,0,32,157,229,8,48,141,229,15,224,160,225,12,240,147,229
+	.byte 8,0,157,229,64,3,160,227,0,0,0,234,0,15,160,227,4,223,141,226,64,1,189,232,128,128,189,232
+
+Lme_15:
+.text
+	.align 2
+	.no_dead_strip NControl_Abstractions_NControlView_TouchesEnded_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+NControl_Abstractions_NControlView_TouchesEnded_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,4,223,77,226,0,96,160,225,0,16,141,229,4,1,150,229,0,15,80,227
+	.byte 9,0,0,10,4,49,150,229,3,0,160,225,6,16,160,225,0,32,157,229,8,48,141,229,15,224,160,225,12,240,147,229
+	.byte 8,0,157,229,64,3,160,227,0,0,0,234,0,15,160,227,4,223,141,226,64,1,189,232,128,128,189,232
+
+Lme_16:
+.text
+ut_29:
+
+	.byte 8,0,128,226
+	b System_Array_InternalEnumerator_1_NGraphics_Point__ctor_System_Array
+
+ut_end:
+.section __TEXT, __const
+_unbox_trampoline_p:
+
+	.long 0
+LDIFF_SYM3=ut_end - ut_29
+	.long LDIFF_SYM3
+.text
+	.align 2
+	.no_dead_strip System_Array_InternalEnumerator_1_NGraphics_Point__ctor_System_Array
+System_Array_InternalEnumerator_1_NGraphics_Point__ctor_System_Array:
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/corlib/System/Array.cs"
+.loc 2 239 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,2,223,77,226,0,96,160,225,0,16,141,229,0,0,157,229,0,0,134,229
+	.byte 6,0,160,225
+bl _p_2
+
+	.byte 0,0,157,229
+.loc 2 240 0
+
+	.byte 64,3,224,227,4,0,134,229
+.loc 2 241 0
+
+	.byte 2,223,141,226,64,1,189,232,128,128,189,232
+
+Lme_1d:
+.text
+ut_30:
+
+	.byte 8,0,128,226
+	b System_Array_InternalEnumerator_1_NGraphics_Point_Dispose
+
+.text
+	.align 2
+	.no_dead_strip System_Array_InternalEnumerator_1_NGraphics_Point_Dispose
+System_Array_InternalEnumerator_1_NGraphics_Point_Dispose:
+.loc 2 245 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229,64,19,224,227,4,16,128,229
+.loc 2 246 0
+
+	.byte 3,223,141,226,0,1,189,232,128,128,189,232
+
+Lme_1e:
+.text
+ut_31:
+
+	.byte 8,0,128,226
+	b System_Array_InternalEnumerator_1_NGraphics_Point_MoveNext
+
+.text
+	.align 2
+	.no_dead_strip System_Array_InternalEnumerator_1_NGraphics_Point_MoveNext
+System_Array_InternalEnumerator_1_NGraphics_Point_MoveNext:
+.loc 2 250 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,64,5,45,233,1,223,77,226,0,160,160,225,4,0,154,229,64,19,224,227,1,0,80,225
+	.byte 2,0,0,26
+.loc 2 251 0
+
+	.byte 0,0,154,229,12,0,144,229,4,0,138,229
+.loc 2 253 0
+
+	.byte 4,0,154,229,0,31,224,227,1,0,80,225,11,0,0,10,4,0,154,229,64,99,64,226,6,0,160,225,4,0,138,229
+	.byte 0,15,224,227,0,0,86,225,0,0,160,19,1,0,160,3,0,15,80,227,0,0,160,19,1,0,160,3,0,0,0,234
+	.byte 0,15,160,227,1,223,141,226,64,5,189,232,128,128,189,232
+
+Lme_1f:
+.text
+ut_32:
+
+	.byte 8,0,128,226
+	b System_Array_InternalEnumerator_1_NGraphics_Point_get_Current
+
+.text
+	.align 2
+	.no_dead_strip System_Array_InternalEnumerator_1_NGraphics_Point_get_Current
+System_Array_InternalEnumerator_1_NGraphics_Point_get_Current:
+.loc 2 258 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,6,223,77,226,0,16,141,229,0,96,160,225,4,0,150,229,64,19,224,227
+	.byte 1,0,80,225,29,0,0,10
+.loc 2 260 0
+
+	.byte 4,0,150,229,0,31,224,227,1,0,80,225,32,0,0,10
+.loc 2 263 0
+
+	.byte 0,0,150,229,0,16,160,225,12,16,145,229,64,19,65,226,4,32,150,229,2,32,65,224,0,16,159,229,0,0,0,234
+	.long mono_aot_NControl_got - . + 124
+	.byte 1,16,159,231,0,224,208,229,1,128,160,225,1,31,141,226
+bl _p_10
+
+	.byte 0,0,157,229,4,16,157,229,0,16,128,229,8,16,157,229,4,16,128,229,12,16,157,229,8,16,128,229,16,16,157,229
+	.byte 12,16,128,229,6,223,141,226,64,1,189,232,128,128,189,232
+.loc 2 259 0
+
+	.byte 222,12,160,227
+bl _p_11
+
+	.byte 0,16,160,225,236,0,0,227,0,2,64,227
+bl _mono_create_corlib_exception_1
+bl _p_9
+.loc 2 261 0
+
+	.byte 86,14,13,227
+bl _p_11
+
+	.byte 0,16,160,225,236,0,0,227,0,2,64,227
+bl _mono_create_corlib_exception_1
+bl _p_9
+
+Lme_20:
+.text
+ut_33:
+
+	.byte 8,0,128,226
+	b System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_Reset
+
+.text
+	.align 2
+	.no_dead_strip System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_Reset
+System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_Reset:
+.loc 2 269 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229,64,19,224,227,4,16,128,229
+.loc 2 270 0
+
+	.byte 3,223,141,226,0,1,189,232,128,128,189,232
+
+Lme_21:
+.text
+ut_34:
+
+	.byte 8,0,128,226
+	b System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_get_Current
+
+.text
+	.align 2
+	.no_dead_strip System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_get_Current
+System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_get_Current:
+.loc 2 274 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,16,0,141,229,0,128,159,229,0,0,0,234
+	.long mono_aot_NControl_got - . + 128
+	.byte 8,128,159,231,13,16,160,225,16,0,157,229
+bl _p_12
+
+	.byte 0,0,159,229,0,0,0,234
+	.long mono_aot_NControl_got - . + 132
+	.byte 0,0,159,231,6,31,160,227
+bl _p_13
+
+	.byte 2,31,128,226,0,32,157,229,0,32,129,229,4,32,157,229,4,32,129,229,8,32,157,229,8,32,129,229,12,32,157,229
+	.byte 12,32,129,229,7,223,141,226,0,1,189,232,128,128,189,232
+
+Lme_22:
+.text
+	.align 2
+	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_NGraphics_Point
+System_Array_InternalArray__IEnumerable_GetEnumerator_NGraphics_Point:
+.loc 2 78 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,11,223,77,226,16,0,141,229,0,15,160,227,0,0,141,229,0,15,160,227
+	.byte 4,0,141,229,0,128,159,229,0,0,0,234
+	.long mono_aot_NControl_got - . + 128
+	.byte 8,128,159,231,13,0,160,225,16,16,157,229
+bl _p_14
+
+	.byte 0,0,157,229,8,0,141,229,4,0,157,229,12,0,141,229,0,0,159,229,0,0,0,234
+	.long mono_aot_NControl_got - . + 128
+	.byte 0,0,159,231,4,31,160,227
+bl _p_13
+
+	.byte 24,0,141,229,2,31,128,226,1,0,160,225,8,32,157,229,32,32,141,229,0,32,129,229,28,0,141,229
+bl _p_2
+
+	.byte 24,0,157,229,28,16,157,229,32,32,157,229,1,31,129,226,12,32,157,229,0,32,129,229,11,223,141,226,0,1,189,232
+	.byte 128,128,189,232
+
+Lme_23:
+.text
+	.align 2
+	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point_invoke_void_object_TEventArgs_object_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+wrapper_delegate_invoke_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point_invoke_void_object_TEventArgs_object_System_Collections_Generic_IEnumerable_1_NGraphics_Point:
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,6,223,77,226,0,80,160,225,4,16,141,229,8,32,141,229,0,0,159,229
+	.byte 0,0,0,234
+	.long mono_aot_NControl_got - . + 136
+	.byte 0,0,159,231,0,0,144,229,0,15,80,227,53,0,0,26,255,255,255,234,13,15,133,226,0,160,144,229,10,0,160,225
+	.byte 0,15,80,227,21,0,0,26,4,15,133,226,0,0,144,229,0,0,141,229,0,15,80,227,8,0,0,10,7,15,133,226
+	.byte 0,0,144,229,2,15,133,226,0,48,144,229,0,0,157,229,4,16,157,229,8,32,157,229,51,255,47,225,28,0,0,234
+	.byte 7,15,133,226,0,0,144,229,2,15,133,226,0,32,144,229,4,0,157,229,8,16,157,229,50,255,47,225,20,0,0,234
+	.byte 12,176,154,229,0,79,160,227,12,0,154,229,4,0,80,225,25,0,0,155,4,1,160,225,0,0,138,224,4,15,128,226
+	.byte 0,96,144,229,6,48,160,225,3,0,160,225,4,16,157,229,8,32,157,229,16,48,141,229,15,224,160,225,12,240,147,229
+	.byte 16,0,157,229,64,67,132,226,4,0,160,225,11,0,80,225,236,255,255,186,6,223,141,226,112,13,189,232,128,128,189,232
+	.byte 4,0,160,225
+bl _p_9
+bl _p_15
+
+	.byte 0,64,160,225,0,15,80,227,249,255,255,26,197,255,255,234,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 229,0,0,0
+
+Lme_24:
+.text
+	.align 2
+	.no_dead_strip wrapper_delegate_invoke_System_Action_2_NGraphics_ICanvas_NGraphics_Rect_invoke_void_T1_T2_NGraphics_ICanvas_NGraphics_Rect
+wrapper_delegate_invoke_System_Action_2_NGraphics_ICanvas_NGraphics_Rect_invoke_void_T1_T2_NGraphics_ICanvas_NGraphics_Rect:
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,20,223,77,226,13,176,160,225,28,0,139,229,32,16,139,229,36,32,139,229
+	.byte 40,48,139,229,28,15,141,226,11,31,139,226,6,47,160,227,0,48,144,229,0,48,129,229,4,0,128,226,4,16,129,226
+	.byte 4,32,82,226,249,255,255,26,0,0,159,229,0,0,0,234
+	.long mono_aot_NControl_got - . + 136
+	.byte 0,0,159,231,0,0,144,229,0,15,80,227,101,0,0,26,255,255,255,234,28,0,155,229,13,15,128,226,0,160,144,229
+	.byte 10,0,160,225,0,15,80,227,53,0,0,26,28,0,155,229,4,15,128,226,0,0,144,229,24,0,139,229,0,15,80,227
+	.byte 24,0,0,10,28,0,155,229,7,31,128,226,0,16,145,229,2,15,128,226,0,192,144,229,24,0,155,229,72,0,139,229
+	.byte 32,16,155,229,36,32,155,229,40,48,155,229,44,0,155,229,0,0,141,229,48,0,155,229,4,0,141,229,52,0,155,229
+	.byte 8,0,141,229,56,0,155,229,12,0,141,229,60,0,155,229,16,0,141,229,64,0,155,229,20,0,141,229,72,0,155,229
+	.byte 60,255,47,225,58,0,0,234,28,0,155,229,7,31,128,226,0,16,145,229,2,15,128,226,0,192,144,229,32,0,155,229
+	.byte 72,0,139,229,36,16,155,229,40,32,155,229,44,48,155,229,48,0,155,229,0,0,141,229,52,0,155,229,4,0,141,229
+	.byte 56,0,155,229,8,0,141,229,60,0,155,229,12,0,141,229,64,0,155,229,16,0,141,229,72,0,155,229,60,255,47,225
+	.byte 35,0,0,234,12,64,154,229,0,95,160,227,12,0,154,229,5,0,80,225,40,0,0,155,5,1,160,225,0,0,138,224
+	.byte 4,15,128,226,0,96,144,229,6,192,160,225,12,0,160,225,76,0,139,229,32,16,155,229,36,32,155,229,40,48,155,229
+	.byte 44,0,155,229,0,0,141,229,48,0,155,229,4,0,141,229,52,0,155,229,8,0,141,229,56,0,155,229,12,0,141,229
+	.byte 60,0,155,229,16,0,141,229,64,0,155,229,20,0,141,229,76,0,155,229,72,192,139,229,15,224,160,225,12,240,156,229
+	.byte 72,0,155,229,64,83,133,226,5,0,160,225,4,0,80,225,221,255,255,186,20,223,139,226,112,13,189,232,128,128,189,232
+	.byte 5,0,160,225
+bl _p_9
+bl _p_15
+
+	.byte 0,80,160,225,0,15,80,227,249,255,255,26,149,255,255,234,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 229,0,0,0
+
+Lme_29:
+.text
+	.align 2
+	.no_dead_strip wrapper_delegate_invoke__Module_invoke_IPlatform
+wrapper_delegate_invoke__Module_invoke_IPlatform:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,160,160,225,0,0,159,229,0,0,0,234
+	.long mono_aot_NControl_got - . + 136
+	.byte 0,0,159,231,0,0,144,229,0,15,80,227,49,0,0,26,255,255,255,234,13,15,138,226,0,64,144,229,4,0,160,225
+	.byte 0,15,80,227,17,0,0,26,4,15,138,226,0,0,144,229,0,0,141,229,0,15,80,227,6,0,0,10,7,15,138,226
+	.byte 0,0,144,229,2,15,138,226,0,16,144,229,0,0,157,229,49,255,47,225,26,0,0,234,7,15,138,226,0,0,144,229
+	.byte 2,15,138,226,0,0,144,229,48,255,47,225,20,0,0,234,12,80,148,229,0,111,160,227,12,0,148,229,6,0,80,225
+	.byte 25,0,0,155,6,1,160,225,0,0,132,224,4,15,128,226,0,176,144,229,11,16,160,225,1,0,160,225,8,16,141,229
+	.byte 15,224,160,225,12,240,145,229,8,16,157,229,4,0,141,229,64,99,134,226,6,0,160,225,5,0,80,225,237,255,255,186
+	.byte 4,0,157,229,4,223,141,226,112,13,189,232,128,128,189,232,6,0,160,225
+bl _p_9
+bl _p_15
+
+	.byte 0,96,160,225,0,15,80,227,249,255,255,26,201,255,255,234,14,16,160,225,0,0,159,229
+bl _p_3
+
+	.byte 229,0,0,0
+
+Lme_2a:
+.text
+	.align 2
+	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
+wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,0,9,45,233,4,223,77,226,13,176,160,225,0,0,139,229,4,16,139,229,8,32,139,229
+	.byte 3,15,160,227,0,15,80,227,3,15,160,227,7,16,128,226,7,16,193,227,1,208,77,224,0,224,160,227,0,0,0,234
+	.byte 1,224,141,231,4,16,81,226,252,255,255,170,13,16,160,225,1,15,139,226,0,0,129,229,1,15,129,226,2,47,139,226
+	.byte 0,32,128,229,0,0,155,229
+bl _p_16
+
+	.byte 4,223,139,226,0,9,189,232,128,128,189,232
+
+Lme_2b:
+.text
+	.align 2
+	.no_dead_strip wrapper_delegate_end_invoke__Module_end_invoke_IPlatform__this___IAsyncResult_System_IAsyncResult
+wrapper_delegate_end_invoke__Module_end_invoke_IPlatform__this___IAsyncResult_System_IAsyncResult:
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,0,9,45,233,2,223,77,226,13,176,160,225,0,0,139,229,4,16,139,229,2,15,160,227
+	.byte 0,15,80,227,2,15,160,227,7,16,128,226,7,16,193,227,1,208,77,224,0,224,160,227,0,0,0,234,1,224,141,231
+	.byte 4,16,81,226,252,255,255,170,13,16,160,225,1,15,139,226,0,0,129,229,0,0,155,229
+bl _p_17
+
+	.byte 2,223,139,226,0,9,189,232,128,128,189,232
+
+Lme_2c:
+.text
+	.align 2
+	.no_dead_strip System_Array_InternalArray__get_Item_NGraphics_Point_int
+System_Array_InternalArray__get_Item_NGraphics_Point_int:
+.loc 2 197 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,13,223,77,226,0,16,141,229,36,0,141,229,40,32,141,229,0,15,160,227
+	.byte 4,0,141,229,0,15,160,227,8,0,141,229,0,15,160,227,12,0,141,229,0,15,160,227,16,0,141,229,36,0,157,229
+	.byte 12,16,144,229,40,0,157,229,1,0,80,225,36,0,0,42
+.loc 2 201 0
+
+	.byte 0,0,159,229,0,0,0,234
+	.long mono_aot_NControl_got - . + 140
+	.byte 0,0,159,231,40,0,157,229,0,18,160,225,36,0,157,229,1,0,128,224,4,15,128,226,0,16,144,229,4,16,141,229
+	.byte 4,16,144,229,8,16,141,229,8,16,144,229,12,16,141,229,12,0,144,229,16,0,141,229
+.loc 2 202 0
+
+	.byte 4,0,157,229,20,0,141,229,8,0,157,229,24,0,141,229,12,0,157,229,28,0,141,229,16,0,157,229,32,0,141,229
+	.byte 0,0,157,229,20,16,157,229,0,16,128,229,24,16,157,229,4,16,128,229,28,16,157,229,8,16,128,229,32,16,157,229
+	.byte 12,16,128,229,13,223,141,226,0,1,189,232,128,128,189,232
+.loc 2 198 0
+
+	.byte 68,0,1,227
+bl _p_11
+
+	.byte 0,16,160,225,145,0,0,227,0,2,64,227
+bl _mono_create_corlib_exception_1
+bl _p_9
+
+Lme_2d:
+.text
+	.align 3
+jit_code_end:
+
+	.byte 0,0,0,0
+.text
+	.align 3
+method_addresses:
+	.no_dead_strip method_addresses
+bl NControl_Abstractions_NControlView_add_OnInvalidate_System_EventHandler
+bl NControl_Abstractions_NControlView_remove_OnInvalidate_System_EventHandler
+bl NControl_Abstractions_NControlView_add_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl NControl_Abstractions_NControlView_remove_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl NControl_Abstractions_NControlView_add_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl NControl_Abstractions_NControlView_remove_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl NControl_Abstractions_NControlView_add_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl NControl_Abstractions_NControlView_remove_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl NControl_Abstractions_NControlView_add_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl NControl_Abstractions_NControlView_remove_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl NControl_Abstractions_NControlView_add_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate
+bl NControl_Abstractions_NControlView_remove_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate
+bl NControl_Abstractions_NControlView__ctor
+bl NControl_Abstractions_NControlView__ctor_System_Action_2_NGraphics_ICanvas_NGraphics_Rect
+bl NControl_Abstractions_NControlView_get_DrawingFunction
+bl NControl_Abstractions_NControlView_set_DrawingFunction_System_Action_2_NGraphics_ICanvas_NGraphics_Rect
+bl NControl_Abstractions_NControlView_get_Platform
+bl NControl_Abstractions_NControlView_Invalidate
+bl NControl_Abstractions_NControlView_Draw_NGraphics_ICanvas_NGraphics_Rect
+bl NControl_Abstractions_NControlView_TouchesBegan_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl NControl_Abstractions_NControlView_TouchesMoved_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl NControl_Abstractions_NControlView_TouchesCancelled_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl NControl_Abstractions_NControlView_TouchesEnded_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl System_Array_InternalEnumerator_1_NGraphics_Point__ctor_System_Array
+bl System_Array_InternalEnumerator_1_NGraphics_Point_Dispose
+bl System_Array_InternalEnumerator_1_NGraphics_Point_MoveNext
+bl System_Array_InternalEnumerator_1_NGraphics_Point_get_Current
+bl System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_Reset
+bl System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_get_Current
+bl System_Array_InternalArray__IEnumerable_GetEnumerator_NGraphics_Point
+bl wrapper_delegate_invoke_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point_invoke_void_object_TEventArgs_object_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl wrapper_delegate_invoke_System_Action_2_NGraphics_ICanvas_NGraphics_Rect_invoke_void_T1_T2_NGraphics_ICanvas_NGraphics_Rect
+bl wrapper_delegate_invoke__Module_invoke_IPlatform
+bl wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
+bl wrapper_delegate_end_invoke__Module_end_invoke_IPlatform__this___IAsyncResult_System_IAsyncResult
+bl System_Array_InternalArray__get_Item_NGraphics_Point_int
+method_addresses_end:
+
+.section __TEXT, __const
+	.align 3
+unbox_trampolines:
+
+	.long 29,30,31,32,33,34
+unbox_trampolines_end:
+
+	.long 0
+.text
+	.align 3
+unbox_trampoline_addresses:
+bl ut_29
+bl ut_30
+bl ut_31
+bl ut_32
+bl ut_33
+bl ut_34
+
+	.long 0
+.section __TEXT, __const
+	.align 3
+unwind_info:
+
+	.byte 3,12,13,0,51,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14
+	.byte 48,2,180,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,40,12,13,0,68,14,8,135
+	.byte 2,72,14,16,136,4,139,3,142,1,68,14,80,68,13,11,2,152,10,68,13,13,14,16,68,8,8,8,11,14,8,68
+	.byte 11,35,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,36,10,68,14,16,68,8,6,8
+	.byte 8,14,8,68,11,30,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,76,10,68,14,12,68,8,8
+	.byte 14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68,14,12,68,8,8
+	.byte 14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,48,10,68,14,12,68,8,8
+	.byte 14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2,64,10,68,14,16,68
+	.byte 8,8,8,10,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,88,68,13,11
+	.byte 2,164,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,134,4,136
+	.byte 3,142,1,68,14,32,2,64,10,68,14,16,68,8,6,8,8,14,8,68,11,30,12,13,0,68,14,8,135,2,72,14
+	.byte 12,136,3,142,1,68,14,24,80,10,68,14,12,68,8,8,14,8,68,11,39,12,13,0,68,14,8,135,2,72,14,20
+	.byte 134,5,136,4,138,3,142,1,68,14,24,2,100,10,68,14,20,68,8,6,8,8,8,10,14,8,68,11,35,12,13,0
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,40,2,132,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.byte 31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,92,10,68,14,12,68,8,8,14,8,68,11
+	.byte 31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,56,2,144,10,68,14,12,68,8,8,14,8,68,11
+	.byte 51,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,2,236,10
+	.byte 68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,57,12,13,0,68,14,8,135,2,72,14,32
+	.byte 132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11,3,212,1,10,68,13,13,14,32,68,8,4
+	.byte 8,5,8,6,8,8,8,10,8,11,14,8,68,11,51,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6
+	.byte 136,5,138,4,139,3,142,1,68,14,48,2,212,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8
+	.byte 68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,32,68,13,11,2,88,10,68,13,13
+	.byte 14,16,68,8,8,8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,24
+	.byte 68,13,11,2,72,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12
+	.byte 136,3,142,1,68,14,64,2,200,10,68,14,12,68,8,8,14,8,68,11
+
+.text
+	.align 4
+plt:
+mono_aot_NControl_plt:
+	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
+plt_System_Delegate_Combine_System_Delegate_System_Delegate:
+_p_1:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 156,696
+	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
+plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
+_p_2:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 160,699
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
+_p_3:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 164,706
+	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
+plt_System_Delegate_Remove_System_Delegate_System_Delegate:
+_p_4:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 168,741
+	.no_dead_strip plt_Xamarin_Forms_ContentView__ctor
+plt_Xamarin_Forms_ContentView__ctor:
+_p_5:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 172,744
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color
+plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color:
+_p_6:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 176,749
+	.no_dead_strip plt_NControl_Abstractions_NControlView__ctor
+plt_NControl_Abstractions_NControlView__ctor:
+_p_7:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 180,754
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr
+plt__jit_icall_mono_helper_ldstr:
+_p_8:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 184,759
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_9:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 188,779
+	.no_dead_strip plt_System_Array_InternalArray__get_Item_NGraphics_Point_int
+plt_System_Array_InternalArray__get_Item_NGraphics_Point_int:
+_p_10:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 192,807
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_11:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 196,826
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_NGraphics_Point_get_Current
+plt_System_Array_InternalEnumerator_1_NGraphics_Point_get_Current:
+_p_12:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 200,855
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+_p_13:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 204,873
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_NGraphics_Point__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_NGraphics_Point__ctor_System_Array:
+_p_14:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 208,881
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_15:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 212,899
+	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
+plt__jit_icall_mono_delegate_begin_invoke:
+_p_16:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 216,937
+	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
+plt__jit_icall_mono_delegate_end_invoke:
+_p_17:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_NControl_got - . + 220,966
+plt_end:
+.section __DATA, __bss
+	.align 3
+.lcomm mono_aot_NControl_got, 228
+got_end:
+.section __TEXT, __const
+	.align 3
+Lglobals_hash:
+
+	.short 11, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 1, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0
+.section __TEXT, __const
+	.align 2
+name_0:
+	.asciz "_unbox_trampoline_p"
+.data
+	.align 3
+globals:
+	.align 2
+	.long Lglobals_hash
+	.align 2
+	.long name_0
+	.align 2
+	.long _unbox_trampoline_p
+
+	.long 0,0
+.section __TEXT, __const
+	.align 2
+runtime_version:
+	.asciz ""
+.section __TEXT, __const
+	.align 2
+assembly_guid:
+	.asciz "5085CE1B-E42E-4D17-8C96-28E67596C284"
+.section __TEXT, __const
+	.align 2
+assembly_name:
+	.asciz "NControl"
+.data
+	.align 3
+_mono_aot_file_info:
+
+	.long 139,0
+	.align 2
+	.long mono_aot_NControl_got
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long jit_code_start
+	.align 2
+	.long jit_code_end
+	.align 2
+	.long method_addresses
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long mem_end
+	.align 2
+	.long assembly_guid
+	.align 2
+	.long runtime_version
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long 0
+	.align 2
+	.long globals
+	.align 2
+	.long assembly_name
+	.align 2
+	.long plt
+	.align 2
+	.long plt_end
+	.align 2
+	.long unwind_info
+	.align 2
+	.long unbox_trampolines
+	.align 2
+	.long unbox_trampolines_end
+	.align 2
+	.long unbox_trampoline_addresses
+
+	.long 39,228,18,46,66,387000831,0,1430
+	.long 128,4,4,10,0,26,2528,1088
+	.long 768,528,0,656,744,584,0,376
+	.long 88,0,0,0,0,0,0,0
+	.long 0,0,0,0,0,0,0,0
+	.long 0
+	.byte 221,181,241,163,68,35,85,81,213,69,142,164,62,226,105,88
+	.globl _mono_aot_module_NControl_info
+	.align 2
+_mono_aot_module_NControl_info:
+	.align 2
+	.long _mono_aot_file_info
+.section __DWARF, __debug_info,regular,debug
+LTDIE_8:
+
+	.byte 17
+	.asciz "System_Object"
+
+	.byte 8,7
+	.asciz "System_Object"
+
+LDIFF_SYM4=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM4
+LTDIE_8_POINTER:
+
+	.byte 13
+LDIFF_SYM5=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM5
+LTDIE_8_REFERENCE:
+
+	.byte 14
+LDIFF_SYM6=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM6
+LTDIE_11:
+
+	.byte 5
+	.asciz "System_ValueType"
+
+	.byte 8,16
+LDIFF_SYM7=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM7
+	.byte 2,35,0,0,7
+	.asciz "System_ValueType"
+
+LDIFF_SYM8=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM8
+LTDIE_11_POINTER:
+
+	.byte 13
+LDIFF_SYM9=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM9
+LTDIE_11_REFERENCE:
+
+	.byte 14
+LDIFF_SYM10=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM10
+LTDIE_10:
+
+	.byte 5
+	.asciz "System_Int32"
+
+	.byte 12,16
+LDIFF_SYM11=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM11
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM12=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM12
+	.byte 2,35,8,0,7
+	.asciz "System_Int32"
+
+LDIFF_SYM13=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM13
+LTDIE_10_POINTER:
+
+	.byte 13
+LDIFF_SYM14=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM14
+LTDIE_10_REFERENCE:
+
+	.byte 14
+LDIFF_SYM15=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM15
+LTDIE_9:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 24,16
+LDIFF_SYM16=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM16
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM17=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM17
+	.byte 2,35,8,6
+	.asciz "_size"
+
+LDIFF_SYM18=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM18
+	.byte 2,35,16,6
+	.asciz "_version"
+
+LDIFF_SYM19=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM19
+	.byte 2,35,20,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM20=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM20
+	.byte 2,35,12,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM21=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM21
+LTDIE_9_POINTER:
+
+	.byte 13
+LDIFF_SYM22=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM22
+LTDIE_9_REFERENCE:
+
+	.byte 14
+LDIFF_SYM23=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM23
+LTDIE_12:
+
+	.byte 5
+	.asciz "System_Boolean"
+
+	.byte 9,16
+LDIFF_SYM24=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM24
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM25=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM25
+	.byte 2,35,8,0,7
+	.asciz "System_Boolean"
+
+LDIFF_SYM26=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM26
+LTDIE_12_POINTER:
+
+	.byte 13
+LDIFF_SYM27=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM27
+LTDIE_12_REFERENCE:
+
+	.byte 14
+LDIFF_SYM28=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM28
+LTDIE_18:
+
+	.byte 5
+	.asciz "System_Reflection_MemberInfo"
+
+	.byte 8,16
+LDIFF_SYM29=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM29
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MemberInfo"
+
+LDIFF_SYM30=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM30
+LTDIE_18_POINTER:
+
+	.byte 13
+LDIFF_SYM31=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM31
+LTDIE_18_REFERENCE:
+
+	.byte 14
+LDIFF_SYM32=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM32
+LTDIE_17:
+
+	.byte 5
+	.asciz "System_Reflection_MethodBase"
+
+	.byte 8,16
+LDIFF_SYM33=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM33
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MethodBase"
+
+LDIFF_SYM34=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM34
+LTDIE_17_POINTER:
+
+	.byte 13
+LDIFF_SYM35=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM35
+LTDIE_17_REFERENCE:
+
+	.byte 14
+LDIFF_SYM36=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM36
+LTDIE_16:
+
+	.byte 5
+	.asciz "System_Reflection_MethodInfo"
+
+	.byte 8,16
+LDIFF_SYM37=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM37
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MethodInfo"
+
+LDIFF_SYM38=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM38
+LTDIE_16_POINTER:
+
+	.byte 13
+LDIFF_SYM39=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM39
+LTDIE_16_REFERENCE:
+
+	.byte 14
+LDIFF_SYM40=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM40
+LTDIE_20:
+
+	.byte 5
+	.asciz "System_Type"
+
+	.byte 12,16
+LDIFF_SYM41=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM41
+	.byte 2,35,0,6
+	.asciz "_impl"
+
+LDIFF_SYM42=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM42
+	.byte 2,35,8,0,7
+	.asciz "System_Type"
+
+LDIFF_SYM43=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM43
+LTDIE_20_POINTER:
+
+	.byte 13
+LDIFF_SYM44=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM44
+LTDIE_20_REFERENCE:
+
+	.byte 14
+LDIFF_SYM45=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM45
+LTDIE_19:
+
+	.byte 5
+	.asciz "System_DelegateData"
+
+	.byte 20,16
+LDIFF_SYM46=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM46
+	.byte 2,35,0,6
+	.asciz "target_type"
+
+LDIFF_SYM47=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM47
+	.byte 2,35,8,6
+	.asciz "method_name"
+
+LDIFF_SYM48=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM48
+	.byte 2,35,12,6
+	.asciz "curried_first_arg"
+
+LDIFF_SYM49=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM49
+	.byte 2,35,16,0,7
+	.asciz "System_DelegateData"
+
+LDIFF_SYM50=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM50
+LTDIE_19_POINTER:
+
+	.byte 13
+LDIFF_SYM51=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM51
+LTDIE_19_REFERENCE:
+
+	.byte 14
+LDIFF_SYM52=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM52
+LTDIE_15:
+
+	.byte 5
+	.asciz "System_Delegate"
+
+	.byte 52,16
+LDIFF_SYM53=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM53
+	.byte 2,35,0,6
+	.asciz "method_ptr"
+
+LDIFF_SYM54=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM54
+	.byte 2,35,8,6
+	.asciz "invoke_impl"
+
+LDIFF_SYM55=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM55
+	.byte 2,35,12,6
+	.asciz "m_target"
+
+LDIFF_SYM56=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM56
+	.byte 2,35,16,6
+	.asciz "method"
+
+LDIFF_SYM57=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM57
+	.byte 2,35,20,6
+	.asciz "delegate_trampoline"
+
+LDIFF_SYM58=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM58
+	.byte 2,35,24,6
+	.asciz "extra_arg"
+
+LDIFF_SYM59=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM59
+	.byte 2,35,28,6
+	.asciz "method_code"
+
+LDIFF_SYM60=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM60
+	.byte 2,35,32,6
+	.asciz "method_info"
+
+LDIFF_SYM61=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM61
+	.byte 2,35,36,6
+	.asciz "original_method_info"
+
+LDIFF_SYM62=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM62
+	.byte 2,35,40,6
+	.asciz "data"
+
+LDIFF_SYM63=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM63
+	.byte 2,35,44,6
+	.asciz "method_is_virtual"
+
+LDIFF_SYM64=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM64
+	.byte 2,35,48,0,7
+	.asciz "System_Delegate"
+
+LDIFF_SYM65=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM65
+LTDIE_15_POINTER:
+
+	.byte 13
+LDIFF_SYM66=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM66
+LTDIE_15_REFERENCE:
+
+	.byte 14
+LDIFF_SYM67=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM67
+LTDIE_14:
+
+	.byte 5
+	.asciz "System_MulticastDelegate"
+
+	.byte 56,16
+LDIFF_SYM68=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM68
+	.byte 2,35,0,6
+	.asciz "delegates"
+
+LDIFF_SYM69=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM69
+	.byte 2,35,52,0,7
+	.asciz "System_MulticastDelegate"
+
+LDIFF_SYM70=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM70
+LTDIE_14_POINTER:
+
+	.byte 13
+LDIFF_SYM71=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM71
+LTDIE_14_REFERENCE:
+
+	.byte 14
+LDIFF_SYM72=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM72
+LTDIE_13:
+
+	.byte 5
+	.asciz "System_ComponentModel_PropertyChangedEventHandler"
+
+	.byte 56,16
+LDIFF_SYM73=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM73
+	.byte 2,35,0,0,7
+	.asciz "System_ComponentModel_PropertyChangedEventHandler"
+
+LDIFF_SYM74=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM74
+LTDIE_13_POINTER:
+
+	.byte 13
+LDIFF_SYM75=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM75
+LTDIE_13_REFERENCE:
+
+	.byte 14
+LDIFF_SYM76=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM76
+LTDIE_21:
+
+	.byte 5
+	.asciz "System_EventHandler"
+
+	.byte 56,16
+LDIFF_SYM77=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM77
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler"
+
+LDIFF_SYM78=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM78
+LTDIE_21_POINTER:
+
+	.byte 13
+LDIFF_SYM79=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM79
+LTDIE_21_REFERENCE:
+
+	.byte 14
+LDIFF_SYM80=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM80
+LTDIE_22:
+
+	.byte 5
+	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+
+	.byte 56,16
+LDIFF_SYM81=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM81
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+
+LDIFF_SYM82=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM82
+LTDIE_22_POINTER:
+
+	.byte 13
+LDIFF_SYM83=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM83
+LTDIE_22_REFERENCE:
+
+	.byte 14
+LDIFF_SYM84=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM84
+LTDIE_7:
+
+	.byte 5
+	.asciz "Xamarin_Forms_BindableObject"
+
+	.byte 32,16
+LDIFF_SYM85=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM85
+	.byte 2,35,0,6
+	.asciz "_properties"
+
+LDIFF_SYM86=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM86
+	.byte 2,35,8,6
+	.asciz "_applying"
+
+LDIFF_SYM87=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM87
+	.byte 2,35,28,6
+	.asciz "_inheritedContext"
+
+LDIFF_SYM88=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM88
+	.byte 2,35,12,6
+	.asciz "PropertyChanged"
+
+LDIFF_SYM89=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM89
+	.byte 2,35,16,6
+	.asciz "BindingContextChanged"
+
+LDIFF_SYM90=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM90
+	.byte 2,35,20,6
+	.asciz "PropertyChanging"
+
+LDIFF_SYM91=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM91
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_BindableObject"
+
+LDIFF_SYM92=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM92
+LTDIE_7_POINTER:
+
+	.byte 13
+LDIFF_SYM93=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM93
+LTDIE_7_REFERENCE:
+
+	.byte 14
+LDIFF_SYM94=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM94
+LTDIE_23:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM95=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM95
+LTDIE_23_POINTER:
+
+	.byte 13
+LDIFF_SYM96=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM96
+LTDIE_23_REFERENCE:
+
+	.byte 14
+LDIFF_SYM97=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM97
+LTDIE_24:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 24,16
+LDIFF_SYM98=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM98
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM99=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM99
+	.byte 2,35,8,6
+	.asciz "_size"
+
+LDIFF_SYM100=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM100
+	.byte 2,35,16,6
+	.asciz "_version"
+
+LDIFF_SYM101=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM101
+	.byte 2,35,20,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM102=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM102
+	.byte 2,35,12,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM103=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM103
+LTDIE_24_POINTER:
+
+	.byte 13
+LDIFF_SYM104=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM104
+LTDIE_24_REFERENCE:
+
+	.byte 14
+LDIFF_SYM105=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM105
+LTDIE_25:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 24,16
+LDIFF_SYM106=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM106
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM107=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM107
+	.byte 2,35,8,6
+	.asciz "_size"
+
+LDIFF_SYM108=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM108
+	.byte 2,35,16,6
+	.asciz "_version"
+
+LDIFF_SYM109=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM109
+	.byte 2,35,20,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM110=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM110
+	.byte 2,35,12,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM111=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM111
+LTDIE_25_POINTER:
+
+	.byte 13
+LDIFF_SYM112=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM112
+LTDIE_25_REFERENCE:
+
+	.byte 14
+LDIFF_SYM113=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM113
+LTDIE_26:
+
+	.byte 17
+	.asciz "Xamarin_Forms_IEffectControlProvider"
+
+	.byte 8,7
+	.asciz "Xamarin_Forms_IEffectControlProvider"
+
+LDIFF_SYM114=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM114
+LTDIE_26_POINTER:
+
+	.byte 13
+LDIFF_SYM115=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM115
+LTDIE_26_REFERENCE:
+
+	.byte 14
+LDIFF_SYM116=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM116
+LTDIE_30:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM117=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM117
+LTDIE_30_POINTER:
+
+	.byte 13
+LDIFF_SYM118=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM118
+LTDIE_30_REFERENCE:
+
+	.byte 14
+LDIFF_SYM119=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM119
+LTDIE_29:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+	.byte 16,16
+LDIFF_SYM120=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM120
+	.byte 2,35,0,6
+	.asciz "items"
+
+LDIFF_SYM121=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM121
+	.byte 2,35,8,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM122=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM122
+	.byte 2,35,12,0,7
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+LDIFF_SYM123=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM123
+LTDIE_29_POINTER:
+
+	.byte 13
+LDIFF_SYM124=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM124
+LTDIE_29_REFERENCE:
+
+	.byte 14
+LDIFF_SYM125=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM125
+LTDIE_31:
+
+	.byte 5
+	.asciz "System_Collections_Specialized_NotifyCollectionChangedEventHandler"
+
+	.byte 56,16
+LDIFF_SYM126=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM126
+	.byte 2,35,0,0,7
+	.asciz "System_Collections_Specialized_NotifyCollectionChangedEventHandler"
+
+LDIFF_SYM127=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM127
+LTDIE_31_POINTER:
+
+	.byte 13
+LDIFF_SYM128=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM128
+LTDIE_31_REFERENCE:
+
+	.byte 14
+LDIFF_SYM129=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM129
+LTDIE_32:
+
+	.byte 5
+	.asciz "_SimpleMonitor"
+
+	.byte 12,16
+LDIFF_SYM130=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM130
+	.byte 2,35,0,6
+	.asciz "_busyCount"
+
+LDIFF_SYM131=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM131
+	.byte 2,35,8,0,7
+	.asciz "_SimpleMonitor"
+
+LDIFF_SYM132=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM132
+LTDIE_32_POINTER:
+
+	.byte 13
+LDIFF_SYM133=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM133
+LTDIE_32_REFERENCE:
+
+	.byte 14
+LDIFF_SYM134=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM134
+LTDIE_28:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+	.byte 28,16
+LDIFF_SYM135=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM135
+	.byte 2,35,0,6
+	.asciz "CollectionChanged"
+
+LDIFF_SYM136=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM136
+	.byte 2,35,16,6
+	.asciz "PropertyChanged"
+
+LDIFF_SYM137=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM137
+	.byte 2,35,20,6
+	.asciz "_monitor"
+
+LDIFF_SYM138=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM138
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+LDIFF_SYM139=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM139
+LTDIE_28_POINTER:
+
+	.byte 13
+LDIFF_SYM140=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM140
+LTDIE_28_REFERENCE:
+
+	.byte 14
+LDIFF_SYM141=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM141
+LTDIE_27:
+
+	.byte 5
+	.asciz "Xamarin_Forms_TrackableCollection`1"
+
+	.byte 32,16
+LDIFF_SYM142=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM142
+	.byte 2,35,0,6
+	.asciz "Clearing"
+
+LDIFF_SYM143=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM143
+	.byte 2,35,28,0,7
+	.asciz "Xamarin_Forms_TrackableCollection`1"
+
+LDIFF_SYM144=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM144
+LTDIE_27_POINTER:
+
+	.byte 13
+LDIFF_SYM145=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM145
+LTDIE_27_REFERENCE:
+
+	.byte 14
+LDIFF_SYM146=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM146
+LTDIE_33:
+
+	.byte 17
+	.asciz "Xamarin_Forms_IPlatform"
+
+	.byte 8,7
+	.asciz "Xamarin_Forms_IPlatform"
+
+LDIFF_SYM147=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM147
+LTDIE_33_POINTER:
+
+	.byte 13
+LDIFF_SYM148=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM148
+LTDIE_33_REFERENCE:
+
+	.byte 14
+LDIFF_SYM149=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM149
+LTDIE_34:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 56,16
+LDIFF_SYM150=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM150
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM151=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM151
+LTDIE_34_POINTER:
+
+	.byte 13
+LDIFF_SYM152=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM152
+LTDIE_34_REFERENCE:
+
+	.byte 14
+LDIFF_SYM153=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM153
+LTDIE_6:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Element"
+
+	.byte 120,16
+LDIFF_SYM154=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM154
+	.byte 2,35,0,6
+	.asciz "_automationId"
+
+LDIFF_SYM155=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM155
+	.byte 2,35,32,6
+	.asciz "_bindableResources"
+
+LDIFF_SYM156=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM156
+	.byte 2,35,36,6
+	.asciz "_changeHandlers"
+
+LDIFF_SYM157=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM157
+	.byte 2,35,40,6
+	.asciz "_dynamicResources"
+
+LDIFF_SYM158=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM158
+	.byte 2,35,44,6
+	.asciz "_effectControlProvider"
+
+LDIFF_SYM159=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM159
+	.byte 2,35,48,6
+	.asciz "_effects"
+
+LDIFF_SYM160=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM160
+	.byte 2,35,52,6
+	.asciz "_id"
+
+LDIFF_SYM161=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM161
+	.byte 2,35,96,6
+	.asciz "_parentOverride"
+
+LDIFF_SYM162=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM162
+	.byte 2,35,56,6
+	.asciz "_platform"
+
+LDIFF_SYM163=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM163
+	.byte 2,35,60,6
+	.asciz "_styleId"
+
+LDIFF_SYM164=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM164
+	.byte 2,35,64,6
+	.asciz "<Owned>k__BackingField"
+
+LDIFF_SYM165=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM165
+	.byte 2,35,116,6
+	.asciz "<RealParent>k__BackingField"
+
+LDIFF_SYM166=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM166
+	.byte 2,35,68,6
+	.asciz "ChildAdded"
+
+LDIFF_SYM167=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM167
+	.byte 2,35,72,6
+	.asciz "ChildRemoved"
+
+LDIFF_SYM168=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM168
+	.byte 2,35,76,6
+	.asciz "DescendantAdded"
+
+LDIFF_SYM169=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM169
+	.byte 2,35,80,6
+	.asciz "DescendantRemoved"
+
+LDIFF_SYM170=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM170
+	.byte 2,35,84,6
+	.asciz "ParentSet"
+
+LDIFF_SYM171=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM171
+	.byte 2,35,88,6
+	.asciz "PlatformSet"
+
+LDIFF_SYM172=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM172
+	.byte 2,35,92,0,7
+	.asciz "Xamarin_Forms_Element"
+
+LDIFF_SYM173=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM173
+LTDIE_6_POINTER:
+
+	.byte 13
+LDIFF_SYM174=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM174
+LTDIE_6_REFERENCE:
+
+	.byte 14
+LDIFF_SYM175=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM175
+LTDIE_36:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+LDIFF_SYM176=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM176
+LTDIE_36_POINTER:
+
+	.byte 13
+LDIFF_SYM177=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM177
+LTDIE_36_REFERENCE:
+
+	.byte 14
+LDIFF_SYM178=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM178
+LTDIE_37:
+
+	.byte 5
+	.asciz "_KeyCollection"
+
+	.byte 12,16
+LDIFF_SYM179=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM179
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM180=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM180
+	.byte 2,35,8,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM181=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM181
+LTDIE_37_POINTER:
+
+	.byte 13
+LDIFF_SYM182=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM182
+LTDIE_37_REFERENCE:
+
+	.byte 14
+LDIFF_SYM183=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM183
+LTDIE_38:
+
+	.byte 5
+	.asciz "_ValueCollection"
+
+	.byte 12,16
+LDIFF_SYM184=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM184
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM185=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM185
+	.byte 2,35,8,0,7
+	.asciz "_ValueCollection"
+
+LDIFF_SYM186=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM186
+LTDIE_38_POINTER:
+
+	.byte 13
+LDIFF_SYM187=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM187
+LTDIE_38_REFERENCE:
+
+	.byte 14
+LDIFF_SYM188=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM188
+LTDIE_35:
+
+	.byte 5
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+	.byte 48,16
+LDIFF_SYM189=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM189
+	.byte 2,35,0,6
+	.asciz "buckets"
+
+LDIFF_SYM190=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM190
+	.byte 2,35,8,6
+	.asciz "entries"
+
+LDIFF_SYM191=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM191
+	.byte 2,35,12,6
+	.asciz "count"
+
+LDIFF_SYM192=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM192
+	.byte 2,35,32,6
+	.asciz "version"
+
+LDIFF_SYM193=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM193
+	.byte 2,35,36,6
+	.asciz "freeList"
+
+LDIFF_SYM194=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM194
+	.byte 2,35,40,6
+	.asciz "freeCount"
+
+LDIFF_SYM195=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM195
+	.byte 2,35,44,6
+	.asciz "comparer"
+
+LDIFF_SYM196=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM196
+	.byte 2,35,16,6
+	.asciz "keys"
+
+LDIFF_SYM197=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM197
+	.byte 2,35,20,6
+	.asciz "values"
+
+LDIFF_SYM198=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM198
+	.byte 2,35,24,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM199=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM199
+	.byte 2,35,28,0,7
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+LDIFF_SYM200=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM200
+LTDIE_35_POINTER:
+
+	.byte 13
+LDIFF_SYM201=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM201
+LTDIE_35_REFERENCE:
+
+	.byte 14
+LDIFF_SYM202=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM202
+LTDIE_40:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM203=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM203
+LTDIE_40_POINTER:
+
+	.byte 13
+LDIFF_SYM204=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM204
+LTDIE_40_REFERENCE:
+
+	.byte 14
+LDIFF_SYM205=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM205
+LTDIE_41:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 24,16
+LDIFF_SYM206=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM206
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM207=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM207
+	.byte 2,35,8,6
+	.asciz "_size"
+
+LDIFF_SYM208=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM208
+	.byte 2,35,16,6
+	.asciz "_version"
+
+LDIFF_SYM209=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM209
+	.byte 2,35,20,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM210=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM210
+	.byte 2,35,12,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM211=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM211
+LTDIE_41_POINTER:
+
+	.byte 13
+LDIFF_SYM212=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM212
+LTDIE_41_REFERENCE:
+
+	.byte 14
+LDIFF_SYM213=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM213
+LTDIE_42:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM214=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM214
+LTDIE_42_POINTER:
+
+	.byte 13
+LDIFF_SYM215=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM215
+LTDIE_42_REFERENCE:
+
+	.byte 14
+LDIFF_SYM216=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM216
+LTDIE_43:
+
+	.byte 17
+	.asciz "Xamarin_Forms_IStyle"
+
+	.byte 8,7
+	.asciz "Xamarin_Forms_IStyle"
+
+LDIFF_SYM217=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM217
+LTDIE_43_POINTER:
+
+	.byte 13
+LDIFF_SYM218=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM218
+LTDIE_43_REFERENCE:
+
+	.byte 14
+LDIFF_SYM219=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM219
+LTDIE_44:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM220=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM220
+LTDIE_44_POINTER:
+
+	.byte 13
+LDIFF_SYM221=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM221
+LTDIE_44_REFERENCE:
+
+	.byte 14
+LDIFF_SYM222=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM222
+LTDIE_39:
+
+	.byte 5
+	.asciz "_MergedStyle"
+
+	.byte 40,16
+LDIFF_SYM223=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM223
+	.byte 2,35,0,6
+	.asciz "_classStyleProperties"
+
+LDIFF_SYM224=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM224
+	.byte 2,35,8,6
+	.asciz "_implicitStyles"
+
+LDIFF_SYM225=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM225
+	.byte 2,35,12,6
+	.asciz "_classStyles"
+
+LDIFF_SYM226=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM226
+	.byte 2,35,16,6
+	.asciz "_implicitStyle"
+
+LDIFF_SYM227=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM227
+	.byte 2,35,20,6
+	.asciz "_style"
+
+LDIFF_SYM228=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM228
+	.byte 2,35,24,6
+	.asciz "_styleClass"
+
+LDIFF_SYM229=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM229
+	.byte 2,35,28,6
+	.asciz "<Target>k__BackingField"
+
+LDIFF_SYM230=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM230
+	.byte 2,35,32,6
+	.asciz "<TargetType>k__BackingField"
+
+LDIFF_SYM231=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM231
+	.byte 2,35,36,0,7
+	.asciz "_MergedStyle"
+
+LDIFF_SYM232=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM232
+LTDIE_39_POINTER:
+
+	.byte 13
+LDIFF_SYM233=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM233
+LTDIE_39_REFERENCE:
+
+	.byte 14
+LDIFF_SYM234=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM234
+LTDIE_45:
+
+	.byte 8
+	.asciz "Xamarin_Forms_LayoutConstraint"
+
+	.byte 4
+LDIFF_SYM235=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM235
+	.byte 9
+	.asciz "None"
+
+	.byte 0,9
+	.asciz "HorizontallyFixed"
+
+	.byte 1,9
+	.asciz "VerticallyFixed"
+
+	.byte 2,9
+	.asciz "Fixed"
+
+	.byte 3,0,7
+	.asciz "Xamarin_Forms_LayoutConstraint"
+
+LDIFF_SYM236=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM236
+LTDIE_45_POINTER:
+
+	.byte 13
+LDIFF_SYM237=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM237
+LTDIE_45_REFERENCE:
+
+	.byte 14
+LDIFF_SYM238=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM238
+LTDIE_46:
+
+	.byte 5
+	.asciz "System_Double"
+
+	.byte 16,16
+LDIFF_SYM239=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM239
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM240=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM240
+	.byte 2,35,8,0,7
+	.asciz "System_Double"
+
+LDIFF_SYM241=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM241
+LTDIE_46_POINTER:
+
+	.byte 13
+LDIFF_SYM242=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM242
+LTDIE_46_REFERENCE:
+
+	.byte 14
+LDIFF_SYM243=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM243
+LTDIE_49:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+LDIFF_SYM244=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM244
+LTDIE_49_POINTER:
+
+	.byte 13
+LDIFF_SYM245=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM245
+LTDIE_49_REFERENCE:
+
+	.byte 14
+LDIFF_SYM246=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM246
+LTDIE_50:
+
+	.byte 5
+	.asciz "_KeyCollection"
+
+	.byte 12,16
+LDIFF_SYM247=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM247
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM248=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM248
+	.byte 2,35,8,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM249=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM249
+LTDIE_50_POINTER:
+
+	.byte 13
+LDIFF_SYM250=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM250
+LTDIE_50_REFERENCE:
+
+	.byte 14
+LDIFF_SYM251=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM251
+LTDIE_51:
+
+	.byte 5
+	.asciz "_ValueCollection"
+
+	.byte 12,16
+LDIFF_SYM252=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM252
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM253=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM253
+	.byte 2,35,8,0,7
+	.asciz "_ValueCollection"
+
+LDIFF_SYM254=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM254
+LTDIE_51_POINTER:
+
+	.byte 13
+LDIFF_SYM255=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM255
+LTDIE_51_REFERENCE:
+
+	.byte 14
+LDIFF_SYM256=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM256
+LTDIE_48:
+
+	.byte 5
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+	.byte 48,16
+LDIFF_SYM257=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM257
+	.byte 2,35,0,6
+	.asciz "buckets"
+
+LDIFF_SYM258=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM258
+	.byte 2,35,8,6
+	.asciz "entries"
+
+LDIFF_SYM259=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM259
+	.byte 2,35,12,6
+	.asciz "count"
+
+LDIFF_SYM260=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM260
+	.byte 2,35,32,6
+	.asciz "version"
+
+LDIFF_SYM261=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM261
+	.byte 2,35,36,6
+	.asciz "freeList"
+
+LDIFF_SYM262=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM262
+	.byte 2,35,40,6
+	.asciz "freeCount"
+
+LDIFF_SYM263=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM263
+	.byte 2,35,44,6
+	.asciz "comparer"
+
+LDIFF_SYM264=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM264
+	.byte 2,35,16,6
+	.asciz "keys"
+
+LDIFF_SYM265=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM265
+	.byte 2,35,20,6
+	.asciz "values"
+
+LDIFF_SYM266=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM266
+	.byte 2,35,24,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM267=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM267
+	.byte 2,35,28,0,7
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+LDIFF_SYM268=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM268
+LTDIE_48_POINTER:
+
+	.byte 13
+LDIFF_SYM269=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM269
+LTDIE_48_REFERENCE:
+
+	.byte 14
+LDIFF_SYM270=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM270
+LTDIE_52:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 56,16
+LDIFF_SYM271=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM271
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM272=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM272
+LTDIE_52_POINTER:
+
+	.byte 13
+LDIFF_SYM273=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM273
+LTDIE_52_REFERENCE:
+
+	.byte 14
+LDIFF_SYM274=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM274
+LTDIE_47:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ResourceDictionary"
+
+	.byte 24,16
+LDIFF_SYM275=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM275
+	.byte 2,35,0,6
+	.asciz "_innerDictionary"
+
+LDIFF_SYM276=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM276
+	.byte 2,35,8,6
+	.asciz "_mergedWith"
+
+LDIFF_SYM277=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM277
+	.byte 2,35,12,6
+	.asciz "_mergedInstance"
+
+LDIFF_SYM278=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM278
+	.byte 2,35,16,6
+	.asciz "ValuesChanged"
+
+LDIFF_SYM279=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM279
+	.byte 2,35,20,0,7
+	.asciz "Xamarin_Forms_ResourceDictionary"
+
+LDIFF_SYM280=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM280
+LTDIE_47_POINTER:
+
+	.byte 13
+LDIFF_SYM281=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM281
+LTDIE_47_REFERENCE:
+
+	.byte 14
+LDIFF_SYM282=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM282
+LTDIE_53:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 56,16
+LDIFF_SYM283=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM283
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM284=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM284
+LTDIE_53_POINTER:
+
+	.byte 13
+LDIFF_SYM285=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM285
+LTDIE_53_REFERENCE:
+
+	.byte 14
+LDIFF_SYM286=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM286
+LTDIE_54:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 56,16
+LDIFF_SYM287=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM287
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM288=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM288
+LTDIE_54_POINTER:
+
+	.byte 13
+LDIFF_SYM289=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM289
+LTDIE_54_REFERENCE:
+
+	.byte 14
+LDIFF_SYM290=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM290
+LTDIE_55:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 56,16
+LDIFF_SYM291=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM291
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM292=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM292
+LTDIE_55_POINTER:
+
+	.byte 13
+LDIFF_SYM293=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM293
+LTDIE_55_REFERENCE:
+
+	.byte 14
+LDIFF_SYM294=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM294
+LTDIE_5:
+
+	.byte 5
+	.asciz "Xamarin_Forms_VisualElement"
+
+	.byte 212,1,16
+LDIFF_SYM295=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM295
+	.byte 2,35,0,6
+	.asciz "_measureCache"
+
+LDIFF_SYM296=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM296
+	.byte 2,35,120,6
+	.asciz "_mergedStyle"
+
+LDIFF_SYM297=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM297
+	.byte 2,35,124,6
+	.asciz "_batched"
+
+LDIFF_SYM298=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM298
+	.byte 3,35,160,1,6
+	.asciz "_computedConstraint"
+
+LDIFF_SYM299=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM299
+	.byte 3,35,164,1,6
+	.asciz "_isInNativeLayout"
+
+LDIFF_SYM300=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM300
+	.byte 3,35,168,1,6
+	.asciz "_isNativeStateConsistent"
+
+LDIFF_SYM301=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM301
+	.byte 3,35,169,1,6
+	.asciz "_isPlatformEnabled"
+
+LDIFF_SYM302=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM302
+	.byte 3,35,170,1,6
+	.asciz "_mockHeight"
+
+LDIFF_SYM303=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM303
+	.byte 3,35,172,1,6
+	.asciz "_mockWidth"
+
+LDIFF_SYM304=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM304
+	.byte 3,35,180,1,6
+	.asciz "_mockX"
+
+LDIFF_SYM305=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM305
+	.byte 3,35,188,1,6
+	.asciz "_mockY"
+
+LDIFF_SYM306=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM306
+	.byte 3,35,196,1,6
+	.asciz "_resources"
+
+LDIFF_SYM307=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM307
+	.byte 3,35,128,1,6
+	.asciz "_selfConstraint"
+
+LDIFF_SYM308=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM308
+	.byte 3,35,204,1,6
+	.asciz "<DisableLayout>k__BackingField"
+
+LDIFF_SYM309=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM309
+	.byte 3,35,208,1,6
+	.asciz "ChildrenReordered"
+
+LDIFF_SYM310=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM310
+	.byte 3,35,132,1,6
+	.asciz "Focused"
+
+LDIFF_SYM311=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM311
+	.byte 3,35,136,1,6
+	.asciz "MeasureInvalidated"
+
+LDIFF_SYM312=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM312
+	.byte 3,35,140,1,6
+	.asciz "SizeChanged"
+
+LDIFF_SYM313=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM313
+	.byte 3,35,144,1,6
+	.asciz "Unfocused"
+
+LDIFF_SYM314=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM314
+	.byte 3,35,148,1,6
+	.asciz "BatchCommitted"
+
+LDIFF_SYM315=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM315
+	.byte 3,35,152,1,6
+	.asciz "FocusChangeRequested"
+
+LDIFF_SYM316=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM316
+	.byte 3,35,156,1,0,7
+	.asciz "Xamarin_Forms_VisualElement"
+
+LDIFF_SYM317=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM317
+LTDIE_5_POINTER:
+
+	.byte 13
+LDIFF_SYM318=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM318
+LTDIE_5_REFERENCE:
+
+	.byte 14
+LDIFF_SYM319=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM319
+LTDIE_58:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM320=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM320
+LTDIE_58_POINTER:
+
+	.byte 13
+LDIFF_SYM321=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM321
+LTDIE_58_REFERENCE:
+
+	.byte 14
+LDIFF_SYM322=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM322
+LTDIE_57:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+	.byte 16,16
+LDIFF_SYM323=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM323
+	.byte 2,35,0,6
+	.asciz "items"
+
+LDIFF_SYM324=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM324
+	.byte 2,35,8,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM325=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM325
+	.byte 2,35,12,0,7
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+LDIFF_SYM326=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM326
+LTDIE_57_POINTER:
+
+	.byte 13
+LDIFF_SYM327=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM327
+LTDIE_57_REFERENCE:
+
+	.byte 14
+LDIFF_SYM328=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM328
+LTDIE_59:
+
+	.byte 5
+	.asciz "_SimpleMonitor"
+
+	.byte 12,16
+LDIFF_SYM329=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM329
+	.byte 2,35,0,6
+	.asciz "_busyCount"
+
+LDIFF_SYM330=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM330
+	.byte 2,35,8,0,7
+	.asciz "_SimpleMonitor"
+
+LDIFF_SYM331=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM331
+LTDIE_59_POINTER:
+
+	.byte 13
+LDIFF_SYM332=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM332
+LTDIE_59_REFERENCE:
+
+	.byte 14
+LDIFF_SYM333=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM333
+LTDIE_56:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+	.byte 28,16
+LDIFF_SYM334=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM334
+	.byte 2,35,0,6
+	.asciz "CollectionChanged"
+
+LDIFF_SYM335=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM335
+	.byte 2,35,16,6
+	.asciz "PropertyChanged"
+
+LDIFF_SYM336=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM336
+	.byte 2,35,20,6
+	.asciz "_monitor"
+
+LDIFF_SYM337=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM337
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+LDIFF_SYM338=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM338
+LTDIE_56_POINTER:
+
+	.byte 13
+LDIFF_SYM339=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM339
+LTDIE_56_REFERENCE:
+
+	.byte 14
+LDIFF_SYM340=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM340
+LTDIE_4:
+
+	.byte 5
+	.asciz "Xamarin_Forms_View"
+
+	.byte 216,1,16
+LDIFF_SYM341=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM341
+	.byte 2,35,0,6
+	.asciz "_gestureRecognizers"
+
+LDIFF_SYM342=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM342
+	.byte 3,35,212,1,0,7
+	.asciz "Xamarin_Forms_View"
+
+LDIFF_SYM343=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM343
+LTDIE_4_POINTER:
+
+	.byte 13
+LDIFF_SYM344=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM344
+LTDIE_4_REFERENCE:
+
+	.byte 14
+LDIFF_SYM345=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM345
+LTDIE_61:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM346=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM346
+LTDIE_61_POINTER:
+
+	.byte 13
+LDIFF_SYM347=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM347
+LTDIE_61_REFERENCE:
+
+	.byte 14
+LDIFF_SYM348=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM348
+LTDIE_60:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_ReadOnlyCollection`1"
+
+	.byte 16,16
+LDIFF_SYM349=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM349
+	.byte 2,35,0,6
+	.asciz "list"
+
+LDIFF_SYM350=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM350
+	.byte 2,35,8,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM351=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM351
+	.byte 2,35,12,0,7
+	.asciz "System_Collections_ObjectModel_ReadOnlyCollection`1"
+
+LDIFF_SYM352=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM352
+LTDIE_60_POINTER:
+
+	.byte 13
+LDIFF_SYM353=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM353
+LTDIE_60_REFERENCE:
+
+	.byte 14
+LDIFF_SYM354=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM354
+LTDIE_63:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+	.byte 16,16
+LDIFF_SYM355=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM355
+	.byte 2,35,0,6
+	.asciz "items"
+
+LDIFF_SYM356=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM356
+	.byte 2,35,8,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM357=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM357
+	.byte 2,35,12,0,7
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+LDIFF_SYM358=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM358
+LTDIE_63_POINTER:
+
+	.byte 13
+LDIFF_SYM359=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM359
+LTDIE_63_REFERENCE:
+
+	.byte 14
+LDIFF_SYM360=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM360
+LTDIE_64:
+
+	.byte 5
+	.asciz "_SimpleMonitor"
+
+	.byte 12,16
+LDIFF_SYM361=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM361
+	.byte 2,35,0,6
+	.asciz "_busyCount"
+
+LDIFF_SYM362=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM362
+	.byte 2,35,8,0,7
+	.asciz "_SimpleMonitor"
+
+LDIFF_SYM363=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM363
+LTDIE_64_POINTER:
+
+	.byte 13
+LDIFF_SYM364=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM364
+LTDIE_64_REFERENCE:
+
+	.byte 14
+LDIFF_SYM365=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM365
+LTDIE_62:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+	.byte 28,16
+LDIFF_SYM366=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM366
+	.byte 2,35,0,6
+	.asciz "CollectionChanged"
+
+LDIFF_SYM367=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM367
+	.byte 2,35,16,6
+	.asciz "PropertyChanged"
+
+LDIFF_SYM368=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM368
+	.byte 2,35,20,6
+	.asciz "_monitor"
+
+LDIFF_SYM369=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM369
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+LDIFF_SYM370=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM370
+LTDIE_62_POINTER:
+
+	.byte 13
+LDIFF_SYM371=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM371
+LTDIE_62_REFERENCE:
+
+	.byte 14
+LDIFF_SYM372=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM372
+LTDIE_3:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Layout"
+
+	.byte 248,1,16
+LDIFF_SYM373=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM373
+	.byte 2,35,0,6
+	.asciz "_allocatedFlag"
+
+LDIFF_SYM374=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM374
+	.byte 3,35,228,1,6
+	.asciz "_hasDoneLayout"
+
+LDIFF_SYM375=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM375
+	.byte 3,35,229,1,6
+	.asciz "_lastLayoutSize"
+
+LDIFF_SYM376=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM376
+	.byte 3,35,232,1,6
+	.asciz "_logicalChildren"
+
+LDIFF_SYM377=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM377
+	.byte 3,35,216,1,6
+	.asciz "<InternalChildren>k__BackingField"
+
+LDIFF_SYM378=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM378
+	.byte 3,35,220,1,6
+	.asciz "LayoutChanged"
+
+LDIFF_SYM379=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM379
+	.byte 3,35,224,1,0,7
+	.asciz "Xamarin_Forms_Layout"
+
+LDIFF_SYM380=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM380
+LTDIE_3_POINTER:
+
+	.byte 13
+LDIFF_SYM381=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM381
+LTDIE_3_REFERENCE:
+
+	.byte 14
+LDIFF_SYM382=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM382
+LTDIE_2:
+
+	.byte 5
+	.asciz "Xamarin_Forms_TemplatedView"
+
+	.byte 248,1,16
+LDIFF_SYM383=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM383
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_TemplatedView"
+
+LDIFF_SYM384=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM384
+LTDIE_2_POINTER:
+
+	.byte 13
+LDIFF_SYM385=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM385
+LTDIE_2_REFERENCE:
+
+	.byte 14
+LDIFF_SYM386=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM386
+LTDIE_1:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ContentView"
+
+	.byte 248,1,16
+LDIFF_SYM387=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM387
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_ContentView"
+
+LDIFF_SYM388=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM388
+LTDIE_1_POINTER:
+
+	.byte 13
+LDIFF_SYM389=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM389
+LTDIE_1_REFERENCE:
+
+	.byte 14
+LDIFF_SYM390=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM390
+LTDIE_65:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 56,16
+LDIFF_SYM391=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM391
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM392=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM392
+LTDIE_65_POINTER:
+
+	.byte 13
+LDIFF_SYM393=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM393
+LTDIE_65_REFERENCE:
+
+	.byte 14
+LDIFF_SYM394=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM394
+LTDIE_66:
+
+	.byte 5
+	.asciz "_GetPlatformDelegate"
+
+	.byte 56,16
+LDIFF_SYM395=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM395
+	.byte 2,35,0,0,7
+	.asciz "_GetPlatformDelegate"
+
+LDIFF_SYM396=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM396
+LTDIE_66_POINTER:
+
+	.byte 13
+LDIFF_SYM397=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM397
+LTDIE_66_REFERENCE:
+
+	.byte 14
+LDIFF_SYM398=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM398
+LTDIE_67:
+
+	.byte 5
+	.asciz "System_Action`2"
+
+	.byte 56,16
+LDIFF_SYM399=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM399
+	.byte 2,35,0,0,7
+	.asciz "System_Action`2"
+
+LDIFF_SYM400=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM400
+LTDIE_67_POINTER:
+
+	.byte 13
+LDIFF_SYM401=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM401
+LTDIE_67_REFERENCE:
+
+	.byte 14
+LDIFF_SYM402=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM402
+LTDIE_0:
+
+	.byte 5
+	.asciz "NControl_Abstractions_NControlView"
+
+	.byte 148,2,16
+LDIFF_SYM403=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM403
+	.byte 2,35,0,6
+	.asciz "OnInvalidate"
+
+LDIFF_SYM404=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM404
+	.byte 3,35,248,1,6
+	.asciz "OnTouchesBegan"
+
+LDIFF_SYM405=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM405
+	.byte 3,35,252,1,6
+	.asciz "OnTouchesMoved"
+
+LDIFF_SYM406=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM406
+	.byte 3,35,128,2,6
+	.asciz "OnTouchesEnded"
+
+LDIFF_SYM407=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM407
+	.byte 3,35,132,2,6
+	.asciz "OnTouchesCancelled"
+
+LDIFF_SYM408=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM408
+	.byte 3,35,136,2,6
+	.asciz "OnGetPlatform"
+
+LDIFF_SYM409=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM409
+	.byte 3,35,140,2,6
+	.asciz "<DrawingFunction>k__BackingField"
+
+LDIFF_SYM410=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM410
+	.byte 3,35,144,2,0,7
+	.asciz "NControl_Abstractions_NControlView"
+
+LDIFF_SYM411=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM411
+LTDIE_0_POINTER:
+
+	.byte 13
+LDIFF_SYM412=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM412
+LTDIE_0_REFERENCE:
+
+	.byte 14
+LDIFF_SYM413=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM413
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:add_OnInvalidate"
+	.asciz "NControl_Abstractions_NControlView_add_OnInvalidate_System_EventHandler"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_add_OnInvalidate_System_EventHandler
+	.long Lme_0
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM414=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM414
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM415=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM415
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM416=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM416
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM417=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM417
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM418=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM418
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM419=Lfde0_end - Lfde0_start
+	.long LDIFF_SYM419
+Lfde0_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_add_OnInvalidate_System_EventHandler
+
+LDIFF_SYM420=Lme_0 - NControl_Abstractions_NControlView_add_OnInvalidate_System_EventHandler
+	.long LDIFF_SYM420
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde0_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:remove_OnInvalidate"
+	.asciz "NControl_Abstractions_NControlView_remove_OnInvalidate_System_EventHandler"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_remove_OnInvalidate_System_EventHandler
+	.long Lme_1
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM421=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM421
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM422=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM422
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM423=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM423
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM424=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM424
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM425=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM425
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM426=Lfde1_end - Lfde1_start
+	.long LDIFF_SYM426
+Lfde1_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_remove_OnInvalidate_System_EventHandler
+
+LDIFF_SYM427=Lme_1 - NControl_Abstractions_NControlView_remove_OnInvalidate_System_EventHandler
+	.long LDIFF_SYM427
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde1_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:add_OnTouchesBegan"
+	.asciz "NControl_Abstractions_NControlView_add_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_add_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_2
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM428=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM428
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM429=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM429
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM430=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM430
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM431=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM431
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM432=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM432
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM433=Lfde2_end - Lfde2_start
+	.long LDIFF_SYM433
+Lfde2_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_add_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM434=Lme_2 - NControl_Abstractions_NControlView_add_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM434
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde2_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:remove_OnTouchesBegan"
+	.asciz "NControl_Abstractions_NControlView_remove_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_remove_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_3
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM435=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM435
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM436=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM436
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM437=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM437
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM438=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM438
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM439=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM439
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM440=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM440
+Lfde3_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_remove_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM441=Lme_3 - NControl_Abstractions_NControlView_remove_OnTouchesBegan_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM441
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde3_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:add_OnTouchesMoved"
+	.asciz "NControl_Abstractions_NControlView_add_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_add_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM442=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM442
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM443=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM443
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM444=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM444
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM445=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM445
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM446=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM446
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM447=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM447
+Lfde4_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_add_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM448=Lme_4 - NControl_Abstractions_NControlView_add_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM448
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde4_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:remove_OnTouchesMoved"
+	.asciz "NControl_Abstractions_NControlView_remove_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_remove_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM449=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM449
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM450=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM450
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM451=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM451
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM452=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM452
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM453=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM453
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM454=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM454
+Lfde5_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_remove_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM455=Lme_5 - NControl_Abstractions_NControlView_remove_OnTouchesMoved_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM455
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde5_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:add_OnTouchesEnded"
+	.asciz "NControl_Abstractions_NControlView_add_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_add_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM456=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM456
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM457=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM457
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM458=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM458
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM459=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM459
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM460=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM460
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM461=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM461
+Lfde6_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_add_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM462=Lme_6 - NControl_Abstractions_NControlView_add_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM462
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde6_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:remove_OnTouchesEnded"
+	.asciz "NControl_Abstractions_NControlView_remove_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_remove_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM463=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM463
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM464=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM464
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM465=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM465
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM466=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM466
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM467=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM467
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM468=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM468
+Lfde7_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_remove_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM469=Lme_7 - NControl_Abstractions_NControlView_remove_OnTouchesEnded_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM469
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde7_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:add_OnTouchesCancelled"
+	.asciz "NControl_Abstractions_NControlView_add_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_add_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_8
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM470=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM470
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM471=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM471
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM472=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM472
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM473=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM473
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM474=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM474
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM475=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM475
+Lfde8_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_add_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM476=Lme_8 - NControl_Abstractions_NControlView_add_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM476
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde8_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:remove_OnTouchesCancelled"
+	.asciz "NControl_Abstractions_NControlView_remove_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_remove_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_9
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM477=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM477
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM478=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM478
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM479=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM479
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM480=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM480
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM481=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM481
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM482=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM482
+Lfde9_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_remove_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM483=Lme_9 - NControl_Abstractions_NControlView_remove_OnTouchesCancelled_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM483
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde9_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:add_OnGetPlatform"
+	.asciz "NControl_Abstractions_NControlView_add_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_add_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate
+	.long Lme_a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM484=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM484
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM485=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM485
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM486=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM486
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM487=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM487
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM488=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM488
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM489=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM489
+Lfde10_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_add_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate
+
+LDIFF_SYM490=Lme_a - NControl_Abstractions_NControlView_add_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate
+	.long LDIFF_SYM490
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde10_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:remove_OnGetPlatform"
+	.asciz "NControl_Abstractions_NControlView_remove_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_remove_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate
+	.long Lme_b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM491=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM491
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM492=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM492
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM493=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM493
+	.byte 1,91,11
+	.asciz "V_1"
+
+LDIFF_SYM494=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM494
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM495=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM495
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM496=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM496
+Lfde11_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_remove_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate
+
+LDIFF_SYM497=Lme_b - NControl_Abstractions_NControlView_remove_OnGetPlatform_NControl_Abstractions_NControlView_GetPlatformDelegate
+	.long LDIFF_SYM497
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,180,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde11_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:.ctor"
+	.asciz "NControl_Abstractions_NControlView__ctor"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView__ctor
+	.long Lme_c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM498=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM498
+	.byte 2,123,56,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM499=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM499
+Lfde12_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView__ctor
+
+LDIFF_SYM500=Lme_c - NControl_Abstractions_NControlView__ctor
+	.long LDIFF_SYM500
+	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,80,68,13,11,2,152,10,68,13,13,14,16,68,8,8,8
+	.byte 11,14,8,68,11
+	.align 2
+Lfde12_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:.ctor"
+	.asciz "NControl_Abstractions_NControlView__ctor_System_Action_2_NGraphics_ICanvas_NGraphics_Rect"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView__ctor_System_Action_2_NGraphics_ICanvas_NGraphics_Rect
+	.long Lme_d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM501=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM501
+	.byte 1,86,3
+	.asciz "drawingFunc"
+
+LDIFF_SYM502=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM502
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM503=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM503
+Lfde13_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView__ctor_System_Action_2_NGraphics_ICanvas_NGraphics_Rect
+
+LDIFF_SYM504=Lme_d - NControl_Abstractions_NControlView__ctor_System_Action_2_NGraphics_ICanvas_NGraphics_Rect
+	.long LDIFF_SYM504
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,36,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.align 2
+Lfde13_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:get_DrawingFunction"
+	.asciz "NControl_Abstractions_NControlView_get_DrawingFunction"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_get_DrawingFunction
+	.long Lme_e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM505=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM505
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM506=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM506
+Lfde14_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_get_DrawingFunction
+
+LDIFF_SYM507=Lme_e - NControl_Abstractions_NControlView_get_DrawingFunction
+	.long LDIFF_SYM507
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,76,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde14_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:set_DrawingFunction"
+	.asciz "NControl_Abstractions_NControlView_set_DrawingFunction_System_Action_2_NGraphics_ICanvas_NGraphics_Rect"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_set_DrawingFunction_System_Action_2_NGraphics_ICanvas_NGraphics_Rect
+	.long Lme_f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM508=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM508
+	.byte 2,125,0,3
+	.asciz "value"
+
+LDIFF_SYM509=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM509
+	.byte 2,125,4,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM510=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM510
+Lfde15_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_set_DrawingFunction_System_Action_2_NGraphics_ICanvas_NGraphics_Rect
+
+LDIFF_SYM511=Lme_f - NControl_Abstractions_NControlView_set_DrawingFunction_System_Action_2_NGraphics_ICanvas_NGraphics_Rect
+	.long LDIFF_SYM511
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde15_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:get_Platform"
+	.asciz "NControl_Abstractions_NControlView_get_Platform"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_get_Platform
+	.long Lme_10
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM512=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM512
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM513=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM513
+Lfde16_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_get_Platform
+
+LDIFF_SYM514=Lme_10 - NControl_Abstractions_NControlView_get_Platform
+	.long LDIFF_SYM514
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,48,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde16_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:Invalidate"
+	.asciz "NControl_Abstractions_NControlView_Invalidate"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_Invalidate
+	.long Lme_11
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM515=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM515
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM516=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM516
+Lfde17_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_Invalidate
+
+LDIFF_SYM517=Lme_11 - NControl_Abstractions_NControlView_Invalidate
+	.long LDIFF_SYM517
+	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2,64,10,68,14,16,68,8,8,8,10,14,8,68,11
+	.align 2
+Lfde17_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_68:
+
+	.byte 17
+	.asciz "NGraphics_ICanvas"
+
+	.byte 8,7
+	.asciz "NGraphics_ICanvas"
+
+LDIFF_SYM518=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM518
+LTDIE_68_POINTER:
+
+	.byte 13
+LDIFF_SYM519=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM519
+LTDIE_68_REFERENCE:
+
+	.byte 14
+LDIFF_SYM520=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM520
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:Draw"
+	.asciz "NControl_Abstractions_NControlView_Draw_NGraphics_ICanvas_NGraphics_Rect"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_Draw_NGraphics_ICanvas_NGraphics_Rect
+	.long Lme_12
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM521=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM521
+	.byte 2,123,24,3
+	.asciz "canvas"
+
+LDIFF_SYM522=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM522
+	.byte 2,123,28,3
+	.asciz "rect"
+
+LDIFF_SYM523=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM523
+	.byte 2,123,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM524=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM524
+Lfde18_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_Draw_NGraphics_ICanvas_NGraphics_Rect
+
+LDIFF_SYM525=Lme_12 - NControl_Abstractions_NControlView_Draw_NGraphics_ICanvas_NGraphics_Rect
+	.long LDIFF_SYM525
+	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,88,68,13,11,2,164,10,68,13,13,14,16,68,8,8,8
+	.byte 11,14,8,68,11
+	.align 2
+Lfde18_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_69:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEnumerable`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IEnumerable`1"
+
+LDIFF_SYM526=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM526
+LTDIE_69_POINTER:
+
+	.byte 13
+LDIFF_SYM527=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM527
+LTDIE_69_REFERENCE:
+
+	.byte 14
+LDIFF_SYM528=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM528
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:TouchesBegan"
+	.asciz "NControl_Abstractions_NControlView_TouchesBegan_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_TouchesBegan_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_13
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM529=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM529
+	.byte 1,86,3
+	.asciz "points"
+
+LDIFF_SYM530=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM530
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM531=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM531
+Lfde19_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_TouchesBegan_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM532=Lme_13 - NControl_Abstractions_NControlView_TouchesBegan_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM532
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32,2,64,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.align 2
+Lfde19_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:TouchesMoved"
+	.asciz "NControl_Abstractions_NControlView_TouchesMoved_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_TouchesMoved_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_14
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM533=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM533
+	.byte 1,86,3
+	.asciz "points"
+
+LDIFF_SYM534=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM534
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM535=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM535
+Lfde20_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_TouchesMoved_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM536=Lme_14 - NControl_Abstractions_NControlView_TouchesMoved_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM536
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32,2,64,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.align 2
+Lfde20_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:TouchesCancelled"
+	.asciz "NControl_Abstractions_NControlView_TouchesCancelled_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_TouchesCancelled_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_15
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM537=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM537
+	.byte 1,86,3
+	.asciz "points"
+
+LDIFF_SYM538=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM538
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM539=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM539
+Lfde21_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_TouchesCancelled_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM540=Lme_15 - NControl_Abstractions_NControlView_TouchesCancelled_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM540
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32,2,64,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.align 2
+Lfde21_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NControl.Abstractions.NControlView:TouchesEnded"
+	.asciz "NControl_Abstractions_NControlView_TouchesEnded_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long NControl_Abstractions_NControlView_TouchesEnded_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_16
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM541=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM541
+	.byte 1,86,3
+	.asciz "points"
+
+LDIFF_SYM542=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM542
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM543=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM543
+Lfde22_start:
+
+	.long 0
+	.align 2
+	.long NControl_Abstractions_NControlView_TouchesEnded_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM544=Lme_16 - NControl_Abstractions_NControlView_TouchesEnded_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM544
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32,2,64,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.align 2
+Lfde22_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_71:
+
+	.byte 5
+	.asciz "System_Array"
+
+	.byte 8,16
+LDIFF_SYM545=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM545
+	.byte 2,35,0,0,7
+	.asciz "System_Array"
+
+LDIFF_SYM546=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM546
+LTDIE_71_POINTER:
+
+	.byte 13
+LDIFF_SYM547=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM547
+LTDIE_71_REFERENCE:
+
+	.byte 14
+LDIFF_SYM548=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM548
+LTDIE_70:
+
+	.byte 5
+	.asciz "_InternalEnumerator`1"
+
+	.byte 16,16
+LDIFF_SYM549=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM549
+	.byte 2,35,0,6
+	.asciz "array"
+
+LDIFF_SYM550=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM550
+	.byte 2,35,8,6
+	.asciz "idx"
+
+LDIFF_SYM551=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM551
+	.byte 2,35,12,0,7
+	.asciz "_InternalEnumerator`1"
+
+LDIFF_SYM552=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM552
+LTDIE_70_POINTER:
+
+	.byte 13
+LDIFF_SYM553=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM553
+LTDIE_70_REFERENCE:
+
+	.byte 14
+LDIFF_SYM554=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM554
+	.byte 2
+	.asciz "System.Array/InternalEnumerator`1<NGraphics.Point>:.ctor"
+	.asciz "System_Array_InternalEnumerator_1_NGraphics_Point__ctor_System_Array"
+
+	.byte 1,239,1
+	.long System_Array_InternalEnumerator_1_NGraphics_Point__ctor_System_Array
+	.long Lme_1d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM555=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM555
+	.byte 1,86,3
+	.asciz "array"
+
+LDIFF_SYM556=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM556
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM557=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM557
+Lfde23_start:
+
+	.long 0
+	.align 2
+	.long System_Array_InternalEnumerator_1_NGraphics_Point__ctor_System_Array
+
+LDIFF_SYM558=Lme_1d - System_Array_InternalEnumerator_1_NGraphics_Point__ctor_System_Array
+	.long LDIFF_SYM558
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,36,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.align 2
+Lfde23_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/InternalEnumerator`1<NGraphics.Point>:Dispose"
+	.asciz "System_Array_InternalEnumerator_1_NGraphics_Point_Dispose"
+
+	.byte 1,245,1
+	.long System_Array_InternalEnumerator_1_NGraphics_Point_Dispose
+	.long Lme_1e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM559=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM559
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM560=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM560
+Lfde24_start:
+
+	.long 0
+	.align 2
+	.long System_Array_InternalEnumerator_1_NGraphics_Point_Dispose
+
+LDIFF_SYM561=Lme_1e - System_Array_InternalEnumerator_1_NGraphics_Point_Dispose
+	.long LDIFF_SYM561
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,80,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde24_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/InternalEnumerator`1<NGraphics.Point>:MoveNext"
+	.asciz "System_Array_InternalEnumerator_1_NGraphics_Point_MoveNext"
+
+	.byte 1,250,1
+	.long System_Array_InternalEnumerator_1_NGraphics_Point_MoveNext
+	.long Lme_1f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM562=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM562
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM563=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM563
+	.byte 1,86,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM564=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM564
+Lfde25_start:
+
+	.long 0
+	.align 2
+	.long System_Array_InternalEnumerator_1_NGraphics_Point_MoveNext
+
+LDIFF_SYM565=Lme_1f - System_Array_InternalEnumerator_1_NGraphics_Point_MoveNext
+	.long LDIFF_SYM565
+	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,24,2,100,10,68,14,20,68,8,6,8,8,8,10
+	.byte 14,8,68,11
+	.align 2
+Lfde25_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/InternalEnumerator`1<NGraphics.Point>:get_Current"
+	.asciz "System_Array_InternalEnumerator_1_NGraphics_Point_get_Current"
+
+	.byte 1,130,2
+	.long System_Array_InternalEnumerator_1_NGraphics_Point_get_Current
+	.long Lme_20
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM566=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM566
+	.byte 1,86,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM567=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM567
+Lfde26_start:
+
+	.long 0
+	.align 2
+	.long System_Array_InternalEnumerator_1_NGraphics_Point_get_Current
+
+LDIFF_SYM568=Lme_20 - System_Array_InternalEnumerator_1_NGraphics_Point_get_Current
+	.long LDIFF_SYM568
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,40,2,132,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.align 2
+Lfde26_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/InternalEnumerator`1<NGraphics.Point>:System.Collections.IEnumerator.Reset"
+	.asciz "System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_Reset"
+
+	.byte 1,141,2
+	.long System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_Reset
+	.long Lme_21
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM569=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM569
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM570=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM570
+Lfde27_start:
+
+	.long 0
+	.align 2
+	.long System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_Reset
+
+LDIFF_SYM571=Lme_21 - System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM571
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,80,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde27_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/InternalEnumerator`1<NGraphics.Point>:System.Collections.IEnumerator.get_Current"
+	.asciz "System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_get_Current"
+
+	.byte 1,146,2
+	.long System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_get_Current
+	.long Lme_22
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM572=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM572
+	.byte 2,125,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM573=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM573
+Lfde28_start:
+
+	.long 0
+	.align 2
+	.long System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_get_Current
+
+LDIFF_SYM574=Lme_22 - System_Array_InternalEnumerator_1_NGraphics_Point_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM574
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,92,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde28_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<NGraphics.Point>"
+	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_NGraphics_Point"
+
+	.byte 1,78
+	.long System_Array_InternalArray__IEnumerable_GetEnumerator_NGraphics_Point
+	.long Lme_23
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM575=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM575
+	.byte 2,125,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM576=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM576
+Lfde29_start:
+
+	.long 0
+	.align 2
+	.long System_Array_InternalArray__IEnumerable_GetEnumerator_NGraphics_Point
+
+LDIFF_SYM577=Lme_23 - System_Array_InternalArray__IEnumerable_GetEnumerator_NGraphics_Point
+	.long LDIFF_SYM577
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,56,2,144,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde29_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<System.Collections.Generic.IEnumerable`1<NGraphics.Point>>:invoke_void_object_TEventArgs"
+	.asciz "wrapper_delegate_invoke_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point_invoke_void_object_TEventArgs_object_System_Collections_Generic_IEnumerable_1_NGraphics_Point"
+
+	.byte 0,0
+	.long wrapper_delegate_invoke_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point_invoke_void_object_TEventArgs_object_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long Lme_24
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM578=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM578
+	.byte 1,85,3
+	.asciz "param0"
+
+LDIFF_SYM579=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM579
+	.byte 2,125,4,3
+	.asciz "param1"
+
+LDIFF_SYM580=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM580
+	.byte 2,125,8,11
+	.asciz "V_0"
+
+LDIFF_SYM581=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM581
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM582=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM582
+	.byte 1,91,11
+	.asciz "V_2"
+
+LDIFF_SYM583=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM583
+	.byte 1,90,11
+	.asciz "V_3"
+
+LDIFF_SYM584=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM584
+	.byte 1,86,11
+	.asciz "V_4"
+
+LDIFF_SYM585=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM585
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM586=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM586
+Lfde30_start:
+
+	.long 0
+	.align 2
+	.long wrapper_delegate_invoke_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point_invoke_void_object_TEventArgs_object_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+
+LDIFF_SYM587=Lme_24 - wrapper_delegate_invoke_System_EventHandler_1_System_Collections_Generic_IEnumerable_1_NGraphics_Point_invoke_void_object_TEventArgs_object_System_Collections_Generic_IEnumerable_1_NGraphics_Point
+	.long LDIFF_SYM587
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,2,236,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde30_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`2<NGraphics.ICanvas,_NGraphics.Rect>:invoke_void_T1_T2"
+	.asciz "wrapper_delegate_invoke_System_Action_2_NGraphics_ICanvas_NGraphics_Rect_invoke_void_T1_T2_NGraphics_ICanvas_NGraphics_Rect"
+
+	.byte 0,0
+	.long wrapper_delegate_invoke_System_Action_2_NGraphics_ICanvas_NGraphics_Rect_invoke_void_T1_T2_NGraphics_ICanvas_NGraphics_Rect
+	.long Lme_29
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM588=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM588
+	.byte 2,123,28,3
+	.asciz "param0"
+
+LDIFF_SYM589=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM589
+	.byte 2,123,32,3
+	.asciz "param1"
+
+LDIFF_SYM590=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM590
+	.byte 2,123,36,11
+	.asciz "V_0"
+
+LDIFF_SYM591=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM591
+	.byte 1,85,11
+	.asciz "V_1"
+
+LDIFF_SYM592=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM592
+	.byte 1,84,11
+	.asciz "V_2"
+
+LDIFF_SYM593=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM593
+	.byte 1,90,11
+	.asciz "V_3"
+
+LDIFF_SYM594=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM594
+	.byte 1,86,11
+	.asciz "V_4"
+
+LDIFF_SYM595=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM595
+	.byte 2,123,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM596=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM596
+Lfde31_start:
+
+	.long 0
+	.align 2
+	.long wrapper_delegate_invoke_System_Action_2_NGraphics_ICanvas_NGraphics_Rect_invoke_void_T1_T2_NGraphics_ICanvas_NGraphics_Rect
+
+LDIFF_SYM597=Lme_29 - wrapper_delegate_invoke_System_Action_2_NGraphics_ICanvas_NGraphics_Rect_invoke_void_T1_T2_NGraphics_ICanvas_NGraphics_Rect
+	.long LDIFF_SYM597
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11,3,212,1,10
+	.byte 68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde31_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_72:
+
+	.byte 17
+	.asciz "_<Module>"
+
+	.byte 8,7
+	.asciz "_<Module>"
+
+LDIFF_SYM598=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM598
+LTDIE_72_POINTER:
+
+	.byte 13
+LDIFF_SYM599=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM599
+LTDIE_72_REFERENCE:
+
+	.byte 14
+LDIFF_SYM600=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM600
+LTDIE_73:
+
+	.byte 17
+	.asciz "NGraphics_IPlatform"
+
+	.byte 8,7
+	.asciz "NGraphics_IPlatform"
+
+LDIFF_SYM601=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM601
+LTDIE_73_POINTER:
+
+	.byte 13
+LDIFF_SYM602=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM602
+LTDIE_73_REFERENCE:
+
+	.byte 14
+LDIFF_SYM603=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM603
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_<Module>:invoke_IPlatform"
+	.asciz "wrapper_delegate_invoke__Module_invoke_IPlatform"
+
+	.byte 0,0
+	.long wrapper_delegate_invoke__Module_invoke_IPlatform
+	.long Lme_2a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM604=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM604
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM605=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM605
+	.byte 1,86,11
+	.asciz "V_1"
+
+LDIFF_SYM606=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM606
+	.byte 1,85,11
+	.asciz "V_2"
+
+LDIFF_SYM607=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM607
+	.byte 1,84,11
+	.asciz "V_3"
+
+LDIFF_SYM608=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM608
+	.byte 1,91,11
+	.asciz "V_4"
+
+LDIFF_SYM609=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM609
+	.byte 2,125,0,11
+	.asciz "V_5"
+
+LDIFF_SYM610=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM610
+	.byte 2,125,4,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM611=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM611
+Lfde32_start:
+
+	.long 0
+	.align 2
+	.long wrapper_delegate_invoke__Module_invoke_IPlatform
+
+LDIFF_SYM612=Lme_2a - wrapper_delegate_invoke__Module_invoke_IPlatform
+	.long LDIFF_SYM612
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,212,10,68,14,32,68
+	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde32_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_74:
+
+	.byte 5
+	.asciz "System_AsyncCallback"
+
+	.byte 56,16
+LDIFF_SYM613=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM613
+	.byte 2,35,0,0,7
+	.asciz "System_AsyncCallback"
+
+LDIFF_SYM614=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM614
+LTDIE_74_POINTER:
+
+	.byte 13
+LDIFF_SYM615=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM615
+LTDIE_74_REFERENCE:
+
+	.byte 14
+LDIFF_SYM616=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM616
+	.byte 2
+	.asciz "(wrapper_delegate-begin-invoke)_<Module>:begin_invoke_IAsyncResult__this___AsyncCallback_object"
+	.asciz "wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object"
+
+	.byte 0,0
+	.long wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
+	.long Lme_2b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM617=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM617
+	.byte 2,123,0,3
+	.asciz "param0"
+
+LDIFF_SYM618=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM618
+	.byte 2,123,4,3
+	.asciz "param1"
+
+LDIFF_SYM619=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM619
+	.byte 2,123,8,11
+	.asciz "V_0"
+
+LDIFF_SYM620=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM620
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM621=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM621
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM622=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM622
+Lfde33_start:
+
+	.long 0
+	.align 2
+	.long wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
+
+LDIFF_SYM623=Lme_2b - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
+	.long LDIFF_SYM623
+	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,32,68,13,11,2,88,10,68,13,13,14,16,68,8,8,8
+	.byte 11,14,8,68,11
+	.align 2
+Lfde33_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_75:
+
+	.byte 17
+	.asciz "System_IAsyncResult"
+
+	.byte 8,7
+	.asciz "System_IAsyncResult"
+
+LDIFF_SYM624=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM624
+LTDIE_75_POINTER:
+
+	.byte 13
+LDIFF_SYM625=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM625
+LTDIE_75_REFERENCE:
+
+	.byte 14
+LDIFF_SYM626=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM626
+	.byte 2
+	.asciz "(wrapper_delegate-end-invoke)_<Module>:end_invoke_IPlatform__this___IAsyncResult"
+	.asciz "wrapper_delegate_end_invoke__Module_end_invoke_IPlatform__this___IAsyncResult_System_IAsyncResult"
+
+	.byte 0,0
+	.long wrapper_delegate_end_invoke__Module_end_invoke_IPlatform__this___IAsyncResult_System_IAsyncResult
+	.long Lme_2c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM627=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM627
+	.byte 2,123,0,3
+	.asciz "param0"
+
+LDIFF_SYM628=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM628
+	.byte 2,123,4,11
+	.asciz "V_0"
+
+LDIFF_SYM629=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM629
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM630=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM630
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM631=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM631
+Lfde34_start:
+
+	.long 0
+	.align 2
+	.long wrapper_delegate_end_invoke__Module_end_invoke_IPlatform__this___IAsyncResult_System_IAsyncResult
+
+LDIFF_SYM632=Lme_2c - wrapper_delegate_end_invoke__Module_end_invoke_IPlatform__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM632
+	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,24,68,13,11,2,72,10,68,13,13,14,16,68,8,8,8
+	.byte 11,14,8,68,11
+	.align 2
+Lfde34_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__get_Item<NGraphics.Point>"
+	.asciz "System_Array_InternalArray__get_Item_NGraphics_Point_int"
+
+	.byte 1,197,1
+	.long System_Array_InternalArray__get_Item_NGraphics_Point_int
+	.long Lme_2d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM633=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM633
+	.byte 2,125,36,3
+	.asciz "index"
+
+LDIFF_SYM634=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM634
+	.byte 2,125,40,11
+	.asciz "value"
+
+LDIFF_SYM635=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM635
+	.byte 2,125,4,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM636=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM636
+Lfde35_start:
+
+	.long 0
+	.align 2
+	.long System_Array_InternalArray__get_Item_NGraphics_Point_int
+
+LDIFF_SYM637=Lme_2d - System_Array_InternalArray__get_Item_NGraphics_Point_int
+	.long LDIFF_SYM637
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,64,2,200,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde35_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 0
+Ldebug_info_end:
+.text
+	.align 3
+mem_end:
